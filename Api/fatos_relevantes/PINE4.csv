@@ -1,0 +1,101 @@
+;Acao;Data;Hora;Descrição;Link
+0;PINE4;10/04/2023;17:52;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1084545&descTipo=IPE&CodigoInstituicao=1
+1;PINE4;14/02/2023;17:58;Comunicado ao Mercado - Aquisição de Ações de Própria Emissão;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1060569&descTipo=IPE&CodigoInstituicao=1
+2;PINE4;15/12/2022;18:03;Esclarecimentos - Negociação atípica de valores mobiliários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1041804&descTipo=IPE&CodigoInstituicao=1
+3;PINE4;02/09/2022;12:33;Esclarecimento sobre Redução de Capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1012732&descTipo=IPE&CodigoInstituicao=1
+4;PINE4;02/09/2022;10:10;Esclarecimento sobre Redução de Capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1012694&descTipo=IPE&CodigoInstituicao=1
+5;PINE4;29/08/2022;18:32;Eleição de DRI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1011549&descTipo=IPE&CodigoInstituicao=1
+6;PINE4;04/07/2022;18:21;Alteração organizacional e propostas de alteração do Estatuto Social.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=995110&descTipo=IPE&CodigoInstituicao=1
+7;PINE4;02/06/2022;18:21;Operação de SWAP;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=987291&descTipo=IPE&CodigoInstituicao=1
+8;PINE4;25/05/2022;17:29;Atribuição de rating pela Moody's Local;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=984819&descTipo=IPE&CodigoInstituicao=1
+9;PINE4;16/02/2022;20:32;Aumento de capital privado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=944588&descTipo=IPE&CodigoInstituicao=1
+10;PINE4;16/02/2022;20:32;Providências a serem adotadas para promover estudos para eventual e futura adoção de Programa de Units;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=944593&descTipo=IPE&CodigoInstituicao=1
+11;PINE4;17/01/2022;09:57;Prévia Operacional 4T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=933901&descTipo=IPE&CodigoInstituicao=1
+12;PINE4;12/01/2022;19:02;Convocação de AGE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=933075&descTipo=IPE&CodigoInstituicao=1
+13;PINE4;14/10/2021;17:59;Prévia Operacional 3T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907529&descTipo=IPE&CodigoInstituicao=1
+14;PINE4;15/07/2021;10:03;Prévia Operacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=884084&descTipo=IPE&CodigoInstituicao=1
+15;PINE4;16/04/2021;09:50;Prévia Operacional 1T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=854433&descTipo=IPE&CodigoInstituicao=1
+16;PINE4;26/02/2021;18:31;Alteração Organizacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=836658&descTipo=IPE&CodigoInstituicao=1
+17;PINE4;10/02/2021;21:09;Guidance 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=830120&descTipo=IPE&CodigoInstituicao=1
+18;PINE4;21/01/2021;19:39;Operação de SWAP;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=824327&descTipo=IPE&CodigoInstituicao=1
+19;PINE4;30/11/2020;09:08;Pine Investor Day 2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=811875&descTipo=IPE&CodigoInstituicao=1
+20;PINE4;12/08/2020;19:50;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=784247&descTipo=IPE&CodigoInstituicao=1
+21;PINE4;19/03/2020;19:22;Cancelamento Ata RCA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=746862&descTipo=IPE&CodigoInstituicao=1
+22;PINE4;27/01/2020;18:26;Convite Divulgação 4T19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=731979&descTipo=IPE&CodigoInstituicao=1
+23;PINE4;05/12/2019;20:10;Comunicado ao mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=724482&descTipo=IPE&CodigoInstituicao=1
+24;PINE4;11/11/2019;21:11;Parceria Hub Fintech;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=720790&descTipo=IPE&CodigoInstituicao=1
+25;PINE4;25/10/2019;18:05;Convite Divulgação 3T19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=717620&descTipo=IPE&CodigoInstituicao=1
+26;PINE4;25/10/2019;17:45;Aumento de Capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=717614&descTipo=IPE&CodigoInstituicao=1
+27;PINE4;02/10/2019;20:13;Cancelamento das Ações em Tesouraria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=713963&descTipo=IPE&CodigoInstituicao=1
+28;PINE4;09/04/2019;18:42;Calendário de Eventos Corporativos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=678372&descTipo=IPE&CodigoInstituicao=1
+29;PINE4;28/08/2018;21:22;Alteração organizacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=639435&descTipo=IPE&CodigoInstituicao=1
+30;PINE4;28/08/2018;21:03;Alteração organizacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=639434&descTipo=IPE&CodigoInstituicao=1
+31;PINE4;13/07/2018;15:59;S&P eleva os ratings do Banco Pine;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=632864&descTipo=IPE&CodigoInstituicao=1
+32;PINE4;10/01/2018;19:25;Governança Corporativa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=593280&descTipo=IPE&CodigoInstituicao=1
+33;PINE4;08/01/2018;18:31;Reenquadramento do percentual mínimo de ações em circulação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=592585&descTipo=IPE&CodigoInstituicao=1
+34;PINE4;08/01/2018;18:23;Reenquadramento do percentual mínimo de ações em circulação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=592584&descTipo=IPE&CodigoInstituicao=1
+35;PINE4;13/12/2017;19:48;Block Trade;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=590298&descTipo=IPE&CodigoInstituicao=1
+36;PINE4;01/12/2017;18:32;Block Trade;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=588176&descTipo=IPE&CodigoInstituicao=1
+37;PINE4;28/09/2017;08:58;Parceria com a Falconi;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=580591&descTipo=IPE&CodigoInstituicao=1
+38;PINE4;21/08/2017;18:43;Ratings;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=576608&descTipo=IPE&CodigoInstituicao=1
+39;PINE4;08/05/2017;19:18;Decisão do Conselho de Administração sobre manutenção do capital aberto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=563194&descTipo=IPE&CodigoInstituicao=1
+40;PINE4;28/04/2017;18:33;Alteração na composição do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=561291&descTipo=IPE&CodigoInstituicao=1
+41;PINE4;18/01/2017;18:36;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=545391&descTipo=IPE&CodigoInstituicao=1
+42;PINE4;29/04/2016;20:50;Cumprimento obrigações desenquadramento;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=514405&descTipo=IPE&CodigoInstituicao=1
+43;PINE4;29/02/2016;18:17;Alteração organizacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=502652&descTipo=IPE&CodigoInstituicao=1
+44;PINE4;19/01/2016;18:56;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=498602&descTipo=IPE&CodigoInstituicao=1
+45;PINE4;01/10/2015;19:13;Autorização para redução temporária do percentual mínimo de ações em circulação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=486203&descTipo=IPE&CodigoInstituicao=1
+46;PINE4;08/09/2015;18:02;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=483766&descTipo=IPE&CodigoInstituicao=1
+47;PINE4;11/06/2015;18:18;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=474620&descTipo=IPE&CodigoInstituicao=1
+48;PINE4;13/05/2015;08:44;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=471279&descTipo=IPE&CodigoInstituicao=1
+49;PINE4;22/04/2015;09:46;Standard and Pooru0027s reafirma os ratings do Banco Pine;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=465967&descTipo=IPE&CodigoInstituicao=1
+50;PINE4;09/03/2015;18:03;Renúncia de Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=458466&descTipo=IPE&CodigoInstituicao=1
+51;PINE4;02/03/2015;14:55;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=457309&descTipo=IPE&CodigoInstituicao=1
+52;PINE4;12/02/2015;19:24;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=455951&descTipo=IPE&CodigoInstituicao=1
+53;PINE4;11/02/2015;21:10;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=455700&descTipo=IPE&CodigoInstituicao=1
+54;PINE4;02/02/2015;10:46;Antecipação da divulgação do balanço de fechamento do exercício de 2014;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=453835&descTipo=IPE&CodigoInstituicao=1
+55;PINE4;03/12/2014;18:42;Término dos serviços de formador de mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=448104&descTipo=IPE&CodigoInstituicao=1
+56;PINE4;07/11/2014;19:15;Percentual de Free-Float;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=445204&descTipo=IPE&CodigoInstituicao=1
+57;PINE4;15/08/2014;19:09;Atualização da Política de Divulgação conforme Instrução CVM 547/14;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=436552&descTipo=IPE&CodigoInstituicao=1
+58;PINE4;13/08/2014;11:16;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=435944&descTipo=IPE&CodigoInstituicao=1
+59;PINE4;31/07/2014;19:10;3ª Oferta Pública de Letras Financeiras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=433828&descTipo=IPE&CodigoInstituicao=1
+60;PINE4;26/06/2014;18:27;Mudanças na Estrutura Organizacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=430560&descTipo=IPE&CodigoInstituicao=1
+61;PINE4;14/05/2014;18:36;"Início do novo programa de recompra, conforme Fato Relevante de 06 de maio de 2014; Encerramento do programa de recompra de ações vigente";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=426225&descTipo=IPE&CodigoInstituicao=1
+62;PINE4;08/05/2014;20:26;Retificação do Fato Relevante, referente às datas de recomposição de capital, no jornal Valor Econômico de 09/05/2014.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=424860&descTipo=IPE&CodigoInstituicao=1
+63;PINE4;07/05/2014;19:23;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=424510&descTipo=IPE&CodigoInstituicao=1
+64;PINE4;27/03/2014;20:12;"Aquisição de Ações de Emissão da Própria Companhia; Cancelamento de Ações em Tesouraria";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=416209&descTipo=IPE&CodigoInstituicao=1
+65;PINE4;05/12/2013;16:20;Terceiro Aditamento aos Termos e Condições das Letras Financeiras da 2ª Emissão Pública do Banco Pine S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=403195&descTipo=IPE&CodigoInstituicao=1
+66;PINE4;29/10/2013;21:12;Êxito obtido em ação judicial - PIS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=398309&descTipo=IPE&CodigoInstituicao=1
+67;PINE4;30/09/2013;19:01;PINE CAPTA US$ 100 MILHÕES EM EMPRÉSTIMO SINDICALIZADO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=395083&descTipo=IPE&CodigoInstituicao=1
+68;PINE4;13/09/2013;20:04;Moodyu0027s eleva os ratings do PINE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=394103&descTipo=IPE&CodigoInstituicao=1
+69;PINE4;06/08/2013;20:08;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=389370&descTipo=IPE&CodigoInstituicao=1
+70;PINE4;31/07/2013;20:11;Mudança da data de divulgação de resultados e teleconferência do 2T13;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=388766&descTipo=IPE&CodigoInstituicao=1
+71;PINE4;19/06/2013;18:33;Declaração sobre serviço de auditoria conforme Instrução CVM 381/03;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=385253&descTipo=IPE&CodigoInstituicao=1
+72;PINE4;10/05/2013;18:18;CONTRATAÇÃO DE FORMADOR DE MERCADO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=381016&descTipo=IPE&CodigoInstituicao=1
+73;PINE4;09/05/2013;19:06;Upgrade Fitch Ratings;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=380502&descTipo=IPE&CodigoInstituicao=1
+74;PINE4;16/04/2013;18:21;ratificação do Aviso aos Acionistas enviado em 02 de abril de 2013;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=376036&descTipo=IPE&CodigoInstituicao=1
+75;PINE4;26/03/2013;19:43;Operação de Swap - Citibank;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=371797&descTipo=IPE&CodigoInstituicao=1
+76;PINE4;12/03/2013;09:35;Subscrição de sobras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=369673&descTipo=IPE&CodigoInstituicao=1
+77;PINE4;07/02/2013;10:29;Apresentação - Divulgação dos Resultados 4T12 - Português e Inglês;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=365474&descTipo=IPE&CodigoInstituicao=1
+78;PINE4;07/02/2013;10:11;Apresentação - Divulgação dos Resultados 4T12 - Português e Inglês;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=365468&descTipo=IPE&CodigoInstituicao=1
+79;PINE4;28/12/2012;09:39;TÉRMINO DOS SERVIÇOS DE FORMADOR DE MERCADO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=362100&descTipo=IPE&CodigoInstituicao=1
+80;PINE4;13/12/2012;19:03;PRIMEIRA CAPTAÇÃO DE HUASO BOND BRASILEIRA, NO CHILE, É REALIZADA PELO BANCO PINE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=361058&descTipo=IPE&CodigoInstituicao=1
+81;PINE4;11/12/2012;09:39;PINE ADOTA OS PRINCIPIOS DO EQUADOR;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=360701&descTipo=IPE&CodigoInstituicao=1
+82;PINE4;06/12/2012;19:20;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=359733&descTipo=IPE&CodigoInstituicao=1
+83;PINE4;26/11/2012;09:57;PINE expande serviços e inaugura corretora em Nova York (EUA);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=358372&descTipo=IPE&CodigoInstituicao=1
+84;PINE4;23/11/2012;09:27;Anúncio de Encerramento de Distribuição Pública;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=358261&descTipo=IPE&CodigoInstituicao=1
+85;PINE4;21/11/2012;09:25;Acordo de Subscrição - Aumento de Capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=358073&descTipo=IPE&CodigoInstituicao=1
+86;PINE4;14/11/2012;17:07;Anúncio de Início de Distribuição Pública;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=357815&descTipo=IPE&CodigoInstituicao=1
+87;PINE4;13/11/2012;10:05;Apresentação - Divulgação dos Resultados 3T12 - Português e Inglês;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=357515&descTipo=IPE&CodigoInstituicao=1
+88;PINE4;16/10/2012;12:40;Anúncio de alterações nos termos da 2ª Emissão Pública de Letras Financeiras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=354202&descTipo=IPE&CodigoInstituicao=1
+89;PINE4;02/10/2012;19:47;Informações sobre a oferta de Letras Financeiras da 2º emissão;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=352624&descTipo=IPE&CodigoInstituicao=1
+90;PINE4;28/09/2012;18:59;Aprovação do 1º Programa de Distribuição Contínua de Letras Financeiras pelo Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=352379&descTipo=IPE&CodigoInstituicao=1
+91;PINE4;14/09/2012;19:03;Pedido de análise prévia do registro do 1º Programa de Distribuição Contínua de Letras Financeiras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=351533&descTipo=IPE&CodigoInstituicao=1
+92;PINE4;07/08/2012;09:53;Apresentação - Divulgação dos Resultados 2T12 - Português e Inglês;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=346801&descTipo=IPE&CodigoInstituicao=1
+93;PINE4;06/08/2012;09:40;Acordo de Subscrição - Aumento de Capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=346528&descTipo=IPE&CodigoInstituicao=1
+94;PINE4;08/05/2012;10:15;Apresentação - Divulgação dos Resultados 1T12;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=335825&descTipo=IPE&CodigoInstituicao=1
+95;PINE4;13/04/2012;17:32;PINE - 1ª Oferta Pública de Letras Financeiras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=331050&descTipo=IPE&CodigoInstituicao=1
+96;PINE4;30/03/2012;12:16;PINE MIGRA PARA O NÍVEL 2 DE GOVERNANÇA CORPORATIVA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=327458&descTipo=IPE&CodigoInstituicao=1
+97;PINE4;22/03/2012;17:45;Convite para Cerimônia de Adesão ao Nível 2 de Governança Corporativa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=325509&descTipo=IPE&CodigoInstituicao=1
+98;PINE4;05/03/2012;18:14;Esclarecimentos Sobre Consultas CVM;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=322497&descTipo=IPE&CodigoInstituicao=1
+99;PINE4;27/02/2012;18:00;Alteração da data de divulgação das DFs 2011 em IFRS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=321660&descTipo=IPE&CodigoInstituicao=1

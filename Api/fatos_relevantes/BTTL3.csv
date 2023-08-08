@@ -1,0 +1,38 @@
+;Acao;Data;Hora;Descrição;Link
+0;BTTL3;06/09/2019;08:20;Cancelamento de Ações em Tesouraria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=709630&descTipo=IPE&CodigoInstituicao=1
+1;BTTL3;14/08/2019;14:02;Negociações atípicas de valores mobiliários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=706120&descTipo=IPE&CodigoInstituicao=1
+2;BTTL3;14/08/2019;13:30;Negociações Atípicas de valores mobiliários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=706115&descTipo=IPE&CodigoInstituicao=1
+3;BTTL3;06/12/2018;16:37;Encerramento do Exercício de Direito de Retirada;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=654799&descTipo=IPE&CodigoInstituicao=1
+4;BTTL3;17/09/2018;17:25;Conversão de Ações Preferenciais em Ações Ordinárias;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=642015&descTipo=IPE&CodigoInstituicao=1
+5;BTTL3;04/12/2017;09:04;Renúncia Conselheiros Fiscais e Substituição Conselheiros Suplentes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=588210&descTipo=IPE&CodigoInstituicao=1
+6;BTTL3;05/07/2017;18:59;Incorporação Battistella Trading S/A e Redução de Capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=570250&descTipo=IPE&CodigoInstituicao=1
+7;BTTL3;12/12/2016;17:03;Renuncia Presidente Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=541677&descTipo=IPE&CodigoInstituicao=1
+8;BTTL3;24/11/2016;22:17;Aumento de capital com emissão de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=539298&descTipo=IPE&CodigoInstituicao=1
+9;BTTL3;03/12/2015;18:55;"Celebração ou Extinção de Contrato; Venda de Quotas Sociais da Santa Catarina Veículos";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=493458&descTipo=IPE&CodigoInstituicao=1
+10;BTTL3;23/10/2015;18:02;Ofício 3132/2015- SAE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=488575&descTipo=IPE&CodigoInstituicao=1
+11;BTTL3;25/09/2015;08:47;"Celebração ou Extinção de Contrato; Venda de quotas sociais da Santa Catarina Veículos";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=485673&descTipo=IPE&CodigoInstituicao=1
+12;BTTL3;22/09/2015;15:44;Grupamento de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=485353&descTipo=IPE&CodigoInstituicao=1
+13;BTTL3;19/08/2015;11:50;Grupamento de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=482097&descTipo=IPE&CodigoInstituicao=1
+14;BTTL3;10/08/2015;16:47;Venda ações empresa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=480519&descTipo=IPE&CodigoInstituicao=1
+15;BTTL3;07/08/2015;19:31;Venda ações empresa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=480266&descTipo=IPE&CodigoInstituicao=1
+16;BTTL3;13/04/2015;18:01;Alienação de filiais da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=465007&descTipo=IPE&CodigoInstituicao=1
+17;BTTL3;13/12/2012;18:37;closing de venda de controlada;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=361050&descTipo=IPE&CodigoInstituicao=1
+18;BTTL3;26/10/2012;18:21;Venda de ações de empresa do grupo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=355010&descTipo=IPE&CodigoInstituicao=1
+19;BTTL3;28/06/2012;16:57;Atendimento ao Ofício/CVM/SEP/GEA-2/No 257/2012;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=342565&descTipo=IPE&CodigoInstituicao=1
+20;BTTL3;19/03/2012;09:29;Contratação d einstituição financeira para alienação de atividade florestal, desempenhadas por suas controladas.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=324916&descTipo=IPE&CodigoInstituicao=1
+21;BTTL3;07/02/2012;16:01;Venda de quotas de empresa controlada assinatura do contrato de compra e venda das quotas.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=319430&descTipo=IPE&CodigoInstituicao=1
+22;BTTL3;13/12/2011;09:12;Venda das quotas sociais de empresa controlada;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=314192&descTipo=IPE&CodigoInstituicao=1
+23;BTTL3;22/06/2011;16:27;Empresa do grupo pasou a operar em 16/06/2011;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=295677&descTipo=IPE&CodigoInstituicao=1
+24;BTTL3;08/04/2011;09:51;Incorporação de Companhia controlada pela controladora.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=284273&descTipo=IPE&CodigoInstituicao=1
+25;BTTL3;30/12/2010;10:30;Assinatura de Contrato de Venda de Ações de Sociedade Anônima Fechada da qual é acionista majoritária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=270851&descTipo=IPE&CodigoInstituicao=1
+26;BTTL3;18/02/2010;18:14;Anúncio de Transferência de Operação de Empresa Controlada;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=231153&descTipo=IPE&CodigoInstituicao=1
+27;BTTL3;19/01/2010;10:41;Paralisação da Fabricação ou Comercialização de Produto ou Prestação de Serviço;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=228178&descTipo=IPE&CodigoInstituicao=1
+28;BTTL3;10/11/2009;16:40;atraso na entrega 3º ITR 2009;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=221117&descTipo=IPE&CodigoInstituicao=1
+29;BTTL3;04/06/2009;09:58;Formalização de financiamento por Controlada para implantação de projeto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=204937&descTipo=IPE&CodigoInstituicao=1
+30;BTTL3;27/12/2007;17:31;Incorporação da empresa Cotrasa Comércio de Transportes e Veículos Ltda. pela empresa Battistella Veículos Pesados Ltda., ambas controladas da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=146047&descTipo=IPE&CodigoInstituicao=1
+31;BTTL3;21/09/2007;17:05;Encerramento de programa de recompra de ações.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=136034&descTipo=IPE&CodigoInstituicao=1
+32;BTTL3;21/08/2007;17:55;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=132975&descTipo=IPE&CodigoInstituicao=1
+33;BTTL3;09/03/2007;14:22;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=112620&descTipo=IPE&CodigoInstituicao=1
+34;BTTL3;24/10/2005;14:24;Mudança da Composição do Patrimônio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=71424&descTipo=IPE&CodigoInstituicao=1
+35;BTTL3;31/08/2005;17:59;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=67735&descTipo=IPE&CodigoInstituicao=1
+36;BTTL3;26/11/2004;09:57;Cancelamento de auemtno de capital divulgado e novo aumento com subscriçao particular de açoes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=45274&descTipo=IPE&CodigoInstituicao=1

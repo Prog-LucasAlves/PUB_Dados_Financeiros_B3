@@ -1,0 +1,101 @@
+;Acao;Data;Hora;Descrição;Link
+0;GNDI3;18/03/2022;18:44;Cancelamento de Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=955873&descTipo=IPE&CodigoInstituicao=1
+1;GNDI3;18/02/2022;18:44;Cancelamento do Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=945479&descTipo=IPE&CodigoInstituicao=1
+2;GNDI3;17/02/2022;19:05;Cancelamento do Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=945019&descTipo=IPE&CodigoInstituicao=1
+3;GNDI3;11/02/2022;22:41;Renúncia Conselheiros;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=942602&descTipo=IPE&CodigoInstituicao=1
+4;GNDI3;11/02/2022;19:43;Combinação de Negócios entre GNDI e Hapvida: Consumação da Combinação de Negócios;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=942547&descTipo=IPE&CodigoInstituicao=1
+5;GNDI3;10/02/2022;18:14;Aquisição do Hospital do Coração de Duque de Caxias LTDA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=941354&descTipo=IPE&CodigoInstituicao=1
+6;GNDI3;09/02/2022;19:30;Combinação de Negócios entre GNDI e Hapvida: Parcela Caixa Final;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=940693&descTipo=IPE&CodigoInstituicao=1
+7;GNDI3;07/02/2022;08:06;Combinação de Negócios entre GNDI e Hapvida: Potenciais Sinergias;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=939312&descTipo=IPE&CodigoInstituicao=1
+8;GNDI3;31/01/2022;18:37;Apresentação das Potenciais Sinergias Relacionadas à Combinação de Negócios ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=936874&descTipo=IPE&CodigoInstituicao=1
+9;GNDI3;20/01/2022;22:17;Combinação de Negócios entre GNDI e Hapvida: Cronograma de Fechamento;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=934704&descTipo=IPE&CodigoInstituicao=1
+10;GNDI3;20/01/2022;18:48;Combinação de Negócios entre GNDI e Hapvida: Dividendos Extraordinários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=934641&descTipo=IPE&CodigoInstituicao=1
+11;GNDI3;10/01/2022;20:06;Closing CCG Participações S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=932561&descTipo=IPE&CodigoInstituicao=1
+12;GNDI3;04/01/2022;13:35;Combinação de Negócios entre GNDI e Hapvida: Aprovação Definitiva do CADE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=930482&descTipo=IPE&CodigoInstituicao=1
+13;GNDI3;29/12/2021;18:59;Índice de Carbono Eficiente (ICO2 - B3);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=929562&descTipo=IPE&CodigoInstituicao=1
+14;GNDI3;15/12/2021;19:29;Combinação de Negócios: Aprovação da Operação Pela Superintendência-Geral do CADE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=926281&descTipo=IPE&CodigoInstituicao=1
+15;GNDI3;19/10/2021;09:02;6ª Emissão Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=908225&descTipo=IPE&CodigoInstituicao=1
+16;GNDI3;01/10/2021;18:41;Closing Casa de Saúde e Maternidade Santa Martha S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=904789&descTipo=IPE&CodigoInstituicao=1
+17;GNDI3;16/08/2021;08:45;Investimento em Startup NeuralMed;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=893724&descTipo=IPE&CodigoInstituicao=1
+18;GNDI3;06/08/2021;19:13;Homologação do GNDI pela Prefeitura de Belo Horizonte;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=890440&descTipo=IPE&CodigoInstituicao=1
+19;GNDI3;04/08/2021;18:38;Closing Serpram ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=889420&descTipo=IPE&CodigoInstituicao=1
+20;GNDI3;30/07/2021;08:39;Aquisição Casa de Saúde e Maternidade Santa Martha S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=887641&descTipo=IPE&CodigoInstituicao=1
+21;GNDI3;28/06/2021;19:18;Alteração Vice Presidência ASG;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=879436&descTipo=IPE&CodigoInstituicao=1
+22;GNDI3;25/06/2021;14:18;Parceria com Entidade de Classe (adesão);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=878911&descTipo=IPE&CodigoInstituicao=1
+23;GNDI3;24/06/2021;13:00;Previ Rio - Adesão ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=878549&descTipo=IPE&CodigoInstituicao=1
+24;GNDI3;18/06/2021;08:30;Combinação de Negócios - Aprovação ANS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=877345&descTipo=IPE&CodigoInstituicao=1
+25;GNDI3;14/04/2021;18:25;Closing Medisanitas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=853906&descTipo=IPE&CodigoInstituicao=1
+26;GNDI3;05/04/2021;19:00;Closing Hospital do Coração de Londrina;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=850544&descTipo=IPE&CodigoInstituicao=1
+27;GNDI3;31/03/2021;20:56;Closing Bio Saúde Serviços Médicos Ltda.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=849309&descTipo=IPE&CodigoInstituicao=1
+28;GNDI3;29/03/2021;11:33;Combinação de negócios entre a Companhia e a Hapvida foi aprovada;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=847113&descTipo=IPE&CodigoInstituicao=1
+29;GNDI3;26/03/2021;14:04;AGE 26/032021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=846407&descTipo=IPE&CodigoInstituicao=1
+30;GNDI3;19/03/2021;09:11;Comunicado Procuração Publica AGE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=844180&descTipo=IPE&CodigoInstituicao=1
+31;GNDI3;11/03/2021;20:15;Apresentação explicativa para as diferentes formas de participação AGE 29/03/2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=841457&descTipo=IPE&CodigoInstituicao=1
+32;GNDI3;11/03/2021;20:15;Apresentação explicativa para as diferentes formas de participação AGE 29/03/2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=841467&descTipo=IPE&CodigoInstituicao=1
+33;GNDI3;09/03/2021;18:33;Divulgação dos editais e proposta da adm atualizada;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=840143&descTipo=IPE&CodigoInstituicao=1
+34;GNDI3;08/03/2021;18:48;Comunicado ao Mercado - Closing Climepe Total Ltda.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=839747&descTipo=IPE&CodigoInstituicao=1
+35;GNDI3;28/02/2021;21:07;Teleconferencia Combinação de Negocios;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=836986&descTipo=IPE&CodigoInstituicao=1
+36;GNDI3;19/02/2021;08:58;Atualização do Calendário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=833296&descTipo=IPE&CodigoInstituicao=1
+37;GNDI3;15/02/2021;23:46;Atualização Combinação de Negócios;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=831953&descTipo=IPE&CodigoInstituicao=1
+38;GNDI3;20/01/2021;18:39;Comunicado ao Mercado - Closing Lifecenter;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=823921&descTipo=IPE&CodigoInstituicao=1
+39;GNDI3;08/01/2021;16:16;Proposta não Vinculante;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=821394&descTipo=IPE&CodigoInstituicao=1
+40;GNDI3;09/12/2020;00:41;Aquisição Lifecenter;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=814210&descTipo=IPE&CodigoInstituicao=1
+41;GNDI3;01/12/2020;23:44;Precificação de oferta pública de distribuição secundária de ações ordinárias de emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=812303&descTipo=IPE&CodigoInstituicao=1
+42;GNDI3;29/11/2020;21:13;Oferta pública de distribuição secundária de ações ordinárias de emissão da Companhia.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=811847&descTipo=IPE&CodigoInstituicao=1
+43;GNDI3;29/11/2020;21:03;Oferta pública de distribuição secundária de ações ordinárias de emissão da Companhia.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=811846&descTipo=IPE&CodigoInstituicao=1
+44;GNDI3;27/11/2020;08:50;Resposta Noticia Bloomberg;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=811607&descTipo=IPE&CodigoInstituicao=1
+45;GNDI3;26/11/2020;18:27;Liquidação Debêntures BCBF15;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=811472&descTipo=IPE&CodigoInstituicao=1
+46;GNDI3;24/11/2020;19:33;Aquisição do Hospital do Coração de Londrina;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=810840&descTipo=IPE&CodigoInstituicao=1
+47;GNDI3;26/10/2020;19:58;Aquisição Serpram;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=803112&descTipo=IPE&CodigoInstituicao=1
+48;GNDI3;26/10/2020;19:57;Aquisição Serpram;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=803111&descTipo=IPE&CodigoInstituicao=1
+49;GNDI3;26/10/2020;08:45;Aquisição do Hospital Santa Brígida;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=802931&descTipo=IPE&CodigoInstituicao=1
+50;GNDI3;01/10/2020;19:12;Aquisição LifeDay;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=796811&descTipo=IPE&CodigoInstituicao=1
+51;GNDI3;30/09/2020;20:21;Liquidação Debênture BCBF;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=796572&descTipo=IPE&CodigoInstituicao=1
+52;GNDI3;09/09/2020;09:18;Parceria comercial com Itaú;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=791954&descTipo=IPE&CodigoInstituicao=1
+53;GNDI3;03/09/2020;10:40;Aumento da participação na carteira do Índice Ibovespa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=790839&descTipo=IPE&CodigoInstituicao=1
+54;GNDI3;26/08/2020;08:13;Aquisição Medisinitas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=787383&descTipo=IPE&CodigoInstituicao=1
+55;GNDI3;24/08/2020;19:28;Closing Grupo Santa Mônica;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=787008&descTipo=IPE&CodigoInstituicao=1
+56;GNDI3;12/08/2020;18:40;Aquisição Bio Saúde;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=784176&descTipo=IPE&CodigoInstituicao=1
+57;GNDI3;04/08/2020;19:41;Aquisição Climepe;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=781047&descTipo=IPE&CodigoInstituicao=1
+58;GNDI3;25/06/2020;22:33;Aquisição Grupo Santa Mônica;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=771568&descTipo=IPE&CodigoInstituicao=1
+59;GNDI3;15/06/2020;09:13;Publicação Relatório Anual;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=768708&descTipo=IPE&CodigoInstituicao=1
+60;GNDI3;20/05/2020;18:02;Aquisição Hospital do Coração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=763131&descTipo=IPE&CodigoInstituicao=1
+61;GNDI3;08/05/2020;17:55;Encerramento Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=760381&descTipo=IPE&CodigoInstituicao=1
+62;GNDI3;26/03/2020;20:06;Reinauguração Hospital Intermédica ABC;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=748720&descTipo=IPE&CodigoInstituicao=1
+63;GNDI3;20/02/2020;21:05;Apresentação de Resultados 4T2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=740130&descTipo=IPE&CodigoInstituicao=1
+64;GNDI3;07/02/2020;21:27;Closing Clinipam;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=735198&descTipo=IPE&CodigoInstituicao=1
+65;GNDI3;17/01/2020;18:07;Aprovação CADE e ANS São Liucas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=730970&descTipo=IPE&CodigoInstituicao=1
+66;GNDI3;15/01/2020;18:40;Clinipam - Aprovação CADE e ANS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=730714&descTipo=IPE&CodigoInstituicao=1
+67;GNDI3;10/01/2020;18:45;Resgate Antecipado Debenture BCBF;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=729905&descTipo=IPE&CodigoInstituicao=1
+68;GNDI3;09/01/2020;18:36;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=729551&descTipo=IPE&CodigoInstituicao=1
+69;GNDI3;07/01/2020;19:06;Renúncia Conselheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=729163&descTipo=IPE&CodigoInstituicao=1
+70;GNDI3;17/12/2019;18:07;Aquisição Ecole;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=726804&descTipo=IPE&CodigoInstituicao=1
+71;GNDI3;12/12/2019;00:09;Precificação de oferta pública de distribuição primária e secundária de ações ordinárias de emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=726012&descTipo=IPE&CodigoInstituicao=1
+72;GNDI3;29/11/2019;20:56;Oferta pública de distribuição primária e secundária de ações ordinárias de emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=723628&descTipo=IPE&CodigoInstituicao=1
+73;GNDI3;28/11/2019;19:12;Closing Ghelfond;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=723425&descTipo=IPE&CodigoInstituicao=1
+74;GNDI3;18/11/2019;18:31;Closing Aquisição SMEDSJ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=722060&descTipo=IPE&CodigoInstituicao=1
+75;GNDI3;01/11/2019;19:02;Aquisição Grupo Clinipam;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=718779&descTipo=IPE&CodigoInstituicao=1
+76;GNDI3;01/10/2019;20:08;Aquisição Grupo São Lucas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=713727&descTipo=IPE&CodigoInstituicao=1
+77;GNDI3;17/09/2019;18:09;Registro de Companhia Aberta (Categoria B) BCBF e rating Fitch;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=711393&descTipo=IPE&CodigoInstituicao=1
+78;GNDI3;16/09/2019;17:57;Aquisição Grupo SMEDSJ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=711168&descTipo=IPE&CodigoInstituicao=1
+79;GNDI3;29/08/2019;19:26;Indice Ibovespa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=708531&descTipo=IPE&CodigoInstituicao=1
+80;GNDI3;25/07/2019;21:05;Aquisição Grupo Ghelfond;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=701905&descTipo=IPE&CodigoInstituicao=1
+81;GNDI3;03/07/2019;18:06;Aprovação ANS (Aquisição Bello Dente);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=698821&descTipo=IPE&CodigoInstituicao=1
+82;GNDI3;24/06/2019;23:51;Exercício do Lote Suplementar no âmbito da Oferta Pública Secundária de Ações com Esforços Restritos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=697229&descTipo=IPE&CodigoInstituicao=1
+83;GNDI3;18/06/2019;23:51;Precificação da Oferta Pública Secundária de Ações com Esforços Restritos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=696649&descTipo=IPE&CodigoInstituicao=1
+84;GNDI3;14/06/2019;19:53;Oferta Pública Secundária de Ações com Esforços Restritos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=696275&descTipo=IPE&CodigoInstituicao=1
+85;GNDI3;27/05/2019;18:19;Aquisição Belo Dente;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=692562&descTipo=IPE&CodigoInstituicao=1
+86;GNDI3;22/05/2019;17:53;Mediplan CADE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=692002&descTipo=IPE&CodigoInstituicao=1
+87;GNDI3;14/05/2019;18:03;Entrada no MSCI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=690451&descTipo=IPE&CodigoInstituicao=1
+88;GNDI3;14/05/2019;18:02;Registro de Companhia l BCBF (Subsidiária);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=690446&descTipo=IPE&CodigoInstituicao=1
+89;GNDI3;08/05/2019;18:38;Mudança de Conselheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=688650&descTipo=IPE&CodigoInstituicao=1
+90;GNDI3;08/04/2019;16:49;Direito de Recesso AMIU;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=677857&descTipo=IPE&CodigoInstituicao=1
+91;GNDI3;08/04/2019;08:31;Aquisição Amiu;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=677707&descTipo=IPE&CodigoInstituicao=1
+92;GNDI3;27/03/2019;09:34;Mediplan l Atualização CADE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=673944&descTipo=IPE&CodigoInstituicao=1
+93;GNDI3;22/03/2019;18:03;Inauguração NotreCare;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=672718&descTipo=IPE&CodigoInstituicao=1
+94;GNDI3;22/03/2019;08:51;Carteira FTSE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=672496&descTipo=IPE&CodigoInstituicao=1
+95;GNDI3;24/01/2019;18:00;Conclusão da aquisição da GreenLine;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=661976&descTipo=IPE&CodigoInstituicao=1
+96;GNDI3;09/01/2019;17:30;Entrada IBRX100;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=659806&descTipo=IPE&CodigoInstituicao=1
+97;GNDI3;12/12/2018;09:07;Exercício do lote suplementar no âmbito de oferta pública com esforços restritos de colocação primária e secundária de ações ordinárias de emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=656496&descTipo=IPE&CodigoInstituicao=1
+98;GNDI3;06/12/2018;05:35;Precificação da oferta pública com esforços restritos de colocação primária e secundária de ações ordinárias de emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=654685&descTipo=IPE&CodigoInstituicao=1
+99;GNDI3;27/11/2018;23:54;Alteração data de início da negociação das ações no âmbito da oferta restrita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=653469&descTipo=IPE&CodigoInstituicao=1

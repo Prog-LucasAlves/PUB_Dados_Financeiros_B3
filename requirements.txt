@@ -1,0 +1,9 @@
+pandas==1.4.1
+plotly==5.5.0
+QuantStats==0.0.50
+regex==2021.11.10
+streamlit==1.15.0
+pychatgpt==0.4.3.1
+python-dotenv==0.21.0
+openpyxl== 3.1.2
+xlsxwriter==3.0.9

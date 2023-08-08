@@ -1,0 +1,47 @@
+version: '3'
+services: 
+
+    db:
+        build: .
+        container_name: pg_container
+        environment: 
+            - POSTGRES_USER=root
+            - POSTGRES_PASSWORD=root
+            - POSTGRES_DB=dados_financeiros
+        ports:
+            - "5432:5432"  
+        volumes: 
+            - ./data:/var/lib/postgresql/data/
+            
+    bi:
+        image: metabase/metabase
+        container_name: metabase
+        ports: 
+            - "3000:3000"
+        volumes: 
+            - ./metabase:/metabase-data  
+        links: 
+            - db
+
+    spark:
+        image: fjardim/jupyter-spark
+        hostname: spark
+        container_name: spark
+        command: notebook
+        env_file:
+            - ./pyspark/jupyter/jupyter.env
+        ports:
+            - 8889:8889
+            - 4040:4040
+            - 4041:4041
+            - 4042:4042
+            - 4043:4043
+        volumes:
+            - ./pyspark/notebooks:/mnt/notebooks/
+        environment:
+            SPARK_MASTER: local[*]
+            JUPYTER_PORT: 8889
+        deploy:
+            resources:
+                limits:
+                    memory: 1g

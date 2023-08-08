@@ -1,4 +1,4 @@
-:mask:
+
 __pycache__
 .env
 geckodriver.log
@@ -148,3 +148,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
