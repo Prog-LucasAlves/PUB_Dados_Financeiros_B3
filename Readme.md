@@ -16,22 +16,22 @@
 
 ## Site Streamlit
 
-[Streamlit](https://dadosfinanceiros.streamlit.app/)
+[Streamlit](https://dadosfinanceirosb3.streamlit.app/)
 
 ## Informações
 
-![ ](https://github.com/Prog-LucasAlves/dados_financeiros_b3/blob/master/image/img01.png)
+![ ](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/blob/master/image/img01.png)
 
-![GitHub](https://img.shields.io/github/license/Prog-LucasAlves/dados_financeiros_b3)
-![GitHub repo size](https://img.shields.io/github/repo-size/Prog-LucasAlves/dados_financeiros_b3)
-![GitHub top language](https://img.shields.io/github/languages/top/Prog-LucasAlves/dados_financeiros_b3)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/Prog-LucasAlves/dados_financeiros_b3)
-![GitHub last commit](https://img.shields.io/github/last-commit/Prog-LucasAlves/dados_financeiros_b3)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Prog-LucasAlves/dados_financeiros_b3?include_prereleases)
-![GitHub Release Date](https://img.shields.io/github/release-date/Prog-LucasAlves/dados_financeiros_b3)
-![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/Prog-LucasAlves/dados_financeiros_b3/latest)
-![GitHub issues](https://img.shields.io/github/issues/Prog-LucasAlves/dados_financeiros_b3)
-![GitHub Repo stars](https://img.shields.io/github/stars/Prog-LucasAlves/dados_financeiros_b3?style=social)
+![GitHub](https://img.shields.io/github/license/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
+![GitHub repo size](https://img.shields.io/github/repo-size/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
+![GitHub top language](https://img.shields.io/github/languages/top/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
+![GitHub last commit](https://img.shields.io/github/last-commit/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Prog-LucasAlves/PUB_Dados_Financeiros_B3?include_prereleases)
+![GitHub Release Date](https://img.shields.io/github/release-date/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
+![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/Prog-LucasAlves/PUB_Dados_Financeiros_B3/latest)
+![GitHub issues](https://img.shields.io/github/issues/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
+![GitHub Repo stars](https://img.shields.io/github/stars/Prog-LucasAlves/PUB_Dados_Financeiros_B3?style=social)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fdadosfinanceiros.streamlit.app%2F)
-[![Linter](https://github.com/Prog-LucasAlves/dados_financeiros_b3/actions/workflows/linter.yml/badge.svg)](https://github.com/Prog-LucasAlves/dados_financeiros_b3/actions/workflows/linter.yml)
-[![CodeQL](https://github.com/Prog-LucasAlves/dados_financeiros_b3/actions/workflows/codeql.yml/badge.svg)](https://github.com/Prog-LucasAlves/dados_financeiros_b3/actions/workflows/codeql.yml)
+[![Linter](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/actions/workflows/linter.yml/badge.svg)](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/actions/workflows/linter.yml)
+[![CodeQL](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/actions/workflows/codeql.yml/badge.svg)](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/actions/workflows/codeql.yml)
