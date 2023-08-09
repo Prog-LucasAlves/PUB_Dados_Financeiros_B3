@@ -20,7 +20,7 @@
 
 ## Informações
 
-![ ](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/blob/master/image/img01.png)
+![ ](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/blob/main/Image/img01.png)
 
 ![GitHub](https://img.shields.io/github/license/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
