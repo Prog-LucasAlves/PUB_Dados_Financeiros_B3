@@ -40,7 +40,6 @@ def retornoAcumulado():
     df = pd.DataFrame()
     for i in tqdm(acao):
         df[i] = yf.download(f'{i}.SA', start=test_date1, end=date2, progress=False, threads=False)['Adj Close']
-        df.append(df)
         time.sleep(1)
 
     # Salvando os dados coletados
