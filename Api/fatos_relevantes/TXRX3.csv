@@ -1,31 +1,32 @@
 ;Acao;Data;Hora;Descrição;Link
-0;TXRX3;01/08/2023;18:17;Outro Assunto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1127700&descTipo=IPE&CodigoInstituicao=1
-1;TXRX3;26/07/2023;19:06;Outro Assunto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1125626&descTipo=IPE&CodigoInstituicao=1
-2;TXRX3;18/07/2023;18:14;Outro Assunto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1123475&descTipo=IPE&CodigoInstituicao=1
-3;TXRX3;02/06/2023;18:12;Suspensão OPA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1109381&descTipo=IPE&CodigoInstituicao=1
-4;TXRX3;26/04/2023;19:25;Cancelamento de Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1090645&descTipo=IPE&CodigoInstituicao=1
-5;TXRX3;13/04/2023;17:11;Alteração data AGO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1085904&descTipo=IPE&CodigoInstituicao=1
-6;TXRX3;31/03/2023;11:28;Alteração Boletim Voto a Distancia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1080700&descTipo=IPE&CodigoInstituicao=1
-7;TXRX3;14/03/2023;21:05;Oferta Publica de Aquisição de Ações - Cancelamento de Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1072867&descTipo=IPE&CodigoInstituicao=1
-8;TXRX3;23/01/2023;18:20;Oferta Publica de Aquisição de Ações - Cancelamento de Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1051455&descTipo=IPE&CodigoInstituicao=1
-9;TXRX3;06/05/2022;20:05;Renegociação de Dívidas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=978010&descTipo=IPE&CodigoInstituicao=1
-10;TXRX3;25/03/2022;02:54;Mudança de jornal;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=958207&descTipo=IPE&CodigoInstituicao=1
-11;TXRX3;30/11/2021;08:47;Acordo com Debenturistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=920852&descTipo=IPE&CodigoInstituicao=1
-12;TXRX3;14/04/2020;21:01;;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=754214&descTipo=IPE&CodigoInstituicao=1
-13;TXRX3;09/04/2020;17:29;Suspensão AGO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=753278&descTipo=IPE&CodigoInstituicao=1
-14;TXRX3;20/03/2020;19:23;Fato Relevante Pandemia Covid-19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=747218&descTipo=IPE&CodigoInstituicao=1
-15;TXRX3;28/02/2019;17:11;Protocolo de Pedido de Homologação de PRE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=668071&descTipo=IPE&CodigoInstituicao=1
-16;TXRX3;10/03/2018;08:55;Acordo ou Contrato de Transferência do Controle Acionário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=600568&descTipo=IPE&CodigoInstituicao=1
-17;TXRX3;11/08/2017;18:33;Renegociação de Dívidas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=575689&descTipo=IPE&CodigoInstituicao=1
-18;TXRX3;18/04/2016;17:37;Alienação de ações por acionista controlador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=511310&descTipo=IPE&CodigoInstituicao=1
-19;TXRX3;06/11/2015;18:21;Regra de Penny Stocks;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=490041&descTipo=IPE&CodigoInstituicao=1
-20;TXRX3;22/10/2015;19:04;Ofício referente cotações abaixo de R$1,00 por unidade;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=488480&descTipo=IPE&CodigoInstituicao=1
-21;TXRX3;30/09/2014;08:58;Eleição de membros da diretoria da Companhia para diretoria de outra Cia.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=440613&descTipo=IPE&CodigoInstituicao=1
-22;TXRX3;18/12/2012;08:46;Mudança da Composição do Patrimônio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=361381&descTipo=IPE&CodigoInstituicao=1
-23;TXRX3;13/06/2012;11:47;Cumprimento IN CVM 381/03 - Relacionamento com Auditores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=341244&descTipo=IPE&CodigoInstituicao=1
-24;TXRX3;05/05/2010;19:27;Pedido de homologação de Plano de Recuperação Extrajudicial (PRE);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=244570&descTipo=IPE&CodigoInstituicao=1
-25;TXRX3;09/09/2009;15:34;Renegociação debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=215036&descTipo=IPE&CodigoInstituicao=1
-26;TXRX3;30/03/2009;10:35;Mudança de Controle da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=195359&descTipo=IPE&CodigoInstituicao=1
-27;TXRX3;19/01/2009;08:36;Aumento do Capital Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=188428&descTipo=IPE&CodigoInstituicao=1
-28;TXRX3;27/07/2007;16:47;Desmentido de notícia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=129829&descTipo=IPE&CodigoInstituicao=1
-29;TXRX3;11/08/2004;08:25;PAGAMENTO DE DIVIDENDOS INTERMEDIÁRIOS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=39295&descTipo=IPE&CodigoInstituicao=1
+0;TXRX3;09/08/2023;21:21;Outro Assunto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1131729&descTipo=IPE&CodigoInstituicao=1
+1;TXRX3;01/08/2023;18:17;Outro Assunto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1127700&descTipo=IPE&CodigoInstituicao=1
+2;TXRX3;26/07/2023;19:06;Outro Assunto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1125626&descTipo=IPE&CodigoInstituicao=1
+3;TXRX3;18/07/2023;18:14;Outro Assunto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1123475&descTipo=IPE&CodigoInstituicao=1
+4;TXRX3;02/06/2023;18:12;Suspensão OPA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1109381&descTipo=IPE&CodigoInstituicao=1
+5;TXRX3;26/04/2023;19:25;Cancelamento de Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1090645&descTipo=IPE&CodigoInstituicao=1
+6;TXRX3;13/04/2023;17:11;Alteração data AGO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1085904&descTipo=IPE&CodigoInstituicao=1
+7;TXRX3;31/03/2023;11:28;Alteração Boletim Voto a Distancia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1080700&descTipo=IPE&CodigoInstituicao=1
+8;TXRX3;14/03/2023;21:05;Oferta Publica de Aquisição de Ações - Cancelamento de Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1072867&descTipo=IPE&CodigoInstituicao=1
+9;TXRX3;23/01/2023;18:20;Oferta Publica de Aquisição de Ações - Cancelamento de Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1051455&descTipo=IPE&CodigoInstituicao=1
+10;TXRX3;06/05/2022;20:05;Renegociação de Dívidas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=978010&descTipo=IPE&CodigoInstituicao=1
+11;TXRX3;25/03/2022;02:54;Mudança de jornal;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=958207&descTipo=IPE&CodigoInstituicao=1
+12;TXRX3;30/11/2021;08:47;Acordo com Debenturistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=920852&descTipo=IPE&CodigoInstituicao=1
+13;TXRX3;14/04/2020;21:01;;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=754214&descTipo=IPE&CodigoInstituicao=1
+14;TXRX3;09/04/2020;17:29;Suspensão AGO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=753278&descTipo=IPE&CodigoInstituicao=1
+15;TXRX3;20/03/2020;19:23;Fato Relevante Pandemia Covid-19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=747218&descTipo=IPE&CodigoInstituicao=1
+16;TXRX3;28/02/2019;17:11;Protocolo de Pedido de Homologação de PRE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=668071&descTipo=IPE&CodigoInstituicao=1
+17;TXRX3;10/03/2018;08:55;Acordo ou Contrato de Transferência do Controle Acionário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=600568&descTipo=IPE&CodigoInstituicao=1
+18;TXRX3;11/08/2017;18:33;Renegociação de Dívidas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=575689&descTipo=IPE&CodigoInstituicao=1
+19;TXRX3;18/04/2016;17:37;Alienação de ações por acionista controlador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=511310&descTipo=IPE&CodigoInstituicao=1
+20;TXRX3;06/11/2015;18:21;Regra de Penny Stocks;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=490041&descTipo=IPE&CodigoInstituicao=1
+21;TXRX3;22/10/2015;19:04;Ofício referente cotações abaixo de R$1,00 por unidade;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=488480&descTipo=IPE&CodigoInstituicao=1
+22;TXRX3;30/09/2014;08:58;Eleição de membros da diretoria da Companhia para diretoria de outra Cia.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=440613&descTipo=IPE&CodigoInstituicao=1
+23;TXRX3;18/12/2012;08:46;Mudança da Composição do Patrimônio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=361381&descTipo=IPE&CodigoInstituicao=1
+24;TXRX3;13/06/2012;11:47;Cumprimento IN CVM 381/03 - Relacionamento com Auditores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=341244&descTipo=IPE&CodigoInstituicao=1
+25;TXRX3;05/05/2010;19:27;Pedido de homologação de Plano de Recuperação Extrajudicial (PRE);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=244570&descTipo=IPE&CodigoInstituicao=1
+26;TXRX3;09/09/2009;15:34;Renegociação debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=215036&descTipo=IPE&CodigoInstituicao=1
+27;TXRX3;30/03/2009;10:35;Mudança de Controle da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=195359&descTipo=IPE&CodigoInstituicao=1
+28;TXRX3;19/01/2009;08:36;Aumento do Capital Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=188428&descTipo=IPE&CodigoInstituicao=1
+29;TXRX3;27/07/2007;16:47;Desmentido de notícia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=129829&descTipo=IPE&CodigoInstituicao=1
+30;TXRX3;11/08/2004;08:25;PAGAMENTO DE DIVIDENDOS INTERMEDIÁRIOS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=39295&descTipo=IPE&CodigoInstituicao=1
