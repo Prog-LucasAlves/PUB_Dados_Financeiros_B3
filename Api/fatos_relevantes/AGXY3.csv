@@ -1,81 +1,84 @@
 ;Acao;Data;Hora;Descrição;Link
-0;AGXY3;31/07/2023;18:05;Eleição CFO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1127067&descTipo=IPE&CodigoInstituicao=1
-1;AGXY3;10/07/2023;19:12;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1121502&descTipo=IPE&CodigoInstituicao=1
-2;AGXY3;29/06/2023;18:50;Alterações na diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1117947&descTipo=IPE&CodigoInstituicao=1
-3;AGXY3;31/05/2023;15:25; Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1108187&descTipo=IPE&CodigoInstituicao=1
-4;AGXY3;30/05/2023;10:38;Participação de executiva em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1107535&descTipo=IPE&CodigoInstituicao=1
-5;AGXY3;24/05/2023;09:04;CRA com garantia BNDES;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1105733&descTipo=IPE&CodigoInstituicao=1
-6;AGXY3;11/05/2023;18:56;Factsheet 1T23 PT e EN ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1100870&descTipo=IPE&CodigoInstituicao=1
-7;AGXY3;02/05/2023;18:25;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1095255&descTipo=IPE&CodigoInstituicao=1
-8;AGXY3;26/04/2023;18:08;Divulgação do Relatório Anual 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1090431&descTipo=IPE&CodigoInstituicao=1
-9;AGXY3;31/03/2023;15:08;Planilha trimestral;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1080862&descTipo=IPE&CodigoInstituicao=1
-10;AGXY3;29/03/2023;18:25;Factsheet 4T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1079644&descTipo=IPE&CodigoInstituicao=1
-11;AGXY3;01/03/2023;09:19;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1066836&descTipo=IPE&CodigoInstituicao=1
-12;AGXY3;06/02/2023;20:57;Participação de Executivos em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1055915&descTipo=IPE&CodigoInstituicao=1
-13;AGXY3;06/02/2023;17:50;Participação de Executivos em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1055767&descTipo=IPE&CodigoInstituicao=1
-14;AGXY3;02/02/2023;08:58;Participação de Executivo em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1054446&descTipo=IPE&CodigoInstituicao=1
-15;AGXY3;31/01/2023;09:07;Participação de Executivo em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1053453&descTipo=IPE&CodigoInstituicao=1
-16;AGXY3;30/01/2023;17:54;Alteração do jornal de grande circulação ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1053253&descTipo=IPE&CodigoInstituicao=1
-17;AGXY3;26/01/2023;09:02;Comunicado ao mercado - Ações liberadas para negociação de investidores do varejo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1052312&descTipo=IPE&CodigoInstituicao=1
-18;AGXY3;24/01/2023;17:37;Apresentação live Nord;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1051742&descTipo=IPE&CodigoInstituicao=1
-19;AGXY3;23/01/2023;10:27;Participação de Executivo em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1051297&descTipo=IPE&CodigoInstituicao=1
-20;AGXY3;16/01/2023;09:36;Lançamento GreenGalaxy;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1049924&descTipo=IPE&CodigoInstituicao=1
-21;AGXY3;23/12/2022;18:11;Renúncia de Diretores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1044267&descTipo=IPE&CodigoInstituicao=1
-22;AGXY3;16/12/2022;11:39;CDP 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1042038&descTipo=IPE&CodigoInstituicao=1
-23;AGXY3;13/12/2022;11:36;Participação de Executivo em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1040928&descTipo=IPE&CodigoInstituicao=1
-24;AGXY3;25/11/2022;17:21;Código de Conduta Parceiros de Negócios;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1035805&descTipo=IPE&CodigoInstituicao=1
-25;AGXY3;14/11/2022;18:38;Fact Sheet 3T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1032692&descTipo=IPE&CodigoInstituicao=1
-26;AGXY3;27/10/2022;07:36;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1024891&descTipo=IPE&CodigoInstituicao=1
-27;AGXY3;03/10/2022;10:08;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1018855&descTipo=IPE&CodigoInstituicao=1
-28;AGXY3;26/09/2022;09:39;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1017560&descTipo=IPE&CodigoInstituicao=1
-29;AGXY3;19/09/2022;13:01;Participação de executiva em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1016341&descTipo=IPE&CodigoInstituicao=1
-30;AGXY3;25/08/2022;18:17;Eleição CEO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1010951&descTipo=IPE&CodigoInstituicao=1
-31;AGXY3;24/08/2022;17:43;Participação de executiva em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1010630&descTipo=IPE&CodigoInstituicao=1
-32;AGXY3;15/08/2022;18:29;Fact Sheet 2T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1008133&descTipo=IPE&CodigoInstituicao=1
-33;AGXY3;28/06/2022;15:51;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=993560&descTipo=IPE&CodigoInstituicao=1
-34;AGXY3;14/06/2022;09:23;Selo Great Place to Work (?GPTW?);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=990626&descTipo=IPE&CodigoInstituicao=1
-35;AGXY3;13/06/2022;09:22;Premiação do Primeiro Desafio do Instituto Agrogalaxy;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=990290&descTipo=IPE&CodigoInstituicao=1
-36;AGXY3;30/05/2022;08:46;Selo bronze da EcoVadis;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=985953&descTipo=IPE&CodigoInstituicao=1
-37;AGXY3;16/05/2022;20:16;Participação de executiva em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=982284&descTipo=IPE&CodigoInstituicao=1
-38;AGXY3;16/05/2022;18:15;Fact Sheet 1T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=982091&descTipo=IPE&CodigoInstituicao=1
-39;AGXY3;26/04/2022;08:12;Relatório Anual e nova página de ESG no site RI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=970304&descTipo=IPE&CodigoInstituicao=1
-40;AGXY3;20/04/2022;17:49;Participação de executivos em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=968863&descTipo=IPE&CodigoInstituicao=1
-41;AGXY3;28/03/2022;18:32;Fact Sheet 4T21 e 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=959396&descTipo=IPE&CodigoInstituicao=1
-42;AGXY3;25/03/2022;08:02;Participação de executiva em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=958223&descTipo=IPE&CodigoInstituicao=1
-43;AGXY3;14/03/2022;19:13;Renúncia de Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=953854&descTipo=IPE&CodigoInstituicao=1
-44;AGXY3;10/02/2022;09:48;Lançamento do Instituto AgroGalaxy;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=941058&descTipo=IPE&CodigoInstituicao=1
-45;AGXY3;09/02/2022;08:08;Participação de executivos em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=940299&descTipo=IPE&CodigoInstituicao=1
-46;AGXY3;01/02/2022;18:38;Política de Segurança da Informação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=937404&descTipo=IPE&CodigoInstituicao=1
-47;AGXY3;01/02/2022;18:05;Participação de executivos em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=937350&descTipo=IPE&CodigoInstituicao=1
-48;AGXY3;01/02/2022;14:47;Política de Crédito;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=937218&descTipo=IPE&CodigoInstituicao=1
-49;AGXY3;01/02/2022;14:47;Política de Segurança da Informação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=937220&descTipo=IPE&CodigoInstituicao=1
-50;AGXY3;21/01/2022;10:12;Política Anticorrupção;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=934778&descTipo=IPE&CodigoInstituicao=1
-51;AGXY3;20/01/2022;18:04;Acordo de lock-up de acionistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=934621&descTipo=IPE&CodigoInstituicao=1
-52;AGXY3;10/01/2022;19:57;Conclusão da aquisição da Agrocat;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=932532&descTipo=IPE&CodigoInstituicao=1
-53;AGXY3;10/01/2022;08:00;Eleição de membros da diretoria estatutária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=931982&descTipo=IPE&CodigoInstituicao=1
-54;AGXY3;28/12/2021;18:25;Contratação de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=929315&descTipo=IPE&CodigoInstituicao=1
-55;AGXY3;10/12/2021;09:30;Participação de executivo em mídia social - Mercado de insumos agrícolas na região Centro Oeste do País e o desempenho do Agrogalaxy;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=924382&descTipo=IPE&CodigoInstituicao=1
-56;AGXY3;08/12/2021;19:44;Inaplicabilidade Direito de Recesso;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=923571&descTipo=IPE&CodigoInstituicao=1
-57;AGXY3;26/11/2021;08:32;Novos Diretores não Estatutários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=920368&descTipo=IPE&CodigoInstituicao=1
-58;AGXY3;22/11/2021;08:06;Parceria AgroGalaxy, BB Seguridade e Alper;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=919281&descTipo=IPE&CodigoInstituicao=1
-59;AGXY3;11/11/2021;19:50;Fact sheet 3T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=916331&descTipo=IPE&CodigoInstituicao=1
-60;AGXY3;04/11/2021;11:22;Participação de executivo em mídia social - Podcast Invista com Tiago;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=912872&descTipo=IPE&CodigoInstituicao=1
-61;AGXY3;19/10/2021;10:55;Comunicado ao Mercado - Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=908369&descTipo=IPE&CodigoInstituicao=1
-62;AGXY3;02/10/2021;11:00;Negociação das ações no mercado secundário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=904941&descTipo=IPE&CodigoInstituicao=1
-63;AGXY3;08/09/2021;08:35;Assinatura de contrato para a aquisição da Agrocat;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=899213&descTipo=IPE&CodigoInstituicao=1
-64;AGXY3;01/09/2021;09:34;Comunicado ao Mercado - Participação de executivos em mídias sociais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897536&descTipo=IPE&CodigoInstituicao=1
-65;AGXY3;31/08/2021;18:54;Conclusão da aquisição da Ferrari Zagatto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897408&descTipo=IPE&CodigoInstituicao=1
-66;AGXY3;30/08/2021;21:16;Parceria Alper;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897129&descTipo=IPE&CodigoInstituicao=1
-67;AGXY3;30/08/2021;18:53;Participação de executivos em mídias sociais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897098&descTipo=IPE&CodigoInstituicao=1
-68;AGXY3;16/08/2021;18:50;Factsheet 2T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=893972&descTipo=IPE&CodigoInstituicao=1
-69;AGXY3;22/07/2021;10:55;Fato Relevante do Preço por Ação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885523&descTipo=IPE&CodigoInstituicao=1
-70;AGXY3;22/07/2021;09:59;Fato Relevante do Preço por Ação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885488&descTipo=IPE&CodigoInstituicao=1
-71;AGXY3;22/07/2021;09:59;Comunicado sobre aumento de capital - Anexo 30-XXXII da ICVM 480;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885491&descTipo=IPE&CodigoInstituicao=1
-72;AGXY3;19/07/2021;00:24;Fato Relevante da Oferta Restrita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=884719&descTipo=IPE&CodigoInstituicao=1
-73;AGXY3;28/06/2021;07:45;Avaliação de oferta de ações pública com esforços restritos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=879244&descTipo=IPE&CodigoInstituicao=1
-74;AGXY3;21/06/2021;19:11;MOU - Parceria com Alper;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=877664&descTipo=IPE&CodigoInstituicao=1
-75;AGXY3;11/06/2021;01:14;Assinatura de contrato de compra e venda para aquisição de participação na Ferrari Zagatto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=875734&descTipo=IPE&CodigoInstituicao=1
-76;AGXY3;25/05/2021;10:40;Selo Women on Board;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=870888&descTipo=IPE&CodigoInstituicao=1
-77;AGXY3;13/05/2021;16:31;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=867070&descTipo=IPE&CodigoInstituicao=1
-78;AGXY3;07/04/2021;13:32;Aquisição de 30% da Sementes Campeã;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=851311&descTipo=IPE&CodigoInstituicao=1
-79;AGXY3;01/04/2021;16:44;Conclusão da aquisição a Boa Vista;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=849808&descTipo=IPE&CodigoInstituicao=1
+0;AGXY3;14/08/2023;18:30;Guidance 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1133735&descTipo=IPE&CodigoInstituicao=1
+1;AGXY3;14/08/2023;18:30;Fact Sheet 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1133742&descTipo=IPE&CodigoInstituicao=1
+2;AGXY3;14/08/2023;18:19;Renúncia de diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1133701&descTipo=IPE&CodigoInstituicao=1
+3;AGXY3;31/07/2023;18:05;Eleição CFO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1127067&descTipo=IPE&CodigoInstituicao=1
+4;AGXY3;10/07/2023;19:12;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1121502&descTipo=IPE&CodigoInstituicao=1
+5;AGXY3;29/06/2023;18:50;Alterações na diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1117947&descTipo=IPE&CodigoInstituicao=1
+6;AGXY3;31/05/2023;15:25; Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1108187&descTipo=IPE&CodigoInstituicao=1
+7;AGXY3;30/05/2023;10:38;Participação de executiva em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1107535&descTipo=IPE&CodigoInstituicao=1
+8;AGXY3;24/05/2023;09:04;CRA com garantia BNDES;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1105733&descTipo=IPE&CodigoInstituicao=1
+9;AGXY3;11/05/2023;18:56;Factsheet 1T23 PT e EN ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1100870&descTipo=IPE&CodigoInstituicao=1
+10;AGXY3;02/05/2023;18:25;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1095255&descTipo=IPE&CodigoInstituicao=1
+11;AGXY3;26/04/2023;18:08;Divulgação do Relatório Anual 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1090431&descTipo=IPE&CodigoInstituicao=1
+12;AGXY3;31/03/2023;15:08;Planilha trimestral;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1080862&descTipo=IPE&CodigoInstituicao=1
+13;AGXY3;29/03/2023;18:25;Factsheet 4T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1079644&descTipo=IPE&CodigoInstituicao=1
+14;AGXY3;01/03/2023;09:19;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1066836&descTipo=IPE&CodigoInstituicao=1
+15;AGXY3;06/02/2023;20:57;Participação de Executivos em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1055915&descTipo=IPE&CodigoInstituicao=1
+16;AGXY3;06/02/2023;17:50;Participação de Executivos em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1055767&descTipo=IPE&CodigoInstituicao=1
+17;AGXY3;02/02/2023;08:58;Participação de Executivo em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1054446&descTipo=IPE&CodigoInstituicao=1
+18;AGXY3;31/01/2023;09:07;Participação de Executivo em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1053453&descTipo=IPE&CodigoInstituicao=1
+19;AGXY3;30/01/2023;17:54;Alteração do jornal de grande circulação ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1053253&descTipo=IPE&CodigoInstituicao=1
+20;AGXY3;26/01/2023;09:02;Comunicado ao mercado - Ações liberadas para negociação de investidores do varejo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1052312&descTipo=IPE&CodigoInstituicao=1
+21;AGXY3;24/01/2023;17:37;Apresentação live Nord;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1051742&descTipo=IPE&CodigoInstituicao=1
+22;AGXY3;23/01/2023;10:27;Participação de Executivo em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1051297&descTipo=IPE&CodigoInstituicao=1
+23;AGXY3;16/01/2023;09:36;Lançamento GreenGalaxy;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1049924&descTipo=IPE&CodigoInstituicao=1
+24;AGXY3;23/12/2022;18:11;Renúncia de Diretores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1044267&descTipo=IPE&CodigoInstituicao=1
+25;AGXY3;16/12/2022;11:39;CDP 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1042038&descTipo=IPE&CodigoInstituicao=1
+26;AGXY3;13/12/2022;11:36;Participação de Executivo em Mídia Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1040928&descTipo=IPE&CodigoInstituicao=1
+27;AGXY3;25/11/2022;17:21;Código de Conduta Parceiros de Negócios;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1035805&descTipo=IPE&CodigoInstituicao=1
+28;AGXY3;14/11/2022;18:38;Fact Sheet 3T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1032692&descTipo=IPE&CodigoInstituicao=1
+29;AGXY3;27/10/2022;07:36;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1024891&descTipo=IPE&CodigoInstituicao=1
+30;AGXY3;03/10/2022;10:08;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1018855&descTipo=IPE&CodigoInstituicao=1
+31;AGXY3;26/09/2022;09:39;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1017560&descTipo=IPE&CodigoInstituicao=1
+32;AGXY3;19/09/2022;13:01;Participação de executiva em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1016341&descTipo=IPE&CodigoInstituicao=1
+33;AGXY3;25/08/2022;18:17;Eleição CEO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1010951&descTipo=IPE&CodigoInstituicao=1
+34;AGXY3;24/08/2022;17:43;Participação de executiva em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1010630&descTipo=IPE&CodigoInstituicao=1
+35;AGXY3;15/08/2022;18:29;Fact Sheet 2T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1008133&descTipo=IPE&CodigoInstituicao=1
+36;AGXY3;28/06/2022;15:51;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=993560&descTipo=IPE&CodigoInstituicao=1
+37;AGXY3;14/06/2022;09:23;Selo Great Place to Work (?GPTW?);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=990626&descTipo=IPE&CodigoInstituicao=1
+38;AGXY3;13/06/2022;09:22;Premiação do Primeiro Desafio do Instituto Agrogalaxy;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=990290&descTipo=IPE&CodigoInstituicao=1
+39;AGXY3;30/05/2022;08:46;Selo bronze da EcoVadis;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=985953&descTipo=IPE&CodigoInstituicao=1
+40;AGXY3;16/05/2022;20:16;Participação de executiva em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=982284&descTipo=IPE&CodigoInstituicao=1
+41;AGXY3;16/05/2022;18:15;Fact Sheet 1T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=982091&descTipo=IPE&CodigoInstituicao=1
+42;AGXY3;26/04/2022;08:12;Relatório Anual e nova página de ESG no site RI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=970304&descTipo=IPE&CodigoInstituicao=1
+43;AGXY3;20/04/2022;17:49;Participação de executivos em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=968863&descTipo=IPE&CodigoInstituicao=1
+44;AGXY3;28/03/2022;18:32;Fact Sheet 4T21 e 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=959396&descTipo=IPE&CodigoInstituicao=1
+45;AGXY3;25/03/2022;08:02;Participação de executiva em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=958223&descTipo=IPE&CodigoInstituicao=1
+46;AGXY3;14/03/2022;19:13;Renúncia de Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=953854&descTipo=IPE&CodigoInstituicao=1
+47;AGXY3;10/02/2022;09:48;Lançamento do Instituto AgroGalaxy;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=941058&descTipo=IPE&CodigoInstituicao=1
+48;AGXY3;09/02/2022;08:08;Participação de executivos em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=940299&descTipo=IPE&CodigoInstituicao=1
+49;AGXY3;01/02/2022;18:38;Política de Segurança da Informação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=937404&descTipo=IPE&CodigoInstituicao=1
+50;AGXY3;01/02/2022;18:05;Participação de executivos em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=937350&descTipo=IPE&CodigoInstituicao=1
+51;AGXY3;01/02/2022;14:47;Política de Crédito;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=937218&descTipo=IPE&CodigoInstituicao=1
+52;AGXY3;01/02/2022;14:47;Política de Segurança da Informação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=937220&descTipo=IPE&CodigoInstituicao=1
+53;AGXY3;21/01/2022;10:12;Política Anticorrupção;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=934778&descTipo=IPE&CodigoInstituicao=1
+54;AGXY3;20/01/2022;18:04;Acordo de lock-up de acionistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=934621&descTipo=IPE&CodigoInstituicao=1
+55;AGXY3;10/01/2022;19:57;Conclusão da aquisição da Agrocat;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=932532&descTipo=IPE&CodigoInstituicao=1
+56;AGXY3;10/01/2022;08:00;Eleição de membros da diretoria estatutária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=931982&descTipo=IPE&CodigoInstituicao=1
+57;AGXY3;28/12/2021;18:25;Contratação de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=929315&descTipo=IPE&CodigoInstituicao=1
+58;AGXY3;10/12/2021;09:30;Participação de executivo em mídia social - Mercado de insumos agrícolas na região Centro Oeste do País e o desempenho do Agrogalaxy;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=924382&descTipo=IPE&CodigoInstituicao=1
+59;AGXY3;08/12/2021;19:44;Inaplicabilidade Direito de Recesso;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=923571&descTipo=IPE&CodigoInstituicao=1
+60;AGXY3;26/11/2021;08:32;Novos Diretores não Estatutários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=920368&descTipo=IPE&CodigoInstituicao=1
+61;AGXY3;22/11/2021;08:06;Parceria AgroGalaxy, BB Seguridade e Alper;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=919281&descTipo=IPE&CodigoInstituicao=1
+62;AGXY3;11/11/2021;19:50;Fact sheet 3T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=916331&descTipo=IPE&CodigoInstituicao=1
+63;AGXY3;04/11/2021;11:22;Participação de executivo em mídia social - Podcast Invista com Tiago;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=912872&descTipo=IPE&CodigoInstituicao=1
+64;AGXY3;19/10/2021;10:55;Comunicado ao Mercado - Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=908369&descTipo=IPE&CodigoInstituicao=1
+65;AGXY3;02/10/2021;11:00;Negociação das ações no mercado secundário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=904941&descTipo=IPE&CodigoInstituicao=1
+66;AGXY3;08/09/2021;08:35;Assinatura de contrato para a aquisição da Agrocat;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=899213&descTipo=IPE&CodigoInstituicao=1
+67;AGXY3;01/09/2021;09:34;Comunicado ao Mercado - Participação de executivos em mídias sociais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897536&descTipo=IPE&CodigoInstituicao=1
+68;AGXY3;31/08/2021;18:54;Conclusão da aquisição da Ferrari Zagatto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897408&descTipo=IPE&CodigoInstituicao=1
+69;AGXY3;30/08/2021;21:16;Parceria Alper;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897129&descTipo=IPE&CodigoInstituicao=1
+70;AGXY3;30/08/2021;18:53;Participação de executivos em mídias sociais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897098&descTipo=IPE&CodigoInstituicao=1
+71;AGXY3;16/08/2021;18:50;Factsheet 2T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=893972&descTipo=IPE&CodigoInstituicao=1
+72;AGXY3;22/07/2021;10:55;Fato Relevante do Preço por Ação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885523&descTipo=IPE&CodigoInstituicao=1
+73;AGXY3;22/07/2021;09:59;Fato Relevante do Preço por Ação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885488&descTipo=IPE&CodigoInstituicao=1
+74;AGXY3;22/07/2021;09:59;Comunicado sobre aumento de capital - Anexo 30-XXXII da ICVM 480;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885491&descTipo=IPE&CodigoInstituicao=1
+75;AGXY3;19/07/2021;00:24;Fato Relevante da Oferta Restrita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=884719&descTipo=IPE&CodigoInstituicao=1
+76;AGXY3;28/06/2021;07:45;Avaliação de oferta de ações pública com esforços restritos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=879244&descTipo=IPE&CodigoInstituicao=1
+77;AGXY3;21/06/2021;19:11;MOU - Parceria com Alper;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=877664&descTipo=IPE&CodigoInstituicao=1
+78;AGXY3;11/06/2021;01:14;Assinatura de contrato de compra e venda para aquisição de participação na Ferrari Zagatto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=875734&descTipo=IPE&CodigoInstituicao=1
+79;AGXY3;25/05/2021;10:40;Selo Women on Board;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=870888&descTipo=IPE&CodigoInstituicao=1
+80;AGXY3;13/05/2021;16:31;Participação de executivo em mídia social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=867070&descTipo=IPE&CodigoInstituicao=1
+81;AGXY3;07/04/2021;13:32;Aquisição de 30% da Sementes Campeã;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=851311&descTipo=IPE&CodigoInstituicao=1
+82;AGXY3;01/04/2021;16:44;Conclusão da aquisição a Boa Vista;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=849808&descTipo=IPE&CodigoInstituicao=1
