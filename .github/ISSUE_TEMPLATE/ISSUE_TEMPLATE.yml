@@ -14,7 +14,7 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: "🏆Avaliação"
+      label: "🏆Avaliação 1"
       description: Qual a sua avaliação sobre o projeto?
       options:
         - label: 🥇Ótimo
@@ -24,7 +24,7 @@ body:
           required: true
   - type: dropdown
     attributes:
-      label: "🏆Avaliação"
+      label: "🏆Avaliação 2"
       description: Qual a sua avaliação sobre o projeto?
       multiple: false
       options:
