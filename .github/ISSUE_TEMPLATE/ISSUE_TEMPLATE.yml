@@ -1,22 +1,25 @@
-name: ":bookmark_tabs: Sugestão/Feedback"
+name: "📑Sugestão/Feedback"
 description: "Deixe seu comentário."
-title: "Ticket Title"
+title: "[Sugestão/Feedback]: Título"
 labels: ["UI"]
 assignees:
   - shascher
 body:
   - type: textarea
     attributes:
-      label: "Comentário"
-      description: "Deixe sua sugestão/feedback sobre o projeto"
+      label: "📝Comentário"
+      description: "Deixe sua sugestão/feedback sobre o projeto."
       placeholder: "Texto."
     validations:
       required: true
   - type: checkboxes
     id: rating
     attributes:
-      label: "Avaliação"
+      label: "🏆Avaliação"
       description: Qual a sua avaliação sobre o projeto?
       options:
-        - label: bom 
+        - label: 🥇Ótimo
+        - label: 🥈Bom
+        - label: 🥉Regular
+        - label: 🏅Rium 
   
