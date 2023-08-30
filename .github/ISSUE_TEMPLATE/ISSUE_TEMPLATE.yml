@@ -22,4 +22,7 @@ body:
         - label: 🥈Bom
         - label: 🥉Regular
         - label: 🏅Rium 
+    validations: 
+      required: true
+
   
