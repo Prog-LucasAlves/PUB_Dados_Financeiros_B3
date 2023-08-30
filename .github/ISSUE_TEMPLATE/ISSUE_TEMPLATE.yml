@@ -1,0 +1,21 @@
+name: "Sugestão/Feedback"
+description: "Deixe seu comentário."
+title: "Ticket Title"
+labels: ["UI"]
+assignees:
+  - shascher
+body:
+  - type: textarea
+    attributes:
+      label: "Overview"
+      description: "Provide an overview of the feature request."
+      placeholder: "Provide information here."
+    validations:
+      required: true
+  - type: checkboxes
+    id: rating
+    attributes:
+      label: "rating"
+      description: What browsers are you seeing the problem on ?
+      options:
+        - label: bom 
