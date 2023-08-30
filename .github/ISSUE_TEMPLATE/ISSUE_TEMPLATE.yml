@@ -13,7 +13,6 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: rating
     attributes:
       label: "🏆Avaliação"
       description: Qual a sua avaliação sobre o projeto?
@@ -21,8 +20,17 @@ body:
         - label: 🥇Ótimo
         - label: 🥈Bom
         - label: 🥉Regular
-        - label: 🏅Rium 
-    validations: 
+        - label: 🏅Rium  
+          required: true
+  - type: dropdown
+    attributes:
+      label: "🏆Avaliação"
+      description: Qual a sua avaliação sobre o projeto?
+      multiple: false
+      options:
+        - 🥇Ótimo
+        - 🥈Bom
+        - 🥉Regular
+        - 🏅Rium  
+    validations:
       required: true
-
-  
