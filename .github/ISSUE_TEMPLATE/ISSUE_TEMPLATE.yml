@@ -12,25 +12,15 @@ body:
       placeholder: "Texto."
     validations:
       required: true
-  - type: checkboxes
-    attributes:
-      label: "🏆Avaliação 1"
-      description: Qual a sua avaliação sobre o projeto?
-      options:
-        - label: 🥇Ótimo
-        - label: 🥈Bom
-        - label: 🥉Regular
-        - label: 🏅Rium  
-          required: true
   - type: dropdown
     attributes:
-      label: "🏆Avaliação 2"
+      label: "🏆Avaliação"
       description: Qual a sua avaliação sobre o projeto?
       multiple: false
       options:
         - 🥇Ótimo
         - 🥈Bom
         - 🥉Regular
-        - 🏅Rium  
+        - 🏅Ruim  
     validations:
       required: true
