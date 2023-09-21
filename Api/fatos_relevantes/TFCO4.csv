@@ -1,35 +1,36 @@
 ;Acao;Data;Hora;Descrição;Link
-0;TFCO4;01/08/2023;09:18;Mudanças na Liderança da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1127380&descTipo=IPE&CodigoInstituicao=1
-1;TFCO4;22/06/2023;17:37;Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1115808&descTipo=IPE&CodigoInstituicao=1
-2;TFCO4;06/04/2023;18:43;Ajuste no Valor Bruto por Ação do JSCP aprovado em 28/03/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1083804&descTipo=IPE&CodigoInstituicao=1
-3;TFCO4;06/04/2023;18:32;Pagamento de juros sobre o capital próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1083775&descTipo=IPE&CodigoInstituicao=1
-4;TFCO4;05/04/2023;18:09;Pagamento de juros sobre o capital próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1083117&descTipo=IPE&CodigoInstituicao=1
-5;TFCO4;28/03/2023;19:42;Pagamento de juros sobre o capital próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1078757&descTipo=IPE&CodigoInstituicao=1
-6;TFCO4;20/12/2022;19:03;Juros sobre o capital próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1043249&descTipo=IPE&CodigoInstituicao=1
-7;TFCO4;06/10/2022;10:55;Vídeo online com o executivo Fred Wagner ? Bradesco BBI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1020126&descTipo=IPE&CodigoInstituicao=1
-8;TFCO4;29/09/2022;18:52;Juros sobre o Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1018378&descTipo=IPE&CodigoInstituicao=1
-9;TFCO4;19/09/2022;17:03;Live XP Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1016419&descTipo=IPE&CodigoInstituicao=1
-10;TFCO4;21/07/2022;10:33;Inauguração Experience Store Patio Higienópolis;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=999373&descTipo=IPE&CodigoInstituicao=1
-11;TFCO4;19/07/2022;11:59;Inauguração Experience Store Patio Higienópolis;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=998856&descTipo=IPE&CodigoInstituicao=1
-12;TFCO4;01/07/2022;10:35;Plano de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=994605&descTipo=IPE&CodigoInstituicao=1
-13;TFCO4;30/06/2022;20:50;Plano de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=994516&descTipo=IPE&CodigoInstituicao=1
-14;TFCO4;06/06/2022;10:21;Live Suno Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=988060&descTipo=IPE&CodigoInstituicao=1
-15;TFCO4;04/04/2022;14:04;Live Infomoney;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=963383&descTipo=IPE&CodigoInstituicao=1
-16;TFCO4;03/02/2022;17:23;Live XP - Nova data;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=938435&descTipo=IPE&CodigoInstituicao=1
-17;TFCO4;31/01/2022;10:55;Cancelamento Live XP;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=936737&descTipo=IPE&CodigoInstituicao=1
-18;TFCO4;28/01/2022;11:36;Live XP Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=936203&descTipo=IPE&CodigoInstituicao=1
-19;TFCO4;17/12/2021;11:16;Live com Eleven Financial;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=926849&descTipo=IPE&CodigoInstituicao=1
-20;TFCO4;16/12/2021;19:30;Pagamento aos acionistas de juros sobre o capital próprio ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=926625&descTipo=IPE&CodigoInstituicao=1
-21;TFCO4;22/11/2021;19:17;Live TradeMap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=919427&descTipo=IPE&CodigoInstituicao=1
-22;TFCO4;12/11/2021;16:55;Lucro ou Prejuízo e Atribuição de Proventos em Dinheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=916727&descTipo=IPE&CodigoInstituicao=1
-23;TFCO4;11/11/2021;19:06;Lucro ou Prejuízo e Atribuição de Proventos em Dinheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=916250&descTipo=IPE&CodigoInstituicao=1
-24;TFCO4;28/10/2021;18:35;Novo Diretor de Operações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=910989&descTipo=IPE&CodigoInstituicao=1
-25;TFCO4;21/10/2021;18:50;Prêmio Melhores e Maiores Exame 2021 - Moda e Vestuário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=909192&descTipo=IPE&CodigoInstituicao=1
-26;TFCO4;02/09/2021;19:31;Inauguração Experience Store;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=898256&descTipo=IPE&CodigoInstituicao=1
-27;TFCO4;28/07/2021;18:42;Alteração de Membro do Conselho de Administração e de Membro da Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=887006&descTipo=IPE&CodigoInstituicao=1
-28;TFCO4;11/06/2021;18:17;Esclarecimento sobre notícia veiculada na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=875918&descTipo=IPE&CodigoInstituicao=1
-29;TFCO4;09/06/2021;19:21;Frederico Wagner, um dos fundadores da Companhia, assumirá o cargo de Diretor-Presidente, além da Diretoria de Gente e Gestão, mantendo a posição de membro do Conselho de Administração.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=875104&descTipo=IPE&CodigoInstituicao=1
-30;TFCO4;07/05/2021;18:15;Renúncia da Diretoria de Gente e Gestão;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=864380&descTipo=IPE&CodigoInstituicao=1
-31;TFCO4;26/04/2021;18:37;Participação na AGOE via Plataforma Digital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=857407&descTipo=IPE&CodigoInstituicao=1
-32;TFCO4;22/04/2021;08:28;Participação do Sr. Fred Wagner, socio fundador, em evento online a ser transmitido em 22/04/2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=856065&descTipo=IPE&CodigoInstituicao=1
-33;TFCO4;05/04/2021;18:38;Gravação com membro do Conselho de Administração Frederico Wagner e Genial Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=850524&descTipo=IPE&CodigoInstituicao=1
+0;TFCO4;20/09/2023;18:01;Distribuição de Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1144776&descTipo=IPE&CodigoInstituicao=1
+1;TFCO4;01/08/2023;09:18;Mudanças na Liderança da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1127380&descTipo=IPE&CodigoInstituicao=1
+2;TFCO4;22/06/2023;17:37;Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1115808&descTipo=IPE&CodigoInstituicao=1
+3;TFCO4;06/04/2023;18:43;Ajuste no Valor Bruto por Ação do JSCP aprovado em 28/03/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1083804&descTipo=IPE&CodigoInstituicao=1
+4;TFCO4;06/04/2023;18:32;Pagamento de juros sobre o capital próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1083775&descTipo=IPE&CodigoInstituicao=1
+5;TFCO4;05/04/2023;18:09;Pagamento de juros sobre o capital próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1083117&descTipo=IPE&CodigoInstituicao=1
+6;TFCO4;28/03/2023;19:42;Pagamento de juros sobre o capital próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1078757&descTipo=IPE&CodigoInstituicao=1
+7;TFCO4;20/12/2022;19:03;Juros sobre o capital próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1043249&descTipo=IPE&CodigoInstituicao=1
+8;TFCO4;06/10/2022;10:55;Vídeo online com o executivo Fred Wagner ? Bradesco BBI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1020126&descTipo=IPE&CodigoInstituicao=1
+9;TFCO4;29/09/2022;18:52;Juros sobre o Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1018378&descTipo=IPE&CodigoInstituicao=1
+10;TFCO4;19/09/2022;17:03;Live XP Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1016419&descTipo=IPE&CodigoInstituicao=1
+11;TFCO4;21/07/2022;10:33;Inauguração Experience Store Patio Higienópolis;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=999373&descTipo=IPE&CodigoInstituicao=1
+12;TFCO4;19/07/2022;11:59;Inauguração Experience Store Patio Higienópolis;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=998856&descTipo=IPE&CodigoInstituicao=1
+13;TFCO4;01/07/2022;10:35;Plano de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=994605&descTipo=IPE&CodigoInstituicao=1
+14;TFCO4;30/06/2022;20:50;Plano de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=994516&descTipo=IPE&CodigoInstituicao=1
+15;TFCO4;06/06/2022;10:21;Live Suno Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=988060&descTipo=IPE&CodigoInstituicao=1
+16;TFCO4;04/04/2022;14:04;Live Infomoney;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=963383&descTipo=IPE&CodigoInstituicao=1
+17;TFCO4;03/02/2022;17:23;Live XP - Nova data;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=938435&descTipo=IPE&CodigoInstituicao=1
+18;TFCO4;31/01/2022;10:55;Cancelamento Live XP;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=936737&descTipo=IPE&CodigoInstituicao=1
+19;TFCO4;28/01/2022;11:36;Live XP Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=936203&descTipo=IPE&CodigoInstituicao=1
+20;TFCO4;17/12/2021;11:16;Live com Eleven Financial;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=926849&descTipo=IPE&CodigoInstituicao=1
+21;TFCO4;16/12/2021;19:30;Pagamento aos acionistas de juros sobre o capital próprio ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=926625&descTipo=IPE&CodigoInstituicao=1
+22;TFCO4;22/11/2021;19:17;Live TradeMap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=919427&descTipo=IPE&CodigoInstituicao=1
+23;TFCO4;12/11/2021;16:55;Lucro ou Prejuízo e Atribuição de Proventos em Dinheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=916727&descTipo=IPE&CodigoInstituicao=1
+24;TFCO4;11/11/2021;19:06;Lucro ou Prejuízo e Atribuição de Proventos em Dinheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=916250&descTipo=IPE&CodigoInstituicao=1
+25;TFCO4;28/10/2021;18:35;Novo Diretor de Operações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=910989&descTipo=IPE&CodigoInstituicao=1
+26;TFCO4;21/10/2021;18:50;Prêmio Melhores e Maiores Exame 2021 - Moda e Vestuário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=909192&descTipo=IPE&CodigoInstituicao=1
+27;TFCO4;02/09/2021;19:31;Inauguração Experience Store;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=898256&descTipo=IPE&CodigoInstituicao=1
+28;TFCO4;28/07/2021;18:42;Alteração de Membro do Conselho de Administração e de Membro da Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=887006&descTipo=IPE&CodigoInstituicao=1
+29;TFCO4;11/06/2021;18:17;Esclarecimento sobre notícia veiculada na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=875918&descTipo=IPE&CodigoInstituicao=1
+30;TFCO4;09/06/2021;19:21;Frederico Wagner, um dos fundadores da Companhia, assumirá o cargo de Diretor-Presidente, além da Diretoria de Gente e Gestão, mantendo a posição de membro do Conselho de Administração.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=875104&descTipo=IPE&CodigoInstituicao=1
+31;TFCO4;07/05/2021;18:15;Renúncia da Diretoria de Gente e Gestão;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=864380&descTipo=IPE&CodigoInstituicao=1
+32;TFCO4;26/04/2021;18:37;Participação na AGOE via Plataforma Digital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=857407&descTipo=IPE&CodigoInstituicao=1
+33;TFCO4;22/04/2021;08:28;Participação do Sr. Fred Wagner, socio fundador, em evento online a ser transmitido em 22/04/2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=856065&descTipo=IPE&CodigoInstituicao=1
+34;TFCO4;05/04/2021;18:38;Gravação com membro do Conselho de Administração Frederico Wagner e Genial Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=850524&descTipo=IPE&CodigoInstituicao=1
