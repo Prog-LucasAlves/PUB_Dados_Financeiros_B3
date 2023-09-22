@@ -479,6 +479,8 @@ def dados():
                                         )
                                         if len(div_yield[1]) <= 1:
                                             div_yield[1] = 0
+                                        elif len(div_yield[1]) >= 5:
+                                            div_yield[1] = 0
                                     else:
                                         div_yield.append(0)
                                     #
