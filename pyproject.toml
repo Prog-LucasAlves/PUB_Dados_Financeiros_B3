@@ -4,22 +4,20 @@ version = "0.1.0"
 description = ""
 authors = ["Prog-LucasAlves <lucasalves_taz@hotmail.com>"]
 readme = "README.md"
-packages = [{include = "pub_dados_financeiros_b3"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
-pandas = "^2.0.3"
-requests = "^2.31.0"
-beautifulsoup4 = "^4.12.2"
-tqdm = "^4.65.2"
-yfinance = "^0.2.27"
-quantstats = "^0.0.62"
-ipython = "^8.14.0"
-streamlit = "^1.25.0"
-python-dotenv = "^1.0.0"
-psycopg2 = "^2.9.7"
+python = ">=3.11,<3.13"
+pandas = "^2.1.1"
 backoff = "^2.2.1"
-selenium = "^4.11.2"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+beautifulsoup4 = "^4.12.2"
+psycopg2 = "^2.9.9"
+selenium = "^4.14.0"
+streamlit = "^1.27.2"
+quantstats = "^0.0.62"
+tqdm = "^4.66.1"
+ipython = "^8.16.1"
 
 
 [build-system]
