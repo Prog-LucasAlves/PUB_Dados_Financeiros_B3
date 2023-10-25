@@ -178,7 +178,7 @@ lst_acao = [
     "EMAE4",
     "EMBR3",
     "ENAT3",
-    "ENBR3",
+    # "ENBR3",
     "ENEV3",
     "ENGI11",
     "ENGI3",
