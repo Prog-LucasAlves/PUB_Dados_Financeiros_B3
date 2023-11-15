@@ -5,3 +5,13 @@
 5 - script para automatizar docker/busca ✅
 6 - Criar/Verificar Jenkins 🕰️
 7 - Verificar docker-compose 🕰️
+
+ bi:
+        image: metabase/metabase
+        container_name: metabase
+        ports: 
+            - "3000:3000"
+        volumes: 
+            - ./metabase:/metabase-data  
+        links: 
+            - db
