@@ -6,7 +6,8 @@ authors = ["Prog-LucasAlves <lucasalves_taz@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.13"
+#python = ">=3.11,<3.13"
+python = "^3.11"
 pandas = "^2.1.1"
 backoff = "^2.2.1"
 requests = "^2.31.0"
