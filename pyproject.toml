@@ -18,6 +18,7 @@ streamlit = "^1.27.2"
 quantstats = "^0.0.62"
 tqdm = "^4.66.1"
 ipython = "^8.16.1"
+plotly = "^5.18.0"
 
 
 [build-system]
