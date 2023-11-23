@@ -28,6 +28,7 @@ lst_acao = [
     "ATMP3",
     "ATOM3",
     "AURA33",
+    "AURE3",
     "AVLL3",
     "AZEV3",
     "AZEV4",
