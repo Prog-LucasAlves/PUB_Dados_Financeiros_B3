@@ -464,7 +464,7 @@ lst_acao = [
     "VAMO3",
     "VBBR3",
     "VSTE3",
-    "VIIA3",
+    # "VIIA3",
     "VITT3",
     "VIVA3",
     "VIVR3",
