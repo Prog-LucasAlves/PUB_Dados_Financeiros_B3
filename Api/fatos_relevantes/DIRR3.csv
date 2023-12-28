@@ -1,101 +1,101 @@
 ;Acao;Data;Hora;Descrição;Link
-0;DIRR3;29/11/2023;19:21;Aprovação de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1167456&descTipo=IPE&CodigoInstituicao=1
-1;DIRR3;10/10/2023;19:49;Prévia Operacional 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1150659&descTipo=IPE&CodigoInstituicao=1
-2;DIRR3;17/08/2023;10:18; Eleição Diretora;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1135051&descTipo=IPE&CodigoInstituicao=1
-3;DIRR3;01/08/2023;20:51;Relatório Anual de Sustentabilidade;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1127839&descTipo=IPE&CodigoInstituicao=1
-4;DIRR3;11/07/2023;20:19;Prévia Operacional 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1121958&descTipo=IPE&CodigoInstituicao=1
-5;DIRR3;29/06/2023;22:30;Aumento de Capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1118058&descTipo=IPE&CodigoInstituicao=1
-6;DIRR3;22/06/2023;08:16;Oferta pública de distribuição primária de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1115637&descTipo=IPE&CodigoInstituicao=1
-7;DIRR3;22/06/2023;04:03;Mudança de Critérios Contábeis;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1115627&descTipo=IPE&CodigoInstituicao=1
-8;DIRR3;20/04/2023;17:18;Manutenção Rating de Crédito;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1088202&descTipo=IPE&CodigoInstituicao=1
-9;DIRR3;11/04/2023;19:54;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1085256&descTipo=IPE&CodigoInstituicao=1
-10;DIRR3;10/04/2023;20:15;Prévia Operacional 1T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1084870&descTipo=IPE&CodigoInstituicao=1
-11;DIRR3;12/01/2023;20:54;Prévia operacional 4T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1049462&descTipo=IPE&CodigoInstituicao=1
-12;DIRR3;08/12/2022;18:40;Aprovação Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1039524&descTipo=IPE&CodigoInstituicao=1
-13;DIRR3;10/10/2022;19:14;Prévia Operacional 3T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1021301&descTipo=IPE&CodigoInstituicao=1
-14;DIRR3;22/08/2022;18:36;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1010079&descTipo=IPE&CodigoInstituicao=1
-15;DIRR3;11/07/2022;20:06;Prévia Operacional 2T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=997399&descTipo=IPE&CodigoInstituicao=1
-16;DIRR3;11/07/2022;19:11;Aprovação Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=997354&descTipo=IPE&CodigoInstituicao=1
-17;DIRR3;08/07/2022;09:47;Encerramento Oferta Pública (CRI);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=996466&descTipo=IPE&CodigoInstituicao=1
-18;DIRR3;06/07/2022;19:50;Alteração Diretoria Riva;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=995936&descTipo=IPE&CodigoInstituicao=1
-19;DIRR3;22/06/2022;18:41;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=992407&descTipo=IPE&CodigoInstituicao=1
-20;DIRR3;10/06/2022;22:53;Conclusão de Bookbuilding;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=990220&descTipo=IPE&CodigoInstituicao=1
-21;DIRR3;09/06/2022;19:12;Mudança de Banco Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=989464&descTipo=IPE&CodigoInstituicao=1
-22;DIRR3;11/04/2022;19:30;Prévia Operacional 1T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=966441&descTipo=IPE&CodigoInstituicao=1
-23;DIRR3;04/04/2022;09:51;Início Direto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=963310&descTipo=IPE&CodigoInstituicao=1
-24;DIRR3;22/03/2022;17:42;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=956820&descTipo=IPE&CodigoInstituicao=1
-25;DIRR3;23/02/2022;10:28;Eleição Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=946423&descTipo=IPE&CodigoInstituicao=1
-26;DIRR3;23/02/2022;09:44;Eleição Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=946414&descTipo=IPE&CodigoInstituicao=1
-27;DIRR3;19/01/2022;20:51;Prévia Operacional 4T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=934492&descTipo=IPE&CodigoInstituicao=1
-28;DIRR3;17/01/2022;18:45;Memorando de Intenções - Rio de Janeiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=933973&descTipo=IPE&CodigoInstituicao=1
-29;DIRR3;27/12/2021;21:20;Plano de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=929142&descTipo=IPE&CodigoInstituicao=1
-30;DIRR3;21/12/2021;08:57;Participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=927751&descTipo=IPE&CodigoInstituicao=1
-31;DIRR3;20/12/2021;08:56;Memorando de Intenções;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=927288&descTipo=IPE&CodigoInstituicao=1
-32;DIRR3;14/12/2021;09:56;Cessão de Crédito Imobiliário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=925757&descTipo=IPE&CodigoInstituicao=1
-33;DIRR3;09/12/2021;08:45;Acordo de Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=923738&descTipo=IPE&CodigoInstituicao=1
-34;DIRR3;03/12/2021;09:56;Participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=922032&descTipo=IPE&CodigoInstituicao=1
-35;DIRR3;23/11/2021;09:35;Participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=919561&descTipo=IPE&CodigoInstituicao=1
-36;DIRR3;15/10/2021;09:23;Rating 8ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907720&descTipo=IPE&CodigoInstituicao=1
-37;DIRR3;14/10/2021;18:10;Prévia Operacional 3T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907555&descTipo=IPE&CodigoInstituicao=1
-38;DIRR3;13/10/2021;20:54;Aprovação Emissão Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907379&descTipo=IPE&CodigoInstituicao=1
-39;DIRR3;13/10/2021;19:59;Aprovação Emissão Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907376&descTipo=IPE&CodigoInstituicao=1
-40;DIRR3;31/08/2021;09:00;Participação em vídeo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897200&descTipo=IPE&CodigoInstituicao=1
-41;DIRR3;23/08/2021;20:25;Alteração de Escriturador de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=895782&descTipo=IPE&CodigoInstituicao=1
-42;DIRR3;13/08/2021;09:59;Participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=893136&descTipo=IPE&CodigoInstituicao=1
-43;DIRR3;11/08/2021;18:56;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=892314&descTipo=IPE&CodigoInstituicao=1
-44;DIRR3;04/08/2021;12:24;Participação em entrevista (não ao vivo);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=889171&descTipo=IPE&CodigoInstituicao=1
-45;DIRR3;21/07/2021;18:46;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885354&descTipo=IPE&CodigoInstituicao=1
-46;DIRR3;20/07/2021;12:53;Participação em Live - BM&C;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885039&descTipo=IPE&CodigoInstituicao=1
-47;DIRR3;12/07/2021;21:22;Prévia Operacional 2T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=883362&descTipo=IPE&CodigoInstituicao=1
-48;DIRR3;23/06/2021;20:19;Anúncio de participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=878357&descTipo=IPE&CodigoInstituicao=1
-49;DIRR3;10/05/2021;23:37;Aprovação de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=865536&descTipo=IPE&CodigoInstituicao=1
-50;DIRR3;28/04/2021;18:28;Anúncio de participação em vídeo público;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=858614&descTipo=IPE&CodigoInstituicao=1
-51;DIRR3;20/04/2021;21:27;Conclusão de Bookbuilding;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=855712&descTipo=IPE&CodigoInstituicao=1
-52;DIRR3;12/04/2021;22:14;Prévia Operacional 1T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=853345&descTipo=IPE&CodigoInstituicao=1
-53;DIRR3;12/04/2021;20:14;Prévia Operacional 1T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=853280&descTipo=IPE&CodigoInstituicao=1
-54;DIRR3;25/03/2021;21:56;Alteração Espontânea no Calendário Corporativo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=846111&descTipo=IPE&CodigoInstituicao=1
-55;DIRR3;24/03/2021;23:01;Aprovação Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=845651&descTipo=IPE&CodigoInstituicao=1
-56;DIRR3;17/03/2021;14:06;Presença em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843347&descTipo=IPE&CodigoInstituicao=1
-57;DIRR3;17/03/2021;13:33;Presença em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843338&descTipo=IPE&CodigoInstituicao=1
-58;DIRR3;16/03/2021;20:52;Elevação Rating;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843133&descTipo=IPE&CodigoInstituicao=1
-59;DIRR3;01/03/2021;19:38;Eleição de Diretor de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=837346&descTipo=IPE&CodigoInstituicao=1
-60;DIRR3;03/02/2021;10:32;Direcional Day;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=826910&descTipo=IPE&CodigoInstituicao=1
-61;DIRR3;19/01/2021;21:02;CRI Riva;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=823751&descTipo=IPE&CodigoInstituicao=1
-62;DIRR3;12/01/2021;22:24;Comunicado ao Mercado - Prévia Operacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=822289&descTipo=IPE&CodigoInstituicao=1
-63;DIRR3;12/01/2021;20:57;Comunicado ao Mercado - Prévia Operacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=822280&descTipo=IPE&CodigoInstituicao=1
-64;DIRR3;16/12/2020;00:43;Assinatura de Contrato de Cessão de Recebíveis Imobiliários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=817093&descTipo=IPE&CodigoInstituicao=1
-65;DIRR3;30/11/2020;18:06;Comunicado ao Mercado - Participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=812021&descTipo=IPE&CodigoInstituicao=1
-66;DIRR3;09/11/2020;22:10;Programa de Recompra de Ação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=806725&descTipo=IPE&CodigoInstituicao=1
-67;DIRR3;09/11/2020;21:14;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=806716&descTipo=IPE&CodigoInstituicao=1
-68;DIRR3;20/10/2020;17:20;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=801640&descTipo=IPE&CodigoInstituicao=1
-69;DIRR3;09/10/2020;18:47;Comunicado ao Mercado - Prévia Operacional 3T20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=799169&descTipo=IPE&CodigoInstituicao=1
-70;DIRR3;08/10/2020;21:53;Comunicado ao Mercado - Prévia Operacional 3T20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=798736&descTipo=IPE&CodigoInstituicao=1
-71;DIRR3;07/10/2020;22:22;Eleição e LGPD;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=798289&descTipo=IPE&CodigoInstituicao=1
-72;DIRR3;07/10/2020;18:52;Eleição e LGPD;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=798220&descTipo=IPE&CodigoInstituicao=1
-73;DIRR3;05/10/2020;08:46;Distribuição de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=797219&descTipo=IPE&CodigoInstituicao=1
-74;DIRR3;28/09/2020;20:12;Debênture Bookbuilding;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=796062&descTipo=IPE&CodigoInstituicao=1
-75;DIRR3;15/09/2020;19:23;Rating;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=793487&descTipo=IPE&CodigoInstituicao=1
-76;DIRR3;14/09/2020;09:14;Emissão de Debênture;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=793050&descTipo=IPE&CodigoInstituicao=1
-77;DIRR3;04/09/2020;22:52;"Direcional anuncia participação em ""live""";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=791417&descTipo=IPE&CodigoInstituicao=1
-78;DIRR3;31/08/2020;09:50;Direcional anuncia participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=789324&descTipo=IPE&CodigoInstituicao=1
-79;DIRR3;10/08/2020;18:08;Assinatura de memorando de intenções para desenvolvimento de empreendimentos em São Paulo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=783195&descTipo=IPE&CodigoInstituicao=1
-80;DIRR3;28/07/2020;21:38;Prévia Operacional 2T20 - Inglês;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=778977&descTipo=IPE&CodigoInstituicao=1
-81;DIRR3;28/07/2020;21:11;Prévia Operacional 2T20 - Português;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=778973&descTipo=IPE&CodigoInstituicao=1
-82;DIRR3;28/07/2020;12:15;Cancelamento Oferta Riva;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=778769&descTipo=IPE&CodigoInstituicao=1
-83;DIRR3;02/07/2020;19:43;"Divulgação de novas versões do Aviso ao Mercado e do Prospecto Preliminar referentes à oferta pública de distribuição primária de ações ordinárias de emissão da Riva 9.; Alteração da Segunda Data de Corte da oferta prioritária, destinada aos acionistas da Companhia.";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=773628&descTipo=IPE&CodigoInstituicao=1
-84;DIRR3;02/07/2020;19:06;"Divulgação do Aviso ao Mercado e o Prospecto Preliminar referentes à oferta pública de distribuição primária de ações ordinárias de emissão da Riva 9, controlada da Companhia.; Aditamento ao (i) Contrato de Compra e Venda de Quotas e Cessão de Direitos de Aquisição, e (ii) Contrato de Prestação de Serviços de Consultoria Especializadas firmados entre a Companhia e a Riva 9.";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=773613&descTipo=IPE&CodigoInstituicao=1
-85;DIRR3;24/04/2020;20:16;Companhia Submeteu à AGO/E a Alteração do Objeto Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=756355&descTipo=IPE&CodigoInstituicao=1
-86;DIRR3;13/04/2020;08:55;Renúncia Membro Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=753679&descTipo=IPE&CodigoInstituicao=1
-87;DIRR3;09/04/2020;19:22;Prévia Operacional - 1T20 (Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=753415&descTipo=IPE&CodigoInstituicao=1
-88;DIRR3;03/04/2020;17:42;Emissão de Nota Promissória;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=751875&descTipo=IPE&CodigoInstituicao=1
-89;DIRR3;04/03/2020;19:41;"Pedido de registro de emissão de valores mobiliários da Riva 9 Empreendimentos Imobiliários(controlada); Alteração Diretoria Estatutária";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=743060&descTipo=IPE&CodigoInstituicao=1
-90;DIRR3;13/12/2019;19:19;Eleição de Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=726429&descTipo=IPE&CodigoInstituicao=1
-91;DIRR3;09/10/2019;18:48;Distribuição de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=715403&descTipo=IPE&CodigoInstituicao=1
-92;DIRR3;01/06/2019;00:06;5º Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=693581&descTipo=IPE&CodigoInstituicao=1
-93;DIRR3;31/05/2019;22:44;5º Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=693556&descTipo=IPE&CodigoInstituicao=1
-94;DIRR3;09/04/2019;18:37;Prévia Operacional 1T19 (Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=678369&descTipo=IPE&CodigoInstituicao=1
-95;DIRR3;09/04/2019;18:21;Prévia Operacional 1T19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=678355&descTipo=IPE&CodigoInstituicao=1
-96;DIRR3;03/04/2019;10:23;Alteração da data de Publicação do Edital de Convocação da Assembleia Geral Ordinária e Extraordinária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=676970&descTipo=IPE&CodigoInstituicao=1
-97;DIRR3;11/03/2019;19:11;Distribuição de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=669748&descTipo=IPE&CodigoInstituicao=1
-98;DIRR3;19/02/2019;20:19;Alteração no Conselho de Administração e Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=666401&descTipo=IPE&CodigoInstituicao=1
-99;DIRR3;11/01/2019;08:15;Prévia Operacional 4T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=660374&descTipo=IPE&CodigoInstituicao=1
+0;DIRR3;27/12/2023;19:56;Assinatura Programa Pode Entrar;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1177904&descTipo=IPE&CodigoInstituicao=1
+1;DIRR3;29/11/2023;19:21;Aprovação de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1167456&descTipo=IPE&CodigoInstituicao=1
+2;DIRR3;10/10/2023;19:49;Prévia Operacional 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1150659&descTipo=IPE&CodigoInstituicao=1
+3;DIRR3;17/08/2023;10:18; Eleição Diretora;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1135051&descTipo=IPE&CodigoInstituicao=1
+4;DIRR3;01/08/2023;20:51;Relatório Anual de Sustentabilidade;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1127839&descTipo=IPE&CodigoInstituicao=1
+5;DIRR3;11/07/2023;20:19;Prévia Operacional 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1121958&descTipo=IPE&CodigoInstituicao=1
+6;DIRR3;29/06/2023;22:30;Aumento de Capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1118058&descTipo=IPE&CodigoInstituicao=1
+7;DIRR3;22/06/2023;08:16;Oferta pública de distribuição primária de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1115637&descTipo=IPE&CodigoInstituicao=1
+8;DIRR3;22/06/2023;04:03;Mudança de Critérios Contábeis;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1115627&descTipo=IPE&CodigoInstituicao=1
+9;DIRR3;20/04/2023;17:18;Manutenção Rating de Crédito;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1088202&descTipo=IPE&CodigoInstituicao=1
+10;DIRR3;11/04/2023;19:54;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1085256&descTipo=IPE&CodigoInstituicao=1
+11;DIRR3;10/04/2023;20:15;Prévia Operacional 1T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1084870&descTipo=IPE&CodigoInstituicao=1
+12;DIRR3;12/01/2023;20:54;Prévia operacional 4T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1049462&descTipo=IPE&CodigoInstituicao=1
+13;DIRR3;08/12/2022;18:40;Aprovação Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1039524&descTipo=IPE&CodigoInstituicao=1
+14;DIRR3;10/10/2022;19:14;Prévia Operacional 3T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1021301&descTipo=IPE&CodigoInstituicao=1
+15;DIRR3;22/08/2022;18:36;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1010079&descTipo=IPE&CodigoInstituicao=1
+16;DIRR3;11/07/2022;20:06;Prévia Operacional 2T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=997399&descTipo=IPE&CodigoInstituicao=1
+17;DIRR3;11/07/2022;19:11;Aprovação Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=997354&descTipo=IPE&CodigoInstituicao=1
+18;DIRR3;08/07/2022;09:47;Encerramento Oferta Pública (CRI);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=996466&descTipo=IPE&CodigoInstituicao=1
+19;DIRR3;06/07/2022;19:50;Alteração Diretoria Riva;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=995936&descTipo=IPE&CodigoInstituicao=1
+20;DIRR3;22/06/2022;18:41;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=992407&descTipo=IPE&CodigoInstituicao=1
+21;DIRR3;10/06/2022;22:53;Conclusão de Bookbuilding;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=990220&descTipo=IPE&CodigoInstituicao=1
+22;DIRR3;09/06/2022;19:12;Mudança de Banco Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=989464&descTipo=IPE&CodigoInstituicao=1
+23;DIRR3;11/04/2022;19:30;Prévia Operacional 1T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=966441&descTipo=IPE&CodigoInstituicao=1
+24;DIRR3;04/04/2022;09:51;Início Direto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=963310&descTipo=IPE&CodigoInstituicao=1
+25;DIRR3;22/03/2022;17:42;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=956820&descTipo=IPE&CodigoInstituicao=1
+26;DIRR3;23/02/2022;10:28;Eleição Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=946423&descTipo=IPE&CodigoInstituicao=1
+27;DIRR3;23/02/2022;09:44;Eleição Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=946414&descTipo=IPE&CodigoInstituicao=1
+28;DIRR3;19/01/2022;20:51;Prévia Operacional 4T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=934492&descTipo=IPE&CodigoInstituicao=1
+29;DIRR3;17/01/2022;18:45;Memorando de Intenções - Rio de Janeiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=933973&descTipo=IPE&CodigoInstituicao=1
+30;DIRR3;27/12/2021;21:20;Plano de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=929142&descTipo=IPE&CodigoInstituicao=1
+31;DIRR3;21/12/2021;08:57;Participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=927751&descTipo=IPE&CodigoInstituicao=1
+32;DIRR3;20/12/2021;08:56;Memorando de Intenções;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=927288&descTipo=IPE&CodigoInstituicao=1
+33;DIRR3;14/12/2021;09:56;Cessão de Crédito Imobiliário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=925757&descTipo=IPE&CodigoInstituicao=1
+34;DIRR3;09/12/2021;08:45;Acordo de Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=923738&descTipo=IPE&CodigoInstituicao=1
+35;DIRR3;03/12/2021;09:56;Participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=922032&descTipo=IPE&CodigoInstituicao=1
+36;DIRR3;23/11/2021;09:35;Participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=919561&descTipo=IPE&CodigoInstituicao=1
+37;DIRR3;15/10/2021;09:23;Rating 8ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907720&descTipo=IPE&CodigoInstituicao=1
+38;DIRR3;14/10/2021;18:10;Prévia Operacional 3T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907555&descTipo=IPE&CodigoInstituicao=1
+39;DIRR3;13/10/2021;20:54;Aprovação Emissão Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907379&descTipo=IPE&CodigoInstituicao=1
+40;DIRR3;13/10/2021;19:59;Aprovação Emissão Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907376&descTipo=IPE&CodigoInstituicao=1
+41;DIRR3;31/08/2021;09:00;Participação em vídeo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897200&descTipo=IPE&CodigoInstituicao=1
+42;DIRR3;23/08/2021;20:25;Alteração de Escriturador de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=895782&descTipo=IPE&CodigoInstituicao=1
+43;DIRR3;13/08/2021;09:59;Participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=893136&descTipo=IPE&CodigoInstituicao=1
+44;DIRR3;11/08/2021;18:56;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=892314&descTipo=IPE&CodigoInstituicao=1
+45;DIRR3;04/08/2021;12:24;Participação em entrevista (não ao vivo);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=889171&descTipo=IPE&CodigoInstituicao=1
+46;DIRR3;21/07/2021;18:46;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885354&descTipo=IPE&CodigoInstituicao=1
+47;DIRR3;20/07/2021;12:53;Participação em Live - BM&C;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885039&descTipo=IPE&CodigoInstituicao=1
+48;DIRR3;12/07/2021;21:22;Prévia Operacional 2T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=883362&descTipo=IPE&CodigoInstituicao=1
+49;DIRR3;23/06/2021;20:19;Anúncio de participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=878357&descTipo=IPE&CodigoInstituicao=1
+50;DIRR3;10/05/2021;23:37;Aprovação de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=865536&descTipo=IPE&CodigoInstituicao=1
+51;DIRR3;28/04/2021;18:28;Anúncio de participação em vídeo público;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=858614&descTipo=IPE&CodigoInstituicao=1
+52;DIRR3;20/04/2021;21:27;Conclusão de Bookbuilding;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=855712&descTipo=IPE&CodigoInstituicao=1
+53;DIRR3;12/04/2021;22:14;Prévia Operacional 1T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=853345&descTipo=IPE&CodigoInstituicao=1
+54;DIRR3;12/04/2021;20:14;Prévia Operacional 1T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=853280&descTipo=IPE&CodigoInstituicao=1
+55;DIRR3;25/03/2021;21:56;Alteração Espontânea no Calendário Corporativo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=846111&descTipo=IPE&CodigoInstituicao=1
+56;DIRR3;24/03/2021;23:01;Aprovação Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=845651&descTipo=IPE&CodigoInstituicao=1
+57;DIRR3;17/03/2021;14:06;Presença em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843347&descTipo=IPE&CodigoInstituicao=1
+58;DIRR3;17/03/2021;13:33;Presença em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843338&descTipo=IPE&CodigoInstituicao=1
+59;DIRR3;16/03/2021;20:52;Elevação Rating;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843133&descTipo=IPE&CodigoInstituicao=1
+60;DIRR3;01/03/2021;19:38;Eleição de Diretor de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=837346&descTipo=IPE&CodigoInstituicao=1
+61;DIRR3;03/02/2021;10:32;Direcional Day;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=826910&descTipo=IPE&CodigoInstituicao=1
+62;DIRR3;19/01/2021;21:02;CRI Riva;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=823751&descTipo=IPE&CodigoInstituicao=1
+63;DIRR3;12/01/2021;22:24;Comunicado ao Mercado - Prévia Operacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=822289&descTipo=IPE&CodigoInstituicao=1
+64;DIRR3;12/01/2021;20:57;Comunicado ao Mercado - Prévia Operacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=822280&descTipo=IPE&CodigoInstituicao=1
+65;DIRR3;16/12/2020;00:43;Assinatura de Contrato de Cessão de Recebíveis Imobiliários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=817093&descTipo=IPE&CodigoInstituicao=1
+66;DIRR3;30/11/2020;18:06;Comunicado ao Mercado - Participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=812021&descTipo=IPE&CodigoInstituicao=1
+67;DIRR3;09/11/2020;22:10;Programa de Recompra de Ação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=806725&descTipo=IPE&CodigoInstituicao=1
+68;DIRR3;09/11/2020;21:14;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=806716&descTipo=IPE&CodigoInstituicao=1
+69;DIRR3;20/10/2020;17:20;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=801640&descTipo=IPE&CodigoInstituicao=1
+70;DIRR3;09/10/2020;18:47;Comunicado ao Mercado - Prévia Operacional 3T20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=799169&descTipo=IPE&CodigoInstituicao=1
+71;DIRR3;08/10/2020;21:53;Comunicado ao Mercado - Prévia Operacional 3T20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=798736&descTipo=IPE&CodigoInstituicao=1
+72;DIRR3;07/10/2020;22:22;Eleição e LGPD;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=798289&descTipo=IPE&CodigoInstituicao=1
+73;DIRR3;07/10/2020;18:52;Eleição e LGPD;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=798220&descTipo=IPE&CodigoInstituicao=1
+74;DIRR3;05/10/2020;08:46;Distribuição de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=797219&descTipo=IPE&CodigoInstituicao=1
+75;DIRR3;28/09/2020;20:12;Debênture Bookbuilding;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=796062&descTipo=IPE&CodigoInstituicao=1
+76;DIRR3;15/09/2020;19:23;Rating;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=793487&descTipo=IPE&CodigoInstituicao=1
+77;DIRR3;14/09/2020;09:14;Emissão de Debênture;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=793050&descTipo=IPE&CodigoInstituicao=1
+78;DIRR3;04/09/2020;22:52;"Direcional anuncia participação em ""live""";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=791417&descTipo=IPE&CodigoInstituicao=1
+79;DIRR3;31/08/2020;09:50;Direcional anuncia participação em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=789324&descTipo=IPE&CodigoInstituicao=1
+80;DIRR3;10/08/2020;18:08;Assinatura de memorando de intenções para desenvolvimento de empreendimentos em São Paulo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=783195&descTipo=IPE&CodigoInstituicao=1
+81;DIRR3;28/07/2020;21:38;Prévia Operacional 2T20 - Inglês;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=778977&descTipo=IPE&CodigoInstituicao=1
+82;DIRR3;28/07/2020;21:11;Prévia Operacional 2T20 - Português;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=778973&descTipo=IPE&CodigoInstituicao=1
+83;DIRR3;28/07/2020;12:15;Cancelamento Oferta Riva;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=778769&descTipo=IPE&CodigoInstituicao=1
+84;DIRR3;02/07/2020;19:43;"Divulgação de novas versões do Aviso ao Mercado e do Prospecto Preliminar referentes à oferta pública de distribuição primária de ações ordinárias de emissão da Riva 9.; Alteração da Segunda Data de Corte da oferta prioritária, destinada aos acionistas da Companhia.";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=773628&descTipo=IPE&CodigoInstituicao=1
+85;DIRR3;02/07/2020;19:06;"Divulgação do Aviso ao Mercado e o Prospecto Preliminar referentes à oferta pública de distribuição primária de ações ordinárias de emissão da Riva 9, controlada da Companhia.; Aditamento ao (i) Contrato de Compra e Venda de Quotas e Cessão de Direitos de Aquisição, e (ii) Contrato de Prestação de Serviços de Consultoria Especializadas firmados entre a Companhia e a Riva 9.";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=773613&descTipo=IPE&CodigoInstituicao=1
+86;DIRR3;24/04/2020;20:16;Companhia Submeteu à AGO/E a Alteração do Objeto Social;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=756355&descTipo=IPE&CodigoInstituicao=1
+87;DIRR3;13/04/2020;08:55;Renúncia Membro Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=753679&descTipo=IPE&CodigoInstituicao=1
+88;DIRR3;09/04/2020;19:22;Prévia Operacional - 1T20 (Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=753415&descTipo=IPE&CodigoInstituicao=1
+89;DIRR3;03/04/2020;17:42;Emissão de Nota Promissória;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=751875&descTipo=IPE&CodigoInstituicao=1
+90;DIRR3;04/03/2020;19:41;"Pedido de registro de emissão de valores mobiliários da Riva 9 Empreendimentos Imobiliários(controlada); Alteração Diretoria Estatutária";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=743060&descTipo=IPE&CodigoInstituicao=1
+91;DIRR3;13/12/2019;19:19;Eleição de Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=726429&descTipo=IPE&CodigoInstituicao=1
+92;DIRR3;09/10/2019;18:48;Distribuição de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=715403&descTipo=IPE&CodigoInstituicao=1
+93;DIRR3;01/06/2019;00:06;5º Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=693581&descTipo=IPE&CodigoInstituicao=1
+94;DIRR3;31/05/2019;22:44;5º Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=693556&descTipo=IPE&CodigoInstituicao=1
+95;DIRR3;09/04/2019;18:37;Prévia Operacional 1T19 (Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=678369&descTipo=IPE&CodigoInstituicao=1
+96;DIRR3;09/04/2019;18:21;Prévia Operacional 1T19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=678355&descTipo=IPE&CodigoInstituicao=1
+97;DIRR3;03/04/2019;10:23;Alteração da data de Publicação do Edital de Convocação da Assembleia Geral Ordinária e Extraordinária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=676970&descTipo=IPE&CodigoInstituicao=1
+98;DIRR3;11/03/2019;19:11;Distribuição de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=669748&descTipo=IPE&CodigoInstituicao=1
+99;DIRR3;19/02/2019;20:19;Alteração no Conselho de Administração e Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=666401&descTipo=IPE&CodigoInstituicao=1
