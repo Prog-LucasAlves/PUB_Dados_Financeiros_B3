@@ -42,7 +42,7 @@ lst_acao = [
     "ALPA3",
     "ALPA4",
     "ALPK3",
-    "ALSO3",
+    # "ALSO3",
     "ALUP11",
     "ALUP3",
     "ALUP4",
