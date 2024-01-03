@@ -30,12 +30,14 @@ date_atual_m = date_atual.strftime("%d/%m/%Y")
 # Lista com o nome das ações
 acao = __list__.lst_acao
 
+# Coletando os dados das ações
 for i in tqdm(acao):
     url = f"https://www.fundamentus.com.br/resultados_trimestrais.php?papel={i}&tipo=1"
     hearder = {"user-agent": "Mozilla/5.0"}
     ret1 = requests.get(url, headers=hearder)
     soup1 = bs(ret1.text, "html.parser")
 
+    # Coletando o nome da empresa
     header_site = soup1.h1
     if header_site:
 
@@ -56,11 +58,13 @@ for i in tqdm(acao):
                 for link in rows1[t].find_all("a"):
                     lista_link.append(link.get("href"))
 
+        # Coletando o link do documento
         lista_df = []
         for a in lista_link:
             if "NumeroSequencialDocumento" in a:
                 lista_df.append(a)
 
+        # Coletando o link do documento
         lista_rr = []
         for b in lista_link:
             if "Tela=ext&numProtocolo" in b:
@@ -93,6 +97,8 @@ for x in arquivos:
 
 df = pd.concat(array_df, axis=0)
 # df.to_csv("../Todos/TR.csv", sep=";")
+
+# Salavando os dados em um arquivo .parquet
 df.to_parquet("../Todos/TR.parquet.gzip", compression="gzip")
 
 #####

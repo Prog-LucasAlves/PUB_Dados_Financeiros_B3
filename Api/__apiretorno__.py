@@ -25,6 +25,7 @@ acao = __list__.lst_acao
 date1, date2 = date.today() - timedelta(days=2), date.today() - timedelta(days=0)
 
 
+# Função para coletar os dados de fechamento
 def retornoAcumulado():
 
     res = np.busday_count(date1.strftime('%Y-%m-%d'),

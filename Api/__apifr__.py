@@ -18,12 +18,14 @@ import __list__
 
 acao = __list__.lst_acao
 
+# Coletando os dados das ações
 for i in tqdm(acao):
     url = f"https://www.fundamentus.com.br/fatos_relevantes.php?papel={i}"
     hearder = {"user-agent": "Mozilla/5.0"}
     ret1 = requests.get(url, headers=hearder)
     soup1 = bs(ret1.text, "html.parser")
 
+    # Coletando o título do site
     header_site = soup1.h1
     if header_site:
 
@@ -75,12 +77,16 @@ arquivos = glob.glob("./fatos_relevantes/*.csv")
 # que começam com "arquivo"
 array_df = []
 
+# Lendo cada arquivo e adicionando ao array_df
 for x in arquivos:
     temp_df = pd.read_csv(x, sep=";")
     array_df.append(temp_df)
 
+# Concatenando os DataFrames
 df = pd.concat(array_df, axis=0)
 # df.to_csv('../Todos/FT.csv', sep=';')
+
+# Salvando o DataFrame em um arquivo .parquet.gzip com compressão gzip
 df.to_parquet("../Todos/FT.parquet.gzip", compression="gzip")
 
 #####

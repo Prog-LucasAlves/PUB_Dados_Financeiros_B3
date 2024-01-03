@@ -17,10 +17,10 @@ import __list__
 
 acao = __list__.lst_acao
 
+# Ignorando os avisos de pandas
 warnings.filterwarnings('ignore')
 
 for i in tqdm(acao):
-
     qs.extend_pandas()
     data = qs.utils.download_returns(f"{i}.SA")
     if data.empty:
@@ -40,6 +40,8 @@ for i in tqdm(acao):
         datah[["NOV"]] = datah[["NOV"]].applymap("{0:.2%}".format)
         datah[["DEC"]] = datah[["DEC"]].applymap("{0:.2%}".format)
         datah[["EOY"]] = datah[["EOY"]].applymap("{0:.2%}".format)
+        
+        # Salvando os dados coletados em um arquivo .csv
         datah.to_csv(f"./historico/{i}.csv", sep=";")
 
 #####

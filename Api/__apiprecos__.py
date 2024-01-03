@@ -22,6 +22,7 @@ import warnings
 # Lista com o nome das ações
 import __list__
 
+# Ignorando os avisos de erro
 warnings.filterwarnings("ignore")
 
 logging.basicConfig(
@@ -50,6 +51,7 @@ for i in tqdm(acao):
         threads=False,
     )
 
+    # Salvando os dados em um arquivo .csv
     df.to_csv(f"./precos/{i}p.csv", sep=';')
 
     df["ret"] = round((df["Adj Close"].pct_change()) * 100, 2)
