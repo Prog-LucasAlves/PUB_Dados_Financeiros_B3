@@ -40,7 +40,7 @@ for i in tqdm(acao):
         datah[["NOV"]] = datah[["NOV"]].applymap("{0:.2%}".format)
         datah[["DEC"]] = datah[["DEC"]].applymap("{0:.2%}".format)
         datah[["EOY"]] = datah[["EOY"]].applymap("{0:.2%}".format)
-        
+
         # Salvando os dados coletados em um arquivo .csv
         datah.to_csv(f"./historico/{i}.csv", sep=";")
 
