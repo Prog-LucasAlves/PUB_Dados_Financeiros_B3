@@ -393,7 +393,7 @@ lst_acao = [
     "SOMA3",
     "SOND5",
     "SOND6",
-    "SQIA3",
+    # "SQIA3",
     "STBP3",
     # "SULA11",
     # "SULA3",
