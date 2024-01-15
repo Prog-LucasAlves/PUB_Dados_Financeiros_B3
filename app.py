@@ -232,7 +232,7 @@ col1_selection = st.sidebar.selectbox(
 ri = pd.read_csv("./Api/ri_empresas/ri_empresas.csv", sep=";")
 ri_result = ri[ri["Acao"] == col1_selection]
 
-st.text(ri_result["Site"])
+st.sidebar.text(ri_result["Site"][0])
 
 ######
 # Cria colunas
