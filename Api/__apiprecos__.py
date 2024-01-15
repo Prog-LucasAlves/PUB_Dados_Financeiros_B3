@@ -10,6 +10,7 @@ Local: pasta(precos)
 
 import logging
 from datetime import date
+from datetime import timedelta
 
 import pandas as pd
 import numpy as np
@@ -33,7 +34,7 @@ logging.basicConfig(
 
 df = pd.DataFrame()
 
-inicio = "2017-01-01"
+inicio = date.today() - timedelta(days=380)
 fim = date.today()
 
 acao = __list__.lst_acao

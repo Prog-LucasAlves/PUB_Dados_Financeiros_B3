@@ -229,6 +229,11 @@ col1_selection = st.sidebar.selectbox(
     list(df.papel).index("AALR3"),
 )
 
+ri = pd.read_csv("./Api/ri_empresas/ri_empresas.csv", sep=";")
+ri_result = ri[ri["Acao"] == col1_selection]
+
+st.text(ri_result["Site"])
+
 ######
 # Cria colunas
 col1, col2 = st.columns(2)

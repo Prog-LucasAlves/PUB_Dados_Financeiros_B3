@@ -1,17 +1,15 @@
-# Sobre min
+# Data Project Starter Kit
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucasalves-ast/)](https://www.linkedin.com/in/lucasalves-ast/)
-
-## Objetivo
+## Sobre o projeto
 
 - Coletar/Tratar os dados das Ações listadas na Bolsa de Valores do Brasil(B3).
 - Armazenar esses dados em um Banco de Dados para realizar consultas.
-- Realizar relatórios com os dados coletados.
+- Realizar relatórios com os dados coletados e enviar por e-mail.
 
 ## Tecnologias Utilizadas
 
-- BD = Postgres(13.3) -> Docker
-- BI = Metabase(0.39.4) -> Docker
+- Python -> 3.11.5
+- Banco de Dados = Postgres(13.3) -> Docker
 - Consulta ao banco de dados -> DBeaver(^21.2.5)
 
 ## Site Streamlit
@@ -21,6 +19,10 @@
 ## Informações
 
 ![ ](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/blob/main/Image/img01.png)
+
+## Utilizando esse projeto
+
+
 
 ![GitHub](https://img.shields.io/github/license/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
