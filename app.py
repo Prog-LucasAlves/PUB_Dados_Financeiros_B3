@@ -228,7 +228,7 @@ col1_selection = st.sidebar.selectbox(
     df.papel,
     list(df.papel).index("AALR3"),
 )
-ri = pd.read_csv("./Dados_Atual/ri.csv", sep=";")
+ri = pd.read_csv("./Api/ri_empresas/ri_empresas.csv", sep=";")
 ri_result = ri[ri["Acao"] == col1_selection]
 ri_ste = ri_result["Site"]
 st.sidebar.link_button(
