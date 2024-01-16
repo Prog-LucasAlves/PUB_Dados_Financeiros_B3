@@ -39,7 +39,7 @@ git clone https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3.git
 
 arquivo [.python-version](...)
 
-Ref.:[pyenv](https://github.com/pyenv/pyenv)
+Ref.: [pyenv](https://github.com/pyenv/pyenv)
 
 4. Ambiente virtual(poetry):
 
@@ -47,7 +47,7 @@ Ref.:[pyenv](https://github.com/pyenv/pyenv)
 poetry shell
 ```
 
-Ref.:[poetry](https://python-poetry.org/)
+Ref.: [poetry](https://python-poetry.org/)
 
 5. Instalando as dependências do projeto:
 
@@ -61,7 +61,7 @@ poetry install
 docker-compose up -d
 ```
 
-Ref.:[Docker Deskyop](https://www.docker.com/products/docker-desktop/)
+Ref.: [Docker Deskyop](https://www.docker.com/products/docker-desktop/)
 
 ----
 ![GitHub](https://img.shields.io/github/license/Prog-LucasAlves/PUB_Dados_Financeiros_B3)

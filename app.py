@@ -229,16 +229,6 @@ col1_selection = st.sidebar.selectbox(
     list(df.papel).index("AALR3"),
 )
 
-'''
-ri = pd.read_csv("./Api/ri_empresas/ri_empresas.csv", sep=";")
-ri_result = ri[ri["Acao"] == col1_selection]
-
-st.sidebar.header("Informações da Empresa")
-st.sidebar.link_button(
-    "Site RI",
-    ri_result["Site"][0])
-'''
-
 ######
 # Cria colunas
 col1, col2 = st.columns(2)
