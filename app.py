@@ -230,7 +230,8 @@ col1_selection = st.sidebar.selectbox(
 )
 ri = pd.read_csv("./Api/ri_empresas/ri_empresas.csv", sep=";")
 ri_result = ri[ri["Acao"] == col1_selection]
-ri_ste = ri_result["Site"]
+ri_ste = ri_result["Site"][0]
+
 st.sidebar.link_button(
     "🔗 Site da Ação",
     ri_ste,
