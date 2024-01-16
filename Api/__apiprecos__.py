@@ -52,9 +52,6 @@ for i in tqdm(acao):
         threads=False,
     )
 
-    # Salvando os dados em um arquivo .csv
-    df.to_csv(f"./precos/{i}p.csv", sep=';')
-
     df["ret"] = round((df["Adj Close"].pct_change()) * 100, 2)
     df["tret"] = df["ret"].cumsum()
     df["Adj Low"] = df["Low"] - (df["Close"]-df["Adj Close"])

@@ -673,8 +673,6 @@ fig_pre.update_layout(
 )
 st.plotly_chart(fig_pre)
 
-df_download = pd.read_csv(f"./Api/precos/{precos_papel}p.csv", sep=';')
-
 ######
 
 # Tabela de Retornos

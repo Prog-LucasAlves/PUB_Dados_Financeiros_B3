@@ -1,4 +1,4 @@
-# Data Project Starter Kit
+# Dados Financeiros
 
 ## Sobre o projeto
 
@@ -20,10 +20,50 @@
 
 ![ ](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/blob/main/Image/img01.png)
 
-## Utilizando esse projeto
+## Instalação e Configuração
 
+1. Criando o diretório do projeto
 
+```bash
+mkdir dados_financeiros
+cd dados_financeiros
+```
 
+2. Clone o repositório:
+
+```bash
+git clone https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3.git
+```
+
+3. Versão do Python(pyenv):
+
+arquivo [.python-version](...)
+
+Ref.:[pyenv](https://github.com/pyenv/pyenv)
+
+4. Ambiente virtual(poetry):
+
+```bash
+poetry shell
+```
+
+Ref.:[poetry](https://python-poetry.org/)
+
+5. Instalando as dependências do projeto:
+
+```bash
+poetry install
+```
+
+6. Docker
+
+```bash
+docker-compose up -d
+```
+
+Ref.:[Docker Deskyop](https://www.docker.com/products/docker-desktop/)
+
+----
 ![GitHub](https://img.shields.io/github/license/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
 ![GitHub top language](https://img.shields.io/github/languages/top/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
