@@ -23,6 +23,9 @@ seaborn = "^0.13.0"
 taskipy = "^1.12.2"
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.28.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
