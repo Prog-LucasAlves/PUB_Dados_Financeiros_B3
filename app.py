@@ -219,8 +219,8 @@ st.subheader("ℹ️ Informações das Ações Listadas na B3")
 ######
 # Importando os dados atuais
 df = pd.read_csv("./Dados_Atual/dados.csv", sep=";")
-
 ri = pd.read_csv("./Api/ri_empresas/ri_empresas.csv", sep=";")
+
 ######
 # Cria barra lateral
 st.sidebar.header("Escolha sua ação")
@@ -230,12 +230,13 @@ col1_selection = st.sidebar.selectbox(
     list(df.papel).index("AALR3"),
 )
 
-ri_result = ri[ri["Acao"] == col1_selection]
-ri_ste = ri_result["Site"][0]
+ri = ri[ri["Acao"] == col1_selection]
+ri_index = int(ri["Unnamed: 0"])
+ri_result = ri["Site"][ri_index]
 
 st.sidebar.link_button(
     "🔗 Site da Ação",
-    ri_ste,
+    ri_result,
 )
 
 ######
