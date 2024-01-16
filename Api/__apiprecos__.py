@@ -10,6 +10,7 @@ Local: pasta(precos)
 
 import logging
 from datetime import date
+from datetime import timedelta
 
 import pandas as pd
 import numpy as np
@@ -33,7 +34,7 @@ logging.basicConfig(
 
 df = pd.DataFrame()
 
-inicio = "2017-01-01"
+inicio = date.today() - timedelta(days=380)
 fim = date.today()
 
 acao = __list__.lst_acao
@@ -50,9 +51,6 @@ for i in tqdm(acao):
         progress=False,
         threads=False,
     )
-
-    # Salvando os dados em um arquivo .csv
-    df.to_csv(f"./precos/{i}p.csv", sep=';')
 
     df["ret"] = round((df["Adj Close"].pct_change()) * 100, 2)
     df["tret"] = df["ret"].cumsum()
