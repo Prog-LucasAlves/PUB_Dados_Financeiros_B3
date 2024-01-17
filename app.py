@@ -235,7 +235,7 @@ ri_index = int(ri["Unnamed: 0"])
 ri_result = ri["Site"][ri_index]
 
 st.sidebar.link_button(
-    "🔗 Site da Ação",
+    f"🔗 RI da Ação {col1_selection}",
     ri_result,
 )
 

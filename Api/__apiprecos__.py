@@ -34,7 +34,7 @@ logging.basicConfig(
 
 df = pd.DataFrame()
 
-inicio = date.today() - timedelta(days=380)
+inicio = date.today() - timedelta(days=500)
 fim = date.today()
 
 acao = __list__.lst_acao
