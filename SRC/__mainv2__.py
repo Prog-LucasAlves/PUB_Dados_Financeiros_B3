@@ -19,6 +19,7 @@ from tqdm import tqdm
 
 import __check__
 import __check_semana__
+
 # Importar bibliotecas internas
 import __conectdb__
 import __list__
@@ -735,4 +736,5 @@ def dados():
 
 
 if __name__ == "__main__":
+    # Executa a função principal
     dados()
