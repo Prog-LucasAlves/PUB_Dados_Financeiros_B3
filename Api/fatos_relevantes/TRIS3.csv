@@ -1,101 +1,101 @@
 ;Acao;Data;Hora;Descrição;Link
-0;TRIS3;18/01/2024;18:17;Prévia Operacional 4T23 / 4Q23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1184476&descTipo=IPE&CodigoInstituicao=1
-1;TRIS3;17/10/2023;18:06;Prévia Operacional 3T23 / 3Q23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1152218&descTipo=IPE&CodigoInstituicao=1
-2;TRIS3;14/09/2023;17:22;Guidance 2023-2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1143337&descTipo=IPE&CodigoInstituicao=1
-3;TRIS3;17/07/2023;17:51;Prévia Operacional 2T23 / 2Q23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1123077&descTipo=IPE&CodigoInstituicao=1
-4;TRIS3;17/04/2023;18:10;Prévia Operacional 1T23 / 1Q23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1086811&descTipo=IPE&CodigoInstituicao=1
-5;TRIS3;19/01/2023;18:27;Prévia Operacional 4T22 / 4Q22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1050795&descTipo=IPE&CodigoInstituicao=1
-6;TRIS3;25/11/2022;08:22;Oferta de Distribuição Pública de Certificados de Recebíveis Imobiliários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1035572&descTipo=IPE&CodigoInstituicao=1
-7;TRIS3;21/10/2022;17:35;Prévia Operacional 3T22 / 3Q22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023698&descTipo=IPE&CodigoInstituicao=1
-8;TRIS3;04/10/2022;17:40;Participação do CFO e DRI em Live organizada pela Genial Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1019545&descTipo=IPE&CodigoInstituicao=1
-9;TRIS3;18/07/2022;17:17;Prévia Operacional 2T22 / 2Q22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=998723&descTipo=IPE&CodigoInstituicao=1
-10;TRIS3;31/05/2022;17:13;Mudanc¸a de Escriturador ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=986387&descTipo=IPE&CodigoInstituicao=1
-11;TRIS3;27/05/2022;18:15;Mudança de Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=985686&descTipo=IPE&CodigoInstituicao=1
-12;TRIS3;20/04/2022;17:16;Prévia Operacional 1T22 / 1Q22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=968822&descTipo=IPE&CodigoInstituicao=1
-13;TRIS3;04/02/2022;18:19;Prévia Operacional 4T21 / 4Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=939090&descTipo=IPE&CodigoInstituicao=1
-14;TRIS3;21/10/2021;18:28;Prévia Operacional 3T21 / 3Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=909170&descTipo=IPE&CodigoInstituicao=1
-15;TRIS3;13/09/2021;17:50;Live Inside Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=900764&descTipo=IPE&CodigoInstituicao=1
-16;TRIS3;01/09/2021;09:01;LIVE BM&C Business;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897523&descTipo=IPE&CodigoInstituicao=1
-17;TRIS3;12/08/2021;18:13;8ª Emissão de Debentures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=892778&descTipo=IPE&CodigoInstituicao=1
-18;TRIS3;20/07/2021;18:45;Prévia Operacional 2T21 / 2Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885119&descTipo=IPE&CodigoInstituicao=1
-19;TRIS3;19/04/2021;17:35;Prévia Operacional 1T21 / 1Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=855062&descTipo=IPE&CodigoInstituicao=1
-20;TRIS3;18/03/2021;18:09;Live Suno Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843864&descTipo=IPE&CodigoInstituicao=1
-21;TRIS3;15/03/2021;10:46;Live XP Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=842385&descTipo=IPE&CodigoInstituicao=1
-22;TRIS3;11/03/2021;18:13;Esclarecimentos sobre notícia veiculada na imprensa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=841342&descTipo=IPE&CodigoInstituicao=1
-23;TRIS3;10/03/2021;18:56;Programa de Recompra de Ações da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=840875&descTipo=IPE&CodigoInstituicao=1
-24;TRIS3;10/03/2021;18:34;Programa de Recompra de Ações da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=840839&descTipo=IPE&CodigoInstituicao=1
-25;TRIS3;04/02/2021;18:19;Participação de CEO e Diretor Adjunto de RI em LIVE promovida pela Nord Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=827612&descTipo=IPE&CodigoInstituicao=1
-26;TRIS3;01/02/2021;18:02;Participação de Diretor Adjunto de RI em LIVE promovida pela Genial Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=826411&descTipo=IPE&CodigoInstituicao=1
-27;TRIS3;29/01/2021;18:46;Prévia Operacional 4T20 / 4Q20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=826097&descTipo=IPE&CodigoInstituicao=1
-28;TRIS3;28/01/2021;18:02;Participação de Diretor Adjunto de RI em LIVE promovida pelo HUB do investidor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=825713&descTipo=IPE&CodigoInstituicao=1
-29;TRIS3;16/12/2020;18:00;Lançamentos e Cumprimento do Guidance;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=817274&descTipo=IPE&CodigoInstituicao=1
-30;TRIS3;01/12/2020;18:13;7ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=812165&descTipo=IPE&CodigoInstituicao=1
-31;TRIS3;17/11/2020;18:03;Aplicativo de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=809577&descTipo=IPE&CodigoInstituicao=1
-32;TRIS3;27/10/2020;18:12;Projeções de Lançamentos e Vendas para os anos de 2020 e 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=803252&descTipo=IPE&CodigoInstituicao=1
-33;TRIS3;15/10/2020;18:59;Prévia Operacional 3T20 / 3Q20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=800233&descTipo=IPE&CodigoInstituicao=1
-34;TRIS3;01/10/2020;17:25;Selo PROCEL;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=796687&descTipo=IPE&CodigoInstituicao=1
-35;TRIS3;08/09/2020;17:55;(i) Participação de CFO/DRI e GRI em LIVE promovida pelo TRADEMAP;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=791741&descTipo=IPE&CodigoInstituicao=1
-36;TRIS3;31/08/2020;17:14;Rerratificação da ata de Reunião do Conselho de Administração datada de 18 de março de 2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=789469&descTipo=IPE&CodigoInstituicao=1
-37;TRIS3;10/07/2020;17:29;Prévia Operacional 2T20 / 2Q20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=775423&descTipo=IPE&CodigoInstituicao=1
-38;TRIS3;17/04/2020;19:41;Combate ao COVID-19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=755004&descTipo=IPE&CodigoInstituicao=1
-39;TRIS3;19/03/2020;09:10;Programa de Recompra de Ações da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=746702&descTipo=IPE&CodigoInstituicao=1
-40;TRIS3;18/03/2020;21:15;Programa de Recompra de Ações da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=746586&descTipo=IPE&CodigoInstituicao=1
-41;TRIS3;17/01/2020;18:30;Prévia Operacional do 4T19 e 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=730989&descTipo=IPE&CodigoInstituicao=1
-42;TRIS3;13/12/2019;18:10;Aquisição de terrenos opcionados;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=726379&descTipo=IPE&CodigoInstituicao=1
-43;TRIS3;25/11/2019;18:26;Projeções de Lançamentos e Vendas para o ano de 2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=722908&descTipo=IPE&CodigoInstituicao=1
-44;TRIS3;14/11/2019;18:27;Lançamento Elev Barra Funda;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=721745&descTipo=IPE&CodigoInstituicao=1
-45;TRIS3;16/10/2019;18:43;Prévia Operacional 3T19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=716381&descTipo=IPE&CodigoInstituicao=1
-46;TRIS3;08/10/2019;09:08;Lançamento Oscar Ibirapuera;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=715038&descTipo=IPE&CodigoInstituicao=1
-47;TRIS3;12/09/2019;23:26;Aprovada a fixação do preço por ação no valor de R$10,00 (dez reais) (Preço por Ação), perfazendo o montante total de R$405.000.000,00 (quatrocentos e cinco milhões de reais).;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=710877&descTipo=IPE&CodigoInstituicao=1
-48;TRIS3;02/09/2019;08:03;Aprovação de Oferta Pública;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=708935&descTipo=IPE&CodigoInstituicao=1
-49;TRIS3;30/08/2019;21:49;Aprovação de Oferta Pública;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=708928&descTipo=IPE&CodigoInstituicao=1
-50;TRIS3;14/08/2019;18:46;"Contratação de assessoria para potencial operação para captação de recursos por meio da realização de oferta pública primária de ações;; Descontinuação da divulgação de projeções financeiras (guidance).";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=706273&descTipo=IPE&CodigoInstituicao=1
-51;TRIS3;23/07/2019;20:14;Elevação do Guidance 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=701449&descTipo=IPE&CodigoInstituicao=1
-52;TRIS3;23/07/2019;18:47;Elevação do Guidance 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=701421&descTipo=IPE&CodigoInstituicao=1
-53;TRIS3;18/07/2019;18:00;Prévia Operacional do 2T19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=700924&descTipo=IPE&CodigoInstituicao=1
-54;TRIS3;17/06/2019;09:03;Lançamento Elev Vila Prudente;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=696303&descTipo=IPE&CodigoInstituicao=1
-55;TRIS3;20/05/2019;18:33;Lançamento OMNI Ibirapuera - Sucesso de Vendas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=691597&descTipo=IPE&CodigoInstituicao=1
-56;TRIS3;24/04/2019;09:45;Prévia Operacional do 1T19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=681384&descTipo=IPE&CodigoInstituicao=1
-57;TRIS3;04/04/2019;08:18;Lançamentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=677197&descTipo=IPE&CodigoInstituicao=1
-58;TRIS3;18/01/2019;18:02;Prévia Operacional do 4T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=661367&descTipo=IPE&CodigoInstituicao=1
-59;TRIS3;06/12/2018;13:49;Projeções de Lançamentos e Vendas para o ano de 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=654745&descTipo=IPE&CodigoInstituicao=1
-60;TRIS3;06/12/2018;08:53;Projeções de Lançamentos e Vendas para o ano de 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=654701&descTipo=IPE&CodigoInstituicao=1
-61;TRIS3;19/10/2018;17:19;Prévia Operacional do 3T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=646363&descTipo=IPE&CodigoInstituicao=1
-62;TRIS3;15/08/2018;11:51;Apresentação Teleconferência 2T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=638152&descTipo=IPE&CodigoInstituicao=1
-63;TRIS3;16/07/2018;18:38;Prévia operacional do 2T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=633033&descTipo=IPE&CodigoInstituicao=1
-64;TRIS3;28/06/2018;17:19;Lançamentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=630494&descTipo=IPE&CodigoInstituicao=1
-65;TRIS3;19/04/2018;17:03;Prévia operacional do 1T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=611255&descTipo=IPE&CodigoInstituicao=1
-66;TRIS3;16/03/2018;19:31;Proposta de Desdobramento de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=601671&descTipo=IPE&CodigoInstituicao=1
-67;TRIS3;16/03/2018;18:23;Proposta de Desdobramento de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=601634&descTipo=IPE&CodigoInstituicao=1
-68;TRIS3;29/01/2018;18:00;Prévia operacional do 4T17 e 2017;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=594622&descTipo=IPE&CodigoInstituicao=1
-69;TRIS3;13/11/2017;18:42;Projeções de Lançamentos e Vendas para os anos de 2017 e 2018;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=586368&descTipo=IPE&CodigoInstituicao=1
-70;TRIS3;31/10/2017;19:02;Comunicado ao Mercado - Lançamento Side Atlântica;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=584136&descTipo=IPE&CodigoInstituicao=1
-71;TRIS3;31/10/2017;18:43;Comunicado ao Mercado - Lançamento Side Atântica;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=584128&descTipo=IPE&CodigoInstituicao=1
-72;TRIS3;23/10/2017;18:29;Prévia Operacional do 3T17 e 9M17;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=583284&descTipo=IPE&CodigoInstituicao=1
-73;TRIS3;17/10/2017;18:55;Alteração do Calendário de Eventos Corporativos 2017;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=582943&descTipo=IPE&CodigoInstituicao=1
-74;TRIS3;25/07/2017;18:01;Acordo de Acionistas no Âmbito do Controlador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=572546&descTipo=IPE&CodigoInstituicao=1
-75;TRIS3;12/04/2016;08:57;Alteração de datas do Calendario de Eventos Corporativos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=510451&descTipo=IPE&CodigoInstituicao=1
-76;TRIS3;20/01/2016;10:49;Alteração de Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=498643&descTipo=IPE&CodigoInstituicao=1
-77;TRIS3;15/12/2015;17:30;Lançamento: Expande Vila Mariana;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=495374&descTipo=IPE&CodigoInstituicao=1
-78;TRIS3;03/12/2015;17:39;Acordo de acionistas no âmbito do controlador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=493430&descTipo=IPE&CodigoInstituicao=1
-79;TRIS3;19/11/2015;19:39;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=492250&descTipo=IPE&CodigoInstituicao=1
-80;TRIS3;19/11/2015;18:33;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=492227&descTipo=IPE&CodigoInstituicao=1
-81;TRIS3;11/11/2015;17:37;Lançamento Quadrilátero;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=491177&descTipo=IPE&CodigoInstituicao=1
-82;TRIS3;29/06/2015;19:14;Lançamento: Allegro Cotia  Fase 2;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=475827&descTipo=IPE&CodigoInstituicao=1
-83;TRIS3;29/06/2015;19:09;Lançamento: Vila Verde Sabará;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=475822&descTipo=IPE&CodigoInstituicao=1
-84;TRIS3;19/03/2015;18:55;Renúncia de Conselheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=460238&descTipo=IPE&CodigoInstituicao=1
-85;TRIS3;26/02/2015;17:20;Recompra de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=456870&descTipo=IPE&CodigoInstituicao=1
-86;TRIS3;05/12/2014;18:21;Lançamento: Gaivota;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=448425&descTipo=IPE&CodigoInstituicao=1
-87;TRIS3;05/12/2014;18:19;Lançamento: Latitude Vila Mascote;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=448423&descTipo=IPE&CodigoInstituicao=1
-88;TRIS3;07/11/2014;17:39;Lançamento do empreendimento Latitude Aclimação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=445135&descTipo=IPE&CodigoInstituicao=1
-89;TRIS3;21/07/2014;18:04;Prévia 2T14 E 1S14;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=433015&descTipo=IPE&CodigoInstituicao=1
-90;TRIS3;03/06/2014;18:24;Alteração da política de divulgação de atos e fatos relevantes da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=428157&descTipo=IPE&CodigoInstituicao=1
-91;TRIS3;14/05/2014;19:21;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=426246&descTipo=IPE&CodigoInstituicao=1
-92;TRIS3;11/04/2014;18:13;Lançamento: Line SP Conceição;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=419788&descTipo=IPE&CodigoInstituicao=1
-93;TRIS3;21/01/2014;18:36;Prévia Operacional 4T13 e 2013;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=408113&descTipo=IPE&CodigoInstituicao=1
-94;TRIS3;21/01/2014;18:05;Prévia Operacional 4T13 e 2013;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=408108&descTipo=IPE&CodigoInstituicao=1
-95;TRIS3;06/12/2013;18:18;Lançamento: Allegro Cotia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=403474&descTipo=IPE&CodigoInstituicao=1
-96;TRIS3;27/11/2013;18:05;Lançamento: ADD Vila Mariana;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=402284&descTipo=IPE&CodigoInstituicao=1
-97;TRIS3;25/10/2013;18:08;Lançamento de Empreendimento - Paysage Mooca;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=398008&descTipo=IPE&CodigoInstituicao=1
-98;TRIS3;15/10/2013;19:20;Previa Operacional 3T13 e 9M13;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=397127&descTipo=IPE&CodigoInstituicao=1
-99;TRIS3;10/09/2013;19:49;Lançamento: Duetto Biagi Hotel & Residence Service;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=393745&descTipo=IPE&CodigoInstituicao=1
+0;TRIS3;08/04/2024;09:05;Novo Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1219084&descTipo=IPE&CodigoInstituicao=1
+1;TRIS3;18/01/2024;18:17;Prévia Operacional 4T23 / 4Q23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1184476&descTipo=IPE&CodigoInstituicao=1
+2;TRIS3;17/10/2023;18:06;Prévia Operacional 3T23 / 3Q23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1152218&descTipo=IPE&CodigoInstituicao=1
+3;TRIS3;14/09/2023;17:22;Guidance 2023-2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1143337&descTipo=IPE&CodigoInstituicao=1
+4;TRIS3;17/07/2023;17:51;Prévia Operacional 2T23 / 2Q23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1123077&descTipo=IPE&CodigoInstituicao=1
+5;TRIS3;17/04/2023;18:10;Prévia Operacional 1T23 / 1Q23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1086811&descTipo=IPE&CodigoInstituicao=1
+6;TRIS3;19/01/2023;18:27;Prévia Operacional 4T22 / 4Q22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1050795&descTipo=IPE&CodigoInstituicao=1
+7;TRIS3;25/11/2022;08:22;Oferta de Distribuição Pública de Certificados de Recebíveis Imobiliários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1035572&descTipo=IPE&CodigoInstituicao=1
+8;TRIS3;21/10/2022;17:35;Prévia Operacional 3T22 / 3Q22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023698&descTipo=IPE&CodigoInstituicao=1
+9;TRIS3;04/10/2022;17:40;Participação do CFO e DRI em Live organizada pela Genial Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1019545&descTipo=IPE&CodigoInstituicao=1
+10;TRIS3;18/07/2022;17:17;Prévia Operacional 2T22 / 2Q22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=998723&descTipo=IPE&CodigoInstituicao=1
+11;TRIS3;31/05/2022;17:13;Mudanc¸a de Escriturador ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=986387&descTipo=IPE&CodigoInstituicao=1
+12;TRIS3;27/05/2022;18:15;Mudança de Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=985686&descTipo=IPE&CodigoInstituicao=1
+13;TRIS3;20/04/2022;17:16;Prévia Operacional 1T22 / 1Q22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=968822&descTipo=IPE&CodigoInstituicao=1
+14;TRIS3;04/02/2022;18:19;Prévia Operacional 4T21 / 4Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=939090&descTipo=IPE&CodigoInstituicao=1
+15;TRIS3;21/10/2021;18:28;Prévia Operacional 3T21 / 3Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=909170&descTipo=IPE&CodigoInstituicao=1
+16;TRIS3;13/09/2021;17:50;Live Inside Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=900764&descTipo=IPE&CodigoInstituicao=1
+17;TRIS3;01/09/2021;09:01;LIVE BM&C Business;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897523&descTipo=IPE&CodigoInstituicao=1
+18;TRIS3;12/08/2021;18:13;8ª Emissão de Debentures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=892778&descTipo=IPE&CodigoInstituicao=1
+19;TRIS3;20/07/2021;18:45;Prévia Operacional 2T21 / 2Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=885119&descTipo=IPE&CodigoInstituicao=1
+20;TRIS3;19/04/2021;17:35;Prévia Operacional 1T21 / 1Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=855062&descTipo=IPE&CodigoInstituicao=1
+21;TRIS3;18/03/2021;18:09;Live Suno Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843864&descTipo=IPE&CodigoInstituicao=1
+22;TRIS3;15/03/2021;10:46;Live XP Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=842385&descTipo=IPE&CodigoInstituicao=1
+23;TRIS3;11/03/2021;18:13;Esclarecimentos sobre notícia veiculada na imprensa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=841342&descTipo=IPE&CodigoInstituicao=1
+24;TRIS3;10/03/2021;18:56;Programa de Recompra de Ações da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=840875&descTipo=IPE&CodigoInstituicao=1
+25;TRIS3;10/03/2021;18:34;Programa de Recompra de Ações da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=840839&descTipo=IPE&CodigoInstituicao=1
+26;TRIS3;04/02/2021;18:19;Participação de CEO e Diretor Adjunto de RI em LIVE promovida pela Nord Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=827612&descTipo=IPE&CodigoInstituicao=1
+27;TRIS3;01/02/2021;18:02;Participação de Diretor Adjunto de RI em LIVE promovida pela Genial Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=826411&descTipo=IPE&CodigoInstituicao=1
+28;TRIS3;29/01/2021;18:46;Prévia Operacional 4T20 / 4Q20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=826097&descTipo=IPE&CodigoInstituicao=1
+29;TRIS3;28/01/2021;18:02;Participação de Diretor Adjunto de RI em LIVE promovida pelo HUB do investidor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=825713&descTipo=IPE&CodigoInstituicao=1
+30;TRIS3;16/12/2020;18:00;Lançamentos e Cumprimento do Guidance;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=817274&descTipo=IPE&CodigoInstituicao=1
+31;TRIS3;01/12/2020;18:13;7ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=812165&descTipo=IPE&CodigoInstituicao=1
+32;TRIS3;17/11/2020;18:03;Aplicativo de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=809577&descTipo=IPE&CodigoInstituicao=1
+33;TRIS3;27/10/2020;18:12;Projeções de Lançamentos e Vendas para os anos de 2020 e 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=803252&descTipo=IPE&CodigoInstituicao=1
+34;TRIS3;15/10/2020;18:59;Prévia Operacional 3T20 / 3Q20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=800233&descTipo=IPE&CodigoInstituicao=1
+35;TRIS3;01/10/2020;17:25;Selo PROCEL;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=796687&descTipo=IPE&CodigoInstituicao=1
+36;TRIS3;08/09/2020;17:55;(i) Participação de CFO/DRI e GRI em LIVE promovida pelo TRADEMAP;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=791741&descTipo=IPE&CodigoInstituicao=1
+37;TRIS3;31/08/2020;17:14;Rerratificação da ata de Reunião do Conselho de Administração datada de 18 de março de 2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=789469&descTipo=IPE&CodigoInstituicao=1
+38;TRIS3;10/07/2020;17:29;Prévia Operacional 2T20 / 2Q20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=775423&descTipo=IPE&CodigoInstituicao=1
+39;TRIS3;17/04/2020;19:41;Combate ao COVID-19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=755004&descTipo=IPE&CodigoInstituicao=1
+40;TRIS3;19/03/2020;09:10;Programa de Recompra de Ações da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=746702&descTipo=IPE&CodigoInstituicao=1
+41;TRIS3;18/03/2020;21:15;Programa de Recompra de Ações da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=746586&descTipo=IPE&CodigoInstituicao=1
+42;TRIS3;17/01/2020;18:30;Prévia Operacional do 4T19 e 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=730989&descTipo=IPE&CodigoInstituicao=1
+43;TRIS3;13/12/2019;18:10;Aquisição de terrenos opcionados;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=726379&descTipo=IPE&CodigoInstituicao=1
+44;TRIS3;25/11/2019;18:26;Projeções de Lançamentos e Vendas para o ano de 2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=722908&descTipo=IPE&CodigoInstituicao=1
+45;TRIS3;14/11/2019;18:27;Lançamento Elev Barra Funda;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=721745&descTipo=IPE&CodigoInstituicao=1
+46;TRIS3;16/10/2019;18:43;Prévia Operacional 3T19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=716381&descTipo=IPE&CodigoInstituicao=1
+47;TRIS3;08/10/2019;09:08;Lançamento Oscar Ibirapuera;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=715038&descTipo=IPE&CodigoInstituicao=1
+48;TRIS3;12/09/2019;23:26;Aprovada a fixação do preço por ação no valor de R$10,00 (dez reais) (Preço por Ação), perfazendo o montante total de R$405.000.000,00 (quatrocentos e cinco milhões de reais).;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=710877&descTipo=IPE&CodigoInstituicao=1
+49;TRIS3;02/09/2019;08:03;Aprovação de Oferta Pública;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=708935&descTipo=IPE&CodigoInstituicao=1
+50;TRIS3;30/08/2019;21:49;Aprovação de Oferta Pública;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=708928&descTipo=IPE&CodigoInstituicao=1
+51;TRIS3;14/08/2019;18:46;"Contratação de assessoria para potencial operação para captação de recursos por meio da realização de oferta pública primária de ações;; Descontinuação da divulgação de projeções financeiras (guidance).";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=706273&descTipo=IPE&CodigoInstituicao=1
+52;TRIS3;23/07/2019;20:14;Elevação do Guidance 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=701449&descTipo=IPE&CodigoInstituicao=1
+53;TRIS3;23/07/2019;18:47;Elevação do Guidance 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=701421&descTipo=IPE&CodigoInstituicao=1
+54;TRIS3;18/07/2019;18:00;Prévia Operacional do 2T19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=700924&descTipo=IPE&CodigoInstituicao=1
+55;TRIS3;17/06/2019;09:03;Lançamento Elev Vila Prudente;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=696303&descTipo=IPE&CodigoInstituicao=1
+56;TRIS3;20/05/2019;18:33;Lançamento OMNI Ibirapuera - Sucesso de Vendas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=691597&descTipo=IPE&CodigoInstituicao=1
+57;TRIS3;24/04/2019;09:45;Prévia Operacional do 1T19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=681384&descTipo=IPE&CodigoInstituicao=1
+58;TRIS3;04/04/2019;08:18;Lançamentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=677197&descTipo=IPE&CodigoInstituicao=1
+59;TRIS3;18/01/2019;18:02;Prévia Operacional do 4T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=661367&descTipo=IPE&CodigoInstituicao=1
+60;TRIS3;06/12/2018;13:49;Projeções de Lançamentos e Vendas para o ano de 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=654745&descTipo=IPE&CodigoInstituicao=1
+61;TRIS3;06/12/2018;08:53;Projeções de Lançamentos e Vendas para o ano de 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=654701&descTipo=IPE&CodigoInstituicao=1
+62;TRIS3;19/10/2018;17:19;Prévia Operacional do 3T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=646363&descTipo=IPE&CodigoInstituicao=1
+63;TRIS3;15/08/2018;11:51;Apresentação Teleconferência 2T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=638152&descTipo=IPE&CodigoInstituicao=1
+64;TRIS3;16/07/2018;18:38;Prévia operacional do 2T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=633033&descTipo=IPE&CodigoInstituicao=1
+65;TRIS3;28/06/2018;17:19;Lançamentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=630494&descTipo=IPE&CodigoInstituicao=1
+66;TRIS3;19/04/2018;17:03;Prévia operacional do 1T18;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=611255&descTipo=IPE&CodigoInstituicao=1
+67;TRIS3;16/03/2018;19:31;Proposta de Desdobramento de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=601671&descTipo=IPE&CodigoInstituicao=1
+68;TRIS3;16/03/2018;18:23;Proposta de Desdobramento de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=601634&descTipo=IPE&CodigoInstituicao=1
+69;TRIS3;29/01/2018;18:00;Prévia operacional do 4T17 e 2017;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=594622&descTipo=IPE&CodigoInstituicao=1
+70;TRIS3;13/11/2017;18:42;Projeções de Lançamentos e Vendas para os anos de 2017 e 2018;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=586368&descTipo=IPE&CodigoInstituicao=1
+71;TRIS3;31/10/2017;19:02;Comunicado ao Mercado - Lançamento Side Atlântica;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=584136&descTipo=IPE&CodigoInstituicao=1
+72;TRIS3;31/10/2017;18:43;Comunicado ao Mercado - Lançamento Side Atântica;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=584128&descTipo=IPE&CodigoInstituicao=1
+73;TRIS3;23/10/2017;18:29;Prévia Operacional do 3T17 e 9M17;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=583284&descTipo=IPE&CodigoInstituicao=1
+74;TRIS3;17/10/2017;18:55;Alteração do Calendário de Eventos Corporativos 2017;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=582943&descTipo=IPE&CodigoInstituicao=1
+75;TRIS3;25/07/2017;18:01;Acordo de Acionistas no Âmbito do Controlador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=572546&descTipo=IPE&CodigoInstituicao=1
+76;TRIS3;12/04/2016;08:57;Alteração de datas do Calendario de Eventos Corporativos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=510451&descTipo=IPE&CodigoInstituicao=1
+77;TRIS3;20/01/2016;10:49;Alteração de Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=498643&descTipo=IPE&CodigoInstituicao=1
+78;TRIS3;15/12/2015;17:30;Lançamento: Expande Vila Mariana;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=495374&descTipo=IPE&CodigoInstituicao=1
+79;TRIS3;03/12/2015;17:39;Acordo de acionistas no âmbito do controlador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=493430&descTipo=IPE&CodigoInstituicao=1
+80;TRIS3;19/11/2015;19:39;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=492250&descTipo=IPE&CodigoInstituicao=1
+81;TRIS3;19/11/2015;18:33;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=492227&descTipo=IPE&CodigoInstituicao=1
+82;TRIS3;11/11/2015;17:37;Lançamento Quadrilátero;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=491177&descTipo=IPE&CodigoInstituicao=1
+83;TRIS3;29/06/2015;19:14;Lançamento: Allegro Cotia  Fase 2;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=475827&descTipo=IPE&CodigoInstituicao=1
+84;TRIS3;29/06/2015;19:09;Lançamento: Vila Verde Sabará;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=475822&descTipo=IPE&CodigoInstituicao=1
+85;TRIS3;19/03/2015;18:55;Renúncia de Conselheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=460238&descTipo=IPE&CodigoInstituicao=1
+86;TRIS3;26/02/2015;17:20;Recompra de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=456870&descTipo=IPE&CodigoInstituicao=1
+87;TRIS3;05/12/2014;18:21;Lançamento: Gaivota;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=448425&descTipo=IPE&CodigoInstituicao=1
+88;TRIS3;05/12/2014;18:19;Lançamento: Latitude Vila Mascote;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=448423&descTipo=IPE&CodigoInstituicao=1
+89;TRIS3;07/11/2014;17:39;Lançamento do empreendimento Latitude Aclimação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=445135&descTipo=IPE&CodigoInstituicao=1
+90;TRIS3;21/07/2014;18:04;Prévia 2T14 E 1S14;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=433015&descTipo=IPE&CodigoInstituicao=1
+91;TRIS3;03/06/2014;18:24;Alteração da política de divulgação de atos e fatos relevantes da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=428157&descTipo=IPE&CodigoInstituicao=1
+92;TRIS3;14/05/2014;19:21;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=426246&descTipo=IPE&CodigoInstituicao=1
+93;TRIS3;11/04/2014;18:13;Lançamento: Line SP Conceição;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=419788&descTipo=IPE&CodigoInstituicao=1
+94;TRIS3;21/01/2014;18:36;Prévia Operacional 4T13 e 2013;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=408113&descTipo=IPE&CodigoInstituicao=1
+95;TRIS3;21/01/2014;18:05;Prévia Operacional 4T13 e 2013;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=408108&descTipo=IPE&CodigoInstituicao=1
+96;TRIS3;06/12/2013;18:18;Lançamento: Allegro Cotia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=403474&descTipo=IPE&CodigoInstituicao=1
+97;TRIS3;27/11/2013;18:05;Lançamento: ADD Vila Mariana;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=402284&descTipo=IPE&CodigoInstituicao=1
+98;TRIS3;25/10/2013;18:08;Lançamento de Empreendimento - Paysage Mooca;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=398008&descTipo=IPE&CodigoInstituicao=1
+99;TRIS3;15/10/2013;19:20;Previa Operacional 3T13 e 9M13;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=397127&descTipo=IPE&CodigoInstituicao=1
