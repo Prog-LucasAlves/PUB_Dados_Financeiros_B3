@@ -91,7 +91,7 @@ def dados():
 
     # Variável(dt) - responsavel por informar qual (x) dia sera feita a coleta dos dados
     # Ex.: dt = date.today() - timedelta(days=3) -> volta 3 dias atras no calendario
-    dt = date.today() - timedelta(days=0)
+    dt = date.today() - timedelta(days=1)
     dt_sem = dt.weekday()
 
     # Variavel dt_dia_sem - responsavel por verificar qual e o dia da semana
