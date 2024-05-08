@@ -1,87 +1,88 @@
 ;Acao;Data;Hora;Descrição;Link
-0;PGMN3;03/04/2024;09:00;Encerramento do Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1217379&descTipo=IPE&CodigoInstituicao=1
-1;PGMN3;02/04/2024;18:09;Homologação de aumento de capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1216995&descTipo=IPE&CodigoInstituicao=1
-2;PGMN3;27/03/2024;17:52;Homologação de aumento de capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1213528&descTipo=IPE&CodigoInstituicao=1
-3;PGMN3;05/03/2024;09:04;Apresentação de Resultados 4T23 e 2023 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1202903&descTipo=IPE&CodigoInstituicao=1
-4;PGMN3;26/12/2023;08:33;Declaração de JCP e Aumento de Capital Privado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1177228&descTipo=IPE&CodigoInstituicao=1
-5;PGMN3;19/12/2023;18:09;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1175463&descTipo=IPE&CodigoInstituicao=1
-6;PGMN3;04/12/2023;18:27;Transição de CEO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1168915&descTipo=IPE&CodigoInstituicao=1
-7;PGMN3;04/10/2023;18:53;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1148779&descTipo=IPE&CodigoInstituicao=1
-8;PGMN3;03/10/2023;18:57;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1148355&descTipo=IPE&CodigoInstituicao=1
-9;PGMN3;03/10/2023;18:14;Homologação de aumento de capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1148351&descTipo=IPE&CodigoInstituicao=1
-10;PGMN3;29/09/2023;17:37;Homologação de aumento de capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1147210&descTipo=IPE&CodigoInstituicao=1
-11;PGMN3;08/08/2023;09:14;Apresentação de Resultados 2T23 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1130484&descTipo=IPE&CodigoInstituicao=1
-12;PGMN3;07/08/2023;19:29;Aumento de Capital Privado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1130252&descTipo=IPE&CodigoInstituicao=1
-13;PGMN3;07/08/2023;18:23;Aumento de Capital Privado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1130155&descTipo=IPE&CodigoInstituicao=1
-14;PGMN3;09/05/2023;09:22;Apresentação de Resultados 1T23 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1098858&descTipo=IPE&CodigoInstituicao=1
-15;PGMN3;08/05/2023;19:39;Revisão de Projeção de Novas Lojas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1098700&descTipo=IPE&CodigoInstituicao=1
-16;PGMN3;13/03/2023;20:09;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1072364&descTipo=IPE&CodigoInstituicao=1
-17;PGMN3;13/03/2023;16:07;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1072134&descTipo=IPE&CodigoInstituicao=1
-18;PGMN3;08/03/2023;18:25;Participação de executivo em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1070271&descTipo=IPE&CodigoInstituicao=1
-19;PGMN3;07/03/2023;09:14;Apresentação de Resultados 4T22 e 2022 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1069445&descTipo=IPE&CodigoInstituicao=1
-20;PGMN3;02/02/2023;08:47;Encerramento do programa de recompra de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1054445&descTipo=IPE&CodigoInstituicao=1
-21;PGMN3;25/01/2023;18:33;Atualização Plano de Expansão;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1052187&descTipo=IPE&CodigoInstituicao=1
-22;PGMN3;14/12/2022;18:35;Declaração de Juros sobre Capital Próprio e Aumento de Capital Privado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1041458&descTipo=IPE&CodigoInstituicao=1
-23;PGMN3;01/12/2022;19:06;Alteração de participação acionária relevante;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1037387&descTipo=IPE&CodigoInstituicao=1
-24;PGMN3;09/11/2022;09:12;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1030093&descTipo=IPE&CodigoInstituicao=1
-25;PGMN3;20/10/2022;19:13;Projeção de novas lojas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023478&descTipo=IPE&CodigoInstituicao=1
-26;PGMN3;13/10/2022;09:01;Pague Menos Day 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1021868&descTipo=IPE&CodigoInstituicao=1
-27;PGMN3;09/08/2022;10:08;Participação de executivo em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1005252&descTipo=IPE&CodigoInstituicao=1
-28;PGMN3;01/08/2022;22:17;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1002454&descTipo=IPE&CodigoInstituicao=1
-29;PGMN3;01/08/2022;20:38; Apresentação de Resultados 2T22 (Versão Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1002401&descTipo=IPE&CodigoInstituicao=1
-30;PGMN3;01/08/2022;20:16;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1002386&descTipo=IPE&CodigoInstituicao=1
-31;PGMN3;01/08/2022;19:12;Fechamento da transação de aquisição da Extrafarma;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1002261&descTipo=IPE&CodigoInstituicao=1
-32;PGMN3;06/07/2022;09:12;Publicação Relatório de Sustentabilidade 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=995640&descTipo=IPE&CodigoInstituicao=1
-33;PGMN3;30/06/2022;18:49; 7ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=994422&descTipo=IPE&CodigoInstituicao=1
-34;PGMN3;22/06/2022;18:08;Aquisição Extrafarma - Aprovação CADE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=992388&descTipo=IPE&CodigoInstituicao=1
-35;PGMN3;21/06/2022;14:38;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=992041&descTipo=IPE&CodigoInstituicao=1
-36;PGMN3;14/06/2022;18:11;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=990773&descTipo=IPE&CodigoInstituicao=1
-37;PGMN3;31/05/2022;09:53;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=986202&descTipo=IPE&CodigoInstituicao=1
-38;PGMN3;09/05/2022;07:08;Aquisição Extrafarma - Atualização CADE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=978325&descTipo=IPE&CodigoInstituicao=1
-39;PGMN3;03/05/2022;09:47; Apresentação de Resultados 1T22 (Versão Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=975797&descTipo=IPE&CodigoInstituicao=1
-40;PGMN3;16/03/2022;17:36;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954689&descTipo=IPE&CodigoInstituicao=1
-41;PGMN3;10/03/2022;14:34;Apresentação de Resultados 4T21 e 2021 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=952364&descTipo=IPE&CodigoInstituicao=1
-42;PGMN3;11/02/2022;18:37;Aquisição Extrafarma - Atualização CADE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=942506&descTipo=IPE&CodigoInstituicao=1
-43;PGMN3;27/01/2022;09:23;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935807&descTipo=IPE&CodigoInstituicao=1
-44;PGMN3;27/01/2022;08:28;Compromissos ESG;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935793&descTipo=IPE&CodigoInstituicao=1
-45;PGMN3;11/01/2022;18:28;Encerramento do Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=932801&descTipo=IPE&CodigoInstituicao=1
-46;PGMN3;10/01/2022;08:11;Participação de executivo em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=931986&descTipo=IPE&CodigoInstituicao=1
-47;PGMN3;07/01/2022;18:24;Abertura de Lojas 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=931830&descTipo=IPE&CodigoInstituicao=1
-48;PGMN3;01/12/2021;18:53;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=921443&descTipo=IPE&CodigoInstituicao=1
-49;PGMN3;04/11/2021;09:54;Apresentação de Resultado 3T21 (Versão Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=912831&descTipo=IPE&CodigoInstituicao=1
-50;PGMN3;13/10/2021;09:43;6ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907229&descTipo=IPE&CodigoInstituicao=1
-51;PGMN3;20/09/2021;18:08;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=902178&descTipo=IPE&CodigoInstituicao=1
-52;PGMN3;02/09/2021;08:07;Divulgação de Guidance;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897997&descTipo=IPE&CodigoInstituicao=1
-53;PGMN3;26/08/2021;09:06;Pague Menos Day;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=896287&descTipo=IPE&CodigoInstituicao=1
-54;PGMN3;03/08/2021;09:16;Apresentação de Resultados 2T21 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=888685&descTipo=IPE&CodigoInstituicao=1
-55;PGMN3;28/06/2021;18:12;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=879398&descTipo=IPE&CodigoInstituicao=1
-56;PGMN3;24/06/2021;09:42;Evento Online com Executivo - BM&C Business;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=878508&descTipo=IPE&CodigoInstituicao=1
-57;PGMN3;16/06/2021;09:01;Apresentação Institucional 1T21 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=876587&descTipo=IPE&CodigoInstituicao=1
-58;PGMN3;18/05/2021;18:37;Aquisição Extrafarma;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=869143&descTipo=IPE&CodigoInstituicao=1
-59;PGMN3;18/05/2021;18:37;Apresentação Aquisição Extrafarma (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=869150&descTipo=IPE&CodigoInstituicao=1
-60;PGMN3;18/05/2021;09:49;Esclarecimento à notícia veiculada na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=868927&descTipo=IPE&CodigoInstituicao=1
-61;PGMN3;04/05/2021;10:19;Apresentação de Resultados 1T21 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=862278&descTipo=IPE&CodigoInstituicao=1
-62;PGMN3;04/05/2021;09:35;Apresentação de Resultados 1T21 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=862271&descTipo=IPE&CodigoInstituicao=1
-63;PGMN3;19/03/2021;18:54;Participação de executivo em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=844403&descTipo=IPE&CodigoInstituicao=1
-64;PGMN3;09/03/2021;19:18;Encerramento do Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=840217&descTipo=IPE&CodigoInstituicao=1
-65;PGMN3;18/01/2021;09:43;Live Programada;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=823340&descTipo=IPE&CodigoInstituicao=1
-66;PGMN3;23/12/2020;18:09;Contratação de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=818941&descTipo=IPE&CodigoInstituicao=1
-67;PGMN3;09/12/2020;19:34;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=814493&descTipo=IPE&CodigoInstituicao=1
-68;PGMN3;15/07/2020;18:24;Engajamento de bancos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=776282&descTipo=IPE&CodigoInstituicao=1
-69;PGMN3;25/06/2020;22:08;Troca na Presidência do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=771565&descTipo=IPE&CodigoInstituicao=1
-70;PGMN3;25/06/2020;21:29;Pedido de registro oferta pública de ações e listagem no Novo Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=771563&descTipo=IPE&CodigoInstituicao=1
-71;PGMN3;30/01/2020;18:40;Alteração na Presidência do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=732748&descTipo=IPE&CodigoInstituicao=1
-72;PGMN3;12/11/2019;09:49;Alteração membros Comitê de Auditoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=720884&descTipo=IPE&CodigoInstituicao=1
-73;PGMN3;28/03/2019;18:38;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=674603&descTipo=IPE&CodigoInstituicao=1
-74;PGMN3;09/11/2018;18:04;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=650605&descTipo=IPE&CodigoInstituicao=1
-75;PGMN3;09/09/2018;15:17;Pedido de renúncia do Sr. Francisco Deusmar de Queirós ao cargo de membro titular e Presidente do Conselho de Administração da Companhia.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=640640&descTipo=IPE&CodigoInstituicao=1
-76;PGMN3;14/05/2018;20:03;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=623434&descTipo=IPE&CodigoInstituicao=1
-77;PGMN3;14/03/2018;18:28;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=601097&descTipo=IPE&CodigoInstituicao=1
-78;PGMN3;24/03/2017;20:04;"Reapresentação das Demonstrações Financeiras do exercício findo em 31 de dezembro de 2015 da Companhia; Reapresentação das Informações Trimestrais dos períodos findos em 30 de setembro de 2015; 31 de março de 2016 e 30 de junho de 2016 da Companhia";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=553827&descTipo=IPE&CodigoInstituicao=1
-79;PGMN3;28/12/2015;19:02;"Celebração ou Extinção de Contrato; Concluídas as transações previstas no Acordo de Investimento e Outras Avenças celebrado entre a Companhia, seus acionistas e a General Atlantic Brasil Investimentos S.A.";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=496536&descTipo=IPE&CodigoInstituicao=1
-80;PGMN3;21/12/2015;18:41;"Celebração ou Extinção de Contrato; Companhia Celebra Contrato de Investimento com a General Atlantic";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=496047&descTipo=IPE&CodigoInstituicao=1
-81;PGMN3;08/12/2014;19:07;Fato Relevante Referente à 3ª Emissão de Debêntures (ICVM 476);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=448694&descTipo=IPE&CodigoInstituicao=1
-82;PGMN3;12/12/2013;19:36;Fato Relevante Referente à Emissão de Debêntures (ICVM 476);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=404760&descTipo=IPE&CodigoInstituicao=1
-83;PGMN3;30/10/2012;20:02;Fato Relevante - Pedido de Cancelamento de Oferta Pública;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=355311&descTipo=IPE&CodigoInstituicao=1
-84;PGMN3;25/05/2012;09:49;Pedido de Análise Prévia do Registro de Distribuição Pública Primária e Secundária de ações ordinárias de emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=338878&descTipo=IPE&CodigoInstituicao=1
-85;PGMN3;15/05/2012;19:49;Fato Relevante Referente à Emissão de Debêntures (ICVM 476);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=337897&descTipo=IPE&CodigoInstituicao=1
+0;PGMN3;07/05/2024;09:12;Apresentação de Resultados 1T24 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1233565&descTipo=IPE&CodigoInstituicao=1
+1;PGMN3;03/04/2024;09:00;Encerramento do Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1217379&descTipo=IPE&CodigoInstituicao=1
+2;PGMN3;02/04/2024;18:09;Homologação de aumento de capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1216995&descTipo=IPE&CodigoInstituicao=1
+3;PGMN3;27/03/2024;17:52;Homologação de aumento de capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1213528&descTipo=IPE&CodigoInstituicao=1
+4;PGMN3;05/03/2024;09:04;Apresentação de Resultados 4T23 e 2023 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1202903&descTipo=IPE&CodigoInstituicao=1
+5;PGMN3;26/12/2023;08:33;Declaração de JCP e Aumento de Capital Privado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1177228&descTipo=IPE&CodigoInstituicao=1
+6;PGMN3;19/12/2023;18:09;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1175463&descTipo=IPE&CodigoInstituicao=1
+7;PGMN3;04/12/2023;18:27;Transição de CEO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1168915&descTipo=IPE&CodigoInstituicao=1
+8;PGMN3;04/10/2023;18:53;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1148779&descTipo=IPE&CodigoInstituicao=1
+9;PGMN3;03/10/2023;18:57;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1148355&descTipo=IPE&CodigoInstituicao=1
+10;PGMN3;03/10/2023;18:14;Homologação de aumento de capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1148351&descTipo=IPE&CodigoInstituicao=1
+11;PGMN3;29/09/2023;17:37;Homologação de aumento de capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1147210&descTipo=IPE&CodigoInstituicao=1
+12;PGMN3;08/08/2023;09:14;Apresentação de Resultados 2T23 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1130484&descTipo=IPE&CodigoInstituicao=1
+13;PGMN3;07/08/2023;19:29;Aumento de Capital Privado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1130252&descTipo=IPE&CodigoInstituicao=1
+14;PGMN3;07/08/2023;18:23;Aumento de Capital Privado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1130155&descTipo=IPE&CodigoInstituicao=1
+15;PGMN3;09/05/2023;09:22;Apresentação de Resultados 1T23 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1098858&descTipo=IPE&CodigoInstituicao=1
+16;PGMN3;08/05/2023;19:39;Revisão de Projeção de Novas Lojas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1098700&descTipo=IPE&CodigoInstituicao=1
+17;PGMN3;13/03/2023;20:09;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1072364&descTipo=IPE&CodigoInstituicao=1
+18;PGMN3;13/03/2023;16:07;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1072134&descTipo=IPE&CodigoInstituicao=1
+19;PGMN3;08/03/2023;18:25;Participação de executivo em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1070271&descTipo=IPE&CodigoInstituicao=1
+20;PGMN3;07/03/2023;09:14;Apresentação de Resultados 4T22 e 2022 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1069445&descTipo=IPE&CodigoInstituicao=1
+21;PGMN3;02/02/2023;08:47;Encerramento do programa de recompra de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1054445&descTipo=IPE&CodigoInstituicao=1
+22;PGMN3;25/01/2023;18:33;Atualização Plano de Expansão;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1052187&descTipo=IPE&CodigoInstituicao=1
+23;PGMN3;14/12/2022;18:35;Declaração de Juros sobre Capital Próprio e Aumento de Capital Privado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1041458&descTipo=IPE&CodigoInstituicao=1
+24;PGMN3;01/12/2022;19:06;Alteração de participação acionária relevante;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1037387&descTipo=IPE&CodigoInstituicao=1
+25;PGMN3;09/11/2022;09:12;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1030093&descTipo=IPE&CodigoInstituicao=1
+26;PGMN3;20/10/2022;19:13;Projeção de novas lojas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023478&descTipo=IPE&CodigoInstituicao=1
+27;PGMN3;13/10/2022;09:01;Pague Menos Day 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1021868&descTipo=IPE&CodigoInstituicao=1
+28;PGMN3;09/08/2022;10:08;Participação de executivo em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1005252&descTipo=IPE&CodigoInstituicao=1
+29;PGMN3;01/08/2022;22:17;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1002454&descTipo=IPE&CodigoInstituicao=1
+30;PGMN3;01/08/2022;20:38; Apresentação de Resultados 2T22 (Versão Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1002401&descTipo=IPE&CodigoInstituicao=1
+31;PGMN3;01/08/2022;20:16;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1002386&descTipo=IPE&CodigoInstituicao=1
+32;PGMN3;01/08/2022;19:12;Fechamento da transação de aquisição da Extrafarma;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1002261&descTipo=IPE&CodigoInstituicao=1
+33;PGMN3;06/07/2022;09:12;Publicação Relatório de Sustentabilidade 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=995640&descTipo=IPE&CodigoInstituicao=1
+34;PGMN3;30/06/2022;18:49; 7ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=994422&descTipo=IPE&CodigoInstituicao=1
+35;PGMN3;22/06/2022;18:08;Aquisição Extrafarma - Aprovação CADE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=992388&descTipo=IPE&CodigoInstituicao=1
+36;PGMN3;21/06/2022;14:38;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=992041&descTipo=IPE&CodigoInstituicao=1
+37;PGMN3;14/06/2022;18:11;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=990773&descTipo=IPE&CodigoInstituicao=1
+38;PGMN3;31/05/2022;09:53;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=986202&descTipo=IPE&CodigoInstituicao=1
+39;PGMN3;09/05/2022;07:08;Aquisição Extrafarma - Atualização CADE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=978325&descTipo=IPE&CodigoInstituicao=1
+40;PGMN3;03/05/2022;09:47; Apresentação de Resultados 1T22 (Versão Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=975797&descTipo=IPE&CodigoInstituicao=1
+41;PGMN3;16/03/2022;17:36;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954689&descTipo=IPE&CodigoInstituicao=1
+42;PGMN3;10/03/2022;14:34;Apresentação de Resultados 4T21 e 2021 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=952364&descTipo=IPE&CodigoInstituicao=1
+43;PGMN3;11/02/2022;18:37;Aquisição Extrafarma - Atualização CADE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=942506&descTipo=IPE&CodigoInstituicao=1
+44;PGMN3;27/01/2022;09:23;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935807&descTipo=IPE&CodigoInstituicao=1
+45;PGMN3;27/01/2022;08:28;Compromissos ESG;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935793&descTipo=IPE&CodigoInstituicao=1
+46;PGMN3;11/01/2022;18:28;Encerramento do Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=932801&descTipo=IPE&CodigoInstituicao=1
+47;PGMN3;10/01/2022;08:11;Participação de executivo em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=931986&descTipo=IPE&CodigoInstituicao=1
+48;PGMN3;07/01/2022;18:24;Abertura de Lojas 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=931830&descTipo=IPE&CodigoInstituicao=1
+49;PGMN3;01/12/2021;18:53;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=921443&descTipo=IPE&CodigoInstituicao=1
+50;PGMN3;04/11/2021;09:54;Apresentação de Resultado 3T21 (Versão Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=912831&descTipo=IPE&CodigoInstituicao=1
+51;PGMN3;13/10/2021;09:43;6ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907229&descTipo=IPE&CodigoInstituicao=1
+52;PGMN3;20/09/2021;18:08;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=902178&descTipo=IPE&CodigoInstituicao=1
+53;PGMN3;02/09/2021;08:07;Divulgação de Guidance;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=897997&descTipo=IPE&CodigoInstituicao=1
+54;PGMN3;26/08/2021;09:06;Pague Menos Day;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=896287&descTipo=IPE&CodigoInstituicao=1
+55;PGMN3;03/08/2021;09:16;Apresentação de Resultados 2T21 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=888685&descTipo=IPE&CodigoInstituicao=1
+56;PGMN3;28/06/2021;18:12;Participação de Executivo em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=879398&descTipo=IPE&CodigoInstituicao=1
+57;PGMN3;24/06/2021;09:42;Evento Online com Executivo - BM&C Business;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=878508&descTipo=IPE&CodigoInstituicao=1
+58;PGMN3;16/06/2021;09:01;Apresentação Institucional 1T21 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=876587&descTipo=IPE&CodigoInstituicao=1
+59;PGMN3;18/05/2021;18:37;Aquisição Extrafarma;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=869143&descTipo=IPE&CodigoInstituicao=1
+60;PGMN3;18/05/2021;18:37;Apresentação Aquisição Extrafarma (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=869150&descTipo=IPE&CodigoInstituicao=1
+61;PGMN3;18/05/2021;09:49;Esclarecimento à notícia veiculada na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=868927&descTipo=IPE&CodigoInstituicao=1
+62;PGMN3;04/05/2021;10:19;Apresentação de Resultados 1T21 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=862278&descTipo=IPE&CodigoInstituicao=1
+63;PGMN3;04/05/2021;09:35;Apresentação de Resultados 1T21 (Versão em Inglês);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=862271&descTipo=IPE&CodigoInstituicao=1
+64;PGMN3;19/03/2021;18:54;Participação de executivo em live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=844403&descTipo=IPE&CodigoInstituicao=1
+65;PGMN3;09/03/2021;19:18;Encerramento do Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=840217&descTipo=IPE&CodigoInstituicao=1
+66;PGMN3;18/01/2021;09:43;Live Programada;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=823340&descTipo=IPE&CodigoInstituicao=1
+67;PGMN3;23/12/2020;18:09;Contratação de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=818941&descTipo=IPE&CodigoInstituicao=1
+68;PGMN3;09/12/2020;19:34;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=814493&descTipo=IPE&CodigoInstituicao=1
+69;PGMN3;15/07/2020;18:24;Engajamento de bancos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=776282&descTipo=IPE&CodigoInstituicao=1
+70;PGMN3;25/06/2020;22:08;Troca na Presidência do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=771565&descTipo=IPE&CodigoInstituicao=1
+71;PGMN3;25/06/2020;21:29;Pedido de registro oferta pública de ações e listagem no Novo Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=771563&descTipo=IPE&CodigoInstituicao=1
+72;PGMN3;30/01/2020;18:40;Alteração na Presidência do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=732748&descTipo=IPE&CodigoInstituicao=1
+73;PGMN3;12/11/2019;09:49;Alteração membros Comitê de Auditoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=720884&descTipo=IPE&CodigoInstituicao=1
+74;PGMN3;28/03/2019;18:38;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=674603&descTipo=IPE&CodigoInstituicao=1
+75;PGMN3;09/11/2018;18:04;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=650605&descTipo=IPE&CodigoInstituicao=1
+76;PGMN3;09/09/2018;15:17;Pedido de renúncia do Sr. Francisco Deusmar de Queirós ao cargo de membro titular e Presidente do Conselho de Administração da Companhia.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=640640&descTipo=IPE&CodigoInstituicao=1
+77;PGMN3;14/05/2018;20:03;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=623434&descTipo=IPE&CodigoInstituicao=1
+78;PGMN3;14/03/2018;18:28;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=601097&descTipo=IPE&CodigoInstituicao=1
+79;PGMN3;24/03/2017;20:04;"Reapresentação das Demonstrações Financeiras do exercício findo em 31 de dezembro de 2015 da Companhia; Reapresentação das Informações Trimestrais dos períodos findos em 30 de setembro de 2015; 31 de março de 2016 e 30 de junho de 2016 da Companhia";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=553827&descTipo=IPE&CodigoInstituicao=1
+80;PGMN3;28/12/2015;19:02;"Celebração ou Extinção de Contrato; Concluídas as transações previstas no Acordo de Investimento e Outras Avenças celebrado entre a Companhia, seus acionistas e a General Atlantic Brasil Investimentos S.A.";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=496536&descTipo=IPE&CodigoInstituicao=1
+81;PGMN3;21/12/2015;18:41;"Celebração ou Extinção de Contrato; Companhia Celebra Contrato de Investimento com a General Atlantic";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=496047&descTipo=IPE&CodigoInstituicao=1
+82;PGMN3;08/12/2014;19:07;Fato Relevante Referente à 3ª Emissão de Debêntures (ICVM 476);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=448694&descTipo=IPE&CodigoInstituicao=1
+83;PGMN3;12/12/2013;19:36;Fato Relevante Referente à Emissão de Debêntures (ICVM 476);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=404760&descTipo=IPE&CodigoInstituicao=1
+84;PGMN3;30/10/2012;20:02;Fato Relevante - Pedido de Cancelamento de Oferta Pública;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=355311&descTipo=IPE&CodigoInstituicao=1
+85;PGMN3;25/05/2012;09:49;Pedido de Análise Prévia do Registro de Distribuição Pública Primária e Secundária de ações ordinárias de emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=338878&descTipo=IPE&CodigoInstituicao=1
+86;PGMN3;15/05/2012;19:49;Fato Relevante Referente à Emissão de Debêntures (ICVM 476);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=337897&descTipo=IPE&CodigoInstituicao=1
