@@ -1,47 +1,48 @@
 ;Acao;Data;Hora;Descrição;Link
-0;ALPK3;19/04/2024;08:32;Prévia Operacional 1T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1223612&descTipo=IPE&CodigoInstituicao=1
-1;ALPK3;12/03/2024;19:20;Participação em evento com o mercado ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1206607&descTipo=IPE&CodigoInstituicao=1
-2;ALPK3;16/02/2024;08:52;Prévia Operacional 4T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1195617&descTipo=IPE&CodigoInstituicao=1
-3;ALPK3;20/10/2023;18:20;Prévia Operacional 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1153280&descTipo=IPE&CodigoInstituicao=1
-4;ALPK3;19/10/2023;20:53;Aprovação de alterações na Política de Divulgação de Informações Relevantes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1153012&descTipo=IPE&CodigoInstituicao=1
-5;ALPK3;16/10/2023;09:28;Comunicado sobre data e acesso à Reunião Pública APIMEC Brasil / Estapar Investor Day 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1151667&descTipo=IPE&CodigoInstituicao=1
-6;ALPK3;24/07/2023;09:54;Prévia Operacional 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1124654&descTipo=IPE&CodigoInstituicao=1
-7;ALPK3;21/06/2023;19:26;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1115540&descTipo=IPE&CodigoInstituicao=1
-8;ALPK3;26/04/2023;19:25;Prévia operacional 1T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1090657&descTipo=IPE&CodigoInstituicao=1
-9;ALPK3;20/03/2023;20:05;Liquidação do CRI - Certificados de Recebíveis Imobiliários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1075044&descTipo=IPE&CodigoInstituicao=1
-10;ALPK3;01/02/2023;18:29;Prévia Operacional 4T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1054234&descTipo=IPE&CodigoInstituicao=1
-11;ALPK3;31/01/2023;18:28;Substituição de Banco Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1053687&descTipo=IPE&CodigoInstituicao=1
-12;ALPK3;16/12/2022;18:15;Reestruturação da Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1042233&descTipo=IPE&CodigoInstituicao=1
-13;ALPK3;30/11/2022;18:10;Closing - Acordo de Investimento entre Ecovagas e Zletric;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1036948&descTipo=IPE&CodigoInstituicao=1
-14;ALPK3;19/10/2022;18:17;Prévia Operacional 3T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023105&descTipo=IPE&CodigoInstituicao=1
-15;ALPK3;12/08/2022;18:26;Liquidação Financeira da 10ª Emissão de Debêntures simples;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1007610&descTipo=IPE&CodigoInstituicao=1
-16;ALPK3;20/07/2022;18:14;Prévia Operacional 2T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=999204&descTipo=IPE&CodigoInstituicao=1
-17;ALPK3;12/07/2022;09:29;Signing - Acordo de Investimento entre Ecovagas e Zletric;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=997486&descTipo=IPE&CodigoInstituicao=1
-18;ALPK3;20/05/2022;18:08; 1ª (primeira) emissão de Notas Comerciais Escriturais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=983906&descTipo=IPE&CodigoInstituicao=1
-19;ALPK3;25/04/2022;08:33;Prévia Operacional 1T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=969800&descTipo=IPE&CodigoInstituicao=1
-20;ALPK3;01/04/2022;20:26;Fechamento do Contrato de Compra e Venda de Ações - ZUL Digital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=963154&descTipo=IPE&CodigoInstituicao=1
-21;ALPK3;04/02/2022;20:31;Reapresentação da Proposta da Administração (AGE de 16.02.2022);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=939196&descTipo=IPE&CodigoInstituicao=1
-22;ALPK3;27/01/2022;18:22;Negociações em curso entre Ecovagas e Zletric;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=936000&descTipo=IPE&CodigoInstituicao=1
-23;ALPK3;25/01/2022;09:43;Prévia Operacional 4T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935326&descTipo=IPE&CodigoInstituicao=1
-24;ALPK3;10/11/2021;21:06;Celebração de Contrato de Compra e Venda de Ações, Incorporação de Ações e Outras Avenças com On Tecnologia de Mobilidade Urbana S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=915742&descTipo=IPE&CodigoInstituicao=1
-25;ALPK3;22/10/2021;18:18;Participação em Podcast;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=909516&descTipo=IPE&CodigoInstituicao=1
-26;ALPK3;14/10/2021;18:43;Prévia Operacional 3T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907581&descTipo=IPE&CodigoInstituicao=1
-27;ALPK3;30/09/2021;21:47;Negociações em curso com Zul Digital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=904519&descTipo=IPE&CodigoInstituicao=1
-28;ALPK3;10/08/2021;19:06;Renúncia de Membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=891608&descTipo=IPE&CodigoInstituicao=1
-29;ALPK3;09/03/2021;19:03;Indicação de membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=840197&descTipo=IPE&CodigoInstituicao=1
-30;ALPK3;09/02/2021;18:16;Renúncia de Membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=829166&descTipo=IPE&CodigoInstituicao=1
-31;ALPK3;21/01/2021;18:20;Renúncia de membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=824270&descTipo=IPE&CodigoInstituicao=1
-32;ALPK3;17/11/2020;18:35;Início da operação da nova Zona Azul de São Paulo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=809592&descTipo=IPE&CodigoInstituicao=1
-33;ALPK3;18/09/2020;19:17;Zona Azul de SP - Emissão de debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=794253&descTipo=IPE&CodigoInstituicao=1
-34;ALPK3;12/06/2020;20:22;Contratação de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=768574&descTipo=IPE&CodigoInstituicao=1
-35;ALPK3;02/06/2020;12:56;Nomeação Conselheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=765991&descTipo=IPE&CodigoInstituicao=1
-36;ALPK3;29/05/2020;22:00;Bônus de Subscrição;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=765465&descTipo=IPE&CodigoInstituicao=1
-37;ALPK3;29/05/2020;21:54;Nomeação Conselheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=765462&descTipo=IPE&CodigoInstituicao=1
-38;ALPK3;20/05/2020;19:40;Operação On-Street Santo André;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=763227&descTipo=IPE&CodigoInstituicao=1
-39;ALPK3;19/05/2020;18:53;Renúncia de Conselheiro de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762899&descTipo=IPE&CodigoInstituicao=1
-40;ALPK3;19/05/2020;18:39;Celebração, Alteração ou Rescisão de Acordo de Acionistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762889&descTipo=IPE&CodigoInstituicao=1
-41;ALPK3;19/05/2020;18:36;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762887&descTipo=IPE&CodigoInstituicao=1
-42;ALPK3;19/05/2020;18:26;Celebração, Alteração ou Rescisão de Acordo de Acionistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762877&descTipo=IPE&CodigoInstituicao=1
-43;ALPK3;19/05/2020;18:21;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762872&descTipo=IPE&CodigoInstituicao=1
-44;ALPK3;15/05/2020;18:11;Divulgação Calendário de Eventos Corporativos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762347&descTipo=IPE&CodigoInstituicao=1
-45;ALPK3;06/03/2020;18:45;Fato Relevante sobre a Oferta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=743844&descTipo=IPE&CodigoInstituicao=1
+0;ALPK3;24/05/2024;17:44;Procedimento de Bookbuilding;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1242496&descTipo=IPE&CodigoInstituicao=1
+1;ALPK3;19/04/2024;08:32;Prévia Operacional 1T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1223612&descTipo=IPE&CodigoInstituicao=1
+2;ALPK3;12/03/2024;19:20;Participação em evento com o mercado ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1206607&descTipo=IPE&CodigoInstituicao=1
+3;ALPK3;16/02/2024;08:52;Prévia Operacional 4T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1195617&descTipo=IPE&CodigoInstituicao=1
+4;ALPK3;20/10/2023;18:20;Prévia Operacional 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1153280&descTipo=IPE&CodigoInstituicao=1
+5;ALPK3;19/10/2023;20:53;Aprovação de alterações na Política de Divulgação de Informações Relevantes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1153012&descTipo=IPE&CodigoInstituicao=1
+6;ALPK3;16/10/2023;09:28;Comunicado sobre data e acesso à Reunião Pública APIMEC Brasil / Estapar Investor Day 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1151667&descTipo=IPE&CodigoInstituicao=1
+7;ALPK3;24/07/2023;09:54;Prévia Operacional 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1124654&descTipo=IPE&CodigoInstituicao=1
+8;ALPK3;21/06/2023;19:26;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1115540&descTipo=IPE&CodigoInstituicao=1
+9;ALPK3;26/04/2023;19:25;Prévia operacional 1T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1090657&descTipo=IPE&CodigoInstituicao=1
+10;ALPK3;20/03/2023;20:05;Liquidação do CRI - Certificados de Recebíveis Imobiliários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1075044&descTipo=IPE&CodigoInstituicao=1
+11;ALPK3;01/02/2023;18:29;Prévia Operacional 4T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1054234&descTipo=IPE&CodigoInstituicao=1
+12;ALPK3;31/01/2023;18:28;Substituição de Banco Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1053687&descTipo=IPE&CodigoInstituicao=1
+13;ALPK3;16/12/2022;18:15;Reestruturação da Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1042233&descTipo=IPE&CodigoInstituicao=1
+14;ALPK3;30/11/2022;18:10;Closing - Acordo de Investimento entre Ecovagas e Zletric;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1036948&descTipo=IPE&CodigoInstituicao=1
+15;ALPK3;19/10/2022;18:17;Prévia Operacional 3T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023105&descTipo=IPE&CodigoInstituicao=1
+16;ALPK3;12/08/2022;18:26;Liquidação Financeira da 10ª Emissão de Debêntures simples;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1007610&descTipo=IPE&CodigoInstituicao=1
+17;ALPK3;20/07/2022;18:14;Prévia Operacional 2T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=999204&descTipo=IPE&CodigoInstituicao=1
+18;ALPK3;12/07/2022;09:29;Signing - Acordo de Investimento entre Ecovagas e Zletric;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=997486&descTipo=IPE&CodigoInstituicao=1
+19;ALPK3;20/05/2022;18:08; 1ª (primeira) emissão de Notas Comerciais Escriturais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=983906&descTipo=IPE&CodigoInstituicao=1
+20;ALPK3;25/04/2022;08:33;Prévia Operacional 1T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=969800&descTipo=IPE&CodigoInstituicao=1
+21;ALPK3;01/04/2022;20:26;Fechamento do Contrato de Compra e Venda de Ações - ZUL Digital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=963154&descTipo=IPE&CodigoInstituicao=1
+22;ALPK3;04/02/2022;20:31;Reapresentação da Proposta da Administração (AGE de 16.02.2022);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=939196&descTipo=IPE&CodigoInstituicao=1
+23;ALPK3;27/01/2022;18:22;Negociações em curso entre Ecovagas e Zletric;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=936000&descTipo=IPE&CodigoInstituicao=1
+24;ALPK3;25/01/2022;09:43;Prévia Operacional 4T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935326&descTipo=IPE&CodigoInstituicao=1
+25;ALPK3;10/11/2021;21:06;Celebração de Contrato de Compra e Venda de Ações, Incorporação de Ações e Outras Avenças com On Tecnologia de Mobilidade Urbana S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=915742&descTipo=IPE&CodigoInstituicao=1
+26;ALPK3;22/10/2021;18:18;Participação em Podcast;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=909516&descTipo=IPE&CodigoInstituicao=1
+27;ALPK3;14/10/2021;18:43;Prévia Operacional 3T21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907581&descTipo=IPE&CodigoInstituicao=1
+28;ALPK3;30/09/2021;21:47;Negociações em curso com Zul Digital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=904519&descTipo=IPE&CodigoInstituicao=1
+29;ALPK3;10/08/2021;19:06;Renúncia de Membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=891608&descTipo=IPE&CodigoInstituicao=1
+30;ALPK3;09/03/2021;19:03;Indicação de membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=840197&descTipo=IPE&CodigoInstituicao=1
+31;ALPK3;09/02/2021;18:16;Renúncia de Membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=829166&descTipo=IPE&CodigoInstituicao=1
+32;ALPK3;21/01/2021;18:20;Renúncia de membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=824270&descTipo=IPE&CodigoInstituicao=1
+33;ALPK3;17/11/2020;18:35;Início da operação da nova Zona Azul de São Paulo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=809592&descTipo=IPE&CodigoInstituicao=1
+34;ALPK3;18/09/2020;19:17;Zona Azul de SP - Emissão de debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=794253&descTipo=IPE&CodigoInstituicao=1
+35;ALPK3;12/06/2020;20:22;Contratação de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=768574&descTipo=IPE&CodigoInstituicao=1
+36;ALPK3;02/06/2020;12:56;Nomeação Conselheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=765991&descTipo=IPE&CodigoInstituicao=1
+37;ALPK3;29/05/2020;22:00;Bônus de Subscrição;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=765465&descTipo=IPE&CodigoInstituicao=1
+38;ALPK3;29/05/2020;21:54;Nomeação Conselheiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=765462&descTipo=IPE&CodigoInstituicao=1
+39;ALPK3;20/05/2020;19:40;Operação On-Street Santo André;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=763227&descTipo=IPE&CodigoInstituicao=1
+40;ALPK3;19/05/2020;18:53;Renúncia de Conselheiro de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762899&descTipo=IPE&CodigoInstituicao=1
+41;ALPK3;19/05/2020;18:39;Celebração, Alteração ou Rescisão de Acordo de Acionistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762889&descTipo=IPE&CodigoInstituicao=1
+42;ALPK3;19/05/2020;18:36;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762887&descTipo=IPE&CodigoInstituicao=1
+43;ALPK3;19/05/2020;18:26;Celebração, Alteração ou Rescisão de Acordo de Acionistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762877&descTipo=IPE&CodigoInstituicao=1
+44;ALPK3;19/05/2020;18:21;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762872&descTipo=IPE&CodigoInstituicao=1
+45;ALPK3;15/05/2020;18:11;Divulgação Calendário de Eventos Corporativos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762347&descTipo=IPE&CodigoInstituicao=1
+46;ALPK3;06/03/2020;18:45;Fato Relevante sobre a Oferta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=743844&descTipo=IPE&CodigoInstituicao=1
