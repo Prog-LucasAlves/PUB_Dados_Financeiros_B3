@@ -3,7 +3,7 @@ services:
 
     db:
         build: .
-        container_name: pg_container
+        container_name: DADOS_FINANCEIROS
         environment: 
             - POSTGRES_USER=root
             - POSTGRES_PASSWORD=root
