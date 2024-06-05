@@ -22,7 +22,7 @@ warnings.filterwarnings('ignore')
 acao = __list__.lst_acao
 
 # Pegando as datas para os últimos N dias úteis
-date1, date2 = date.today() - timedelta(days=2), date.today() - timedelta(days=0)
+date1, date2 = date.today() - timedelta(days=2), date.today() - timedelta(days=1)
 
 
 # Função para coletar os dados de fechamento
