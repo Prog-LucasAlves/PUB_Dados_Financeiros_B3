@@ -9,8 +9,11 @@ data
 metabase
 pyspark
 *.lock
+
+
 #####
 __script__.py
+cotacoes.csv
 
 ####
 exec.sh
