@@ -207,7 +207,7 @@ lst_acao = [
     "FLRY3",
     "FRAS3",
     "FRIO3",
-    "FRTA3",
+    # "FRTA3",
     # "GEPA3",
     # "GEPA4",
     # "GETT3",
