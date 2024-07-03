@@ -83,9 +83,7 @@ vix["Date"] = pd.to_datetime(vix["Date"], utc=True)
 vix["Date"] = vix["Date"].dt.date
 vix_date = vix["Date"].iloc[-1]
 col2.metric(
-    label=f"VIX - {vix_date}",
-    value=f"{vix_preco:.2f}",
-    delta=f"{vix_retorno}%"
+    label=f"VIX - {vix_date}", value=f"{vix_preco:.2f}", delta=f"{vix_retorno}%"
 )
 
 n225 = pd.read_csv("./Api/indices/N225.csv", sep=";")
@@ -159,8 +157,8 @@ col1.metric(
 eurusd = pd.read_csv("./Api/moedas/EURUSD=x.csv", sep=";")
 eurusd_preco = round(eurusd["Adj Close"].iloc[-1], 2)
 eurusd_retorno = eurusd["Retornos"].iloc[-1]
-eurbrl["Date"] = pd.to_datetime(eurbrl['Date'], utc=True)
-eurbrl["Date"] = eurbrl['Date'].dt.date
+eurbrl["Date"] = pd.to_datetime(eurbrl["Date"], utc=True)
+eurbrl["Date"] = eurbrl["Date"].dt.date
 eurusd_date = eurusd["Date"].iloc[-1]
 col2.metric(
     label=f"EUR-USD - {eurusd_date}",
@@ -513,37 +511,29 @@ st.subheader("🎯 Retorno Acumulado ")
 
 col1, col2, col3, col4 = st.columns(4)
 
-retAcm15 = pd.read_csv("./Api/retornos/retornos_acumulados_15d.csv", sep=';')
-retAcm15V = retAcm15[retAcm15['Papel'] == col1_selection]
+retAcm15 = pd.read_csv("./Api/retornos/retornos_acumulados_15d.csv", sep=";")
+retAcm15V = retAcm15[retAcm15["Papel"] == col1_selection]
 retAcm15_index = int(retAcm15V["Unnamed: 0"])
 retAcm15_result = retAcm15V["Total_Acumulado"][retAcm15_index]
-col1.metric(
-    label="Retorno Acumulado 15 Dias", value=f"{retAcm15_result:.2f}%"
-)
+col1.metric(label="Retorno Acumulado 15 Dias", value=f"{retAcm15_result:.2f}%")
 
-retAcm30 = pd.read_csv("./Api/retornos/retornos_acumulados_30d.csv", sep=';')
-retAcm30V = retAcm30[retAcm30['Papel'] == col1_selection]
+retAcm30 = pd.read_csv("./Api/retornos/retornos_acumulados_30d.csv", sep=";")
+retAcm30V = retAcm30[retAcm30["Papel"] == col1_selection]
 retAcm30_index = int(retAcm30V["Unnamed: 0"])
 retAcm30_result = retAcm30V["Total_Acumulado"][retAcm30_index]
-col2.metric(
-    label="Retorno Acumulado 30 Dias", value=f"{retAcm30_result:.2f}%"
-)
+col2.metric(label="Retorno Acumulado 30 Dias", value=f"{retAcm30_result:.2f}%")
 
-retAcm45 = pd.read_csv("./Api/retornos/retornos_acumulados_45d.csv", sep=';')
-retAcm45V = retAcm45[retAcm45['Papel'] == col1_selection]
+retAcm45 = pd.read_csv("./Api/retornos/retornos_acumulados_45d.csv", sep=";")
+retAcm45V = retAcm45[retAcm45["Papel"] == col1_selection]
 retAcm45_index = int(retAcm45V["Unnamed: 0"])
 retAcm45_result = retAcm45V["Total_Acumulado"][retAcm45_index]
-col3.metric(
-    label="Retorno Acumulado 45 Dias", value=f"{retAcm45_result:.2f}%"
-)
+col3.metric(label="Retorno Acumulado 45 Dias", value=f"{retAcm45_result:.2f}%")
 
-retAcm60 = pd.read_csv("./Api/retornos/retornos_acumulados_60d.csv", sep=';')
-retAcm60V = retAcm60[retAcm60['Papel'] == col1_selection]
+retAcm60 = pd.read_csv("./Api/retornos/retornos_acumulados_60d.csv", sep=";")
+retAcm60V = retAcm60[retAcm60["Papel"] == col1_selection]
 retAcm60_index = int(retAcm60V["Unnamed: 0"])
 retAcm60_result = retAcm60V["Total_Acumulado"][retAcm60_index]
-col4.metric(
-    label="Retorno Acumulado 60 Dias", value=f"{retAcm60_result:.2f}%"
-)
+col4.metric(label="Retorno Acumulado 60 Dias", value=f"{retAcm60_result:.2f}%")
 
 ######
 

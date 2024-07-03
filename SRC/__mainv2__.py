@@ -40,7 +40,6 @@ GRAY = "\033[1;35m"
 @backoff.on_exception(backoff.expo, (), max_tries=10)
 # Inicio da funcao para coleta dos dados
 def dados():
-
     # Dados atual - Criando um DataFrame só com os dados atuais
     dados_atual = pd.DataFrame(
         columns=[
@@ -137,9 +136,7 @@ def dados():
 
             # Percorre a lista com os códigos das ações
             for i in tqdm(acao):
-
                 try:
-
                     # Consulta no banco de dados para verificar se os dados
                     # já se encontram no mesmo (Ref.: data_ult_cotacao / papel)
                     query_consult_bd = f" SELECT data_dado_inserido, papel\
@@ -153,7 +150,6 @@ def dados():
                         print(f"+{YELLOW} Dados da ação: {i}, já cadastrados {RESET}+")
 
                     else:
-
                         # Aqui começa o script para coleta dos dados
                         hearder = {"user-agent": "Mozilla/5.0"}
                         url = f"https://fundamentus.com.br/detalhes.php?papel={i}"
@@ -165,8 +161,7 @@ def dados():
                         # Para verificar se o Ticker(Ação) tem os dados no site
                         hearder_site = str(soup1.h1)
 
-                        if hearder_site == 'None':
-
+                        if hearder_site == "None":
                             dados = soup.findAll("div", {"class": "conteudo clearfix"})
 
                             # cria a lista das variaveis aonde seram armazenados os dados coletados
@@ -219,7 +214,6 @@ def dados():
                                 dadosO = data.find_all("span", {"class": "oscil"})
 
                                 if dadosI:
-
                                     #
                                     papel.append(dadosI[0].text)
                                     if "Papel" in papel[0]:
@@ -295,7 +289,9 @@ def dados():
                                     #
                                     nr_acoes.append(dadosI[26].text)
                                     if "Nro. Ações" in nr_acoes[0]:
-                                        nr_acoes.append(dadosI[27].text.replace(".", ""))
+                                        nr_acoes.append(
+                                            dadosI[27].text.replace(".", "")
+                                        )
                                     else:
                                         nr_acoes.append(0)
                                     #
@@ -313,7 +309,9 @@ def dados():
                                     pl.append(dadosI[31].text)
                                     if "P/L" in pl[0]:
                                         pl.append(
-                                            dadosI[32].text.replace(".", "").replace(",", ".")
+                                            dadosI[32]
+                                            .text.replace(".", "")
+                                            .replace(",", ".")
                                         )
                                     else:
                                         pl.append(0)
@@ -327,7 +325,9 @@ def dados():
                                     pvp.append(dadosI[36].text)
                                     if "P/VP" in pvp[0]:
                                         pvp.append(
-                                            dadosI[37].text.replace(".", "").replace(",", ".")
+                                            dadosI[37]
+                                            .text.replace(".", "")
+                                            .replace(",", ".")
                                         )
                                     else:
                                         pvp.append(0)
@@ -335,7 +335,9 @@ def dados():
                                     vpa.append(dadosI[38].text)
                                     if "VPA" in vpa[0]:
                                         vpa.append(
-                                            dadosI[39].text.replace(".", "").replace(",", ".")
+                                            dadosI[39]
+                                            .text.replace(".", "")
+                                            .replace(",", ".")
                                         )
                                     else:
                                         vpa.append(0)
@@ -343,7 +345,9 @@ def dados():
                                     p_ebit.append(dadosI[41].text)
                                     if "P/EBIT" in p_ebit:
                                         p_ebit.append(
-                                            dadosI[42].text.replace("\n", "").replace(",", ".")
+                                            dadosI[42]
+                                            .text.replace("\n", "")
+                                            .replace(",", ".")
                                         )
                                         if len(p_ebit[1]) <= 1:
                                             p_ebit[1] = 0
@@ -476,7 +480,9 @@ def dados():
                                     div_yield.append(dadosI[66].text)
                                     if "Div. Yield" in div_yield:
                                         div_yield.append(
-                                            dadosI[67].text.replace(",", ".").replace("%", "")
+                                            dadosI[67]
+                                            .text.replace(",", ".")
+                                            .replace("%", "")
                                         )
                                         if len(div_yield[1]) <= 1:
                                             div_yield[1] = 0
@@ -515,7 +521,9 @@ def dados():
                                     liquidez_corr.append(dadosI[73].text)
                                     if "Liquidez Corr" in liquidez_corr:
                                         liquidez_corr.append(
-                                            dadosI[74].text.replace("\n", "").replace(",", ".")
+                                            dadosI[74]
+                                            .text.replace("\n", "")
+                                            .replace(",", ".")
                                         )
                                         if len(liquidez_corr[1]) <= 1:
                                             liquidez_corr[1] = 0

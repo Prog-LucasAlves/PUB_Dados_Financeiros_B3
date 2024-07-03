@@ -14,6 +14,7 @@ from datetime import timedelta
 
 import pandas as pd
 import numpy as np
+
 # Bibliotecas utilizadas
 import yfinance as yf
 from tqdm import tqdm
@@ -44,28 +45,32 @@ moedas = __list__.lst_moedas
 
 # Coletando as cotações das ações
 for i in tqdm(acao):
-    df = yf.download(
-        f"{i}.SA",
-        start=inicio,
-        end=fim,
-        progress=False,
-        threads=False,
-    )
+    try:
+        df = yf.download(
+            f"{i}.SA",
+            start=inicio,
+            end=fim,
+            progress=False,
+            threads=False,
+        )
 
-    df["ret"] = round((df["Adj Close"].pct_change()) * 100, 2)
-    df["tret"] = df["ret"].cumsum()
-    df["Adj Low"] = df["Low"] - (df["Close"]-df["Adj Close"])
-    df["Adj High"] = df["High"] - (df["Close"]-df["Adj Close"])
-    df["Adj Open"] = df["Open"] - (df["Close"]-df["Adj Close"])
-    df["Returns"] = df["Adj Close"].pct_change(1)
-    df["Target"] = df["Returns"].shift(-1)
-    vol_p1 = 20
-    df["Vol"] = np.round(df["Returns"].rolling(vol_p1).std()*np.sqrt(252), 4)
-    df["MM20"] = df["Adj Close"].rolling(20).mean()
-    df["Detrend"] = df["Adj Close"] - df["MM20"]
+        df["ret"] = round((df["Adj Close"].pct_change()) * 100, 2)
+        df["tret"] = df["ret"].cumsum()
+        df["Adj Low"] = df["Low"] - (df["Close"] - df["Adj Close"])
+        df["Adj High"] = df["High"] - (df["Close"] - df["Adj Close"])
+        df["Adj Open"] = df["Open"] - (df["Close"] - df["Adj Close"])
+        df["Returns"] = df["Adj Close"].pct_change(1)
+        df["Target"] = df["Returns"].shift(-1)
+        vol_p1 = 20
+        df["Vol"] = np.round(df["Returns"].rolling(vol_p1).std() * np.sqrt(252), 4)
+        df["MM20"] = df["Adj Close"].rolling(20).mean()
+        df["Detrend"] = df["Adj Close"] - df["MM20"]
 
-    df.to_csv(f"./precos/{i}.csv", sep=";")
-    logging.info("Preços das ações salvos com SUCESSO")
+        df.to_csv(f"./precos/{i}.csv", sep=";")
+        logging.info("Preços das ações salvos com SUCESSO")
+
+    except Exception as e:
+        logging.error(f"Erro ao salvar os preços das ações: {e}")
 
 # Coletando as cotações de alguns índices
 for i in tqdm(indices):

@@ -72,4 +72,5 @@ def verifica_conexao():
     except psycopg2.Error:
         return False
 
+
 #####

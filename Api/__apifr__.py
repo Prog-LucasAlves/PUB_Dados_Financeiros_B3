@@ -28,7 +28,6 @@ for i in tqdm(acao):
     # Coletando o título do site
     header_site = soup1.h1
     if header_site:
-
         # Coletando os nomes das colunas
         column_headers = soup1.findAll("tr")[0]
         column_headers = [i.getText() for i in column_headers.findAll("th")]

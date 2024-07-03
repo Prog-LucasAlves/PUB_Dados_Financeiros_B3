@@ -9,9 +9,9 @@
  bi:
         image: metabase/metabase
         container_name: metabase
-        ports: 
+        ports:
             - "3000:3000"
-        volumes: 
-            - ./metabase:/metabase-data  
-        links: 
+        volumes:
+            - ./metabase:/metabase-data
+        links:
             - db

@@ -18,7 +18,7 @@ import __list__
 acao = __list__.lst_acao
 
 # Ignorando os avisos de pandas
-warnings.filterwarnings('ignore')
+warnings.filterwarnings("ignore")
 
 for i in tqdm(acao):
     qs.extend_pandas()

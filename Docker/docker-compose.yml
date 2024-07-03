@@ -1,14 +1,14 @@
 version: '3'
-services: 
+services:
 
     db:
         build: .
         container_name: DADOS_FINANCEIROS
-        environment: 
+        environment:
             - POSTGRES_USER=root
             - POSTGRES_PASSWORD=root
             - POSTGRES_DB=dados_financeiros
         ports:
-            - "5432:5432"  
-        volumes: 
+            - "5432:5432"
+        volumes:
             - ./data:/var/lib/postgresql/data/

@@ -114,7 +114,7 @@
 
 - (26) p_cap_giro:
 1. Descrição -> Preço da ação dividido pelo capital de giro por ação
-2. Tipo(type) -> double precision  
+2. Tipo(type) -> double precision
 
 - (27) ebit_ativo:
 1. Descrição -> Ebit dividido pelos ativos totais

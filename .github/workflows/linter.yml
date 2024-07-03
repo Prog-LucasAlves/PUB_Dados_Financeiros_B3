@@ -1,6 +1,6 @@
 name: Linter
 
-on: 
+on:
   pull_request:
     branches:
     - main
@@ -28,7 +28,7 @@ jobs:
 
       - name: Executa 'Black'
         run: |
-          python -m black .     
+          python -m black .
 
   run_isort:
     runs-on: ubuntu-latest
@@ -49,9 +49,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements_dev.txt
 
-      - name: Executa 'Isort' 
+      - name: Executa 'Isort'
         run: |
-          isort .                 
+          isort .
 
   run_flake8:
     runs-on: ubuntu-latest
@@ -72,6 +72,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements_dev.txt
 
-      - name: Executa 'Flak8' 
+      - name: Executa 'Flak8'
         run: |
-          flake8 .  
+          flake8 .
