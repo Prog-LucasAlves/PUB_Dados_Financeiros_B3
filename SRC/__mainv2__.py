@@ -367,6 +367,8 @@ def dados():
                                         )
                                         if len(marg_bruta[1]) <= 1:
                                             marg_bruta[1] = 0
+                                        elif len(marg_bruta[1]) >= 8:
+                                            marg_bruta[1] = 0
                                     else:
                                         marg_bruta.append(0)
                                     #
@@ -379,6 +381,8 @@ def dados():
                                             .replace(",", ".")
                                         )
                                         if len(psr[1]) <= 1:
+                                            psr[1] = 0
+                                        elif len(psr[1]) >= 8:
                                             psr[1] = 0
                                     else:
                                         psr.append(0)
@@ -394,6 +398,8 @@ def dados():
                                         )
                                         if len(marg_ebit[1]) <= 1:
                                             marg_ebit[1] = 0
+                                        elif len(marg_ebit[1]) >= 8:
+                                            marg_ebit[1] = 0
                                     else:
                                         marg_ebit.append(0)
                                     #
@@ -406,6 +412,8 @@ def dados():
                                             .replace(",", ".")
                                         )
                                         if len(p_ativo[1]) <= 1:
+                                            p_ativo[1] = 0
+                                        elif len(p_ativo[1]) >= 8:
                                             p_ativo[1] = 0
                                     else:
                                         p_ativo.append(0)
@@ -421,6 +429,8 @@ def dados():
                                         )
                                         if len(marg_liquida[1]) <= 1:
                                             marg_liquida[1] = 0
+                                        elif len(marg_liquida[1]) >= 8:
+                                            marg_liquida[1] = 0
                                     else:
                                         marg_liquida.append(0)
                                     #
@@ -433,6 +443,8 @@ def dados():
                                             .replace(",", ".")
                                         )
                                         if len(p_cap_giro[1]) <= 1:
+                                            p_cap_giro[1] = 0
+                                        elif len(p_cap_giro[1]) >= 8:
                                             p_cap_giro[1] = 0
                                     else:
                                         p_cap_giro.append(0)
@@ -447,6 +459,8 @@ def dados():
                                         )
                                         if len(ebit_ativo[1]) <= 1:
                                             ebit_ativo[1] = 0
+                                        elif len(ebit_ativo[1]) >= 8:
+                                            ebit_ativo[1] = 0
                                     else:
                                         ebit_ativo.append(0)
                                     #
@@ -459,6 +473,8 @@ def dados():
                                             .replace(",", ".")
                                         )
                                         if len(p_ativo_circ_liq[1]) <= 1:
+                                            p_ativo_circ_liq[1] = 0
+                                        elif len(p_ativo_circ_liq[1]) >= 8:
                                             p_ativo_circ_liq[1] = 0
                                     else:
                                         p_ativo_circ_liq.append(0)
@@ -473,6 +489,8 @@ def dados():
                                             .replace("%", "")
                                         )
                                         if len(roic[1]) <= 1:
+                                            roic[1] = 0
+                                        elif len(roic[1]) >= 8:
                                             roic[1] = 0
                                     else:
                                         roic.append(0)
@@ -502,6 +520,8 @@ def dados():
                                         )
                                         if len(roe[1]) <= 1:
                                             roe[1] = 0
+                                        elif len(roe[1]) >= 8:
+                                            roe[1] = 0
                                     else:
                                         roe.append(0)
                                     #
@@ -515,6 +535,8 @@ def dados():
                                         )
                                         if len(ev_ebitda[1]) <= 1:
                                             ev_ebitda[1] = 0
+                                        elif len(ev_ebitda[1]) >= 8:
+                                            ev_ebitda[1] = 0
                                     else:
                                         ev_ebitda.append(0)
                                     #
@@ -526,6 +548,8 @@ def dados():
                                             .replace(",", ".")
                                         )
                                         if len(liquidez_corr[1]) <= 1:
+                                            liquidez_corr[1] = 0
+                                        elif len(liquidez_corr[1]) >= 8:
                                             liquidez_corr[1] = 0
                                     else:
                                         liquidez_corr.append(0)
@@ -540,6 +564,8 @@ def dados():
                                         )
                                         if len(ev_ebit[1]) <= 1:
                                             ev_ebit[1] = 0
+                                        elif len(ev_ebit[1]) >= 8:
+                                            ev_ebit[1] = 0
                                     else:
                                         ev_ebit.append(0)
                                     #
@@ -550,11 +576,12 @@ def dados():
                                             .text.replace("\n", "")
                                             .replace(",", ".")
                                             .replace("%", "")
-                                            .replace("-", "0")
                                         )
                                         if len(cres_rec[1]) <= 1:
                                             cres_rec[1] = 0
-                                        elif len(cres_rec[1]) >= 5:
+                                        elif len(cres_rec[1]) >= 8:
+                                            cres_rec[1] = 0
+                                        """elif len(cres_rec[1]) >= 5:
                                             del cres_rec[1]
                                             cres_rec.append(
                                                 dadosI[82]
@@ -562,7 +589,7 @@ def dados():
                                                 .replace("%", "")
                                                 .replace(".", "")
                                                 .replace(",", ".")
-                                            )
+                                            )"""
                                     else:
                                         cres_rec.append(0)
                                     #
