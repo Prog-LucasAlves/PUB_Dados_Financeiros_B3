@@ -298,7 +298,7 @@ lst_acao = [
     "MRSA5B",
     "MRVE3",
     "MSPA3",
-    "MTIG4",
+    # "MTIG4",
     "MTRE3",
     "MTSA4",
     "MULT3",
