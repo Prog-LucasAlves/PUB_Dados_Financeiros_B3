@@ -476,9 +476,9 @@ lst_crypto = [
     "LTC-USD",
 ]
 lst_moedas = [
-    "USDBRL=x",
-    "EURBRL=x",
-    "GBPBRL=x",
-    "EURUSD=x",
-    "BRLUSD=x",
+    "USDBRL=X",
+    "EURBRL=X",
+    "GBPBRL=X",
+    "EURUSD=X",
+    "BRLUSD=X",
 ]

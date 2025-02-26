@@ -15,8 +15,10 @@ import yfinance as yf
 # Lista com o nome das ações
 import __list__
 
+# Warnings
 import warnings
 
+# Elimina warnings
 warnings.filterwarnings("ignore")
 
 # Lista com o nome dos ativos
@@ -42,7 +44,7 @@ def retornoAcumulado():
     for i in tqdm(acao):
         df[i] = yf.download(
             f"{i}.SA", start=test_date1, end=date2, progress=False, threads=False
-        )["Adj Close"]
+        )["Close"]
         time.sleep(1)
 
     # Salvando os dados coletados
