@@ -1,45 +1,46 @@
 ;Acao;Data;Hora;Descrição;Link
-0;MSPA3;25/03/2025;18:36;Acordo de Investimento;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1351256&descTipo=IPE&CodigoInstituicao=1
-1;MSPA3;18/03/2025;20:08;Antecipação Demonstrações Financeiras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1348396&descTipo=IPE&CodigoInstituicao=1
-2;MSPA3;14/01/2025;18:38;Eleição de Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1324924&descTipo=IPE&CodigoInstituicao=1
-3;MSPA3;21/08/2024;17:56;Renúncia e eleição de membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1274467&descTipo=IPE&CodigoInstituicao=1
-4;MSPA3;09/08/2024;15:43;Apresentação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1269650&descTipo=IPE&CodigoInstituicao=1
-5;MSPA3;13/06/2024;00:17;Nova Fábrica e Operação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1249630&descTipo=IPE&CodigoInstituicao=1
-6;MSPA3;19/03/2024;21:57;Antecipação da Divulgação de Resultados ? 4T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1209602&descTipo=IPE&CodigoInstituicao=1
-7;MSPA3;16/11/2023;18:20;Eleição de Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1163452&descTipo=IPE&CodigoInstituicao=1
-8;MSPA3;16/11/2023;07:42;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1163236&descTipo=IPE&CodigoInstituicao=1
-9;MSPA3;09/11/2023;18:13;Live Resultados 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1160226&descTipo=IPE&CodigoInstituicao=1
-10;MSPA3;08/11/2023;09:02;Live Resultados 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1159171&descTipo=IPE&CodigoInstituicao=1
-11;MSPA3;09/08/2023;18:58;Live Resultados 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1131574&descTipo=IPE&CodigoInstituicao=1
-12;MSPA3;19/07/2023;11:06;Antecipação informações 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1123677&descTipo=IPE&CodigoInstituicao=1
-13;MSPA3;19/04/2023;18:12;Devolução de fração ideal de imóvel;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1087760&descTipo=IPE&CodigoInstituicao=1
-14;MSPA3;07/03/2022;20:01;Divulgação de Demonstrações Financeiras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=950972&descTipo=IPE&CodigoInstituicao=1
-15;MSPA3;14/12/2021;18:55;Renuncia Presidente do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=925940&descTipo=IPE&CodigoInstituicao=1
-16;MSPA3;20/10/2021;08:55;Autorização para Negociação dos Valores Mobiliários em Mercados (Nacional ou Estrangeiro);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=908603&descTipo=IPE&CodigoInstituicao=1
-17;MSPA3;17/09/2021;08:55;Autorização para Negociação dos Valores Mobiliários em Mercados (Nacional ou Estrangeiro);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=901696&descTipo=IPE&CodigoInstituicao=1
-18;MSPA3;15/05/2020;01:53;Eleição de novo Diretor de RI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762218&descTipo=IPE&CodigoInstituicao=1
-19;MSPA3;15/05/2020;01:53;Alteração na estrutura organizacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762217&descTipo=IPE&CodigoInstituicao=1
-20;MSPA3;04/05/2020;21:56;Eleição de membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=758780&descTipo=IPE&CodigoInstituicao=1
-21;MSPA3;14/04/2020;09:12;Falecimento de Conselheiro - Alfried Plöger;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=753927&descTipo=IPE&CodigoInstituicao=1
-22;MSPA3;31/03/2020;18:26;Adiamento AGO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=750754&descTipo=IPE&CodigoInstituicao=1
-23;MSPA3;18/03/2020;18:57;Eleição de Diretor Presidente;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=746552&descTipo=IPE&CodigoInstituicao=1
-24;MSPA3;12/12/2019;18:10;Substituição de Jornal;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=726129&descTipo=IPE&CodigoInstituicao=1
-25;MSPA3;27/11/2019;18:35;Eleição de novos membros do Conselho de Administração.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=723268&descTipo=IPE&CodigoInstituicao=1
-26;MSPA3;14/08/2019;19:47;Renúncia de Conselheiro de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=706344&descTipo=IPE&CodigoInstituicao=1
-27;MSPA3;11/07/2019;08:39;Substituição de Diretor Superintendente e Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=700016&descTipo=IPE&CodigoInstituicao=1
-28;MSPA3;10/07/2019;21:35;Substituição de Diretor Superintendente e Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=699994&descTipo=IPE&CodigoInstituicao=1
-29;MSPA3;25/03/2019;19:07;Alteração de Estatuto - Composição do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=673303&descTipo=IPE&CodigoInstituicao=1
-30;MSPA3;23/06/2016;19:36;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=521621&descTipo=IPE&CodigoInstituicao=1
-31;MSPA3;05/02/2016;23:02;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=500496&descTipo=IPE&CodigoInstituicao=1
-32;MSPA3;27/03/2014;15:00;Disponibilização de Documentos da Administração para realização da AGO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=416005&descTipo=IPE&CodigoInstituicao=1
-33;MSPA3;08/03/2013;19:14;Renovação de opção de Compra de Imóvel;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=369341&descTipo=IPE&CodigoInstituicao=1
-34;MSPA3;08/03/2013;15:46;Renovação de Opção de Compra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=369132&descTipo=IPE&CodigoInstituicao=1
-35;MSPA3;23/02/2012;18:50;RENOVAÇÃO DE OPÇÃO DE COMPRA E VENDA DE IMÓVEL;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=321397&descTipo=IPE&CodigoInstituicao=1
-36;MSPA3;14/09/2011;17:25;Incorporação de sociedade controlada direta.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=304926&descTipo=IPE&CodigoInstituicao=1
-37;MSPA3;04/02/2011;11:46;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=274532&descTipo=IPE&CodigoInstituicao=1
-38;MSPA3;06/08/2009;18:42;Cancelamento de Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=211279&descTipo=IPE&CodigoInstituicao=1
-39;MSPA3;20/04/2009;08:05;"Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia; Celebração ou Extinção de Contrato";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=198881&descTipo=IPE&CodigoInstituicao=1
-40;MSPA3;08/05/2008;15:45;Esclarecimentos ao mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=162353&descTipo=IPE&CodigoInstituicao=1
-41;MSPA3;21/12/2007;20:26;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=145857&descTipo=IPE&CodigoInstituicao=1
-42;MSPA3;15/03/2006;16:58;Contrato de Venda e Compra de Quotas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=82639&descTipo=IPE&CodigoInstituicao=1
-43;MSPA3;15/03/2006;15:27;Acordo ou Contrato de Transferência do Controle Acionário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=82626&descTipo=IPE&CodigoInstituicao=1
+0;MSPA3;01/04/2025;18:10;Anteciparação ITRs;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1356246&descTipo=IPE&CodigoInstituicao=1
+1;MSPA3;25/03/2025;18:36;Acordo de Investimento;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1351256&descTipo=IPE&CodigoInstituicao=1
+2;MSPA3;18/03/2025;20:08;Antecipação Demonstrações Financeiras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1348396&descTipo=IPE&CodigoInstituicao=1
+3;MSPA3;14/01/2025;18:38;Eleição de Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1324924&descTipo=IPE&CodigoInstituicao=1
+4;MSPA3;21/08/2024;17:56;Renúncia e eleição de membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1274467&descTipo=IPE&CodigoInstituicao=1
+5;MSPA3;09/08/2024;15:43;Apresentação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1269650&descTipo=IPE&CodigoInstituicao=1
+6;MSPA3;13/06/2024;00:17;Nova Fábrica e Operação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1249630&descTipo=IPE&CodigoInstituicao=1
+7;MSPA3;19/03/2024;21:57;Antecipação da Divulgação de Resultados ? 4T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1209602&descTipo=IPE&CodigoInstituicao=1
+8;MSPA3;16/11/2023;18:20;Eleição de Diretor;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1163452&descTipo=IPE&CodigoInstituicao=1
+9;MSPA3;16/11/2023;07:42;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1163236&descTipo=IPE&CodigoInstituicao=1
+10;MSPA3;09/11/2023;18:13;Live Resultados 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1160226&descTipo=IPE&CodigoInstituicao=1
+11;MSPA3;08/11/2023;09:02;Live Resultados 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1159171&descTipo=IPE&CodigoInstituicao=1
+12;MSPA3;09/08/2023;18:58;Live Resultados 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1131574&descTipo=IPE&CodigoInstituicao=1
+13;MSPA3;19/07/2023;11:06;Antecipação informações 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1123677&descTipo=IPE&CodigoInstituicao=1
+14;MSPA3;19/04/2023;18:12;Devolução de fração ideal de imóvel;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1087760&descTipo=IPE&CodigoInstituicao=1
+15;MSPA3;07/03/2022;20:01;Divulgação de Demonstrações Financeiras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=950972&descTipo=IPE&CodigoInstituicao=1
+16;MSPA3;14/12/2021;18:55;Renuncia Presidente do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=925940&descTipo=IPE&CodigoInstituicao=1
+17;MSPA3;20/10/2021;08:55;Autorização para Negociação dos Valores Mobiliários em Mercados (Nacional ou Estrangeiro);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=908603&descTipo=IPE&CodigoInstituicao=1
+18;MSPA3;17/09/2021;08:55;Autorização para Negociação dos Valores Mobiliários em Mercados (Nacional ou Estrangeiro);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=901696&descTipo=IPE&CodigoInstituicao=1
+19;MSPA3;15/05/2020;01:53;Eleição de novo Diretor de RI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762218&descTipo=IPE&CodigoInstituicao=1
+20;MSPA3;15/05/2020;01:53;Alteração na estrutura organizacional;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762217&descTipo=IPE&CodigoInstituicao=1
+21;MSPA3;04/05/2020;21:56;Eleição de membro do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=758780&descTipo=IPE&CodigoInstituicao=1
+22;MSPA3;14/04/2020;09:12;Falecimento de Conselheiro - Alfried Plöger;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=753927&descTipo=IPE&CodigoInstituicao=1
+23;MSPA3;31/03/2020;18:26;Adiamento AGO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=750754&descTipo=IPE&CodigoInstituicao=1
+24;MSPA3;18/03/2020;18:57;Eleição de Diretor Presidente;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=746552&descTipo=IPE&CodigoInstituicao=1
+25;MSPA3;12/12/2019;18:10;Substituição de Jornal;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=726129&descTipo=IPE&CodigoInstituicao=1
+26;MSPA3;27/11/2019;18:35;Eleição de novos membros do Conselho de Administração.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=723268&descTipo=IPE&CodigoInstituicao=1
+27;MSPA3;14/08/2019;19:47;Renúncia de Conselheiro de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=706344&descTipo=IPE&CodigoInstituicao=1
+28;MSPA3;11/07/2019;08:39;Substituição de Diretor Superintendente e Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=700016&descTipo=IPE&CodigoInstituicao=1
+29;MSPA3;10/07/2019;21:35;Substituição de Diretor Superintendente e Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=699994&descTipo=IPE&CodigoInstituicao=1
+30;MSPA3;25/03/2019;19:07;Alteração de Estatuto - Composição do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=673303&descTipo=IPE&CodigoInstituicao=1
+31;MSPA3;23/06/2016;19:36;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=521621&descTipo=IPE&CodigoInstituicao=1
+32;MSPA3;05/02/2016;23:02;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=500496&descTipo=IPE&CodigoInstituicao=1
+33;MSPA3;27/03/2014;15:00;Disponibilização de Documentos da Administração para realização da AGO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=416005&descTipo=IPE&CodigoInstituicao=1
+34;MSPA3;08/03/2013;19:14;Renovação de opção de Compra de Imóvel;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=369341&descTipo=IPE&CodigoInstituicao=1
+35;MSPA3;08/03/2013;15:46;Renovação de Opção de Compra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=369132&descTipo=IPE&CodigoInstituicao=1
+36;MSPA3;23/02/2012;18:50;RENOVAÇÃO DE OPÇÃO DE COMPRA E VENDA DE IMÓVEL;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=321397&descTipo=IPE&CodigoInstituicao=1
+37;MSPA3;14/09/2011;17:25;Incorporação de sociedade controlada direta.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=304926&descTipo=IPE&CodigoInstituicao=1
+38;MSPA3;04/02/2011;11:46;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=274532&descTipo=IPE&CodigoInstituicao=1
+39;MSPA3;06/08/2009;18:42;Cancelamento de Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=211279&descTipo=IPE&CodigoInstituicao=1
+40;MSPA3;20/04/2009;08:05;"Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia; Celebração ou Extinção de Contrato";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=198881&descTipo=IPE&CodigoInstituicao=1
+41;MSPA3;08/05/2008;15:45;Esclarecimentos ao mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=162353&descTipo=IPE&CodigoInstituicao=1
+42;MSPA3;21/12/2007;20:26;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=145857&descTipo=IPE&CodigoInstituicao=1
+43;MSPA3;15/03/2006;16:58;Contrato de Venda e Compra de Quotas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=82639&descTipo=IPE&CodigoInstituicao=1
+44;MSPA3;15/03/2006;15:27;Acordo ou Contrato de Transferência do Controle Acionário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=82626&descTipo=IPE&CodigoInstituicao=1
