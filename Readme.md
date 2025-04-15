@@ -41,11 +41,7 @@ arquivo [.python-version](...)
 
 Ref.: [pyenv](https://github.com/pyenv/pyenv)
 
-4. Ambiente virtual(poetry):
-
-```bash
-poetry shell
-```
+4. Ambiente virtual(poetry)
 
 Ref.: [poetry](https://python-poetry.org/)
 
