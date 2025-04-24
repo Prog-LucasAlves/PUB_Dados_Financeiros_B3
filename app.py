@@ -29,7 +29,7 @@ st.subheader("🌎 Alguns Índices Globais")
 col1, col2, col3 = st.columns(3)
 
 ibov = pd.read_csv("./Api/indices/BVSP.csv", sep=";")
-ibov_preco = round(ibov["Adj Close"].iloc[-1], 2)
+ibov_preco = round(ibov["Close"].iloc[-1], 2)
 ibov_retorno = ibov["Retornos"].iloc[-1]
 ibov["Date"] = pd.to_datetime(ibov["Date"], utc=True)
 ibov["Date"] = ibov["Date"].dt.date
@@ -41,7 +41,7 @@ col1.metric(
 )
 
 ixic = pd.read_csv("./Api/indices/IXIC.csv", sep=";")
-ixic_preco = round(ixic["Adj Close"].iloc[-1], 2)
+ixic_preco = round(ixic["Close"].iloc[-1], 2)
 ixic_retorno = ixic["Retornos"].iloc[-1]
 ixic["Date"] = pd.to_datetime(ixic["Date"], utc=True)
 ixic["Date"] = ixic["Date"].dt.date
@@ -53,7 +53,7 @@ col2.metric(
 )
 
 dji = pd.read_csv("./Api/indices/DJI.csv", sep=";")
-dji_precos = round(dji["Adj Close"].iloc[-1], 2)
+dji_precos = round(dji["Close"].iloc[-1], 2)
 dji_retorno = dji["Retornos"].iloc[-1]
 dji["Date"] = pd.to_datetime(dji["Date"], utc=True)
 dji["Date"] = dji["Date"].dt.date
@@ -65,7 +65,7 @@ col3.metric(
 )
 
 sp_500 = pd.read_csv("./Api/indices/GSPC.csv", sep=";")
-sp_500_preco = round(sp_500["Adj Close"].iloc[-1], 2)
+sp_500_preco = round(sp_500["Close"].iloc[-1], 2)
 sp_500_retorno = sp_500["Retornos"].iloc[-1]
 sp_500["Date"] = pd.to_datetime(sp_500["Date"], utc=True)
 sp_500["Date"] = sp_500["Date"].dt.date
@@ -77,7 +77,7 @@ col1.metric(
 )
 
 vix = pd.read_csv("./Api/indices/VIX.csv", sep=";")
-vix_preco = round(vix["Adj Close"].iloc[-1], 2)
+vix_preco = round(vix["Close"].iloc[-1], 2)
 vix_retorno = vix["Retornos"].iloc[-1]
 vix["Date"] = pd.to_datetime(vix["Date"], utc=True)
 vix["Date"] = vix["Date"].dt.date
@@ -87,7 +87,7 @@ col2.metric(
 )
 
 n225 = pd.read_csv("./Api/indices/N225.csv", sep=";")
-n225_preco = round(n225["Adj Close"].iloc[-1], 2)
+n225_preco = round(n225["Close"].iloc[-1], 2)
 n225_retorno = n225["Retornos"].iloc[-1]
 n225["Date"] = pd.to_datetime(n225["Date"], utc=True)
 n225["Date"] = n225["Date"].dt.date
@@ -107,7 +107,7 @@ st.subheader("💵 Alguns Pares de Moedas")
 col1, col2, col3 = st.columns(3)
 
 usdbrl = pd.read_csv("./Api/moedas/USDBRL=x.csv", sep=";")
-usdbrl_preco = round(usdbrl["Adj Close"].iloc[-1], 2)
+usdbrl_preco = round(usdbrl["Close"].iloc[-1], 2)
 usdbrl_retorno = usdbrl["Retornos"].iloc[-1]
 usdbrl["Date"] = pd.to_datetime(usdbrl["Date"], utc=True)
 usdbrl["Date"] = usdbrl["Date"].dt.date
@@ -119,7 +119,7 @@ col1.metric(
 )
 
 eurbrl = pd.read_csv("./Api/moedas/EURBRL=x.csv", sep=";")
-eurbrl_preco = round(eurbrl["Adj Close"].iloc[-1], 2)
+eurbrl_preco = round(eurbrl["Close"].iloc[-1], 2)
 eurbrl_retorno = eurbrl["Retornos"].iloc[-1]
 eurbrl["Date"] = pd.to_datetime(eurbrl["Date"], utc=True)
 eurbrl["Date"] = eurbrl["Date"].dt.date
@@ -131,7 +131,7 @@ col2.metric(
 )
 
 gbpbrl = pd.read_csv("./Api/moedas/GBPBRL=x.csv", sep=";")
-gbpbrl_preco = round(gbpbrl["Adj Close"].iloc[-1], 2)
+gbpbrl_preco = round(gbpbrl["Close"].iloc[-1], 2)
 gbpbrl_retorno = gbpbrl["Retornos"].iloc[-1]
 gbpbrl["Date"] = pd.to_datetime(gbpbrl["Date"], utc=True)
 gbpbrl["Date"] = gbpbrl["Date"].dt.date
@@ -143,7 +143,7 @@ col3.metric(
 )
 
 brlusd = pd.read_csv("./Api/moedas/BRLUSD=x.csv", sep=";")
-brlusd_preco = round(brlusd["Adj Close"].iloc[-1], 2)
+brlusd_preco = round(brlusd["Close"].iloc[-1], 2)
 brlusd_retorno = brlusd["Retornos"].iloc[-1]
 brlusd["Date"] = pd.to_datetime(brlusd["Date"], utc=True)
 brlusd["Date"] = brlusd["Date"].dt.date
@@ -155,7 +155,7 @@ col1.metric(
 )
 
 eurusd = pd.read_csv("./Api/moedas/EURUSD=x.csv", sep=";")
-eurusd_preco = round(eurusd["Adj Close"].iloc[-1], 2)
+eurusd_preco = round(eurusd["Close"].iloc[-1], 2)
 eurusd_retorno = eurusd["Retornos"].iloc[-1]
 eurbrl["Date"] = pd.to_datetime(eurbrl["Date"], utc=True)
 eurbrl["Date"] = eurbrl["Date"].dt.date
@@ -175,7 +175,7 @@ st.subheader("🪙 Algumas Cryptomoedas")
 col1, col2, col3 = st.columns(3)
 
 btcusd = pd.read_csv("./Api/crypto/BTC-USD.csv", sep=";")
-btcusd_preco = round(btcusd["Adj Close"].iloc[-1], 2)
+btcusd_preco = round(btcusd["Close"].iloc[-1], 2)
 btcusd_retorno = btcusd["Retornos"].iloc[-1]
 btcusd["Date"] = pd.to_datetime(btcusd["Date"], utc=True)
 btcusd["Date"] = btcusd["Date"].dt.date
@@ -187,7 +187,7 @@ col1.metric(
 )
 
 ethusd = pd.read_csv("./Api/crypto/ETH-USD.csv", sep=";")
-ethusd_preco = round(ethusd["Adj Close"].iloc[-1], 2)
+ethusd_preco = round(ethusd["Close"].iloc[-1], 2)
 ethusd_retorno = ethusd["Retornos"].iloc[-1]
 ethusd["Date"] = pd.to_datetime(ethusd["Date"], utc=True)
 ethusd["Date"] = ethusd["Date"].dt.date
@@ -199,7 +199,7 @@ col2.metric(
 )
 
 ltcusd = pd.read_csv("./Api/crypto/LTC-USD.csv", sep=";")
-ltcusd_preco = round(ltcusd["Adj Close"].iloc[-1], 2)
+ltcusd_preco = round(ltcusd["Close"].iloc[-1], 2)
 ltcusd_retorno = ltcusd["Retornos"].iloc[-1]
 ltcusd["Date"] = pd.to_datetime(ltcusd["Date"], utc=True)
 ltcusd["Date"] = ltcusd["Date"].dt.date
