@@ -659,7 +659,7 @@ precos_df_ad = precos_df_ad.drop(precos_df_ad.columns[[1, 2, 3, 4, 6]], axis=1)
 
 # Gráfico com o historico de fechamento
 st.write(f" 📈📉 Histórico de Fechamento da Ação {precos_papel} ")
-fig_pre = px.line(precos_df_ad, x="Date", y=f"{precos_papel}")
+fig_pre = px.line(precos_df_ad, x="Date", y="Close")
 fig_pre.update_layout(
     xaxis_title="Date", yaxis_title=f"Preço de Fechamento - {precos_papel}"
 )
