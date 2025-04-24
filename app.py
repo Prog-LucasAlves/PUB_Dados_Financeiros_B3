@@ -654,7 +654,7 @@ precos_index = int(precos["Unnamed: 0"])
 precos_papel = precos["papel"][pr_index]
 # Pegando os dados dos preços nos arquivos .csv
 precos_df = pd.read_csv(f"./Api/precos/{precos_papel}.csv", sep=";")
-precos_df_ad = precos_df.rename({"Adj Close": f"{precos_papel}"}, axis=1)
+precos_df_ad = precos_df.rename({"Close": f"{precos_papel}"}, axis=1)
 precos_df_ad = precos_df_ad.drop(precos_df_ad.columns[[1, 2, 3, 4, 6]], axis=1)
 
 # Gráfico com o historico de fechamento
