@@ -11,6 +11,7 @@ Local: pasta(histórico)
 import quantstats as qs
 from tqdm import tqdm
 import warnings
+import time
 
 # Lista com o nome das ações
 import __list__
@@ -23,6 +24,7 @@ warnings.filterwarnings("ignore")
 for i in tqdm(acao):
     qs.extend_pandas()
     data = qs.utils.download_returns(f"{i}.SA")
+    time.sleep(5)
     if data.empty:
         pass
     else:

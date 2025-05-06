@@ -45,7 +45,7 @@ def retornoAcumulado():
         df[i] = yf.download(
             f"{i}.SA", start=test_date1, end=date2, progress=False, threads=False
         )["Close"]
-        time.sleep(1)
+        time.sleep(5)
 
     # Salvando os dados coletados
     df.to_csv("./retornos/cotacoes.csv", sep=";", index_label=False)

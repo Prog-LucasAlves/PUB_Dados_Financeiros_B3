@@ -11,6 +11,7 @@ Local: pasta(precos)
 import logging
 from datetime import date
 from datetime import timedelta
+import time
 
 import pandas as pd
 import numpy as np
@@ -56,6 +57,7 @@ for i in tqdm(acao):
             progress=False,
             threads=False,
         )
+        time.sleep(5)
         df = df.xs(f"{i}.SA", level="Ticker", axis=1, drop_level=True)
         df["ret"] = round((df["Close"].pct_change()) * 100, 2)
         df["tret"] = df["ret"].cumsum()
@@ -83,6 +85,7 @@ for i in tqdm(indices):
         progress=False,
         threads=False,
     )
+    time.sleep(5)
     df_b = df_b.xs(f"^{i}", level="Ticker", axis=1, drop_level=True)
     df_b.to_csv(f"./indices/{i}.csv", sep=";")
 
@@ -92,6 +95,7 @@ for i in tqdm(crypto):
     df_crypto = yf.download(
         f"{i}", start=inicio, end=fim, progress=False, threads=False
     )
+    time.sleep(5)
     df_crypto = df_crypto.xs(f"{i}", level="Ticker", axis=1, drop_level=True)
     df_crypto.to_csv(f"./crypto/{i}.csv", sep=";")
 
@@ -100,6 +104,7 @@ for i in tqdm(moedas):
     df_moedas = yf.download(
         f"{i}", start=inicio, end=fim, progress=False, threads=False
     )
+    time.sleep(5)
     df_moedas = df_moedas.xs(f"{i}", level="Ticker", axis=1, drop_level=True)
     df_moedas.to_csv(f"./moedas/{i}.csv", sep=";")
 
