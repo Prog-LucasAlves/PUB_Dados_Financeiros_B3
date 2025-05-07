@@ -15,13 +15,13 @@ beautifulsoup4 = "^4.12.2"
 psycopg2 = "^2.9.9"
 selenium = "^4.14.0"
 streamlit = "^1.27.2"
-quantstats = "^0.0.62"
 tqdm = "^4.66.1"
 ipython = "^8.16.1"
 plotly = "^5.18.0"
 seaborn = "^0.13.0"
 taskipy = "^1.12.2"
 pytest = "^8.0.0"
+quantstats = "^0.0.64"
 
 
 [tool.poetry.group.dev.dependencies]
