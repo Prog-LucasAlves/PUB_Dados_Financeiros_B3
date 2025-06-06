@@ -118,7 +118,7 @@ lst_acao = [
     "CGRA3",
     "CGRA4",
     # "CIEL3",
-    "CLSA3",
+    # "CLSA3",
     "CLSC3",
     "CLSC4",
     "CMIG3",
