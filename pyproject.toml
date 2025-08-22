@@ -1,40 +1,25 @@
-[tool.poetry]
+[project]
 name = "pub-dados-financeiros-b3"
 version = "0.1.0"
-description = ""
-authors = ["Prog-LucasAlves <lucasalves_taz@hotmail.com>"]
+description = "Add your description here"
 readme = "README.md"
+requires-python = ">=3.11.5"
+dependencies = [
+    "backoff>=2.2.1",
+    "beautifulsoup4>=4.13.4",
+    "fastparquet>=2024.11.0",
+    "jupyter>=1.1.1",
+    "pandas>=2.3.2",
+    "psycopg2>=2.9.10",
+    "pyarrow>=21.0.0",
+    "python-dotenv>=1.1.1",
+    "quantstats>=0.0.76",
+    "requests>=2.32.5",
+    "selenium>=4.35.0",
+    "tqdm>=4.67.1",
+]
 
-[tool.poetry.dependencies]
-python = ">=3.11,<3.13"
-pandas = "^2.1.1"
-backoff = "^2.2.1"
-requests = "^2.31.0"
-python-dotenv = "^1.0.0"
-beautifulsoup4 = "^4.12.2"
-psycopg2 = "^2.9.9"
-selenium = "^4.14.0"
-streamlit = "^1.27.2"
-tqdm = "^4.66.1"
-ipython = "^8.16.1"
-plotly = "^5.18.0"
-seaborn = "^0.13.0"
-taskipy = "^1.12.2"
-pytest = "^8.0.0"
-yfinance = "^0.2.61"
-quantstats = "^0.0.64"
-
-
-[tool.poetry.group.dev.dependencies]
-ipykernel = "^6.28.0"
-pre-commit = "^3.7.1"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-
-[tool.taskipy.tasks]
-gitcreate = "git branch atualizacao"
-gitselect = "git checkout atualizacao"
-gitmain = "git checkout main"
+[dependency-groups]
+dev = [
+    "pre-commit>=4.3.0",
+]

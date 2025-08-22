@@ -162,7 +162,7 @@ def dados():
                         hearder_site = str(soup1.h1)
 
                         if hearder_site == "None":
-                            dados = soup.findAll("div", {"class": "conteudo clearfix"})
+                            dados = soup.find_all("div", {"class": "conteudo clearfix"})
 
                             # cria a lista das variaveis aonde seram armazenados os dados coletados
                             for data in dados:

@@ -29,18 +29,18 @@ for i in tqdm(acao):
     header_site = soup1.h1
     if header_site:
         # Coletando os nomes das colunas
-        column_headers = soup1.findAll("tr")[0]
-        column_headers = [i.getText() for i in column_headers.findAll("th")]
+        column_headers = soup1.find_all("tr")[0]
+        column_headers = [i.getText() for i in column_headers.find_all("th")]
 
         # Coletando os dados das colunas
-        rows = soup1.findAll("tr")[1:]
+        rows = soup1.find_all("tr")[1:]
         df_dados = []
         for h in range(len(rows)):
-            df_dados.append([col.getText() for col in rows[h].findAll("td")])
+            df_dados.append([col.getText() for col in rows[h].find_all("td")])
             df_dados
 
             # Coletando o link do documento
-            rows1 = soup1.findAll("tr")[1:]
+            rows1 = soup1.find_all("tr")[1:]
             lista_link = []
             for t in range(len(rows1)):
                 for link in rows1[t].find_all("a"):

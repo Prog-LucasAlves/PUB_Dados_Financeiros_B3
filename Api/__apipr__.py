@@ -32,14 +32,14 @@ for i in tqdm(acao):
 
     # Coletando os nomes das colunas
     if d == "Proventos:":
-        column_headers = soup1.findAll("tr")[0]
-        column_headers = [i.getText() for i in column_headers.findAll("th")]
+        column_headers = soup1.find_all("tr")[0]
+        column_headers = [i.getText() for i in column_headers.find_all("th")]
 
         # Coletando os dados das colunas
-        rows = soup1.findAll("tr")[1:]
+        rows = soup1.find_all("tr")[1:]
         df_dados = []
         for h in range(len(rows)):
-            df_dados.append([col.getText() for col in rows[h].findAll("td")])
+            df_dados.append([col.getText() for col in rows[h].find_all("td")])
 
         # Adicionando os dados coletados em um DataFrame
         data = pd.DataFrame(df_dados, columns=column_headers[:])

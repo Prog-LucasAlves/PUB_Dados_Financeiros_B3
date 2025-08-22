@@ -1,47 +1,48 @@
 ;Acao;Data;Hora;Descrição;Link
-0;ARML3;13/05/2025;23:49;Recompra de Ações da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1377499&descTipo=IPE&CodigoInstituicao=1
-1;ARML3;08/04/2025;23:25;Reapresentação dos Boletins de Voto à Distancia da AGO/E da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1359252&descTipo=IPE&CodigoInstituicao=1
-2;ARML3;27/03/2025;20:06;Celebração, Alteração ou Rescisão de Acordo de Acionistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1352892&descTipo=IPE&CodigoInstituicao=1
-3;ARML3;27/11/2024;22:15;Aquisição de debêntures de emissão própria e liquidação de NCE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1308786&descTipo=IPE&CodigoInstituicao=1
-4;ARML3;26/11/2024;20:45;Alteração da composição da Diretoria Executiva;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1308315&descTipo=IPE&CodigoInstituicao=1
-5;ARML3;10/10/2024;20:14;Elevação do Rating de Crédito Corporativo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1290759&descTipo=IPE&CodigoInstituicao=1
-6;ARML3;09/10/2024;09:24;Comunicado ao Mercado sobre o Resultado do Bookbuilding da 5a emissão;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1289843&descTipo=IPE&CodigoInstituicao=1
-7;ARML3;16/09/2024;21:40;5ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1282698&descTipo=IPE&CodigoInstituicao=1
-8;ARML3;16/09/2024;21:40;Aquisição Facultativa das Debêntures da 2ª Emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1282699&descTipo=IPE&CodigoInstituicao=1
-9;ARML3;30/08/2024;19:12;Mudança na Diretoria Estatutária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1277478&descTipo=IPE&CodigoInstituicao=1
-10;ARML3;31/07/2024;20:42;Conclusão de Aquisição de Participação Societária - Terram;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1265013&descTipo=IPE&CodigoInstituicao=1
-11;ARML3;30/05/2024;00:25;Aquisição de Participação Societária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1244094&descTipo=IPE&CodigoInstituicao=1
-12;ARML3;16/05/2024;16:52;Esclarecimentos sobre notícia divulgada na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1239270&descTipo=IPE&CodigoInstituicao=1
-13;ARML3;26/04/2024;19:50;Novos Membros do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1227592&descTipo=IPE&CodigoInstituicao=1
-14;ARML3;26/02/2024;22:19;4ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1199343&descTipo=IPE&CodigoInstituicao=1
-15;ARML3;26/02/2024;21:57;4ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1199327&descTipo=IPE&CodigoInstituicao=1
-16;ARML3;08/12/2023;20:43;Mudança na Diretoria Estatutária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1171501&descTipo=IPE&CodigoInstituicao=1
-17;ARML3;08/12/2023;19:37;Mudança na Diretoria Estatutária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1171438&descTipo=IPE&CodigoInstituicao=1
-18;ARML3;09/10/2023;20:10;Elevação do Rating de Crédito Corporativo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1150027&descTipo=IPE&CodigoInstituicao=1
-19;ARML3;03/08/2023;18:19;Eleição de Diretor Executivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1128808&descTipo=IPE&CodigoInstituicao=1
-20;ARML3;25/07/2023;19:49;Mudança no Calendário Anual de Eventos Corporativos da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1125214&descTipo=IPE&CodigoInstituicao=1
-21;ARML3;09/05/2023;20:00;Alterações na Diretoria Estatutária e Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1099456&descTipo=IPE&CodigoInstituicao=1
-22;ARML3;27/10/2022;22:05;Fato Relevante - Incorporação Bauko;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1025449&descTipo=IPE&CodigoInstituicao=1
-23;ARML3;27/10/2022;21:13;3ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1025393&descTipo=IPE&CodigoInstituicao=1
-24;ARML3;18/08/2022;20:00;Contratação de Serviço de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1009403&descTipo=IPE&CodigoInstituicao=1
-25;ARML3;22/07/2022;19:44;Liquidação CDCA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=999859&descTipo=IPE&CodigoInstituicao=1
-26;ARML3;15/06/2022;20:24;Aprovação CDCA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=991194&descTipo=IPE&CodigoInstituicao=1
-27;ARML3;26/05/2022;18:47;Novos Membros do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=985250&descTipo=IPE&CodigoInstituicao=1
-28;ARML3;05/05/2022;18:59;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=977454&descTipo=IPE&CodigoInstituicao=1
-29;ARML3;02/05/2022;08:40;Mudanças no Comitê de Auditoria não estatutário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=975090&descTipo=IPE&CodigoInstituicao=1
-30;ARML3;28/04/2022;19:36;Alterações na Diretoria Estatutária ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=972694&descTipo=IPE&CodigoInstituicao=1
-31;ARML3;28/04/2022;14:28;Declaração de Juros Sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=972225&descTipo=IPE&CodigoInstituicao=1
-32;ARML3;27/04/2022;20:52;Declaração de Juros Sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=971803&descTipo=IPE&CodigoInstituicao=1
-33;ARML3;25/03/2022;01:26;Alteração de data da AGOE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=958202&descTipo=IPE&CodigoInstituicao=1
-34;ARML3;24/03/2022;23:58;Alteração de data da AGOE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=958130&descTipo=IPE&CodigoInstituicao=1
-35;ARML3;23/12/2021;18:31;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=928707&descTipo=IPE&CodigoInstituicao=1
-36;ARML3;17/11/2021;21:02;Pagamento de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=918317&descTipo=IPE&CodigoInstituicao=1
-37;ARML3;16/11/2021;21:01;Pagamento de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=917816&descTipo=IPE&CodigoInstituicao=1
-38;ARML3;04/11/2021;07:20;Aquisição de Companhia de Capital Fechado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=912757&descTipo=IPE&CodigoInstituicao=1
-39;ARML3;03/11/2021;19:48;Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=912615&descTipo=IPE&CodigoInstituicao=1
-40;ARML3;03/11/2021;19:14;Aquisição de Companhia de Capital Fechado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=912585&descTipo=IPE&CodigoInstituicao=1
-41;ARML3;15/10/2021;19:39;Risco de Crédito Corporativo - Agências de Rating;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907824&descTipo=IPE&CodigoInstituicao=1
-42;ARML3;26/08/2021;21:23;Alteração de Participação Relevante;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=896469&descTipo=IPE&CodigoInstituicao=1
-43;ARML3;20/08/2021;19:05;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=895499&descTipo=IPE&CodigoInstituicao=1
-44;ARML3;19/08/2021;19:48;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=895160&descTipo=IPE&CodigoInstituicao=1
-45;ARML3;02/08/2021;21:54;Liquidação de Debênture;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=888612&descTipo=IPE&CodigoInstituicao=1
+0;ARML3;03/07/2025;08:32;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1397419&descTipo=IPE&CodigoInstituicao=1
+1;ARML3;13/05/2025;23:49;Recompra de Ações da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1377499&descTipo=IPE&CodigoInstituicao=1
+2;ARML3;08/04/2025;23:25;Reapresentação dos Boletins de Voto à Distancia da AGO/E da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1359252&descTipo=IPE&CodigoInstituicao=1
+3;ARML3;27/03/2025;20:06;Celebração, Alteração ou Rescisão de Acordo de Acionistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1352892&descTipo=IPE&CodigoInstituicao=1
+4;ARML3;27/11/2024;22:15;Aquisição de debêntures de emissão própria e liquidação de NCE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1308786&descTipo=IPE&CodigoInstituicao=1
+5;ARML3;26/11/2024;20:45;Alteração da composição da Diretoria Executiva;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1308315&descTipo=IPE&CodigoInstituicao=1
+6;ARML3;10/10/2024;20:14;Elevação do Rating de Crédito Corporativo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1290759&descTipo=IPE&CodigoInstituicao=1
+7;ARML3;09/10/2024;09:24;Comunicado ao Mercado sobre o Resultado do Bookbuilding da 5a emissão;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1289843&descTipo=IPE&CodigoInstituicao=1
+8;ARML3;16/09/2024;21:40;5ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1282698&descTipo=IPE&CodigoInstituicao=1
+9;ARML3;16/09/2024;21:40;Aquisição Facultativa das Debêntures da 2ª Emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1282699&descTipo=IPE&CodigoInstituicao=1
+10;ARML3;30/08/2024;19:12;Mudança na Diretoria Estatutária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1277478&descTipo=IPE&CodigoInstituicao=1
+11;ARML3;31/07/2024;20:42;Conclusão de Aquisição de Participação Societária - Terram;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1265013&descTipo=IPE&CodigoInstituicao=1
+12;ARML3;30/05/2024;00:25;Aquisição de Participação Societária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1244094&descTipo=IPE&CodigoInstituicao=1
+13;ARML3;16/05/2024;16:52;Esclarecimentos sobre notícia divulgada na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1239270&descTipo=IPE&CodigoInstituicao=1
+14;ARML3;26/04/2024;19:50;Novos Membros do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1227592&descTipo=IPE&CodigoInstituicao=1
+15;ARML3;26/02/2024;22:19;4ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1199343&descTipo=IPE&CodigoInstituicao=1
+16;ARML3;26/02/2024;21:57;4ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1199327&descTipo=IPE&CodigoInstituicao=1
+17;ARML3;08/12/2023;20:43;Mudança na Diretoria Estatutária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1171501&descTipo=IPE&CodigoInstituicao=1
+18;ARML3;08/12/2023;19:37;Mudança na Diretoria Estatutária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1171438&descTipo=IPE&CodigoInstituicao=1
+19;ARML3;09/10/2023;20:10;Elevação do Rating de Crédito Corporativo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1150027&descTipo=IPE&CodigoInstituicao=1
+20;ARML3;03/08/2023;18:19;Eleição de Diretor Executivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1128808&descTipo=IPE&CodigoInstituicao=1
+21;ARML3;25/07/2023;19:49;Mudança no Calendário Anual de Eventos Corporativos da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1125214&descTipo=IPE&CodigoInstituicao=1
+22;ARML3;09/05/2023;20:00;Alterações na Diretoria Estatutária e Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1099456&descTipo=IPE&CodigoInstituicao=1
+23;ARML3;27/10/2022;22:05;Fato Relevante - Incorporação Bauko;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1025449&descTipo=IPE&CodigoInstituicao=1
+24;ARML3;27/10/2022;21:13;3ª Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1025393&descTipo=IPE&CodigoInstituicao=1
+25;ARML3;18/08/2022;20:00;Contratação de Serviço de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1009403&descTipo=IPE&CodigoInstituicao=1
+26;ARML3;22/07/2022;19:44;Liquidação CDCA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=999859&descTipo=IPE&CodigoInstituicao=1
+27;ARML3;15/06/2022;20:24;Aprovação CDCA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=991194&descTipo=IPE&CodigoInstituicao=1
+28;ARML3;26/05/2022;18:47;Novos Membros do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=985250&descTipo=IPE&CodigoInstituicao=1
+29;ARML3;05/05/2022;18:59;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=977454&descTipo=IPE&CodigoInstituicao=1
+30;ARML3;02/05/2022;08:40;Mudanças no Comitê de Auditoria não estatutário;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=975090&descTipo=IPE&CodigoInstituicao=1
+31;ARML3;28/04/2022;19:36;Alterações na Diretoria Estatutária ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=972694&descTipo=IPE&CodigoInstituicao=1
+32;ARML3;28/04/2022;14:28;Declaração de Juros Sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=972225&descTipo=IPE&CodigoInstituicao=1
+33;ARML3;27/04/2022;20:52;Declaração de Juros Sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=971803&descTipo=IPE&CodigoInstituicao=1
+34;ARML3;25/03/2022;01:26;Alteração de data da AGOE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=958202&descTipo=IPE&CodigoInstituicao=1
+35;ARML3;24/03/2022;23:58;Alteração de data da AGOE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=958130&descTipo=IPE&CodigoInstituicao=1
+36;ARML3;23/12/2021;18:31;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=928707&descTipo=IPE&CodigoInstituicao=1
+37;ARML3;17/11/2021;21:02;Pagamento de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=918317&descTipo=IPE&CodigoInstituicao=1
+38;ARML3;16/11/2021;21:01;Pagamento de Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=917816&descTipo=IPE&CodigoInstituicao=1
+39;ARML3;04/11/2021;07:20;Aquisição de Companhia de Capital Fechado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=912757&descTipo=IPE&CodigoInstituicao=1
+40;ARML3;03/11/2021;19:48;Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=912615&descTipo=IPE&CodigoInstituicao=1
+41;ARML3;03/11/2021;19:14;Aquisição de Companhia de Capital Fechado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=912585&descTipo=IPE&CodigoInstituicao=1
+42;ARML3;15/10/2021;19:39;Risco de Crédito Corporativo - Agências de Rating;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907824&descTipo=IPE&CodigoInstituicao=1
+43;ARML3;26/08/2021;21:23;Alteração de Participação Relevante;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=896469&descTipo=IPE&CodigoInstituicao=1
+44;ARML3;20/08/2021;19:05;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=895499&descTipo=IPE&CodigoInstituicao=1
+45;ARML3;19/08/2021;19:48;Celebração ou Extinção de Contrato;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=895160&descTipo=IPE&CodigoInstituicao=1
+46;ARML3;02/08/2021;21:54;Liquidação de Debênture;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=888612&descTipo=IPE&CodigoInstituicao=1
