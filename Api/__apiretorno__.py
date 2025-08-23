@@ -7,7 +7,6 @@ from tqdm import tqdm
 
 # Manipulação de datas
 from datetime import timedelta, date
-import time
 
 # Coleta cotações
 import yfinance as yf
@@ -45,7 +44,6 @@ def retornoAcumulado():
         df[i] = yf.download(
             f"{i}.SA", start=test_date1, end=date2, progress=False, threads=False
         )["Close"]
-        time.sleep(5)
 
     # Salvando os dados coletados
     df.to_csv("./retornos/cotacoes.csv", sep=";", index_label=False)
@@ -105,7 +103,7 @@ def retornoAcumuladodias(X):
     df_filter.rename(columns={"index": "Papel"}, inplace=True)
 
     # Salva em um documento csv
-    df_filter.to_csv(f"./retornos/retornos_acumulados_{(X-1)}d.csv", sep=";")
+    df_filter.to_csv(f"./retornos/retornos_acumulados_{(X - 1)}d.csv", sep=";")
 
 
 if __name__ == "__main__":
