@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas do Repositório</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --github-black: #0d1117;
+            --github-dark-gray: #161b22;
+            --github-border: #21262d;
+            --github-text: #c9d1d9;
+            --github-green: #3fb950;
+            --github-red: #f85149;
+            --github-blue: #58a6ff;
+        }
+
+        body {
+            background-color: var(--github-black);
+            color: var(--github-text);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            border-bottom: 1px solid var(--github-border);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .period {
+            color: #8b949e;
+            font-size: 14px;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background-color: var(--github-dark-gray);
+            border: 1px solid var(--github-border);
+            border-radius: 6px;
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 16px;
+            color: #8b949e;
+            margin-bottom: 15px;
+        }
+
+        .stat {
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .change {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        .positive {
+            color: var(--github-green);
+        }
+
+        .negative {
+            color: var(--github-red);
+        }
+
+        .subtext {
+            color: #8b949e;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .charts {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .charts {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .chart-container {
+            background-color: var(--github-dark-gray);
+            border: 1px solid var(--github-border);
+            border-radius: 6px;
+            padding: 20px;
+            height: 300px;
+        }
+
+        .contributors {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .contributor {
+            display: flex;
+            align-items: center;
+        }
+
+        .avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #30363d;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: var(--github-text);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Atividade do Repositório</h1>
+        <div class="period">Últimos 30 dias</div>
+    </header>
+
+    <div class="dashboard">
+        <div class="card">
+            <div class="card-title">Contribuições</div>
+            <div class="stat">90</div>
+            <div class="change positive">+36.36%</div>
+            <div class="subtext">últimos 30 dias</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Proporção Issues Abertas/Fechadas</div>
+            <div class="stat">0</div>
+            <div class="change negative">-100%</div>
+            <div class="subtext">últimos 30 dias</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Pull Requests Abertos</div>
+            <div class="stat">23</div>
+            <div class="change positive">+130%</div>
+            <div class="subtext">últimos 30 dias</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Commits</div>
+            <div class="stat">45</div>
+            <div class="change positive">+36.36%</div>
+            <div class="subtext">últimos 30 dias</div>
+        </div>
+    </div>
+
+    <div class="charts">
+        <div class="chart-container">
+            <canvas id="issuesChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="prChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="commitsChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <div class="card-title">Top Contributors</div>
+            <div class="contributors">
+                <div class="contributor">
+                    <div class="avatar">P</div>
+                    <span>portusab</span>
+                </div>
+                <div class="contributor">
+                    <div class="avatar">K</div>
+                    <span>kezukd-osada</span>
+                </div>
+                <div class="contributor">
+                    <div class="avatar">M</div>
+                    <span>mshubitidze</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuração dos gráficos
+        const issuesCtx = document.getElementById('issuesChart').getContext('2d');
+        const issuesChart = new Chart(issuesCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Abertas', 'Fechadas'],
+                datasets: [{
+                    label: 'Issues',
+                    data: [0, 0],
+                    backgroundColor: [ '#da3633', '#3fb950' ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Issues',
+                        color: '#c9d1d9'
+                    },
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: { color: '#8b949e' },
+                        grid: { color: 'rgba(240, 246, 252, 0.1)' }
+                    },
+                    x: {
+                        ticks: { color: '#8b949e' },
+                        grid: { display: false }
+                    }
+                }
+            }
+        });
+
+        const prCtx = document.getElementById('prChart').getContext('2d');
+        const prChart = new Chart(prCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Abertas', 'Fechadas'],
+                datasets: [{
+                    label: 'Pull Requests',
+                    data: [23, 0],
+                    backgroundColor: [ '#58a6ff', '#3fb950' ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Pull Requests',
+                        color: '#c9d1d9'
+                    },
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: { color: '#8b949e' },
+                        grid: { color: 'rgba(240, 246, 252, 0.1)' }
+                    },
+                    x: {
+                        ticks: { color: '#8b949e' },
+                        grid: { display: false }
+                    }
+                }
+            }
+        });
+
+        const commitsCtx = document.getElementById('commitsChart').getContext('2d');
+        const commitsChart = new Chart(commitsCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Pushes', 'Commits'],
+                datasets: [{
+                    label: 'Commits',
+                    data: [0, 45],
+                    backgroundColor: [ '#8b949e', '#bc8cff' ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Commits e Pushes',
+                        color: '#c9d1d9'
+                    },
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: { color: '#8b949e' },
+                        grid: { color: 'rgba(240, 246, 252, 0.1)' }
+                    },
+                    x: {
+                        ticks: { color: '#8b949e' },
+                        grid: { display: false }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
