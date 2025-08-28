@@ -73,5 +73,3 @@ Ref.: [Docker Deskyop](https://www.docker.com/products/docker-desktop/)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fdadosfinanceiros.streamlit.app%2F)
 [![Linter](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/actions/workflows/linter.yml/badge.svg)](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/actions/workflows/linter.yml)
 [![CodeQL](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/actions/workflows/codeql.yml/badge.svg)](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/actions/workflows/codeql.yml)
-
-[![Dashboard](https://img.shields.io/badge/ACESSAR_DASHBOARD-0d1117?style=for-the-badge&logo=github)](https://github.com/Prog-LucasAlves//PUB_Dados_Financeiros_B3/stats.html)
