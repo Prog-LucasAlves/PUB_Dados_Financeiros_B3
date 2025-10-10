@@ -1,101 +1,101 @@
 ;Acao;Data;Hora;Descrição;Link
-0;FRAS3;22/09/2025;09:09;Comunicado de Receita Agosto/2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1425202&descTipo=IPE&CodigoInstituicao=1
-1;FRAS3;01/09/2025;08:48;Alterações Governança Corporativa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1418727&descTipo=IPE&CodigoInstituicao=1
-2;FRAS3;01/09/2025;07:53;Alterações Governança Corporativa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1418719&descTipo=IPE&CodigoInstituicao=1
-3;FRAS3;20/08/2025;07:52;Receita Líquida Consolidada | Julho de 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1415300&descTipo=IPE&CodigoInstituicao=1
-4;FRAS3;06/08/2025;18:16;Retomada e revisão das projeções 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1408915&descTipo=IPE&CodigoInstituicao=1
-5;FRAS3;01/08/2025;09:23;Aquisição de quotas da Jurid - Frasle Mobility site Sorocaba;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1406437&descTipo=IPE&CodigoInstituicao=1
-6;FRAS3;21/07/2025;07:55;Comunicado de Receita - Junho 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1402331&descTipo=IPE&CodigoInstituicao=1
-7;FRAS3;11/07/2025;01:53;Precificação de Oferta Pública Subsequente de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1400134&descTipo=IPE&CodigoInstituicao=1
-8;FRAS3;01/07/2025;19:19;Pagamento de Juros Sobre o Capital Próprio (?JCP?);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1396602&descTipo=IPE&CodigoInstituicao=1
-9;FRAS3;30/06/2025;10:08;Oferta Pública Subsequente de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1395203&descTipo=IPE&CodigoInstituicao=1
-10;FRAS3;20/06/2025;07:57;Comunicado de Receita - Maio 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1392087&descTipo=IPE&CodigoInstituicao=1
-11;FRAS3;16/06/2025;09:21;Potencial Oferta e Descontinuidade de Projeções;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1390757&descTipo=IPE&CodigoInstituicao=1
-12;FRAS3;09/06/2025;20:47;Ambição ESG Randoncorp e Frasle Mobility ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1388736&descTipo=IPE&CodigoInstituicao=1
-13;FRAS3;04/06/2025;18:19;Aquisição de cotas da Jurid - Frasle Mobility site Sorocoba;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1386871&descTipo=IPE&CodigoInstituicao=1
-14;FRAS3;20/05/2025;07:59;Comunicado de Receita - Abril 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1380742&descTipo=IPE&CodigoInstituicao=1
-15;FRAS3;22/04/2025;07:53;Comunicado de Receita - Março 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1363170&descTipo=IPE&CodigoInstituicao=1
-16;FRAS3;10/04/2025;18:08;Projeções 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1360234&descTipo=IPE&CodigoInstituicao=1
-17;FRAS3;20/03/2025;08:49;Alterações governança corporativa ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1349056&descTipo=IPE&CodigoInstituicao=1
-18;FRAS3;20/03/2025;07:53;Comunicado de Receita - Fevereiro 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1349037&descTipo=IPE&CodigoInstituicao=1
-19;FRAS3;20/02/2025;07:47;Comunicado de Receita - Janeiro 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1337187&descTipo=IPE&CodigoInstituicao=1
-20;FRAS3;14/01/2025;18:16;Comunicado ao Mercado - Closing Projeto Maia - Aquisição Kuo Refacciones;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1324902&descTipo=IPE&CodigoInstituicao=1
-21;FRAS3;20/12/2024;07:46;Comunicado de Receita - Novembro 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1317845&descTipo=IPE&CodigoInstituicao=1
-22;FRAS3;11/12/2024;17:42;Dividendos/Juros sobre capital próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1314507&descTipo=IPE&CodigoInstituicao=1
-23;FRAS3;21/11/2024;07:50;Comunicado de Receita - Outubro 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1306281&descTipo=IPE&CodigoInstituicao=1
-24;FRAS3;21/10/2024;08:52;Comunicado de Receita - Setembro 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1293027&descTipo=IPE&CodigoInstituicao=1
-25;FRAS3;20/09/2024;07:48;Comunicado de Receita - Agosto 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1283955&descTipo=IPE&CodigoInstituicao=1
-26;FRAS3;04/09/2024;17:59;5º Emissão de Debêntures ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1278651&descTipo=IPE&CodigoInstituicao=1
-27;FRAS3;20/08/2024;07:50;Comunicado de Receita - Julho 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1273886&descTipo=IPE&CodigoInstituicao=1
-28;FRAS3;14/08/2024;08:50;Live Ambição ESG;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1271548&descTipo=IPE&CodigoInstituicao=1
-29;FRAS3;22/07/2024;07:43;Comunicado de Receita - Junho 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1261430&descTipo=IPE&CodigoInstituicao=1
-30;FRAS3;17/07/2024;18:05; Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1260536&descTipo=IPE&CodigoInstituicao=1
-31;FRAS3;08/07/2024;11:20;Live 4Um;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1257412&descTipo=IPE&CodigoInstituicao=1
-32;FRAS3;24/06/2024;18:15;Assinatura de compra e venda da Kuo Refacciones ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1252973&descTipo=IPE&CodigoInstituicao=1
-33;FRAS3;20/06/2024;07:45;Comunicado de Receita - Maio 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1251857&descTipo=IPE&CodigoInstituicao=1
-34;FRAS3;28/05/2024;18:21;Retomada das Operações Site Controil - Calamidade Pública no RS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1243298&descTipo=IPE&CodigoInstituicao=1
-35;FRAS3;20/05/2024;07:57;Comunicado de Receita - Abril 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1240241&descTipo=IPE&CodigoInstituicao=1
-36;FRAS3;05/05/2024;11:33;Retorno Parcial - Calamidade Pública RS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1232816&descTipo=IPE&CodigoInstituicao=1
-37;FRAS3;02/05/2024;13:20;Suspensão Temporária | Calamidade Pública no RS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1231399&descTipo=IPE&CodigoInstituicao=1
-38;FRAS3;22/04/2024;07:51;Comunicado de Receita - Março 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1224041&descTipo=IPE&CodigoInstituicao=1
-39;FRAS3;16/04/2024;18:12;Encerramento das atividades da controlada FANACIF S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1222342&descTipo=IPE&CodigoInstituicao=1
-40;FRAS3;20/03/2024;07:51;Comunicado de Receita - Fevereiro 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1209717&descTipo=IPE&CodigoInstituicao=1
-41;FRAS3;11/03/2024;19:26;Projeções 2024 ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1206036&descTipo=IPE&CodigoInstituicao=1
-42;FRAS3;28/02/2024;18:30;Captação sustentável;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1200531&descTipo=IPE&CodigoInstituicao=1
-43;FRAS3;20/02/2024;08:06;Comunicado de Receita - Janeiro 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1196405&descTipo=IPE&CodigoInstituicao=1
-44;FRAS3;20/12/2023;08:06;ri.fraslemobility.com;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1175761&descTipo=IPE&CodigoInstituicao=1
-45;FRAS3;20/11/2023;08:08;Comunicado de Receita - Outubro 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1164551&descTipo=IPE&CodigoInstituicao=1
-46;FRAS3;20/10/2023;08:04;Comunicado de Receita - Setembro 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1153100&descTipo=IPE&CodigoInstituicao=1
-47;FRAS3;27/09/2023;08:03;Revisão do Guidance 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1146344&descTipo=IPE&CodigoInstituicao=1
-48;FRAS3;20/09/2023;08:07;Comunicado de Receita - Agosto 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1144648&descTipo=IPE&CodigoInstituicao=1
-49;FRAS3;21/08/2023;08:10;Comunicado de Receita - Julho 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1135791&descTipo=IPE&CodigoInstituicao=1
-50;FRAS3;20/07/2023;08:00;Comunicado de Receita - Junho 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1123951&descTipo=IPE&CodigoInstituicao=1
-51;FRAS3;20/06/2023;07:52;Comunicado de Receita - Maio 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1114823&descTipo=IPE&CodigoInstituicao=1
-52;FRAS3;22/05/2023;08:29;Comunicado de receita - abril/2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1104875&descTipo=IPE&CodigoInstituicao=1
-53;FRAS3;25/04/2023;17:56;Alteração Banco Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1089609&descTipo=IPE&CodigoInstituicao=1
-54;FRAS3;25/04/2023;10:14;Live Nossa Ambição ESG;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1089362&descTipo=IPE&CodigoInstituicao=1
-55;FRAS3;24/04/2023;18:06;Guidance 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1088930&descTipo=IPE&CodigoInstituicao=1
-56;FRAS3;24/04/2023;17:33;Guidance 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1088890&descTipo=IPE&CodigoInstituicao=1
-57;FRAS3;20/04/2023;07:57;Comunicado de Receita - março/2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1087986&descTipo=IPE&CodigoInstituicao=1
-58;FRAS3;17/04/2023;17:59;Troca de marca de Smart Composites para Composs;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1086794&descTipo=IPE&CodigoInstituicao=1
-59;FRAS3;06/04/2023;15:03;Nova identidade de marca - Frasle Mobility;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1083522&descTipo=IPE&CodigoInstituicao=1
-60;FRAS3;20/03/2023;07:37;Comunicado de receita ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1074641&descTipo=IPE&CodigoInstituicao=1
-61;FRAS3;01/03/2023;09:08;Closing Projeto JK - Aquisição AML Juratek;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1066828&descTipo=IPE&CodigoInstituicao=1
-62;FRAS3;22/02/2023;08:45;Comunicado de Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1063872&descTipo=IPE&CodigoInstituicao=1
-63;FRAS3;16/02/2023;18:22;Aquisição AML Juratek;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1061834&descTipo=IPE&CodigoInstituicao=1
-64;FRAS3;20/12/2022;09:20;Comunicado de Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1042957&descTipo=IPE&CodigoInstituicao=1
-65;FRAS3;21/11/2022;08:07;Comunicado de Receita ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1034350&descTipo=IPE&CodigoInstituicao=1
-66;FRAS3;20/10/2022;07:51;Comunicado Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023220&descTipo=IPE&CodigoInstituicao=1
-67;FRAS3;26/09/2022;20:28;Live com Executivos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1017644&descTipo=IPE&CodigoInstituicao=1
-68;FRAS3;20/09/2022;07:21;Comunicado Receita Líquida Agosto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1016590&descTipo=IPE&CodigoInstituicao=1
-69;FRAS3;22/08/2022;08:09;Comunicado Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1009898&descTipo=IPE&CodigoInstituicao=1
-70;FRAS3;10/08/2022;18:13;Reativação Guidance 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1006121&descTipo=IPE&CodigoInstituicao=1
-71;FRAS3;20/07/2022;08:20;Comunicado Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=999081&descTipo=IPE&CodigoInstituicao=1
-72;FRAS3;18/07/2022;07:56;Fato Relevante - Alteração do Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=998505&descTipo=IPE&CodigoInstituicao=1
-73;FRAS3;06/07/2022;18:00;Live com Executivos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=995828&descTipo=IPE&CodigoInstituicao=1
-74;FRAS3;24/06/2022;08:05;Comunicado de live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=992796&descTipo=IPE&CodigoInstituicao=1
-75;FRAS3;20/06/2022;07:28;Comunicado Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=991723&descTipo=IPE&CodigoInstituicao=1
-76;FRAS3;26/05/2022;19:56;Contratação Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=985284&descTipo=IPE&CodigoInstituicao=1
-77;FRAS3;20/05/2022;08:03;Comunicado Receitas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=983692&descTipo=IPE&CodigoInstituicao=1
-78;FRAS3;20/04/2022;07:33;Comunicado Receita líquida de março;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=968616&descTipo=IPE&CodigoInstituicao=1
-79;FRAS3;07/04/2022;23:50;Fato Relevante - Oferta Restrita - Preço por ação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=965189&descTipo=IPE&CodigoInstituicao=1
-80;FRAS3;31/03/2022;22:48;Fras-le - Reapresentação Fato Relevante - Oferta pública de distribuição primária e secundária de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=962674&descTipo=IPE&CodigoInstituicao=1
-81;FRAS3;30/03/2022;09:24;Oferta pública de distribuição primária e secundária de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=960981&descTipo=IPE&CodigoInstituicao=1
-82;FRAS3;21/03/2022;08:31;Comunica Receita Líquida;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=956240&descTipo=IPE&CodigoInstituicao=1
-83;FRAS3;24/02/2022;08:17;Guidance 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=946938&descTipo=IPE&CodigoInstituicao=1
-84;FRAS3;21/02/2022;08:36;Comunicado Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=945680&descTipo=IPE&CodigoInstituicao=1
-85;FRAS3;09/02/2022;18:24;Suspensão Publicação DOE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=940603&descTipo=IPE&CodigoInstituicao=1
-86;FRAS3;20/12/2021;08:01;Comunicado de Receitas - Novembro 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=927279&descTipo=IPE&CodigoInstituicao=1
-87;FRAS3;22/11/2021;07:33;Comunicado receitas Outubro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=919274&descTipo=IPE&CodigoInstituicao=1
-88;FRAS3;10/11/2021;19:27;Decisão do Supremo Tribunal Federal IRPJ/CSLL;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=915556&descTipo=IPE&CodigoInstituicao=1
-89;FRAS3;20/10/2021;08:00;Comunicado Receitas Setembro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=908582&descTipo=IPE&CodigoInstituicao=1
-90;FRAS3;20/09/2021;07:52;Comunicado Receitas Agosto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=902077&descTipo=IPE&CodigoInstituicao=1
-91;FRAS3;27/08/2021;18:28;Descoberta, Mudança ou Desenvolvimento de Tecnologia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=896809&descTipo=IPE&CodigoInstituicao=1
-92;FRAS3;20/08/2021;07:43;Comunicado Receitas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=895238&descTipo=IPE&CodigoInstituicao=1
-93;FRAS3;19/08/2021;17:47;Comunicado ao Mercado - Lançamento Smart Composites;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=895066&descTipo=IPE&CodigoInstituicao=1
-94;FRAS3;09/08/2021;17:59;Revisão do Guidance 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=890785&descTipo=IPE&CodigoInstituicao=1
-95;FRAS3;20/07/2021;08:07;Comunicado Receitas Junho;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=884966&descTipo=IPE&CodigoInstituicao=1
-96;FRAS3;21/06/2021;08:22;Comunicado Receitas Maio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=877525&descTipo=IPE&CodigoInstituicao=1
-97;FRAS3;17/06/2021;18:56;Comunicado ao mercado - Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=877165&descTipo=IPE&CodigoInstituicao=1
-98;FRAS3;20/05/2021;08:01;Comunicado Receitas Abril;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=869920&descTipo=IPE&CodigoInstituicao=1
-99;FRAS3;28/04/2021;17:33;Comunicado ao Mercado - Sociedade Centro Técnológico Randon;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=858541&descTipo=IPE&CodigoInstituicao=1
+0;FRAS3;09/10/2025;18:36;Aprovação da realização da 6ª emissão de debêntures da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1431361&descTipo=IPE&CodigoInstituicao=1
+1;FRAS3;22/09/2025;09:09;Comunicado de Receita Agosto/2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1425202&descTipo=IPE&CodigoInstituicao=1
+2;FRAS3;01/09/2025;08:48;Alterações Governança Corporativa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1418727&descTipo=IPE&CodigoInstituicao=1
+3;FRAS3;01/09/2025;07:53;Alterações Governança Corporativa;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1418719&descTipo=IPE&CodigoInstituicao=1
+4;FRAS3;20/08/2025;07:52;Receita Líquida Consolidada | Julho de 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1415300&descTipo=IPE&CodigoInstituicao=1
+5;FRAS3;06/08/2025;18:16;Retomada e revisão das projeções 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1408915&descTipo=IPE&CodigoInstituicao=1
+6;FRAS3;01/08/2025;09:23;Aquisição de quotas da Jurid - Frasle Mobility site Sorocaba;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1406437&descTipo=IPE&CodigoInstituicao=1
+7;FRAS3;21/07/2025;07:55;Comunicado de Receita - Junho 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1402331&descTipo=IPE&CodigoInstituicao=1
+8;FRAS3;11/07/2025;01:53;Precificação de Oferta Pública Subsequente de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1400134&descTipo=IPE&CodigoInstituicao=1
+9;FRAS3;01/07/2025;19:19;Pagamento de Juros Sobre o Capital Próprio (?JCP?);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1396602&descTipo=IPE&CodigoInstituicao=1
+10;FRAS3;30/06/2025;10:08;Oferta Pública Subsequente de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1395203&descTipo=IPE&CodigoInstituicao=1
+11;FRAS3;20/06/2025;07:57;Comunicado de Receita - Maio 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1392087&descTipo=IPE&CodigoInstituicao=1
+12;FRAS3;16/06/2025;09:21;Potencial Oferta e Descontinuidade de Projeções;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1390757&descTipo=IPE&CodigoInstituicao=1
+13;FRAS3;09/06/2025;20:47;Ambição ESG Randoncorp e Frasle Mobility ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1388736&descTipo=IPE&CodigoInstituicao=1
+14;FRAS3;04/06/2025;18:19;Aquisição de cotas da Jurid - Frasle Mobility site Sorocoba;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1386871&descTipo=IPE&CodigoInstituicao=1
+15;FRAS3;20/05/2025;07:59;Comunicado de Receita - Abril 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1380742&descTipo=IPE&CodigoInstituicao=1
+16;FRAS3;22/04/2025;07:53;Comunicado de Receita - Março 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1363170&descTipo=IPE&CodigoInstituicao=1
+17;FRAS3;10/04/2025;18:08;Projeções 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1360234&descTipo=IPE&CodigoInstituicao=1
+18;FRAS3;20/03/2025;08:49;Alterações governança corporativa ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1349056&descTipo=IPE&CodigoInstituicao=1
+19;FRAS3;20/03/2025;07:53;Comunicado de Receita - Fevereiro 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1349037&descTipo=IPE&CodigoInstituicao=1
+20;FRAS3;20/02/2025;07:47;Comunicado de Receita - Janeiro 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1337187&descTipo=IPE&CodigoInstituicao=1
+21;FRAS3;14/01/2025;18:16;Comunicado ao Mercado - Closing Projeto Maia - Aquisição Kuo Refacciones;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1324902&descTipo=IPE&CodigoInstituicao=1
+22;FRAS3;20/12/2024;07:46;Comunicado de Receita - Novembro 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1317845&descTipo=IPE&CodigoInstituicao=1
+23;FRAS3;11/12/2024;17:42;Dividendos/Juros sobre capital próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1314507&descTipo=IPE&CodigoInstituicao=1
+24;FRAS3;21/11/2024;07:50;Comunicado de Receita - Outubro 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1306281&descTipo=IPE&CodigoInstituicao=1
+25;FRAS3;21/10/2024;08:52;Comunicado de Receita - Setembro 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1293027&descTipo=IPE&CodigoInstituicao=1
+26;FRAS3;20/09/2024;07:48;Comunicado de Receita - Agosto 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1283955&descTipo=IPE&CodigoInstituicao=1
+27;FRAS3;04/09/2024;17:59;5º Emissão de Debêntures ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1278651&descTipo=IPE&CodigoInstituicao=1
+28;FRAS3;20/08/2024;07:50;Comunicado de Receita - Julho 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1273886&descTipo=IPE&CodigoInstituicao=1
+29;FRAS3;14/08/2024;08:50;Live Ambição ESG;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1271548&descTipo=IPE&CodigoInstituicao=1
+30;FRAS3;22/07/2024;07:43;Comunicado de Receita - Junho 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1261430&descTipo=IPE&CodigoInstituicao=1
+31;FRAS3;17/07/2024;18:05; Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1260536&descTipo=IPE&CodigoInstituicao=1
+32;FRAS3;08/07/2024;11:20;Live 4Um;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1257412&descTipo=IPE&CodigoInstituicao=1
+33;FRAS3;24/06/2024;18:15;Assinatura de compra e venda da Kuo Refacciones ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1252973&descTipo=IPE&CodigoInstituicao=1
+34;FRAS3;20/06/2024;07:45;Comunicado de Receita - Maio 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1251857&descTipo=IPE&CodigoInstituicao=1
+35;FRAS3;28/05/2024;18:21;Retomada das Operações Site Controil - Calamidade Pública no RS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1243298&descTipo=IPE&CodigoInstituicao=1
+36;FRAS3;20/05/2024;07:57;Comunicado de Receita - Abril 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1240241&descTipo=IPE&CodigoInstituicao=1
+37;FRAS3;05/05/2024;11:33;Retorno Parcial - Calamidade Pública RS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1232816&descTipo=IPE&CodigoInstituicao=1
+38;FRAS3;02/05/2024;13:20;Suspensão Temporária | Calamidade Pública no RS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1231399&descTipo=IPE&CodigoInstituicao=1
+39;FRAS3;22/04/2024;07:51;Comunicado de Receita - Março 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1224041&descTipo=IPE&CodigoInstituicao=1
+40;FRAS3;16/04/2024;18:12;Encerramento das atividades da controlada FANACIF S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1222342&descTipo=IPE&CodigoInstituicao=1
+41;FRAS3;20/03/2024;07:51;Comunicado de Receita - Fevereiro 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1209717&descTipo=IPE&CodigoInstituicao=1
+42;FRAS3;11/03/2024;19:26;Projeções 2024 ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1206036&descTipo=IPE&CodigoInstituicao=1
+43;FRAS3;28/02/2024;18:30;Captação sustentável;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1200531&descTipo=IPE&CodigoInstituicao=1
+44;FRAS3;20/02/2024;08:06;Comunicado de Receita - Janeiro 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1196405&descTipo=IPE&CodigoInstituicao=1
+45;FRAS3;20/12/2023;08:06;ri.fraslemobility.com;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1175761&descTipo=IPE&CodigoInstituicao=1
+46;FRAS3;20/11/2023;08:08;Comunicado de Receita - Outubro 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1164551&descTipo=IPE&CodigoInstituicao=1
+47;FRAS3;20/10/2023;08:04;Comunicado de Receita - Setembro 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1153100&descTipo=IPE&CodigoInstituicao=1
+48;FRAS3;27/09/2023;08:03;Revisão do Guidance 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1146344&descTipo=IPE&CodigoInstituicao=1
+49;FRAS3;20/09/2023;08:07;Comunicado de Receita - Agosto 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1144648&descTipo=IPE&CodigoInstituicao=1
+50;FRAS3;21/08/2023;08:10;Comunicado de Receita - Julho 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1135791&descTipo=IPE&CodigoInstituicao=1
+51;FRAS3;20/07/2023;08:00;Comunicado de Receita - Junho 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1123951&descTipo=IPE&CodigoInstituicao=1
+52;FRAS3;20/06/2023;07:52;Comunicado de Receita - Maio 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1114823&descTipo=IPE&CodigoInstituicao=1
+53;FRAS3;22/05/2023;08:29;Comunicado de receita - abril/2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1104875&descTipo=IPE&CodigoInstituicao=1
+54;FRAS3;25/04/2023;17:56;Alteração Banco Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1089609&descTipo=IPE&CodigoInstituicao=1
+55;FRAS3;25/04/2023;10:14;Live Nossa Ambição ESG;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1089362&descTipo=IPE&CodigoInstituicao=1
+56;FRAS3;24/04/2023;18:06;Guidance 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1088930&descTipo=IPE&CodigoInstituicao=1
+57;FRAS3;24/04/2023;17:33;Guidance 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1088890&descTipo=IPE&CodigoInstituicao=1
+58;FRAS3;20/04/2023;07:57;Comunicado de Receita - março/2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1087986&descTipo=IPE&CodigoInstituicao=1
+59;FRAS3;17/04/2023;17:59;Troca de marca de Smart Composites para Composs;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1086794&descTipo=IPE&CodigoInstituicao=1
+60;FRAS3;06/04/2023;15:03;Nova identidade de marca - Frasle Mobility;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1083522&descTipo=IPE&CodigoInstituicao=1
+61;FRAS3;20/03/2023;07:37;Comunicado de receita ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1074641&descTipo=IPE&CodigoInstituicao=1
+62;FRAS3;01/03/2023;09:08;Closing Projeto JK - Aquisição AML Juratek;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1066828&descTipo=IPE&CodigoInstituicao=1
+63;FRAS3;22/02/2023;08:45;Comunicado de Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1063872&descTipo=IPE&CodigoInstituicao=1
+64;FRAS3;16/02/2023;18:22;Aquisição AML Juratek;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1061834&descTipo=IPE&CodigoInstituicao=1
+65;FRAS3;20/12/2022;09:20;Comunicado de Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1042957&descTipo=IPE&CodigoInstituicao=1
+66;FRAS3;21/11/2022;08:07;Comunicado de Receita ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1034350&descTipo=IPE&CodigoInstituicao=1
+67;FRAS3;20/10/2022;07:51;Comunicado Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023220&descTipo=IPE&CodigoInstituicao=1
+68;FRAS3;26/09/2022;20:28;Live com Executivos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1017644&descTipo=IPE&CodigoInstituicao=1
+69;FRAS3;20/09/2022;07:21;Comunicado Receita Líquida Agosto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1016590&descTipo=IPE&CodigoInstituicao=1
+70;FRAS3;22/08/2022;08:09;Comunicado Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1009898&descTipo=IPE&CodigoInstituicao=1
+71;FRAS3;10/08/2022;18:13;Reativação Guidance 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1006121&descTipo=IPE&CodigoInstituicao=1
+72;FRAS3;20/07/2022;08:20;Comunicado Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=999081&descTipo=IPE&CodigoInstituicao=1
+73;FRAS3;18/07/2022;07:56;Fato Relevante - Alteração do Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=998505&descTipo=IPE&CodigoInstituicao=1
+74;FRAS3;06/07/2022;18:00;Live com Executivos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=995828&descTipo=IPE&CodigoInstituicao=1
+75;FRAS3;24/06/2022;08:05;Comunicado de live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=992796&descTipo=IPE&CodigoInstituicao=1
+76;FRAS3;20/06/2022;07:28;Comunicado Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=991723&descTipo=IPE&CodigoInstituicao=1
+77;FRAS3;26/05/2022;19:56;Contratação Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=985284&descTipo=IPE&CodigoInstituicao=1
+78;FRAS3;20/05/2022;08:03;Comunicado Receitas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=983692&descTipo=IPE&CodigoInstituicao=1
+79;FRAS3;20/04/2022;07:33;Comunicado Receita líquida de março;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=968616&descTipo=IPE&CodigoInstituicao=1
+80;FRAS3;07/04/2022;23:50;Fato Relevante - Oferta Restrita - Preço por ação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=965189&descTipo=IPE&CodigoInstituicao=1
+81;FRAS3;31/03/2022;22:48;Fras-le - Reapresentação Fato Relevante - Oferta pública de distribuição primária e secundária de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=962674&descTipo=IPE&CodigoInstituicao=1
+82;FRAS3;30/03/2022;09:24;Oferta pública de distribuição primária e secundária de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=960981&descTipo=IPE&CodigoInstituicao=1
+83;FRAS3;21/03/2022;08:31;Comunica Receita Líquida;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=956240&descTipo=IPE&CodigoInstituicao=1
+84;FRAS3;24/02/2022;08:17;Guidance 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=946938&descTipo=IPE&CodigoInstituicao=1
+85;FRAS3;21/02/2022;08:36;Comunicado Receita;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=945680&descTipo=IPE&CodigoInstituicao=1
+86;FRAS3;09/02/2022;18:24;Suspensão Publicação DOE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=940603&descTipo=IPE&CodigoInstituicao=1
+87;FRAS3;20/12/2021;08:01;Comunicado de Receitas - Novembro 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=927279&descTipo=IPE&CodigoInstituicao=1
+88;FRAS3;22/11/2021;07:33;Comunicado receitas Outubro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=919274&descTipo=IPE&CodigoInstituicao=1
+89;FRAS3;10/11/2021;19:27;Decisão do Supremo Tribunal Federal IRPJ/CSLL;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=915556&descTipo=IPE&CodigoInstituicao=1
+90;FRAS3;20/10/2021;08:00;Comunicado Receitas Setembro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=908582&descTipo=IPE&CodigoInstituicao=1
+91;FRAS3;20/09/2021;07:52;Comunicado Receitas Agosto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=902077&descTipo=IPE&CodigoInstituicao=1
+92;FRAS3;27/08/2021;18:28;Descoberta, Mudança ou Desenvolvimento de Tecnologia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=896809&descTipo=IPE&CodigoInstituicao=1
+93;FRAS3;20/08/2021;07:43;Comunicado Receitas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=895238&descTipo=IPE&CodigoInstituicao=1
+94;FRAS3;19/08/2021;17:47;Comunicado ao Mercado - Lançamento Smart Composites;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=895066&descTipo=IPE&CodigoInstituicao=1
+95;FRAS3;09/08/2021;17:59;Revisão do Guidance 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=890785&descTipo=IPE&CodigoInstituicao=1
+96;FRAS3;20/07/2021;08:07;Comunicado Receitas Junho;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=884966&descTipo=IPE&CodigoInstituicao=1
+97;FRAS3;21/06/2021;08:22;Comunicado Receitas Maio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=877525&descTipo=IPE&CodigoInstituicao=1
+98;FRAS3;17/06/2021;18:56;Comunicado ao mercado - Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=877165&descTipo=IPE&CodigoInstituicao=1
+99;FRAS3;20/05/2021;08:01;Comunicado Receitas Abril;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=869920&descTipo=IPE&CodigoInstituicao=1
