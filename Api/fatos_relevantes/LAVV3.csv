@@ -1,68 +1,69 @@
 ;Acao;Data;Hora;Descrição;Link
-0;LAVV3;06/10/2025;23:19;Emissão de Notas Comerciais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1430093&descTipo=IPE&CodigoInstituicao=1
-1;LAVV3;28/08/2025;18:49;Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1418166&descTipo=IPE&CodigoInstituicao=1
-2;LAVV3;25/08/2025;18:13;Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1416758&descTipo=IPE&CodigoInstituicao=1
-3;LAVV3;10/07/2025;18:33;Comunicado ao Mercado - Prévia Operacional 2T25 2Q25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1399941&descTipo=IPE&CodigoInstituicao=1
-4;LAVV3;10/04/2025;20:20;Comunicado ao Mercado - Prévia Operacional 1T25 1Q25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1360491&descTipo=IPE&CodigoInstituicao=1
-5;LAVV3;04/02/2025;18:26;Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1330278&descTipo=IPE&CodigoInstituicao=1
-6;LAVV3;04/02/2025;18:15;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1330277&descTipo=IPE&CodigoInstituicao=1
-7;LAVV3;20/01/2025;18:22;Comunicado ao Mercado - Prévia Operacional 4T24 4Q24 / 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1326222&descTipo=IPE&CodigoInstituicao=1
-8;LAVV3;17/12/2024;19:49;encerramento de oferta de dívida;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1316741&descTipo=IPE&CodigoInstituicao=1
-9;LAVV3;12/11/2024;22:10;Emissão de Notas Comerciais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1302913&descTipo=IPE&CodigoInstituicao=1
-10;LAVV3;13/10/2024;17:21;Prévia Operacional 3T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1291186&descTipo=IPE&CodigoInstituicao=1
-11;LAVV3;16/07/2024;18:15;Comunicado ao Mercado - Prévia Operacional 2T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1260231&descTipo=IPE&CodigoInstituicao=1
-12;LAVV3;25/04/2024;17:48;Lançamento Palace by Praças da Cidade;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1226090&descTipo=IPE&CodigoInstituicao=1
-13;LAVV3;25/04/2024;17:37;Comunicado ao Mercado - Prévia Operacional 1T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1226056&descTipo=IPE&CodigoInstituicao=1
-14;LAVV3;18/04/2024;09:04;Comunicado ao Mercado - Prévia Operacional 1T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1223145&descTipo=IPE&CodigoInstituicao=1
-15;LAVV3;17/04/2024;18:24;Comunicado ao Mercado - Prévia Operacional 1T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1222945&descTipo=IPE&CodigoInstituicao=1
-16;LAVV3;01/03/2024;08:49;encerramento oferta de dívida;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1201530&descTipo=IPE&CodigoInstituicao=1
-17;LAVV3;23/01/2024;08:17;Comunicado ao Mercado - Prévia Operacional 4T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1185199&descTipo=IPE&CodigoInstituicao=1
-18;LAVV3;23/01/2024;00:02;Emissão de Notas Comerciais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1185197&descTipo=IPE&CodigoInstituicao=1
-19;LAVV3;13/12/2023;18:25;Lançamento Novvo Barra Funda;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1173103&descTipo=IPE&CodigoInstituicao=1
-20;LAVV3;08/12/2023;18:20;Encerramento do programa de recompra de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1171282&descTipo=IPE&CodigoInstituicao=1
-21;LAVV3;16/10/2023;17:21;Comunicado ao Mercado - Prévia Operacional 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1151830&descTipo=IPE&CodigoInstituicao=1
-22;LAVV3;19/07/2023;19:32;Comunicado ao Mercado - Prévia Operacional 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1123859&descTipo=IPE&CodigoInstituicao=1
-23;LAVV3;29/06/2023;18:06;Lançamento da marca Novvo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1117886&descTipo=IPE&CodigoInstituicao=1
-24;LAVV3;28/06/2023;17:54;Lançamento Studios Elie Saab;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1117428&descTipo=IPE&CodigoInstituicao=1
-25;LAVV3;23/05/2023;18:36;Lançamento Saffire;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1105542&descTipo=IPE&CodigoInstituicao=1
-26;LAVV3;26/04/2023;23:16;Prévia Operacional 1T23 / 1Q23 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1090905&descTipo=IPE&CodigoInstituicao=1
-27;LAVV3;24/04/2023;18:50;Prévia Operacional 1T23 / 1Q23 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1089047&descTipo=IPE&CodigoInstituicao=1
-28;LAVV3;10/04/2023;18:26;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1084665&descTipo=IPE&CodigoInstituicao=1
-29;LAVV3;19/01/2023;19:11;Prévia Operacional 4T22 / 4Q22 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1050817&descTipo=IPE&CodigoInstituicao=1
-30;LAVV3;20/10/2022;19:46;Autorização de Operação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023504&descTipo=IPE&CodigoInstituicao=1
-31;LAVV3;20/10/2022;19:35;Prévia Operacional 3T22 / 3Q22 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023501&descTipo=IPE&CodigoInstituicao=1
-32;LAVV3;12/07/2022;18:28;Prévia Operacional 2T22 / 2Q22 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=997643&descTipo=IPE&CodigoInstituicao=1
-33;LAVV3;08/06/2022;18:16;i) cancelamento de ações em tesouraria ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=988994&descTipo=IPE&CodigoInstituicao=1
-34;LAVV3;19/04/2022;20:44;Lançamento do Verdant Parque Resort;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=968568&descTipo=IPE&CodigoInstituicao=1
-35;LAVV3;19/04/2022;09:55;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=968248&descTipo=IPE&CodigoInstituicao=1
-36;LAVV3;12/04/2022;17:19;Prévia Operacional 1T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=966723&descTipo=IPE&CodigoInstituicao=1
-37;LAVV3;16/03/2022;18:42;Lançamento High Wonder;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954751&descTipo=IPE&CodigoInstituicao=1
-38;LAVV3;16/03/2022;18:42;Alterações na Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954752&descTipo=IPE&CodigoInstituicao=1
-39;LAVV3;16/03/2022;17:36;Lançamento High Wonder;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954679&descTipo=IPE&CodigoInstituicao=1
-40;LAVV3;16/03/2022;17:36;Alterações na Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954680&descTipo=IPE&CodigoInstituicao=1
-41;LAVV3;16/03/2022;17:25;Alterações na Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954676&descTipo=IPE&CodigoInstituicao=1
-42;LAVV3;01/02/2022;16:48;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=937315&descTipo=IPE&CodigoInstituicao=1
-43;LAVV3;25/01/2022;10:16;Live com Executivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935338&descTipo=IPE&CodigoInstituicao=1
-44;LAVV3;17/01/2022;18:56;Estudos sobre entrada no mercado econômico;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=933978&descTipo=IPE&CodigoInstituicao=1
-45;LAVV3;13/01/2022;18:19;Prévia Operacional 4T21 / 4Q21 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=933239&descTipo=IPE&CodigoInstituicao=1
-46;LAVV3;16/11/2021;18:27;Lançamento do Grand Vitrali / Grand Vitrali Launch;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=917648&descTipo=IPE&CodigoInstituicao=1
-47;LAVV3;14/10/2021;17:26;Prévia Operacional 3T21 / Operating Preview 3Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907523&descTipo=IPE&CodigoInstituicao=1
-48;LAVV3;06/10/2021;19:43;Cancelamento de ações em tesouraria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=905878&descTipo=IPE&CodigoInstituicao=1
-49;LAVV3;02/09/2021;17:39;Lançamento do Wonder Ipiranga / Wonder Ipiranga Launch;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=898098&descTipo=IPE&CodigoInstituicao=1
-50;LAVV3;14/07/2021;17:33;Prévia Operacional 2T21 / Operational Preview 2Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=883832&descTipo=IPE&CodigoInstituicao=1
-51;LAVV3;06/07/2021;17:25;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=881493&descTipo=IPE&CodigoInstituicao=1
-52;LAVV3;08/06/2021;17:30;Lançamento do Villa Versace / Launch of Villa Versace;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=874698&descTipo=IPE&CodigoInstituicao=1
-53;LAVV3;05/05/2021;18:30;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=863011&descTipo=IPE&CodigoInstituicao=1
-54;LAVV3;03/05/2021;17:27;Ingresso em Índices / Indexes Entry;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=861917&descTipo=IPE&CodigoInstituicao=1
-55;LAVV3;19/04/2021;17:46;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=855064&descTipo=IPE&CodigoInstituicao=1
-56;LAVV3;15/04/2021;17:53;Prévia Operacional 1T20 / Operational Preview 1Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=854223&descTipo=IPE&CodigoInstituicao=1
-57;LAVV3;07/04/2021;18:18;Parceria Lavvi e Versace / Lavvi and Versace Partnership;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=851457&descTipo=IPE&CodigoInstituicao=1
-58;LAVV3;22/03/2021;20:25;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=844825&descTipo=IPE&CodigoInstituicao=1
-59;LAVV3;18/03/2021;18:42;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843903&descTipo=IPE&CodigoInstituicao=1
-60;LAVV3;18/03/2021;09:32;Participação de executivo em Live / Participation in live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843675&descTipo=IPE&CodigoInstituicao=1
-61;LAVV3;19/01/2021;18:19;Previa Operacional 4T20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=823699&descTipo=IPE&CodigoInstituicao=1
-62;LAVV3;18/01/2021;18:28;Formador de Mercado / Market Maker;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=823471&descTipo=IPE&CodigoInstituicao=1
-63;LAVV3;10/11/2020;09:15;Lançamento do Lumiere Residence;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=806798&descTipo=IPE&CodigoInstituicao=1
-64;LAVV3;20/10/2020;19:49;Alterações na Diretoria / Management changes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=801734&descTipo=IPE&CodigoInstituicao=1
-65;LAVV3;20/10/2020;18:24;Prévia Operacional 3T20 / Operational Preview 3Q20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=801663&descTipo=IPE&CodigoInstituicao=1
-66;LAVV3;15/09/2020;09:07;Comunicado ao Mercado Participação em Live Elie H Exame;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=793226&descTipo=IPE&CodigoInstituicao=1
+0;LAVV3;20/10/2025;17:41;comunicado ao Mercado - Prévia Operacional 3T25 3Q25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1434082&descTipo=IPE&CodigoInstituicao=1
+1;LAVV3;06/10/2025;23:19;Emissão de Notas Comerciais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1430093&descTipo=IPE&CodigoInstituicao=1
+2;LAVV3;28/08/2025;18:49;Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1418166&descTipo=IPE&CodigoInstituicao=1
+3;LAVV3;25/08/2025;18:13;Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1416758&descTipo=IPE&CodigoInstituicao=1
+4;LAVV3;10/07/2025;18:33;Comunicado ao Mercado - Prévia Operacional 2T25 2Q25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1399941&descTipo=IPE&CodigoInstituicao=1
+5;LAVV3;10/04/2025;20:20;Comunicado ao Mercado - Prévia Operacional 1T25 1Q25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1360491&descTipo=IPE&CodigoInstituicao=1
+6;LAVV3;04/02/2025;18:26;Dividendos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1330278&descTipo=IPE&CodigoInstituicao=1
+7;LAVV3;04/02/2025;18:15;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1330277&descTipo=IPE&CodigoInstituicao=1
+8;LAVV3;20/01/2025;18:22;Comunicado ao Mercado - Prévia Operacional 4T24 4Q24 / 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1326222&descTipo=IPE&CodigoInstituicao=1
+9;LAVV3;17/12/2024;19:49;encerramento de oferta de dívida;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1316741&descTipo=IPE&CodigoInstituicao=1
+10;LAVV3;12/11/2024;22:10;Emissão de Notas Comerciais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1302913&descTipo=IPE&CodigoInstituicao=1
+11;LAVV3;13/10/2024;17:21;Prévia Operacional 3T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1291186&descTipo=IPE&CodigoInstituicao=1
+12;LAVV3;16/07/2024;18:15;Comunicado ao Mercado - Prévia Operacional 2T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1260231&descTipo=IPE&CodigoInstituicao=1
+13;LAVV3;25/04/2024;17:48;Lançamento Palace by Praças da Cidade;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1226090&descTipo=IPE&CodigoInstituicao=1
+14;LAVV3;25/04/2024;17:37;Comunicado ao Mercado - Prévia Operacional 1T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1226056&descTipo=IPE&CodigoInstituicao=1
+15;LAVV3;18/04/2024;09:04;Comunicado ao Mercado - Prévia Operacional 1T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1223145&descTipo=IPE&CodigoInstituicao=1
+16;LAVV3;17/04/2024;18:24;Comunicado ao Mercado - Prévia Operacional 1T24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1222945&descTipo=IPE&CodigoInstituicao=1
+17;LAVV3;01/03/2024;08:49;encerramento oferta de dívida;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1201530&descTipo=IPE&CodigoInstituicao=1
+18;LAVV3;23/01/2024;08:17;Comunicado ao Mercado - Prévia Operacional 4T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1185199&descTipo=IPE&CodigoInstituicao=1
+19;LAVV3;23/01/2024;00:02;Emissão de Notas Comerciais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1185197&descTipo=IPE&CodigoInstituicao=1
+20;LAVV3;13/12/2023;18:25;Lançamento Novvo Barra Funda;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1173103&descTipo=IPE&CodigoInstituicao=1
+21;LAVV3;08/12/2023;18:20;Encerramento do programa de recompra de ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1171282&descTipo=IPE&CodigoInstituicao=1
+22;LAVV3;16/10/2023;17:21;Comunicado ao Mercado - Prévia Operacional 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1151830&descTipo=IPE&CodigoInstituicao=1
+23;LAVV3;19/07/2023;19:32;Comunicado ao Mercado - Prévia Operacional 2T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1123859&descTipo=IPE&CodigoInstituicao=1
+24;LAVV3;29/06/2023;18:06;Lançamento da marca Novvo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1117886&descTipo=IPE&CodigoInstituicao=1
+25;LAVV3;28/06/2023;17:54;Lançamento Studios Elie Saab;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1117428&descTipo=IPE&CodigoInstituicao=1
+26;LAVV3;23/05/2023;18:36;Lançamento Saffire;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1105542&descTipo=IPE&CodigoInstituicao=1
+27;LAVV3;26/04/2023;23:16;Prévia Operacional 1T23 / 1Q23 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1090905&descTipo=IPE&CodigoInstituicao=1
+28;LAVV3;24/04/2023;18:50;Prévia Operacional 1T23 / 1Q23 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1089047&descTipo=IPE&CodigoInstituicao=1
+29;LAVV3;10/04/2023;18:26;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1084665&descTipo=IPE&CodigoInstituicao=1
+30;LAVV3;19/01/2023;19:11;Prévia Operacional 4T22 / 4Q22 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1050817&descTipo=IPE&CodigoInstituicao=1
+31;LAVV3;20/10/2022;19:46;Autorização de Operação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023504&descTipo=IPE&CodigoInstituicao=1
+32;LAVV3;20/10/2022;19:35;Prévia Operacional 3T22 / 3Q22 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1023501&descTipo=IPE&CodigoInstituicao=1
+33;LAVV3;12/07/2022;18:28;Prévia Operacional 2T22 / 2Q22 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=997643&descTipo=IPE&CodigoInstituicao=1
+34;LAVV3;08/06/2022;18:16;i) cancelamento de ações em tesouraria ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=988994&descTipo=IPE&CodigoInstituicao=1
+35;LAVV3;19/04/2022;20:44;Lançamento do Verdant Parque Resort;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=968568&descTipo=IPE&CodigoInstituicao=1
+36;LAVV3;19/04/2022;09:55;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=968248&descTipo=IPE&CodigoInstituicao=1
+37;LAVV3;12/04/2022;17:19;Prévia Operacional 1T22;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=966723&descTipo=IPE&CodigoInstituicao=1
+38;LAVV3;16/03/2022;18:42;Lançamento High Wonder;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954751&descTipo=IPE&CodigoInstituicao=1
+39;LAVV3;16/03/2022;18:42;Alterações na Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954752&descTipo=IPE&CodigoInstituicao=1
+40;LAVV3;16/03/2022;17:36;Lançamento High Wonder;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954679&descTipo=IPE&CodigoInstituicao=1
+41;LAVV3;16/03/2022;17:36;Alterações na Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954680&descTipo=IPE&CodigoInstituicao=1
+42;LAVV3;16/03/2022;17:25;Alterações na Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=954676&descTipo=IPE&CodigoInstituicao=1
+43;LAVV3;01/02/2022;16:48;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=937315&descTipo=IPE&CodigoInstituicao=1
+44;LAVV3;25/01/2022;10:16;Live com Executivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935338&descTipo=IPE&CodigoInstituicao=1
+45;LAVV3;17/01/2022;18:56;Estudos sobre entrada no mercado econômico;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=933978&descTipo=IPE&CodigoInstituicao=1
+46;LAVV3;13/01/2022;18:19;Prévia Operacional 4T21 / 4Q21 Operational Preview;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=933239&descTipo=IPE&CodigoInstituicao=1
+47;LAVV3;16/11/2021;18:27;Lançamento do Grand Vitrali / Grand Vitrali Launch;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=917648&descTipo=IPE&CodigoInstituicao=1
+48;LAVV3;14/10/2021;17:26;Prévia Operacional 3T21 / Operating Preview 3Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=907523&descTipo=IPE&CodigoInstituicao=1
+49;LAVV3;06/10/2021;19:43;Cancelamento de ações em tesouraria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=905878&descTipo=IPE&CodigoInstituicao=1
+50;LAVV3;02/09/2021;17:39;Lançamento do Wonder Ipiranga / Wonder Ipiranga Launch;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=898098&descTipo=IPE&CodigoInstituicao=1
+51;LAVV3;14/07/2021;17:33;Prévia Operacional 2T21 / Operational Preview 2Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=883832&descTipo=IPE&CodigoInstituicao=1
+52;LAVV3;06/07/2021;17:25;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=881493&descTipo=IPE&CodigoInstituicao=1
+53;LAVV3;08/06/2021;17:30;Lançamento do Villa Versace / Launch of Villa Versace;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=874698&descTipo=IPE&CodigoInstituicao=1
+54;LAVV3;05/05/2021;18:30;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=863011&descTipo=IPE&CodigoInstituicao=1
+55;LAVV3;03/05/2021;17:27;Ingresso em Índices / Indexes Entry;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=861917&descTipo=IPE&CodigoInstituicao=1
+56;LAVV3;19/04/2021;17:46;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=855064&descTipo=IPE&CodigoInstituicao=1
+57;LAVV3;15/04/2021;17:53;Prévia Operacional 1T20 / Operational Preview 1Q21;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=854223&descTipo=IPE&CodigoInstituicao=1
+58;LAVV3;07/04/2021;18:18;Parceria Lavvi e Versace / Lavvi and Versace Partnership;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=851457&descTipo=IPE&CodigoInstituicao=1
+59;LAVV3;22/03/2021;20:25;Participação em Live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=844825&descTipo=IPE&CodigoInstituicao=1
+60;LAVV3;18/03/2021;18:42;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843903&descTipo=IPE&CodigoInstituicao=1
+61;LAVV3;18/03/2021;09:32;Participação de executivo em Live / Participation in live;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843675&descTipo=IPE&CodigoInstituicao=1
+62;LAVV3;19/01/2021;18:19;Previa Operacional 4T20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=823699&descTipo=IPE&CodigoInstituicao=1
+63;LAVV3;18/01/2021;18:28;Formador de Mercado / Market Maker;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=823471&descTipo=IPE&CodigoInstituicao=1
+64;LAVV3;10/11/2020;09:15;Lançamento do Lumiere Residence;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=806798&descTipo=IPE&CodigoInstituicao=1
+65;LAVV3;20/10/2020;19:49;Alterações na Diretoria / Management changes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=801734&descTipo=IPE&CodigoInstituicao=1
+66;LAVV3;20/10/2020;18:24;Prévia Operacional 3T20 / Operational Preview 3Q20;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=801663&descTipo=IPE&CodigoInstituicao=1
+67;LAVV3;15/09/2020;09:07;Comunicado ao Mercado Participação em Live Elie H Exame;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=793226&descTipo=IPE&CodigoInstituicao=1
