@@ -1,73 +1,74 @@
 ;Acao;Data;Hora;Descrição;Link
-0;ABEV3;12/03/2025;19:04;Divulgação do Formulário 20F;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1345998&descTipo=IPE&CodigoInstituicao=1
-1;ABEV3;26/02/2025;03:18;Projeção CPV para 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1339571&descTipo=IPE&CodigoInstituicao=1
-2;ABEV3;31/10/2024;02:59;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1296450&descTipo=IPE&CodigoInstituicao=1
-3;ABEV3;27/08/2024;18:24;Mudança na Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1276062&descTipo=IPE&CodigoInstituicao=1
-4;ABEV3;16/05/2024;18:20;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1239345&descTipo=IPE&CodigoInstituicao=1
-5;ABEV3;11/03/2024;19:17;Divulgação do Formulário 20F;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1205953&descTipo=IPE&CodigoInstituicao=1
-6;ABEV3;29/02/2024;02:45;Projeção CPV para 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1200813&descTipo=IPE&CodigoInstituicao=1
-7;ABEV3;16/11/2023;18:42;Evento Sustainability Update 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1163484&descTipo=IPE&CodigoInstituicao=1
-8;ABEV3;03/08/2023;02:33;Mudança da Projeção do CPV para 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1128455&descTipo=IPE&CodigoInstituicao=1
-9;ABEV3;18/05/2023;19:36;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1104156&descTipo=IPE&CodigoInstituicao=1
-10;ABEV3;27/04/2023;22:44;Divulgação do consenso das estimativas dos analistas financeiros sell-side;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1092025&descTipo=IPE&CodigoInstituicao=1
-11;ABEV3;17/03/2023;18:34;Divulgação do Formulário 20F;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1074365&descTipo=IPE&CodigoInstituicao=1
-12;ABEV3;02/03/2023;03:39;Projeção CPV para 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1067451&descTipo=IPE&CodigoInstituicao=1
-13;ABEV3;03/02/2023;00:00;Outros Comunicados Não considerados Fatos Relevantes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1054879&descTipo=IPE&CodigoInstituicao=1
-14;ABEV3;28/10/2022;18:15;Evento ESG Update;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1025811&descTipo=IPE&CodigoInstituicao=1
-15;ABEV3;18/03/2022;18:33;Divulgação do Formulário 20F;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=955849&descTipo=IPE&CodigoInstituicao=1
-16;ABEV3;24/02/2022;03:32;Projeção CPV para 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=946865&descTipo=IPE&CodigoInstituicao=1
-17;ABEV3;16/09/2021;21:55;Participação em evento transmitido ao-vivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=901645&descTipo=IPE&CodigoInstituicao=1
-18;ABEV3;25/06/2021;22:44;Evento ESG Update;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=879060&descTipo=IPE&CodigoInstituicao=1
-19;ABEV3;12/05/2021;17:36;Participação em evento transmitido ao vivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=866542&descTipo=IPE&CodigoInstituicao=1
-20;ABEV3;19/03/2021;19:16;Divulgação do Formulário 20F;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=844420&descTipo=IPE&CodigoInstituicao=1
-21;ABEV3;18/03/2021;21:05;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843985&descTipo=IPE&CodigoInstituicao=1
-22;ABEV3;25/02/2021;03:31;Projeções e Informações 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=835532&descTipo=IPE&CodigoInstituicao=1
-23;ABEV3;09/12/2020;19:46;Equity Swap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=814505&descTipo=IPE&CodigoInstituicao=1
-24;ABEV3;01/10/2020;20:05;Participação em evento transmitido ao-vivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=796847&descTipo=IPE&CodigoInstituicao=1
-25;ABEV3;13/05/2020;20:11;Equity Swap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=761746&descTipo=IPE&CodigoInstituicao=1
-26;ABEV3;23/03/2020;21:01;COVID-19 e Projeções 2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=747616&descTipo=IPE&CodigoInstituicao=1
-27;ABEV3;23/03/2020;20:15;Fato Relevante;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=747605&descTipo=IPE&CodigoInstituicao=1
-28;ABEV3;27/02/2020;03:23;Fato Relevante  Projeções 2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=741026&descTipo=IPE&CodigoInstituicao=1
-29;ABEV3;19/12/2019;19:35;Equity Swap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=727328&descTipo=IPE&CodigoInstituicao=1
-30;ABEV3;18/11/2019;19:43;Mudança na Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=722078&descTipo=IPE&CodigoInstituicao=1
-31;ABEV3;15/05/2019;19:11;Equity Swap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=690937&descTipo=IPE&CodigoInstituicao=1
-32;ABEV3;28/02/2019;04:08;Projeções 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=667910&descTipo=IPE&CodigoInstituicao=1
-33;ABEV3;19/12/2018;19:01;Comunicado ao Mercado  Parceria Canadá;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=657664&descTipo=IPE&CodigoInstituicao=1
-34;ABEV3;10/08/2018;07:01;Contratação da PricewaterhouseCoopers Auditores Independentes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=636726&descTipo=IPE&CodigoInstituicao=1
-35;ABEV3;26/07/2018;18:30;Projeção em português;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=634090&descTipo=IPE&CodigoInstituicao=1
-36;ABEV3;25/07/2018;19:20;Comunicado sobre a composição do Conselho Fiscal;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=633925&descTipo=IPE&CodigoInstituicao=1
-37;ABEV3;09/07/2018;09:55;Comunicado de falecimento do Presidente do Conselho Fiscal;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=631815&descTipo=IPE&CodigoInstituicao=1
-38;ABEV3;02/05/2018;18:06;Comunicado ao Mercado - Budweiser Argentina (Closing);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=619116&descTipo=IPE&CodigoInstituicao=1
-39;ABEV3;14/03/2018;18:10;Budweiser Argentina;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=601088&descTipo=IPE&CodigoInstituicao=1
-40;ABEV3;01/03/2018;18:12;Projeções 2018;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=598592&descTipo=IPE&CodigoInstituicao=1
-41;ABEV3;18/01/2018;19:03;Conclusão da operação com a E. León Jimenes, S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=594098&descTipo=IPE&CodigoInstituicao=1
-42;ABEV3;21/12/2017;19:19;Equity Swap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=591317&descTipo=IPE&CodigoInstituicao=1
-43;ABEV3;01/12/2017;19:32;Aumento de Participac¸a~o na Repu´blica Dominicana;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=588190&descTipo=IPE&CodigoInstituicao=1
-44;ABEV3;29/09/2017;20:26;Adesão ao Programa Especial de Regularização Tributária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=580830&descTipo=IPE&CodigoInstituicao=1
-45;ABEV3;15/09/2017;19:19;Informações exigidas nos termos do Anexo 30-XXXIII da Instrução CVM n.º 480/09;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=579648&descTipo=IPE&CodigoInstituicao=1
-46;ABEV3;06/09/2017;19:01;Fato Relevante  Budweiser Argentina;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=578428&descTipo=IPE&CodigoInstituicao=1
-47;ABEV3;16/05/2017;19:28;Contratos de troca de resultados de fluxos financeiros futuros com liquidação financeira (equity swap);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=565228&descTipo=IPE&CodigoInstituicao=1
-48;ABEV3;02/03/2017;19:03;Projeção para o ano de 2017;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=549975&descTipo=IPE&CodigoInstituicao=1
-49;ABEV3;28/10/2016;19:25;Alteração do critério de apresentação das projeções de 2016;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=535542&descTipo=IPE&CodigoInstituicao=1
-50;ABEV3;29/07/2016;18:42;Projeções para o ano de 2016;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=525476&descTipo=IPE&CodigoInstituicao=1
-51;ABEV3;12/07/2016;20:20;Aumento na Participação Acionária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=523911&descTipo=IPE&CodigoInstituicao=1
-52;ABEV3;15/05/2016;17:28;Informações exigidas nos termos do Anexo 30-XXXIII da Instrução CVM n.º 480/09;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=517559&descTipo=IPE&CodigoInstituicao=1
-53;ABEV3;12/05/2016;20:04;Transferência de Operações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=517246&descTipo=IPE&CodigoInstituicao=1
-54;ABEV3;03/05/2016;18:05;Encerramento do Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=514961&descTipo=IPE&CodigoInstituicao=1
-55;ABEV3;18/04/2016;19:36;Reapresentação da Proposta da Administração da AGOE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=511342&descTipo=IPE&CodigoInstituicao=1
-56;ABEV3;25/02/2016;19:03;Projeções para o ano de 2016;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=502267&descTipo=IPE&CodigoInstituicao=1
-57;ABEV3;10/11/2015;19:33;Contrato para adquirir grupo de marcas de bebidas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=490982&descTipo=IPE&CodigoInstituicao=1
-58;ABEV3;03/11/2015;08:50;MUDANÇAS NA DIRETORIA FINANCEIRA E DE RELAÇOES COM INVESTIDORES;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=489293&descTipo=IPE&CodigoInstituicao=1
-59;ABEV3;30/10/2015;18:04;revisão de expectativa de crescimento de CPV;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=489234&descTipo=IPE&CodigoInstituicao=1
-60;ABEV3;16/09/2015;08:22;Notícia da Controladora Indireta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=484891&descTipo=IPE&CodigoInstituicao=1
-61;ABEV3;28/08/2015;20:46;Emissão de Debêntures ICVM 476;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=482948&descTipo=IPE&CodigoInstituicao=1
-62;ABEV3;28/08/2015;20:28;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=482945&descTipo=IPE&CodigoInstituicao=1
-63;ABEV3;28/08/2015;20:25;Emissão de Debêntures ICVM 476;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=482944&descTipo=IPE&CodigoInstituicao=1
-64;ABEV3;14/07/2015;12:25;Comunicado do CADE e da Ambev sobre a Realização de Acordo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=477750&descTipo=IPE&CodigoInstituicao=1
-65;ABEV3;26/02/2015;20:12;Plano de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=456988&descTipo=IPE&CodigoInstituicao=1
-66;ABEV3;04/02/2015;09:55;Contratação de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=454105&descTipo=IPE&CodigoInstituicao=1
-67;ABEV3;26/09/2014;09:33;Mudanças na Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=440334&descTipo=IPE&CodigoInstituicao=1
-68;ABEV3;27/08/2014;21:33;Alteração da Política de Divulgação de Fatos Relevantes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=437323&descTipo=IPE&CodigoInstituicao=1
-69;ABEV3;04/12/2013;01:48;"Proposta de incorporação da Companhia de Bebidas; Proposta de incorporação da Ambev Brasil Bebidas S.A.";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=402974&descTipo=IPE&CodigoInstituicao=1
-70;ABEV3;01/11/2013;08:48;Reorganização societária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=398623&descTipo=IPE&CodigoInstituicao=1
-71;ABEV3;31/10/2013;17:03;Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=398530&descTipo=IPE&CodigoInstituicao=1
+0;ABEV3;30/10/2025;03:00;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1437228&descTipo=IPE&CodigoInstituicao=1
+1;ABEV3;12/03/2025;19:04;Divulgação do Formulário 20F;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1345998&descTipo=IPE&CodigoInstituicao=1
+2;ABEV3;26/02/2025;03:18;Projeção CPV para 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1339571&descTipo=IPE&CodigoInstituicao=1
+3;ABEV3;31/10/2024;02:59;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1296450&descTipo=IPE&CodigoInstituicao=1
+4;ABEV3;27/08/2024;18:24;Mudança na Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1276062&descTipo=IPE&CodigoInstituicao=1
+5;ABEV3;16/05/2024;18:20;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1239345&descTipo=IPE&CodigoInstituicao=1
+6;ABEV3;11/03/2024;19:17;Divulgação do Formulário 20F;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1205953&descTipo=IPE&CodigoInstituicao=1
+7;ABEV3;29/02/2024;02:45;Projeção CPV para 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1200813&descTipo=IPE&CodigoInstituicao=1
+8;ABEV3;16/11/2023;18:42;Evento Sustainability Update 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1163484&descTipo=IPE&CodigoInstituicao=1
+9;ABEV3;03/08/2023;02:33;Mudança da Projeção do CPV para 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1128455&descTipo=IPE&CodigoInstituicao=1
+10;ABEV3;18/05/2023;19:36;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1104156&descTipo=IPE&CodigoInstituicao=1
+11;ABEV3;27/04/2023;22:44;Divulgação do consenso das estimativas dos analistas financeiros sell-side;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1092025&descTipo=IPE&CodigoInstituicao=1
+12;ABEV3;17/03/2023;18:34;Divulgação do Formulário 20F;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1074365&descTipo=IPE&CodigoInstituicao=1
+13;ABEV3;02/03/2023;03:39;Projeção CPV para 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1067451&descTipo=IPE&CodigoInstituicao=1
+14;ABEV3;03/02/2023;00:00;Outros Comunicados Não considerados Fatos Relevantes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1054879&descTipo=IPE&CodigoInstituicao=1
+15;ABEV3;28/10/2022;18:15;Evento ESG Update;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1025811&descTipo=IPE&CodigoInstituicao=1
+16;ABEV3;18/03/2022;18:33;Divulgação do Formulário 20F;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=955849&descTipo=IPE&CodigoInstituicao=1
+17;ABEV3;24/02/2022;03:32;Projeção CPV para 2022;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=946865&descTipo=IPE&CodigoInstituicao=1
+18;ABEV3;16/09/2021;21:55;Participação em evento transmitido ao-vivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=901645&descTipo=IPE&CodigoInstituicao=1
+19;ABEV3;25/06/2021;22:44;Evento ESG Update;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=879060&descTipo=IPE&CodigoInstituicao=1
+20;ABEV3;12/05/2021;17:36;Participação em evento transmitido ao vivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=866542&descTipo=IPE&CodigoInstituicao=1
+21;ABEV3;19/03/2021;19:16;Divulgação do Formulário 20F;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=844420&descTipo=IPE&CodigoInstituicao=1
+22;ABEV3;18/03/2021;21:05;Programa de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843985&descTipo=IPE&CodigoInstituicao=1
+23;ABEV3;25/02/2021;03:31;Projeções e Informações 2021;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=835532&descTipo=IPE&CodigoInstituicao=1
+24;ABEV3;09/12/2020;19:46;Equity Swap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=814505&descTipo=IPE&CodigoInstituicao=1
+25;ABEV3;01/10/2020;20:05;Participação em evento transmitido ao-vivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=796847&descTipo=IPE&CodigoInstituicao=1
+26;ABEV3;13/05/2020;20:11;Equity Swap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=761746&descTipo=IPE&CodigoInstituicao=1
+27;ABEV3;23/03/2020;21:01;COVID-19 e Projeções 2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=747616&descTipo=IPE&CodigoInstituicao=1
+28;ABEV3;23/03/2020;20:15;Fato Relevante;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=747605&descTipo=IPE&CodigoInstituicao=1
+29;ABEV3;27/02/2020;03:23;Fato Relevante  Projeções 2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=741026&descTipo=IPE&CodigoInstituicao=1
+30;ABEV3;19/12/2019;19:35;Equity Swap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=727328&descTipo=IPE&CodigoInstituicao=1
+31;ABEV3;18/11/2019;19:43;Mudança na Diretoria;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=722078&descTipo=IPE&CodigoInstituicao=1
+32;ABEV3;15/05/2019;19:11;Equity Swap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=690937&descTipo=IPE&CodigoInstituicao=1
+33;ABEV3;28/02/2019;04:08;Projeções 2019;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=667910&descTipo=IPE&CodigoInstituicao=1
+34;ABEV3;19/12/2018;19:01;Comunicado ao Mercado  Parceria Canadá;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=657664&descTipo=IPE&CodigoInstituicao=1
+35;ABEV3;10/08/2018;07:01;Contratação da PricewaterhouseCoopers Auditores Independentes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=636726&descTipo=IPE&CodigoInstituicao=1
+36;ABEV3;26/07/2018;18:30;Projeção em português;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=634090&descTipo=IPE&CodigoInstituicao=1
+37;ABEV3;25/07/2018;19:20;Comunicado sobre a composição do Conselho Fiscal;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=633925&descTipo=IPE&CodigoInstituicao=1
+38;ABEV3;09/07/2018;09:55;Comunicado de falecimento do Presidente do Conselho Fiscal;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=631815&descTipo=IPE&CodigoInstituicao=1
+39;ABEV3;02/05/2018;18:06;Comunicado ao Mercado - Budweiser Argentina (Closing);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=619116&descTipo=IPE&CodigoInstituicao=1
+40;ABEV3;14/03/2018;18:10;Budweiser Argentina;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=601088&descTipo=IPE&CodigoInstituicao=1
+41;ABEV3;01/03/2018;18:12;Projeções 2018;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=598592&descTipo=IPE&CodigoInstituicao=1
+42;ABEV3;18/01/2018;19:03;Conclusão da operação com a E. León Jimenes, S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=594098&descTipo=IPE&CodigoInstituicao=1
+43;ABEV3;21/12/2017;19:19;Equity Swap;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=591317&descTipo=IPE&CodigoInstituicao=1
+44;ABEV3;01/12/2017;19:32;Aumento de Participac¸a~o na Repu´blica Dominicana;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=588190&descTipo=IPE&CodigoInstituicao=1
+45;ABEV3;29/09/2017;20:26;Adesão ao Programa Especial de Regularização Tributária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=580830&descTipo=IPE&CodigoInstituicao=1
+46;ABEV3;15/09/2017;19:19;Informações exigidas nos termos do Anexo 30-XXXIII da Instrução CVM n.º 480/09;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=579648&descTipo=IPE&CodigoInstituicao=1
+47;ABEV3;06/09/2017;19:01;Fato Relevante  Budweiser Argentina;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=578428&descTipo=IPE&CodigoInstituicao=1
+48;ABEV3;16/05/2017;19:28;Contratos de troca de resultados de fluxos financeiros futuros com liquidação financeira (equity swap);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=565228&descTipo=IPE&CodigoInstituicao=1
+49;ABEV3;02/03/2017;19:03;Projeção para o ano de 2017;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=549975&descTipo=IPE&CodigoInstituicao=1
+50;ABEV3;28/10/2016;19:25;Alteração do critério de apresentação das projeções de 2016;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=535542&descTipo=IPE&CodigoInstituicao=1
+51;ABEV3;29/07/2016;18:42;Projeções para o ano de 2016;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=525476&descTipo=IPE&CodigoInstituicao=1
+52;ABEV3;12/07/2016;20:20;Aumento na Participação Acionária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=523911&descTipo=IPE&CodigoInstituicao=1
+53;ABEV3;15/05/2016;17:28;Informações exigidas nos termos do Anexo 30-XXXIII da Instrução CVM n.º 480/09;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=517559&descTipo=IPE&CodigoInstituicao=1
+54;ABEV3;12/05/2016;20:04;Transferência de Operações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=517246&descTipo=IPE&CodigoInstituicao=1
+55;ABEV3;03/05/2016;18:05;Encerramento do Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=514961&descTipo=IPE&CodigoInstituicao=1
+56;ABEV3;18/04/2016;19:36;Reapresentação da Proposta da Administração da AGOE;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=511342&descTipo=IPE&CodigoInstituicao=1
+57;ABEV3;25/02/2016;19:03;Projeções para o ano de 2016;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=502267&descTipo=IPE&CodigoInstituicao=1
+58;ABEV3;10/11/2015;19:33;Contrato para adquirir grupo de marcas de bebidas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=490982&descTipo=IPE&CodigoInstituicao=1
+59;ABEV3;03/11/2015;08:50;MUDANÇAS NA DIRETORIA FINANCEIRA E DE RELAÇOES COM INVESTIDORES;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=489293&descTipo=IPE&CodigoInstituicao=1
+60;ABEV3;30/10/2015;18:04;revisão de expectativa de crescimento de CPV;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=489234&descTipo=IPE&CodigoInstituicao=1
+61;ABEV3;16/09/2015;08:22;Notícia da Controladora Indireta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=484891&descTipo=IPE&CodigoInstituicao=1
+62;ABEV3;28/08/2015;20:46;Emissão de Debêntures ICVM 476;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=482948&descTipo=IPE&CodigoInstituicao=1
+63;ABEV3;28/08/2015;20:28;Programa de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=482945&descTipo=IPE&CodigoInstituicao=1
+64;ABEV3;28/08/2015;20:25;Emissão de Debêntures ICVM 476;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=482944&descTipo=IPE&CodigoInstituicao=1
+65;ABEV3;14/07/2015;12:25;Comunicado do CADE e da Ambev sobre a Realização de Acordo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=477750&descTipo=IPE&CodigoInstituicao=1
+66;ABEV3;26/02/2015;20:12;Plano de Recompra de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=456988&descTipo=IPE&CodigoInstituicao=1
+67;ABEV3;04/02/2015;09:55;Contratação de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=454105&descTipo=IPE&CodigoInstituicao=1
+68;ABEV3;26/09/2014;09:33;Mudanças na Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=440334&descTipo=IPE&CodigoInstituicao=1
+69;ABEV3;27/08/2014;21:33;Alteração da Política de Divulgação de Fatos Relevantes;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=437323&descTipo=IPE&CodigoInstituicao=1
+70;ABEV3;04/12/2013;01:48;"Proposta de incorporação da Companhia de Bebidas; Proposta de incorporação da Ambev Brasil Bebidas S.A.";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=402974&descTipo=IPE&CodigoInstituicao=1
+71;ABEV3;01/11/2013;08:48;Reorganização societária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=398623&descTipo=IPE&CodigoInstituicao=1
+72;ABEV3;31/10/2013;17:03;Registro de Companhia Aberta;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=398530&descTipo=IPE&CodigoInstituicao=1
