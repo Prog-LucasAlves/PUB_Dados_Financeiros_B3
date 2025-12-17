@@ -1,67 +1,69 @@
 ;Acao;Data;Hora;Descrição;Link
-0;BLAU3;17/10/2025;08:50;Conclusão do desinvestimento da Prothya;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1433533&descTipo=IPE&CodigoInstituicao=1
-1;BLAU3;17/09/2025;19:31;Atualização sobre distribuição do BOTULIFT;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1424490&descTipo=IPE&CodigoInstituicao=1
-2;BLAU3;01/09/2025;09:22;Captações BNDES Finame;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1418729&descTipo=IPE&CodigoInstituicao=1
-3;BLAU3;09/07/2025;08:05;Atualização sobre empréstimo conversível de ? 50 milhões para Prothya;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1399076&descTipo=IPE&CodigoInstituicao=1
-4;BLAU3;04/06/2025;08:58;Extensão Waiver Free Float;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1386551&descTipo=IPE&CodigoInstituicao=1
-5;BLAU3;20/03/2025;19:21;Venda do Registro de Toxina Botulínica;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1349490&descTipo=IPE&CodigoInstituicao=1
-6;BLAU3;13/12/2024;18:39;Pedido de Tratamento Excepcional no que se refere ao Cumprimento do Percentual Mínimo de Ações em Circulação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1315588&descTipo=IPE&CodigoInstituicao=1
-7;BLAU3;11/06/2024;17:40;Blau anuncia nova Head de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1249034&descTipo=IPE&CodigoInstituicao=1
-8;BLAU3;30/04/2024;14:13;Esclarecimento sobre licitação de alfaepoetina;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1229329&descTipo=IPE&CodigoInstituicao=1
-9;BLAU3;26/03/2024;19:19;Decisão favorável no âmbito de processo licitatório;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1212804&descTipo=IPE&CodigoInstituicao=1
-10;BLAU3;25/03/2024;09:24;Acordo de Distribuição Medytox;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1211594&descTipo=IPE&CodigoInstituicao=1
-11;BLAU3;25/03/2024;09:13;Acordo de Distribuição Medytox;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1211581&descTipo=IPE&CodigoInstituicao=1
-12;BLAU3;17/11/2023;09:33;Suspensão Assembleia Geral Extraordinária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1163858&descTipo=IPE&CodigoInstituicao=1
-13;BLAU3;10/10/2023;09:11;Reconsideração Waiver Free Float;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1150107&descTipo=IPE&CodigoInstituicao=1
-14;BLAU3;22/09/2023;17:41;Waiver Free Float;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1145440&descTipo=IPE&CodigoInstituicao=1
-15;BLAU3;01/09/2023;18:48;Blau comunica aprovação da 6ª emissão de debêntures.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1139383&descTipo=IPE&CodigoInstituicao=1
-16;BLAU3;30/08/2023;20:36;Blau investe ?50 milhões na Prothya ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1138737&descTipo=IPE&CodigoInstituicao=1
-17;BLAU3;28/07/2023;18:13;Alteração de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1126622&descTipo=IPE&CodigoInstituicao=1
-18;BLAU3;05/07/2023;09:02;Assinatura de contrato com a Green Cross Corporation;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1119450&descTipo=IPE&CodigoInstituicao=1
-19;BLAU3;03/07/2023;08:49;Closing da Aquisição do Laboratório Bergamo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1118686&descTipo=IPE&CodigoInstituicao=1
-20;BLAU3;19/06/2023;08:35;Conclusão aquisição 4º centro de coleta de Plasma;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1114532&descTipo=IPE&CodigoInstituicao=1
-21;BLAU3;14/06/2023;17:07;Conclusão aquisição 4º centro de coleta de Plasma;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1113389&descTipo=IPE&CodigoInstituicao=1
-22;BLAU3;24/05/2023;10:54;Aprovação definitiva pelo CADE da aquisição do Laboratório Bergamo pela Blau Farmacêutica ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1105781&descTipo=IPE&CodigoInstituicao=1
-23;BLAU3;23/05/2023;20:14;Aprovação definitiva pelo CADE da aquisição do Laboratório Bergamo pela Blau Farmacêutica ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1105640&descTipo=IPE&CodigoInstituicao=1
-24;BLAU3;04/05/2023;17:43;Aprovação do CADE para aquisição do Laboratório Bergamo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1096879&descTipo=IPE&CodigoInstituicao=1
-25;BLAU3;01/11/2022;12:49;Fato Relevante complementar - aquisição Bergamo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1026527&descTipo=IPE&CodigoInstituicao=1
-26;BLAU3;01/11/2022;08:58;Fato Relevante complementar - aquisição Bergamo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1026393&descTipo=IPE&CodigoInstituicao=1
-27;BLAU3;31/10/2022;09:08;Contrato para aquisição do Laboratório Bergamo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1026006&descTipo=IPE&CodigoInstituicao=1
-28;BLAU3;25/10/2022;08:51;Parceria com JSR Life Sciences;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1024145&descTipo=IPE&CodigoInstituicao=1
-29;BLAU3;15/07/2022;19:14;Novo Diretor Administrativo Financeiro e de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=998441&descTipo=IPE&CodigoInstituicao=1
-30;BLAU3;23/06/2022;17:47;Plano de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=992656&descTipo=IPE&CodigoInstituicao=1
-31;BLAU3;14/06/2022;08:17;Plano de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=990593&descTipo=IPE&CodigoInstituicao=1
-32;BLAU3;06/06/2022;07:58;Plano de Recompra e Extensão Prazo Waiver;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=987999&descTipo=IPE&CodigoInstituicao=1
-33;BLAU3;27/01/2022;10:29;Comunicado - Novo Diretor Adm, Financeiro e de RI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935848&descTipo=IPE&CodigoInstituicao=1
-34;BLAU3;27/01/2022;10:07;Comunicado - Novo Diretor Adm, Financeiro e de RI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935839&descTipo=IPE&CodigoInstituicao=1
-35;BLAU3;26/01/2022;09:22;Comunicado ao Mercado | Antecipação Data Divulgação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935526&descTipo=IPE&CodigoInstituicao=1
-36;BLAU3;30/12/2021;09:06;Blau ingressará em 4 índices da B3 - SMLL, ICON, IGCT e IBrA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=929627&descTipo=IPE&CodigoInstituicao=1
-37;BLAU3;28/12/2021;19:42;Renúncia do Diretor Administrativo Financeiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=929375&descTipo=IPE&CodigoInstituicao=1
-38;BLAU3;15/12/2021;18:23;Comunicado ao Mercado | Blau recebe autorização do FDA para utilização de plasma de seu 1º Centro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=926240&descTipo=IPE&CodigoInstituicao=1
-39;BLAU3;11/11/2021;22:24;Comunicado ao Mercado | Registro de produto genérico no Brasil;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=916428&descTipo=IPE&CodigoInstituicao=1
-40;BLAU3;07/10/2021;19:20;Selo Women on Board;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=906217&descTipo=IPE&CodigoInstituicao=1
-41;BLAU3;07/10/2021;08:20;Comunicado ao Mercado | Esclarecimentos Notícias veiculadas na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=905966&descTipo=IPE&CodigoInstituicao=1
-42;BLAU3;06/10/2021;18:46;Comunicado ao Mercado | Podcast com Suno Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=905858&descTipo=IPE&CodigoInstituicao=1
-43;BLAU3;27/09/2021;18:48;"Fitch Eleva Rating da Blau Farmacêutica para ?AA+(bra)?; Perspectiva Estável";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=903727&descTipo=IPE&CodigoInstituicao=1
-44;BLAU3;22/09/2021;19:49;Medicamento genérico cloridrato de ondansetrona;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=902796&descTipo=IPE&CodigoInstituicao=1
-45;BLAU3;22/09/2021;19:36;Medicamento genérico cloridrato de ondansetrona;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=902765&descTipo=IPE&CodigoInstituicao=1
-46;BLAU3;20/09/2021;19:58;Eleição de Diretora de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=902288&descTipo=IPE&CodigoInstituicao=1
-47;BLAU3;14/09/2021;18:24;Comunicado ao Mercado | Live com BM&C BUSINESS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=900985&descTipo=IPE&CodigoInstituicao=1
-48;BLAU3;09/08/2021;20:22;Comunicado ao Mercado | Live com Eleven Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=890970&descTipo=IPE&CodigoInstituicao=1
-49;BLAU3;02/08/2021;18:58;Eleição de Novas Conselheiras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=888496&descTipo=IPE&CodigoInstituicao=1
-50;BLAU3;26/07/2021;18:40;Submissão à ANVISA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=886233&descTipo=IPE&CodigoInstituicao=1
-51;BLAU3;26/07/2021;10:47;Comunicado ao Mercado | Esclarecimentos sobre notícias veiculadas na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=886101&descTipo=IPE&CodigoInstituicao=1
-52;BLAU3;26/07/2021;09:30;Comunicado ao Mercado | Esclarecimentos sobre notícias veiculadas na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=886072&descTipo=IPE&CodigoInstituicao=1
-53;BLAU3;23/04/2021;09:46;Fato Relevante - Contratação de Formador de Mercado ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=856593&descTipo=IPE&CodigoInstituicao=1
-54;BLAU3;22/04/2021;22:46;Fato Relevante - Contratação de Formador de Mercado ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=856509&descTipo=IPE&CodigoInstituicao=1
-55;BLAU3;14/04/2021;19:53;Fato relevante referente a autorização pela B3 S.A. - Brasil, Bolsa, Balcão de redução do free float;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=853947&descTipo=IPE&CodigoInstituicao=1
-56;BLAU3;26/03/2021;20:08;Comunicado ao Mercado | Esclarecimentos sobre notícias veiculadas na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=846696&descTipo=IPE&CodigoInstituicao=1
-57;BLAU3;05/02/2021;18:32;Fato Relevante;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=828081&descTipo=IPE&CodigoInstituicao=1
-58;BLAU3;02/02/2021;01:03;Comunicado ao Mercado | Blau inaugura planta dedicada à produção de IFAs biotecnológicos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=826601&descTipo=IPE&CodigoInstituicao=1
-59;BLAU3;20/10/2020;19:08;Fato Relevante | Potenciais Estruturas de Capitalização;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=801694&descTipo=IPE&CodigoInstituicao=1
-60;BLAU3;17/05/2020;17:50;Fechamento da aquisição da Pharma Limírio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762539&descTipo=IPE&CodigoInstituicao=1
-61;BLAU3;14/04/2020;18:12;3a Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=754132&descTipo=IPE&CodigoInstituicao=1
-62;BLAU3;19/03/2020;19:38;Esclarecimento COVID-19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=746880&descTipo=IPE&CodigoInstituicao=1
-63;BLAU3;26/02/2020;12:21;Aquisição da Pharma Limírio Indústria Farmacêutica Ltda.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=740712&descTipo=IPE&CodigoInstituicao=1
-64;BLAU3;27/11/2019;18:29;Atribuição de Rating pela Fitch Ratings;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=723263&descTipo=IPE&CodigoInstituicao=1
-65;BLAU3;01/02/2019;10:09;Blau Farmacêutica amplia o Acordo Comercial com Green Cross Corporation;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=662954&descTipo=IPE&CodigoInstituicao=1
+0;BLAU3;15/12/2025;19:16;Dividendos Intermediários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1457634&descTipo=IPE&CodigoInstituicao=1
+1;BLAU3;15/12/2025;18:54;Dividendos Intermediários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1457533&descTipo=IPE&CodigoInstituicao=1
+2;BLAU3;17/10/2025;08:50;Conclusão do desinvestimento da Prothya;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1433533&descTipo=IPE&CodigoInstituicao=1
+3;BLAU3;17/09/2025;19:31;Atualização sobre distribuição do BOTULIFT;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1424490&descTipo=IPE&CodigoInstituicao=1
+4;BLAU3;01/09/2025;09:22;Captações BNDES Finame;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1418729&descTipo=IPE&CodigoInstituicao=1
+5;BLAU3;09/07/2025;08:05;Atualização sobre empréstimo conversível de ? 50 milhões para Prothya;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1399076&descTipo=IPE&CodigoInstituicao=1
+6;BLAU3;04/06/2025;08:58;Extensão Waiver Free Float;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1386551&descTipo=IPE&CodigoInstituicao=1
+7;BLAU3;20/03/2025;19:21;Venda do Registro de Toxina Botulínica;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1349490&descTipo=IPE&CodigoInstituicao=1
+8;BLAU3;13/12/2024;18:39;Pedido de Tratamento Excepcional no que se refere ao Cumprimento do Percentual Mínimo de Ações em Circulação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1315588&descTipo=IPE&CodigoInstituicao=1
+9;BLAU3;11/06/2024;17:40;Blau anuncia nova Head de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1249034&descTipo=IPE&CodigoInstituicao=1
+10;BLAU3;30/04/2024;14:13;Esclarecimento sobre licitação de alfaepoetina;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1229329&descTipo=IPE&CodigoInstituicao=1
+11;BLAU3;26/03/2024;19:19;Decisão favorável no âmbito de processo licitatório;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1212804&descTipo=IPE&CodigoInstituicao=1
+12;BLAU3;25/03/2024;09:24;Acordo de Distribuição Medytox;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1211594&descTipo=IPE&CodigoInstituicao=1
+13;BLAU3;25/03/2024;09:13;Acordo de Distribuição Medytox;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1211581&descTipo=IPE&CodigoInstituicao=1
+14;BLAU3;17/11/2023;09:33;Suspensão Assembleia Geral Extraordinária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1163858&descTipo=IPE&CodigoInstituicao=1
+15;BLAU3;10/10/2023;09:11;Reconsideração Waiver Free Float;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1150107&descTipo=IPE&CodigoInstituicao=1
+16;BLAU3;22/09/2023;17:41;Waiver Free Float;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1145440&descTipo=IPE&CodigoInstituicao=1
+17;BLAU3;01/09/2023;18:48;Blau comunica aprovação da 6ª emissão de debêntures.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1139383&descTipo=IPE&CodigoInstituicao=1
+18;BLAU3;30/08/2023;20:36;Blau investe ?50 milhões na Prothya ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1138737&descTipo=IPE&CodigoInstituicao=1
+19;BLAU3;28/07/2023;18:13;Alteração de Formador de Mercado;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1126622&descTipo=IPE&CodigoInstituicao=1
+20;BLAU3;05/07/2023;09:02;Assinatura de contrato com a Green Cross Corporation;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1119450&descTipo=IPE&CodigoInstituicao=1
+21;BLAU3;03/07/2023;08:49;Closing da Aquisição do Laboratório Bergamo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1118686&descTipo=IPE&CodigoInstituicao=1
+22;BLAU3;19/06/2023;08:35;Conclusão aquisição 4º centro de coleta de Plasma;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1114532&descTipo=IPE&CodigoInstituicao=1
+23;BLAU3;14/06/2023;17:07;Conclusão aquisição 4º centro de coleta de Plasma;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1113389&descTipo=IPE&CodigoInstituicao=1
+24;BLAU3;24/05/2023;10:54;Aprovação definitiva pelo CADE da aquisição do Laboratório Bergamo pela Blau Farmacêutica ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1105781&descTipo=IPE&CodigoInstituicao=1
+25;BLAU3;23/05/2023;20:14;Aprovação definitiva pelo CADE da aquisição do Laboratório Bergamo pela Blau Farmacêutica ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1105640&descTipo=IPE&CodigoInstituicao=1
+26;BLAU3;04/05/2023;17:43;Aprovação do CADE para aquisição do Laboratório Bergamo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1096879&descTipo=IPE&CodigoInstituicao=1
+27;BLAU3;01/11/2022;12:49;Fato Relevante complementar - aquisição Bergamo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1026527&descTipo=IPE&CodigoInstituicao=1
+28;BLAU3;01/11/2022;08:58;Fato Relevante complementar - aquisição Bergamo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1026393&descTipo=IPE&CodigoInstituicao=1
+29;BLAU3;31/10/2022;09:08;Contrato para aquisição do Laboratório Bergamo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1026006&descTipo=IPE&CodigoInstituicao=1
+30;BLAU3;25/10/2022;08:51;Parceria com JSR Life Sciences;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1024145&descTipo=IPE&CodigoInstituicao=1
+31;BLAU3;15/07/2022;19:14;Novo Diretor Administrativo Financeiro e de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=998441&descTipo=IPE&CodigoInstituicao=1
+32;BLAU3;23/06/2022;17:47;Plano de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=992656&descTipo=IPE&CodigoInstituicao=1
+33;BLAU3;14/06/2022;08:17;Plano de Recompra;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=990593&descTipo=IPE&CodigoInstituicao=1
+34;BLAU3;06/06/2022;07:58;Plano de Recompra e Extensão Prazo Waiver;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=987999&descTipo=IPE&CodigoInstituicao=1
+35;BLAU3;27/01/2022;10:29;Comunicado - Novo Diretor Adm, Financeiro e de RI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935848&descTipo=IPE&CodigoInstituicao=1
+36;BLAU3;27/01/2022;10:07;Comunicado - Novo Diretor Adm, Financeiro e de RI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935839&descTipo=IPE&CodigoInstituicao=1
+37;BLAU3;26/01/2022;09:22;Comunicado ao Mercado | Antecipação Data Divulgação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=935526&descTipo=IPE&CodigoInstituicao=1
+38;BLAU3;30/12/2021;09:06;Blau ingressará em 4 índices da B3 - SMLL, ICON, IGCT e IBrA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=929627&descTipo=IPE&CodigoInstituicao=1
+39;BLAU3;28/12/2021;19:42;Renúncia do Diretor Administrativo Financeiro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=929375&descTipo=IPE&CodigoInstituicao=1
+40;BLAU3;15/12/2021;18:23;Comunicado ao Mercado | Blau recebe autorização do FDA para utilização de plasma de seu 1º Centro;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=926240&descTipo=IPE&CodigoInstituicao=1
+41;BLAU3;11/11/2021;22:24;Comunicado ao Mercado | Registro de produto genérico no Brasil;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=916428&descTipo=IPE&CodigoInstituicao=1
+42;BLAU3;07/10/2021;19:20;Selo Women on Board;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=906217&descTipo=IPE&CodigoInstituicao=1
+43;BLAU3;07/10/2021;08:20;Comunicado ao Mercado | Esclarecimentos Notícias veiculadas na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=905966&descTipo=IPE&CodigoInstituicao=1
+44;BLAU3;06/10/2021;18:46;Comunicado ao Mercado | Podcast com Suno Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=905858&descTipo=IPE&CodigoInstituicao=1
+45;BLAU3;27/09/2021;18:48;"Fitch Eleva Rating da Blau Farmacêutica para ?AA+(bra)?; Perspectiva Estável";https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=903727&descTipo=IPE&CodigoInstituicao=1
+46;BLAU3;22/09/2021;19:49;Medicamento genérico cloridrato de ondansetrona;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=902796&descTipo=IPE&CodigoInstituicao=1
+47;BLAU3;22/09/2021;19:36;Medicamento genérico cloridrato de ondansetrona;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=902765&descTipo=IPE&CodigoInstituicao=1
+48;BLAU3;20/09/2021;19:58;Eleição de Diretora de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=902288&descTipo=IPE&CodigoInstituicao=1
+49;BLAU3;14/09/2021;18:24;Comunicado ao Mercado | Live com BM&C BUSINESS;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=900985&descTipo=IPE&CodigoInstituicao=1
+50;BLAU3;09/08/2021;20:22;Comunicado ao Mercado | Live com Eleven Research;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=890970&descTipo=IPE&CodigoInstituicao=1
+51;BLAU3;02/08/2021;18:58;Eleição de Novas Conselheiras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=888496&descTipo=IPE&CodigoInstituicao=1
+52;BLAU3;26/07/2021;18:40;Submissão à ANVISA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=886233&descTipo=IPE&CodigoInstituicao=1
+53;BLAU3;26/07/2021;10:47;Comunicado ao Mercado | Esclarecimentos sobre notícias veiculadas na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=886101&descTipo=IPE&CodigoInstituicao=1
+54;BLAU3;26/07/2021;09:30;Comunicado ao Mercado | Esclarecimentos sobre notícias veiculadas na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=886072&descTipo=IPE&CodigoInstituicao=1
+55;BLAU3;23/04/2021;09:46;Fato Relevante - Contratação de Formador de Mercado ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=856593&descTipo=IPE&CodigoInstituicao=1
+56;BLAU3;22/04/2021;22:46;Fato Relevante - Contratação de Formador de Mercado ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=856509&descTipo=IPE&CodigoInstituicao=1
+57;BLAU3;14/04/2021;19:53;Fato relevante referente a autorização pela B3 S.A. - Brasil, Bolsa, Balcão de redução do free float;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=853947&descTipo=IPE&CodigoInstituicao=1
+58;BLAU3;26/03/2021;20:08;Comunicado ao Mercado | Esclarecimentos sobre notícias veiculadas na mídia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=846696&descTipo=IPE&CodigoInstituicao=1
+59;BLAU3;05/02/2021;18:32;Fato Relevante;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=828081&descTipo=IPE&CodigoInstituicao=1
+60;BLAU3;02/02/2021;01:03;Comunicado ao Mercado | Blau inaugura planta dedicada à produção de IFAs biotecnológicos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=826601&descTipo=IPE&CodigoInstituicao=1
+61;BLAU3;20/10/2020;19:08;Fato Relevante | Potenciais Estruturas de Capitalização;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=801694&descTipo=IPE&CodigoInstituicao=1
+62;BLAU3;17/05/2020;17:50;Fechamento da aquisição da Pharma Limírio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=762539&descTipo=IPE&CodigoInstituicao=1
+63;BLAU3;14/04/2020;18:12;3a Emissão de Debêntures;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=754132&descTipo=IPE&CodigoInstituicao=1
+64;BLAU3;19/03/2020;19:38;Esclarecimento COVID-19;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=746880&descTipo=IPE&CodigoInstituicao=1
+65;BLAU3;26/02/2020;12:21;Aquisição da Pharma Limírio Indústria Farmacêutica Ltda.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=740712&descTipo=IPE&CodigoInstituicao=1
+66;BLAU3;27/11/2019;18:29;Atribuição de Rating pela Fitch Ratings;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=723263&descTipo=IPE&CodigoInstituicao=1
+67;BLAU3;01/02/2019;10:09;Blau Farmacêutica amplia o Acordo Comercial com Green Cross Corporation;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=662954&descTipo=IPE&CodigoInstituicao=1
