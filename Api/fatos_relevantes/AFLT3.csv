@@ -1,22 +1,44 @@
 ;Acao;Data;Hora;Descrição;Link
-0;AFLT3;14/03/2025;20:48;Alteração na composição do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1347313&descTipo=IPE&CodigoInstituicao=1
-1;AFLT3;05/05/2022;18:37;Eleição de Diretor Financeiro e de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=977424&descTipo=IPE&CodigoInstituicao=1
-2;AFLT3;18/03/2021;18:42;Eleição do Diretor Presidente;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843910&descTipo=IPE&CodigoInstituicao=1
-3;AFLT3;30/03/2020;20:28;Cancelamento AGO de 13.04.2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=750080&descTipo=IPE&CodigoInstituicao=1
-4;AFLT3;20/02/2020;18:07;Alteração de Banco Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=740028&descTipo=IPE&CodigoInstituicao=1
-5;AFLT3;19/02/2020;18:38;Alteração de Banco Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=739412&descTipo=IPE&CodigoInstituicao=1
-6;AFLT3;24/07/2019;07:19;Nomeação Diretor Presidente;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=701475&descTipo=IPE&CodigoInstituicao=1
-7;AFLT3;22/04/2019;20:43;Nomeação Diretor de Finanças e de RI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=680939&descTipo=IPE&CodigoInstituicao=1
-8;AFLT3;27/07/2018;18:51;Renúncia do DRI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=634310&descTipo=IPE&CodigoInstituicao=1
-9;AFLT3;15/01/2018;20:22;Comunicado informando a data da Assembleia Geral Ordinária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=593826&descTipo=IPE&CodigoInstituicao=1
-10;AFLT3;08/06/2017;04:33;Acordo de Associação entre os Acionistas Controladores da Neoenergia: Incorporação da Elektro Holidng pela Neoenergia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=567243&descTipo=IPE&CodigoInstituicao=1
-11;AFLT3;31/01/2017;21:18;AGE 31.01.2017 - Redução de Capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=546261&descTipo=IPE&CodigoInstituicao=1
-12;AFLT3;31/05/2016;20:46;Diretor Financeiro e de Relações com Investidores - Nomeação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=518870&descTipo=IPE&CodigoInstituicao=1
-13;AFLT3;31/05/2016;16:38;Diretor Financeiro e de Relações com Investidores- Nomeação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=518784&descTipo=IPE&CodigoInstituicao=1
-14;AFLT3;17/04/2012;12:24;Ajuestes de Informações na Proposta da Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=331475&descTipo=IPE&CodigoInstituicao=1
-15;AFLT3;21/12/2011;19:29;Nota de Imprensa  Perspectivas de Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=315199&descTipo=IPE&CodigoInstituicao=1
-16;AFLT3;11/03/2011;21:30;Comunicados Recebidos dos Acionsitas da Neoenergia S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=279257&descTipo=IPE&CodigoInstituicao=1
-17;AFLT3;27/01/2011;19:11;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=273707&descTipo=IPE&CodigoInstituicao=1
-18;AFLT3;06/01/2011;10:39;Agendamento de Leilão de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=271440&descTipo=IPE&CodigoInstituicao=1
-19;AFLT3;01/12/2010;21:19;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=267589&descTipo=IPE&CodigoInstituicao=1
-20;AFLT3;22/10/2010;09:23;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=262982&descTipo=IPE&CodigoInstituicao=1
+0;AFLT3;22/12/2025;18:28;Aviso aos Acionistas - JSCP - 2S25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1460416&descTipo=IPE&CodigoInstituicao=1
+1;AFLT3;31/10/2025;18:25;Aviso aos Acionistas - Pagamento JSCP - 2S24 e 1S25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1438296&descTipo=IPE&CodigoInstituicao=1
+2;AFLT3;31/10/2025;18:14;Aviso aos Acionistas - Pagamento de Dividendos Reserva de Lucros;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1438287&descTipo=IPE&CodigoInstituicao=1
+3;AFLT3;27/06/2025;18:20;Aviso aos Acionistas - JSCP - 1S25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1394991&descTipo=IPE&CodigoInstituicao=1
+4;AFLT3;14/04/2025;17:39;Dividendos reserva de lucro - AGO 14/04;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1361244&descTipo=IPE&CodigoInstituicao=1
+5;AFLT3;14/03/2025;20:48;Alteração na composição do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1347313&descTipo=IPE&CodigoInstituicao=1
+6;AFLT3;18/12/2024;18:22;Aviso aos Acionistas - JSCP - 2S24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1317159&descTipo=IPE&CodigoInstituicao=1
+7;AFLT3;10/12/2024;19:19;Pagamento de Dividendos Adicionais;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1313924&descTipo=IPE&CodigoInstituicao=1
+8;AFLT3;10/12/2024;19:19;Pagamento de JSCP 1S24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1313937&descTipo=IPE&CodigoInstituicao=1
+9;AFLT3;10/12/2024;18:36;Pagamento de Dividendos Mínimos Obrigatórios;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1313911&descTipo=IPE&CodigoInstituicao=1
+10;AFLT3;20/06/2024;18:11;Aviso aos Acionistas - JSCP - 1S24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1252104&descTipo=IPE&CodigoInstituicao=1
+11;AFLT3;10/04/2024;17:33;Aviso aos Acionistas - Dividendos AGO 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1220495&descTipo=IPE&CodigoInstituicao=1
+12;AFLT3;19/12/2023;18:20;Pagamento de Dividendos (27.12);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1175485&descTipo=IPE&CodigoInstituicao=1
+13;AFLT3;20/04/2023;18:25;Aviso aos Acionistas - Dividendos AGO 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1088296&descTipo=IPE&CodigoInstituicao=1
+14;AFLT3;20/04/2023;18:13;Aviso aos Acionistas - Dividendos AGO 2023 (Pgto a partir 04.05);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1088293&descTipo=IPE&CodigoInstituicao=1
+15;AFLT3;09/12/2022;18:41;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1040097&descTipo=IPE&CodigoInstituicao=1
+16;AFLT3;05/05/2022;18:37;Eleição de Diretor Financeiro e de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=977424&descTipo=IPE&CodigoInstituicao=1
+17;AFLT3;18/04/2022;17:58;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=967982&descTipo=IPE&CodigoInstituicao=1
+18;AFLT3;09/03/2022;20:47;Mudança nas publicações da LSA;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=951973&descTipo=IPE&CodigoInstituicao=1
+19;AFLT3;13/12/2021;19:16;Pagamento de Dividendos Intermediários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=925592&descTipo=IPE&CodigoInstituicao=1
+20;AFLT3;30/11/2021;18:30;Dividendos Intermediários;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=921036&descTipo=IPE&CodigoInstituicao=1
+21;AFLT3;14/06/2021;18:20;Pagamento de Dividendos (25.06);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=876210&descTipo=IPE&CodigoInstituicao=1
+22;AFLT3;30/04/2021;19:14;Pagamento de Dividendos (12.05);https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=861229&descTipo=IPE&CodigoInstituicao=1
+23;AFLT3;07/04/2021;18:40;Dividendos Propostos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=851481&descTipo=IPE&CodigoInstituicao=1
+24;AFLT3;18/03/2021;18:42;Eleição do Diretor Presidente;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=843910&descTipo=IPE&CodigoInstituicao=1
+25;AFLT3;30/03/2020;20:28;Cancelamento AGO de 13.04.2020;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=750080&descTipo=IPE&CodigoInstituicao=1
+26;AFLT3;20/02/2020;18:07;Alteração de Banco Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=740028&descTipo=IPE&CodigoInstituicao=1
+27;AFLT3;19/02/2020;18:38;Alteração de Banco Escriturador;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=739412&descTipo=IPE&CodigoInstituicao=1
+28;AFLT3;24/07/2019;07:19;Nomeação Diretor Presidente;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=701475&descTipo=IPE&CodigoInstituicao=1
+29;AFLT3;22/04/2019;20:43;Nomeação Diretor de Finanças e de RI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=680939&descTipo=IPE&CodigoInstituicao=1
+30;AFLT3;27/07/2018;18:51;Renúncia do DRI;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=634310&descTipo=IPE&CodigoInstituicao=1
+31;AFLT3;15/01/2018;20:22;Comunicado informando a data da Assembleia Geral Ordinária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=593826&descTipo=IPE&CodigoInstituicao=1
+32;AFLT3;08/06/2017;04:33;Acordo de Associação entre os Acionistas Controladores da Neoenergia: Incorporação da Elektro Holidng pela Neoenergia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=567243&descTipo=IPE&CodigoInstituicao=1
+33;AFLT3;31/01/2017;21:18;AGE 31.01.2017 - Redução de Capital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=546261&descTipo=IPE&CodigoInstituicao=1
+34;AFLT3;31/05/2016;20:46;Diretor Financeiro e de Relações com Investidores - Nomeação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=518870&descTipo=IPE&CodigoInstituicao=1
+35;AFLT3;31/05/2016;16:38;Diretor Financeiro e de Relações com Investidores- Nomeação;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=518784&descTipo=IPE&CodigoInstituicao=1
+36;AFLT3;17/04/2012;12:24;Ajuestes de Informações na Proposta da Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=331475&descTipo=IPE&CodigoInstituicao=1
+37;AFLT3;21/12/2011;19:29;Nota de Imprensa  Perspectivas de Investimentos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=315199&descTipo=IPE&CodigoInstituicao=1
+38;AFLT3;11/03/2011;21:30;Comunicados Recebidos dos Acionsitas da Neoenergia S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=279257&descTipo=IPE&CodigoInstituicao=1
+39;AFLT3;27/01/2011;19:11;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=273707&descTipo=IPE&CodigoInstituicao=1
+40;AFLT3;06/01/2011;10:39;Agendamento de Leilão de Ações;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=271440&descTipo=IPE&CodigoInstituicao=1
+41;AFLT3;01/12/2010;21:19;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=267589&descTipo=IPE&CodigoInstituicao=1
+42;AFLT3;22/10/2010;09:23;Reorganização Societária - Incorporação, Cisão ou Fusão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=262982&descTipo=IPE&CodigoInstituicao=1
