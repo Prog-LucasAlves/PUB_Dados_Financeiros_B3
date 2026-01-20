@@ -1,101 +1,101 @@
 ;Acao;Data;Hora;Descrição;Link
-0;PSSA3;05/01/2026;18:42;Transação entre Partes Relacionadas: Porto Atendimento e Itaú Corretora;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1463724&descTipo=IPE&CodigoInstituicao=1
-1;PSSA3;26/12/2025;18:10;Atualização dos Valores de JCP - 4T25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1461570&descTipo=IPE&CodigoInstituicao=1
-2;PSSA3;22/12/2025;11:08;Relatório Setorial Mensal - Out/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1460047&descTipo=IPE&CodigoInstituicao=1
-3;PSSA3;19/12/2025;18:47;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1459697&descTipo=IPE&CodigoInstituicao=1
-4;PSSA3;19/11/2025;20:29;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1447610&descTipo=IPE&CodigoInstituicao=1
-5;PSSA3;17/11/2025;11:06;Relatório Setorial Mensal - Set/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1446152&descTipo=IPE&CodigoInstituicao=1
-6;PSSA3;11/11/2025;07:09;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1443268&descTipo=IPE&CodigoInstituicao=1
-7;PSSA3;31/10/2025;20:26;Incorporação da CDF e da Porto Assistência pela Porto Serviço;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1438436&descTipo=IPE&CodigoInstituicao=1
-8;PSSA3;21/10/2025;18:59;Mudanças no Comitê Executivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1434559&descTipo=IPE&CodigoInstituicao=1
-9;PSSA3;13/10/2025;12:04;Relatório Setorial Mensal - Ago/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1432164&descTipo=IPE&CodigoInstituicao=1
-10;PSSA3;22/09/2025;18:30;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1425546&descTipo=IPE&CodigoInstituicao=1
-11;PSSA3;22/09/2025;11:10;Relatório Setorial Mensal - Jul/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1425254&descTipo=IPE&CodigoInstituicao=1
-12;PSSA3;25/08/2025;12:21;Relatório Setorial Mensal - Jun/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1416605&descTipo=IPE&CodigoInstituicao=1
-13;PSSA3;13/08/2025;07:23;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1412355&descTipo=IPE&CodigoInstituicao=1
-14;PSSA3;21/07/2025;11:57;Relatório Setorial Mensal - Mai/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1402402&descTipo=IPE&CodigoInstituicao=1
-15;PSSA3;23/06/2025;18:16;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1392981&descTipo=IPE&CodigoInstituicao=1
-16;PSSA3;23/06/2025;15:09;Relatório Setorial Mensal - Abr/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1392848&descTipo=IPE&CodigoInstituicao=1
-17;PSSA3;04/06/2025;18:19;Relatório Setorial Mensal - Mar/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1386875&descTipo=IPE&CodigoInstituicao=1
-18;PSSA3;22/05/2025;19:01;Alteração da composição do Comitê de Clientes, Marketing e Digital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1382109&descTipo=IPE&CodigoInstituicao=1
-19;PSSA3;22/04/2025;16:30;Relatório Setorial Mensal - Jan e Fev/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1363394&descTipo=IPE&CodigoInstituicao=1
-20;PSSA3;01/04/2025;21:39;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1356387&descTipo=IPE&CodigoInstituicao=1
-21;PSSA3;01/04/2025;08:16;Aquisição de ações da Porto Assistência Participações S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1355581&descTipo=IPE&CodigoInstituicao=1
-22;PSSA3;28/03/2025;19:45;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1353938&descTipo=IPE&CodigoInstituicao=1
-23;PSSA3;27/03/2025;01:22;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1352298&descTipo=IPE&CodigoInstituicao=1
-24;PSSA3;26/03/2025;10:00;Renúncia de Membro independente do CA ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1351761&descTipo=IPE&CodigoInstituicao=1
-25;PSSA3;27/02/2025;20:55;Retificação BVD - AGO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1340878&descTipo=IPE&CodigoInstituicao=1
-26;PSSA3;17/02/2025;18:33;Relatório Setorial Mensal - Dez/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1335787&descTipo=IPE&CodigoInstituicao=1
-27;PSSA3;14/02/2025;08:53;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1334998&descTipo=IPE&CodigoInstituicao=1
-28;PSSA3;14/02/2025;07:47;Projeções - 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1334983&descTipo=IPE&CodigoInstituicao=1
-29;PSSA3;27/01/2025;14:38;Relatório Setorial Mensal - Nov/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1327670&descTipo=IPE&CodigoInstituicao=1
-30;PSSA3;06/01/2025;18:30;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1322254&descTipo=IPE&CodigoInstituicao=1
-31;PSSA3;24/12/2024;12:47;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1319145&descTipo=IPE&CodigoInstituicao=1
-32;PSSA3;17/12/2024;11:23;Relatório Setorial Mensal - Out/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1316393&descTipo=IPE&CodigoInstituicao=1
-33;PSSA3;16/12/2024;16:41;Relatório Setorial Mensal - Out/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1315991&descTipo=IPE&CodigoInstituicao=1
-34;PSSA3;22/11/2024;19:35;Pagamento de saldo restante de proventos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1307338&descTipo=IPE&CodigoInstituicao=1
-35;PSSA3;22/11/2024;12:15;Pagamento de saldo restante de proventos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1307117&descTipo=IPE&CodigoInstituicao=1
-36;PSSA3;22/11/2024;10:03;JCP;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1307071&descTipo=IPE&CodigoInstituicao=1
-37;PSSA3;18/11/2024;17:19;Relatório Setorial Mensal - Set/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1305515&descTipo=IPE&CodigoInstituicao=1
-38;PSSA3;13/11/2024;18:42;Relatório Setorial Mensal - Set/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1303623&descTipo=IPE&CodigoInstituicao=1
-39;PSSA3;12/11/2024;07:19;Revisão de Projeções;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1302464&descTipo=IPE&CodigoInstituicao=1
-40;PSSA3;22/10/2024;17:41;Reporte Setorial Mensal - Ago/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1293547&descTipo=IPE&CodigoInstituicao=1
-41;PSSA3;22/10/2024;12:22;Reporte Setorial Mensal - Ago/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1293472&descTipo=IPE&CodigoInstituicao=1
-42;PSSA3;24/09/2024;21:04;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1284948&descTipo=IPE&CodigoInstituicao=1
-43;PSSA3;24/09/2024;11:54;Relatório Setorial Mensal - Susep - Jul/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1284700&descTipo=IPE&CodigoInstituicao=1
-44;PSSA3;23/09/2024;16:06;Relatório Setorial Mensal - Susep - Jul/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1284367&descTipo=IPE&CodigoInstituicao=1
-45;PSSA3;21/08/2024;17:56;POLÍTICA DE INTEGRAÇÃO DO CONSELHO DE ADMINISTRAÇÃO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1274464&descTipo=IPE&CodigoInstituicao=1
-46;PSSA3;20/08/2024;15:10;Relatório Setorial Mensal - Susep - Jun/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1274034&descTipo=IPE&CodigoInstituicao=1
-47;PSSA3;19/08/2024;17:10;Relatório Setorial Mensal - Susep - Jun/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1273587&descTipo=IPE&CodigoInstituicao=1
-48;PSSA3;25/07/2024;10:09;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1262597&descTipo=IPE&CodigoInstituicao=1
-49;PSSA3;08/07/2024;18:51;Reporte Setorial Mensal - SUSEP - Mai/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1257686&descTipo=IPE&CodigoInstituicao=1
-50;PSSA3;08/07/2024;14:27;Reporte Setorial Mensal - SUSEP - Mai/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1257453&descTipo=IPE&CodigoInstituicao=1
-51;PSSA3;04/07/2024;18:58;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1256882&descTipo=IPE&CodigoInstituicao=1
-52;PSSA3;01/07/2024;12:19;Relatório Setorial Mensal - Abril de 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1255194&descTipo=IPE&CodigoInstituicao=1
-53;PSSA3;25/06/2024;19:44;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1253462&descTipo=IPE&CodigoInstituicao=1
-54;PSSA3;20/05/2024;14:11;Relatório Setorial Mensal - Março de 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1240336&descTipo=IPE&CodigoInstituicao=1
-55;PSSA3;15/05/2024;09:53;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1238431&descTipo=IPE&CodigoInstituicao=1
-56;PSSA3;14/05/2024;19:46;Fato Relevante - Protocolo CVM Porto Serviço e Porto Saúde;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1238202&descTipo=IPE&CodigoInstituicao=1
-57;PSSA3;14/05/2024;17:12;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1238001&descTipo=IPE&CodigoInstituicao=1
-58;PSSA3;24/04/2024;19:17;Retificação Aviso aos Acionistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1225424&descTipo=IPE&CodigoInstituicao=1
-59;PSSA3;15/04/2024;12:19;Relatório Setorial Mensal - Fevereiro de 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1221735&descTipo=IPE&CodigoInstituicao=1
-60;PSSA3;01/04/2024;14:39;Relatório Setorial Mensal - Janeiro de 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1216062&descTipo=IPE&CodigoInstituicao=1
-61;PSSA3;01/04/2024;10:48;Relatório Setorial Mensal - Janeiro de 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1215934&descTipo=IPE&CodigoInstituicao=1
-62;PSSA3;28/03/2024;22:06;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1215273&descTipo=IPE&CodigoInstituicao=1
-63;PSSA3;28/03/2024;19:32;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1214963&descTipo=IPE&CodigoInstituicao=1
-64;PSSA3;25/03/2024;20:24;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1212142&descTipo=IPE&CodigoInstituicao=1
-65;PSSA3;07/03/2024;08:33;Parceria com Mitsui;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1204095&descTipo=IPE&CodigoInstituicao=1
-66;PSSA3;06/03/2024;20:16;Reapresentação do Boletim de Voto a Distância relativo à Assembleia Geral Ordinária e Extraordinária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1203816&descTipo=IPE&CodigoInstituicao=1
-67;PSSA3;22/02/2024;19:52;Aprovação da Renovação do Programa de Recompra de Ações de Emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1197875&descTipo=IPE&CodigoInstituicao=1
-68;PSSA3;14/02/2024;17:27;Relatório Setorial Mensal - Dezembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1194348&descTipo=IPE&CodigoInstituicao=1
-69;PSSA3;14/02/2024;16:43;Relatório Setorial Mensal - Dezembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1194305&descTipo=IPE&CodigoInstituicao=1
-70;PSSA3;15/01/2024;17:52;Relatório Setorial Mensal - Novembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1183417&descTipo=IPE&CodigoInstituicao=1
-71;PSSA3;15/01/2024;12:22;Relatório Setorial Mensal - Novembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1183372&descTipo=IPE&CodigoInstituicao=1
-72;PSSA3;02/01/2024;09:24;Sucessão do Diretor Presidente da Porto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1179008&descTipo=IPE&CodigoInstituicao=1
-73;PSSA3;21/12/2023;18:33;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1176506&descTipo=IPE&CodigoInstituicao=1
-74;PSSA3;15/12/2023;17:21;Relatório Setorial Mensal - Outubro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1174222&descTipo=IPE&CodigoInstituicao=1
-75;PSSA3;14/12/2023;21:33;Relatório Setorial Mensal - Outubro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1173803&descTipo=IPE&CodigoInstituicao=1
-76;PSSA3;07/12/2023;21:04;Apresentação Porto Day 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1170677&descTipo=IPE&CodigoInstituicao=1
-77;PSSA3;06/12/2023;08:57;Realização do Porto Day 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1169743&descTipo=IPE&CodigoInstituicao=1
-78;PSSA3;17/11/2023;18:10;Relatório Setorial - Setembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1164214&descTipo=IPE&CodigoInstituicao=1
-79;PSSA3;17/11/2023;11:12;Relatório Setorial Mensal - Setembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1163913&descTipo=IPE&CodigoInstituicao=1
-80;PSSA3;10/11/2023;11:16;Teleconferência de Resultados do 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1160915&descTipo=IPE&CodigoInstituicao=1
-81;PSSA3;08/11/2023;20:46;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1159682&descTipo=IPE&CodigoInstituicao=1
-82;PSSA3;01/11/2023;08:49;Eleição do Novo Diretor de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1156420&descTipo=IPE&CodigoInstituicao=1
-83;PSSA3;31/10/2023;19:26;Comunicado ao Mercado - Conclusão da Aquisição da Unigás;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1156265&descTipo=IPE&CodigoInstituicao=1
-84;PSSA3;16/10/2023;18:05;Reporte Setorial Mensal Ago/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1151873&descTipo=IPE&CodigoInstituicao=1
-85;PSSA3;16/10/2023;10:56;Reporte Setorial Mensal Ago/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1151692&descTipo=IPE&CodigoInstituicao=1
-86;PSSA3;27/09/2023;14:39;Reporte Setorial Mensal Jul/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1146419&descTipo=IPE&CodigoInstituicao=1
-87;PSSA3;25/09/2023;18:53;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1145876&descTipo=IPE&CodigoInstituicao=1
-88;PSSA3;25/09/2023;10:57;Reporte Setorial Mensal Jul/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1145679&descTipo=IPE&CodigoInstituicao=1
-89;PSSA3;01/09/2023;08:54;Paceria entre Porto Seguro e Mitsui Sumitomo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1139159&descTipo=IPE&CodigoInstituicao=1
-90;PSSA3;29/08/2023;09:02;Aquisição da Unigás;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1138049&descTipo=IPE&CodigoInstituicao=1
-91;PSSA3;15/08/2023;11:33;Reporte Setorial Mensal Jun/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1134241&descTipo=IPE&CodigoInstituicao=1
-92;PSSA3;11/08/2023;10:23;Reporte Setorial Mensal Jun/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1132917&descTipo=IPE&CodigoInstituicao=1
-93;PSSA3;31/07/2023;20:50;Alteração na Composição do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1127228&descTipo=IPE&CodigoInstituicao=1
-94;PSSA3;17/07/2023;11:48;Reporte Setorial Mensal Mai/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1122937&descTipo=IPE&CodigoInstituicao=1
-95;PSSA3;17/07/2023;10:31;Reporte Setorial Mensal Mai/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1122932&descTipo=IPE&CodigoInstituicao=1
-96;PSSA3;26/06/2023;18:58;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1116690&descTipo=IPE&CodigoInstituicao=1
-97;PSSA3;21/06/2023;09:21;Reporte Setorial Mensal Abr/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1115311&descTipo=IPE&CodigoInstituicao=1
-98;PSSA3;13/06/2023;18:34;Processo Judicial Referente à Incidência de Tributos sobre Receitas Operacionais Aplicada às Seguradoras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1113020&descTipo=IPE&CodigoInstituicao=1
-99;PSSA3;07/06/2023;11:41;Reporte Setorial Mensal Abr/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1110839&descTipo=IPE&CodigoInstituicao=1
+0;PSSA3;19/01/2026;11:25;Reporte Setorial Mensal Nov/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1468244&descTipo=IPE&CodigoInstituicao=1
+1;PSSA3;05/01/2026;18:42;Transação entre Partes Relacionadas: Porto Atendimento e Itaú Corretora;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1463724&descTipo=IPE&CodigoInstituicao=1
+2;PSSA3;26/12/2025;18:10;Atualização dos Valores de JCP - 4T25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1461570&descTipo=IPE&CodigoInstituicao=1
+3;PSSA3;22/12/2025;11:08;Relatório Setorial Mensal - Out/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1460047&descTipo=IPE&CodigoInstituicao=1
+4;PSSA3;19/12/2025;18:47;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1459697&descTipo=IPE&CodigoInstituicao=1
+5;PSSA3;19/11/2025;20:29;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1447610&descTipo=IPE&CodigoInstituicao=1
+6;PSSA3;17/11/2025;11:06;Relatório Setorial Mensal - Set/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1446152&descTipo=IPE&CodigoInstituicao=1
+7;PSSA3;11/11/2025;07:09;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1443268&descTipo=IPE&CodigoInstituicao=1
+8;PSSA3;31/10/2025;20:26;Incorporação da CDF e da Porto Assistência pela Porto Serviço;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1438436&descTipo=IPE&CodigoInstituicao=1
+9;PSSA3;21/10/2025;18:59;Mudanças no Comitê Executivo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1434559&descTipo=IPE&CodigoInstituicao=1
+10;PSSA3;13/10/2025;12:04;Relatório Setorial Mensal - Ago/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1432164&descTipo=IPE&CodigoInstituicao=1
+11;PSSA3;22/09/2025;18:30;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1425546&descTipo=IPE&CodigoInstituicao=1
+12;PSSA3;22/09/2025;11:10;Relatório Setorial Mensal - Jul/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1425254&descTipo=IPE&CodigoInstituicao=1
+13;PSSA3;25/08/2025;12:21;Relatório Setorial Mensal - Jun/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1416605&descTipo=IPE&CodigoInstituicao=1
+14;PSSA3;13/08/2025;07:23;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1412355&descTipo=IPE&CodigoInstituicao=1
+15;PSSA3;21/07/2025;11:57;Relatório Setorial Mensal - Mai/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1402402&descTipo=IPE&CodigoInstituicao=1
+16;PSSA3;23/06/2025;18:16;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1392981&descTipo=IPE&CodigoInstituicao=1
+17;PSSA3;23/06/2025;15:09;Relatório Setorial Mensal - Abr/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1392848&descTipo=IPE&CodigoInstituicao=1
+18;PSSA3;04/06/2025;18:19;Relatório Setorial Mensal - Mar/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1386875&descTipo=IPE&CodigoInstituicao=1
+19;PSSA3;22/05/2025;19:01;Alteração da composição do Comitê de Clientes, Marketing e Digital;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1382109&descTipo=IPE&CodigoInstituicao=1
+20;PSSA3;22/04/2025;16:30;Relatório Setorial Mensal - Jan e Fev/25;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1363394&descTipo=IPE&CodigoInstituicao=1
+21;PSSA3;01/04/2025;21:39;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1356387&descTipo=IPE&CodigoInstituicao=1
+22;PSSA3;01/04/2025;08:16;Aquisição de ações da Porto Assistência Participações S.A.;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1355581&descTipo=IPE&CodigoInstituicao=1
+23;PSSA3;28/03/2025;19:45;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1353938&descTipo=IPE&CodigoInstituicao=1
+24;PSSA3;27/03/2025;01:22;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1352298&descTipo=IPE&CodigoInstituicao=1
+25;PSSA3;26/03/2025;10:00;Renúncia de Membro independente do CA ;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1351761&descTipo=IPE&CodigoInstituicao=1
+26;PSSA3;27/02/2025;20:55;Retificação BVD - AGO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1340878&descTipo=IPE&CodigoInstituicao=1
+27;PSSA3;17/02/2025;18:33;Relatório Setorial Mensal - Dez/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1335787&descTipo=IPE&CodigoInstituicao=1
+28;PSSA3;14/02/2025;08:53;Aquisição de Ações de Emissão da Própria Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1334998&descTipo=IPE&CodigoInstituicao=1
+29;PSSA3;14/02/2025;07:47;Projeções - 2025;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1334983&descTipo=IPE&CodigoInstituicao=1
+30;PSSA3;27/01/2025;14:38;Relatório Setorial Mensal - Nov/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1327670&descTipo=IPE&CodigoInstituicao=1
+31;PSSA3;06/01/2025;18:30;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1322254&descTipo=IPE&CodigoInstituicao=1
+32;PSSA3;24/12/2024;12:47;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1319145&descTipo=IPE&CodigoInstituicao=1
+33;PSSA3;17/12/2024;11:23;Relatório Setorial Mensal - Out/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1316393&descTipo=IPE&CodigoInstituicao=1
+34;PSSA3;16/12/2024;16:41;Relatório Setorial Mensal - Out/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1315991&descTipo=IPE&CodigoInstituicao=1
+35;PSSA3;22/11/2024;19:35;Pagamento de saldo restante de proventos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1307338&descTipo=IPE&CodigoInstituicao=1
+36;PSSA3;22/11/2024;12:15;Pagamento de saldo restante de proventos;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1307117&descTipo=IPE&CodigoInstituicao=1
+37;PSSA3;22/11/2024;10:03;JCP;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1307071&descTipo=IPE&CodigoInstituicao=1
+38;PSSA3;18/11/2024;17:19;Relatório Setorial Mensal - Set/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1305515&descTipo=IPE&CodigoInstituicao=1
+39;PSSA3;13/11/2024;18:42;Relatório Setorial Mensal - Set/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1303623&descTipo=IPE&CodigoInstituicao=1
+40;PSSA3;12/11/2024;07:19;Revisão de Projeções;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1302464&descTipo=IPE&CodigoInstituicao=1
+41;PSSA3;22/10/2024;17:41;Reporte Setorial Mensal - Ago/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1293547&descTipo=IPE&CodigoInstituicao=1
+42;PSSA3;22/10/2024;12:22;Reporte Setorial Mensal - Ago/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1293472&descTipo=IPE&CodigoInstituicao=1
+43;PSSA3;24/09/2024;21:04;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1284948&descTipo=IPE&CodigoInstituicao=1
+44;PSSA3;24/09/2024;11:54;Relatório Setorial Mensal - Susep - Jul/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1284700&descTipo=IPE&CodigoInstituicao=1
+45;PSSA3;23/09/2024;16:06;Relatório Setorial Mensal - Susep - Jul/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1284367&descTipo=IPE&CodigoInstituicao=1
+46;PSSA3;21/08/2024;17:56;POLÍTICA DE INTEGRAÇÃO DO CONSELHO DE ADMINISTRAÇÃO;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1274464&descTipo=IPE&CodigoInstituicao=1
+47;PSSA3;20/08/2024;15:10;Relatório Setorial Mensal - Susep - Jun/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1274034&descTipo=IPE&CodigoInstituicao=1
+48;PSSA3;19/08/2024;17:10;Relatório Setorial Mensal - Susep - Jun/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1273587&descTipo=IPE&CodigoInstituicao=1
+49;PSSA3;25/07/2024;10:09;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1262597&descTipo=IPE&CodigoInstituicao=1
+50;PSSA3;08/07/2024;18:51;Reporte Setorial Mensal - SUSEP - Mai/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1257686&descTipo=IPE&CodigoInstituicao=1
+51;PSSA3;08/07/2024;14:27;Reporte Setorial Mensal - SUSEP - Mai/24;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1257453&descTipo=IPE&CodigoInstituicao=1
+52;PSSA3;04/07/2024;18:58;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1256882&descTipo=IPE&CodigoInstituicao=1
+53;PSSA3;01/07/2024;12:19;Relatório Setorial Mensal - Abril de 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1255194&descTipo=IPE&CodigoInstituicao=1
+54;PSSA3;25/06/2024;19:44;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1253462&descTipo=IPE&CodigoInstituicao=1
+55;PSSA3;20/05/2024;14:11;Relatório Setorial Mensal - Março de 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1240336&descTipo=IPE&CodigoInstituicao=1
+56;PSSA3;15/05/2024;09:53;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1238431&descTipo=IPE&CodigoInstituicao=1
+57;PSSA3;14/05/2024;19:46;Fato Relevante - Protocolo CVM Porto Serviço e Porto Saúde;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1238202&descTipo=IPE&CodigoInstituicao=1
+58;PSSA3;14/05/2024;17:12;Modificação de Projeções Divulgadas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1238001&descTipo=IPE&CodigoInstituicao=1
+59;PSSA3;24/04/2024;19:17;Retificação Aviso aos Acionistas;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1225424&descTipo=IPE&CodigoInstituicao=1
+60;PSSA3;15/04/2024;12:19;Relatório Setorial Mensal - Fevereiro de 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1221735&descTipo=IPE&CodigoInstituicao=1
+61;PSSA3;01/04/2024;14:39;Relatório Setorial Mensal - Janeiro de 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1216062&descTipo=IPE&CodigoInstituicao=1
+62;PSSA3;01/04/2024;10:48;Relatório Setorial Mensal - Janeiro de 2024;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1215934&descTipo=IPE&CodigoInstituicao=1
+63;PSSA3;28/03/2024;22:06;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1215273&descTipo=IPE&CodigoInstituicao=1
+64;PSSA3;28/03/2024;19:32;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1214963&descTipo=IPE&CodigoInstituicao=1
+65;PSSA3;25/03/2024;20:24;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1212142&descTipo=IPE&CodigoInstituicao=1
+66;PSSA3;07/03/2024;08:33;Parceria com Mitsui;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1204095&descTipo=IPE&CodigoInstituicao=1
+67;PSSA3;06/03/2024;20:16;Reapresentação do Boletim de Voto a Distância relativo à Assembleia Geral Ordinária e Extraordinária;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1203816&descTipo=IPE&CodigoInstituicao=1
+68;PSSA3;22/02/2024;19:52;Aprovação da Renovação do Programa de Recompra de Ações de Emissão da Companhia;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1197875&descTipo=IPE&CodigoInstituicao=1
+69;PSSA3;14/02/2024;17:27;Relatório Setorial Mensal - Dezembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1194348&descTipo=IPE&CodigoInstituicao=1
+70;PSSA3;14/02/2024;16:43;Relatório Setorial Mensal - Dezembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1194305&descTipo=IPE&CodigoInstituicao=1
+71;PSSA3;15/01/2024;17:52;Relatório Setorial Mensal - Novembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1183417&descTipo=IPE&CodigoInstituicao=1
+72;PSSA3;15/01/2024;12:22;Relatório Setorial Mensal - Novembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1183372&descTipo=IPE&CodigoInstituicao=1
+73;PSSA3;02/01/2024;09:24;Sucessão do Diretor Presidente da Porto;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1179008&descTipo=IPE&CodigoInstituicao=1
+74;PSSA3;21/12/2023;18:33;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1176506&descTipo=IPE&CodigoInstituicao=1
+75;PSSA3;15/12/2023;17:21;Relatório Setorial Mensal - Outubro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1174222&descTipo=IPE&CodigoInstituicao=1
+76;PSSA3;14/12/2023;21:33;Relatório Setorial Mensal - Outubro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1173803&descTipo=IPE&CodigoInstituicao=1
+77;PSSA3;07/12/2023;21:04;Apresentação Porto Day 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1170677&descTipo=IPE&CodigoInstituicao=1
+78;PSSA3;06/12/2023;08:57;Realização do Porto Day 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1169743&descTipo=IPE&CodigoInstituicao=1
+79;PSSA3;17/11/2023;18:10;Relatório Setorial - Setembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1164214&descTipo=IPE&CodigoInstituicao=1
+80;PSSA3;17/11/2023;11:12;Relatório Setorial Mensal - Setembro de 2023;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1163913&descTipo=IPE&CodigoInstituicao=1
+81;PSSA3;10/11/2023;11:16;Teleconferência de Resultados do 3T23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1160915&descTipo=IPE&CodigoInstituicao=1
+82;PSSA3;08/11/2023;20:46;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1159682&descTipo=IPE&CodigoInstituicao=1
+83;PSSA3;01/11/2023;08:49;Eleição do Novo Diretor de Relações com Investidores;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1156420&descTipo=IPE&CodigoInstituicao=1
+84;PSSA3;31/10/2023;19:26;Comunicado ao Mercado - Conclusão da Aquisição da Unigás;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1156265&descTipo=IPE&CodigoInstituicao=1
+85;PSSA3;16/10/2023;18:05;Reporte Setorial Mensal Ago/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1151873&descTipo=IPE&CodigoInstituicao=1
+86;PSSA3;16/10/2023;10:56;Reporte Setorial Mensal Ago/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1151692&descTipo=IPE&CodigoInstituicao=1
+87;PSSA3;27/09/2023;14:39;Reporte Setorial Mensal Jul/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1146419&descTipo=IPE&CodigoInstituicao=1
+88;PSSA3;25/09/2023;18:53;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1145876&descTipo=IPE&CodigoInstituicao=1
+89;PSSA3;25/09/2023;10:57;Reporte Setorial Mensal Jul/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1145679&descTipo=IPE&CodigoInstituicao=1
+90;PSSA3;01/09/2023;08:54;Paceria entre Porto Seguro e Mitsui Sumitomo;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1139159&descTipo=IPE&CodigoInstituicao=1
+91;PSSA3;29/08/2023;09:02;Aquisição da Unigás;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1138049&descTipo=IPE&CodigoInstituicao=1
+92;PSSA3;15/08/2023;11:33;Reporte Setorial Mensal Jun/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1134241&descTipo=IPE&CodigoInstituicao=1
+93;PSSA3;11/08/2023;10:23;Reporte Setorial Mensal Jun/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1132917&descTipo=IPE&CodigoInstituicao=1
+94;PSSA3;31/07/2023;20:50;Alteração na Composição do Conselho de Administração;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1127228&descTipo=IPE&CodigoInstituicao=1
+95;PSSA3;17/07/2023;11:48;Reporte Setorial Mensal Mai/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1122937&descTipo=IPE&CodigoInstituicao=1
+96;PSSA3;17/07/2023;10:31;Reporte Setorial Mensal Mai/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1122932&descTipo=IPE&CodigoInstituicao=1
+97;PSSA3;26/06/2023;18:58;Dividendos/Juros sobre Capital Próprio;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1116690&descTipo=IPE&CodigoInstituicao=1
+98;PSSA3;21/06/2023;09:21;Reporte Setorial Mensal Abr/23;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1115311&descTipo=IPE&CodigoInstituicao=1
+99;PSSA3;13/06/2023;18:34;Processo Judicial Referente à Incidência de Tributos sobre Receitas Operacionais Aplicada às Seguradoras;https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numProtocolo=1113020&descTipo=IPE&CodigoInstituicao=1
