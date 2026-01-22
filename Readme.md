@@ -57,7 +57,7 @@ poetry install
 docker-compose up -d
 ```
 
-Ref.: [Docker Deskyop](https://www.docker.com/products/docker-desktop/)
+Ref.: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ----
 ![GitHub](https://img.shields.io/github/license/Prog-LucasAlves/PUB_Dados_Financeiros_B3)
