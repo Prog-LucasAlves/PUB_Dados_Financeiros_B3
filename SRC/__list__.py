@@ -228,7 +228,7 @@ lst_acao = [
     # "GPIV33",
     "GRND3",
     "GSHP3",
-    "GUAR3",
+    # "GUAR3",
     "HAGA3",
     "HAGA4",
     "HAPV3",
