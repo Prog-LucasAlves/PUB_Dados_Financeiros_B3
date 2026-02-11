@@ -416,3 +416,29 @@ lst_acao = [
     "WLMM4",
     "YDUQ3",
 ]
+
+lst_indices = [
+    "BVSP",
+    "IXIC",
+    "GSPC",
+    "DJI",
+    "VIX",
+    "N225",
+    "RUT",
+    "HSI",
+    "MERV",
+]
+
+lst_crypto = [
+    "BTC-USD",
+    "ETH-USD",
+    "LTC-USD",
+]
+
+lst_moedas = [
+    "USDBRL=X",
+    "EURBRL=X",
+    "GBPBRL=X",
+    "EURUSD=X",
+    "BRLUSD=X",
+]
