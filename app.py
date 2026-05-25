@@ -288,6 +288,14 @@ def inject_custom_css():
         transform: translateX(-50%) translateY(-2px);
     }
 
+    /* Style all Streamlit widget labels for better dark-theme readability */
+    [data-testid="stWidgetLabel"], [data-testid="stWidgetLabel"] p, .stSelectbox label, .stSlider label {
+        color: #E2E8F0 !important;
+        font-family: 'Outfit', sans-serif !important;
+        font-weight: 500 !important;
+        font-size: 14px !important;
+    }
+
     /* Scrollbars */
     ::-webkit-scrollbar {
         width: 8px;
@@ -650,26 +658,19 @@ for name, (exists, is_critical) in integrity_data.items():
         color = "#FF3D71" if is_critical else "#64748B"
         status_text = "Ausente"
 
-    rows_html += f"""
-    <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-family: 'Outfit', sans-serif;">
-        <span style="color: #94A3B8;">{name}</span>
-        <span style="display: flex; align-items: center; gap: 4px; font-weight: 500; color: {color};">
-            <span style="color: {color}; font-size: 8px; vertical-align: middle;">●</span> {status_text}
-        </span>
-    </div>
-    """
+    rows_html += (
+        f"<div style=\"display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-family: 'Outfit', sans-serif;\">"
+        f'<span style="color: #94A3B8;">{name}</span>'
+        f'<span style="display: flex; align-items: center; gap: 4px; font-weight: 500; color: {color};">'
+        f'<span style="color: {color}; font-size: 8px; vertical-align: middle;">●</span> {status_text}'
+        f"</span></div>"
+    )
 
 st.sidebar.markdown(
-    f"""
-    <div class="status-card" style="margin-top: 15px; padding: 12px 16px; border-left: 4px solid {border_color};">
-        <div style="font-size: 13px; font-weight: 600; color: #F8FAFC; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
-            {header_title}
-        </div>
-        <div style="display: flex; flex-direction: column; gap: 8px;">
-            {rows_html}
-        </div>
-    </div>
-    """,
+    f'<div class="status-card" style="margin-top: 15px; padding: 12px 16px; border-left: 4px solid {border_color};">'
+    f'<div style="font-size: 13px; font-weight: 600; color: #F8FAFC; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">{header_title}</div>'
+    f'<div style="display: flex; flex-direction: column; gap: 8px;">{rows_html}</div>'
+    f"</div>",
     unsafe_allow_html=True,
 )
 
