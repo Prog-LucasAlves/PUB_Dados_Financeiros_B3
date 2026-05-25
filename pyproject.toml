@@ -10,12 +10,14 @@ dependencies = [
     "fastparquet>=2024.11.0",
     "jupyter>=1.1.1",
     "pandas>=2.3.2",
+    "plotly>=6.7.0",
     "psycopg2>=2.9.10",
     "pyarrow>=21.0.0",
     "python-dotenv>=1.1.1",
     "quantstats>=0.0.76",
     "requests>=2.32.5",
     "selenium>=4.35.0",
+    "streamlit>=1.57.0",
     "tqdm>=4.67.1",
 ]
 

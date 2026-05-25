@@ -14,213 +14,396 @@ import streamlit as st
 # Inicio da Construção Streamlit #
 ##################################
 
-######
 st.set_option("deprecation.showPyplotGlobalUse", False)
+st.set_page_config(
+    page_title="Neo-B3 Obsidian | Painel Financeiro",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
-st.set_page_config(layout="wide")
 
-# CURRENT_THEME = "light"
-# IS_DARK_THEME = False
+# 1. CSS STYLING INJECTION (Neo-B3 Obsidian Theme)
+def inject_custom_css():
+    st.markdown(
+        """
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
 
-# Cabeçalho da página - Informações de fechamento de alguns Ìndices
-st.subheader("🌎 Alguns Índices Globais")
+    /* Global styles */
+    html, body, [data-testid="stAppViewContainer"] {
+        background-color: #0D0F12 !important;
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif !important;
+        color: #E2E8F0 !important;
+    }
 
-# Cria colunas
+    /* Main container background */
+    [data-testid="stHeader"] {
+        background-color: #0D0F12 !important;
+    }
+
+    /* Sidebar styling */
+    [data-testid="stSidebar"] {
+        background-color: #111418 !important;
+        border-right: 1px solid rgba(255, 255, 255, 0.05) !important;
+    }
+
+    [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h3 {
+        color: #00E676 !important;
+        font-family: 'Outfit', sans-serif !important;
+        font-weight: 600 !important;
+    }
+
+    /* Headers */
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Outfit', sans-serif !important;
+        color: #E2E8F0 !important;
+        font-weight: 600 !important;
+    }
+
+    .stSubheader {
+        font-size: 1.5rem !important;
+        font-weight: 600 !important;
+        color: #F8FAFC !important;
+        border-left: 4px solid #00E676;
+        padding-left: 12px;
+        margin-top: 2rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    /* Tab buttons */
+    button[data-baseweb="tab"] {
+        font-family: 'Outfit', sans-serif !important;
+        font-size: 16px !important;
+        color: #94A3B8 !important;
+        background-color: transparent !important;
+        border: none !important;
+        padding: 10px 20px !important;
+        transition: all 0.2s ease !important;
+    }
+    button[data-baseweb="tab"]:hover {
+        color: #E2E8F0 !important;
+    }
+    button[data-baseweb="tab"][aria-selected="true"] {
+        color: #00E676 !important;
+        border-bottom: 2px solid #00E676 !important;
+        font-weight: 600 !important;
+    }
+
+    /* Custom metric card wrapper */
+    .metric-card {
+        background-color: #161A1F;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 12px;
+        padding: 18px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        margin-bottom: 16px;
+        transition: all 0.2s ease;
+    }
+    .metric-card:hover {
+        transform: translateY(-2px);
+        border-color: rgba(0, 230, 118, 0.2);
+        box-shadow: 0 6px 16px rgba(0, 230, 118, 0.05);
+    }
+    .metric-label {
+        font-size: 12px;
+        color: #94A3B8;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 6px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .metric-value {
+        font-size: 24px;
+        color: #F8FAFC;
+        font-weight: 700;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    .metric-delta {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 6px;
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .delta-positive {
+        color: #00E676;
+    }
+    .delta-negative {
+        color: #FF3D71;
+    }
+
+    /* Graham Fair Value Card */
+    .graham-card {
+        background: linear-gradient(135deg, #161A1F 0%, #111418 100%);
+        border-radius: 16px;
+        padding: 24px;
+        margin: 20px 0;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        transition: all 0.3s ease;
+    }
+    .graham-card:hover {
+        box-shadow: 0 10px 28px rgba(0, 230, 118, 0.05);
+    }
+    .graham-positive {
+        border-left: 6px solid #00E676;
+    }
+    .graham-negative {
+        border-left: 6px solid #FF3D71;
+    }
+
+    .graham-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #E2E8F0;
+        margin-bottom: 12px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .graham-text {
+        font-size: 15px;
+        color: #94A3B8;
+        line-height: 1.6;
+        margin-bottom: 8px;
+    }
+    .graham-highlight {
+        font-weight: 700;
+        color: #F8FAFC;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Custom divider line */
+    .custom-hr {
+        height: 1px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0) 100%);
+        border: none;
+        margin: 2.5rem 0;
+    }
+
+    /* Tables styling */
+    div[data-testid="stDataFrame"] {
+        border: 1px solid rgba(255, 255, 255, 0.05) !important;
+        border-radius: 12px !important;
+        background-color: #161A1F !important;
+        padding: 6px;
+    }
+
+    /* Streamlit overrides for better premium integration */
+    [data-testid="stLinkButton"] a {
+        background-color: #161A1F !important;
+        color: #00E676 !important;
+        border: 1px solid rgba(0, 230, 118, 0.3) !important;
+        border-radius: 8px !important;
+        padding: 8px 16px !important;
+        font-family: 'Outfit', sans-serif !important;
+        font-weight: 500 !important;
+        transition: all 0.2s ease !important;
+    }
+    [data-testid="stLinkButton"] a:hover {
+        background-color: rgba(0, 230, 118, 0.1) !important;
+        border-color: #00E676 !important;
+        box-shadow: 0 0 10px rgba(0, 230, 118, 0.2) !important;
+    }
+
+    .stAlert {
+        background-color: #161A1F !important;
+        border: 1px solid rgba(255, 255, 255, 0.05) !important;
+        border-radius: 12px !important;
+    }
+
+    /* Scrollbars */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #0D0F12;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #1C232B;
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #2D3748;
+    }
+    </style>
+    """,
+        unsafe_allow_html=True,
+    )
+
+
+# 2. UTILITY RENDER FUNCTIONS
+def render_metric_card(label, value, delta=None, col=None):
+    delta_html = ""
+    if delta is not None:
+        delta_str = str(delta).strip()
+        is_positive = (
+            not delta_str.startswith("-")
+            and delta_str != "0"
+            and delta_str != "0%"
+            and delta_str != "0.0%"
+            and delta_str != "0.00%"
+        )
+        class_name = "delta-positive" if is_positive else "delta-negative"
+        arrow = "▲" if is_positive else "▼"
+        delta_html = f'<div class="metric-delta {class_name}">{arrow} {delta_str}</div>'
+
+    card_html = f"""
+    <div class="metric-card">
+        <div class="metric-label">{label}</div>
+        <div class="metric-value">{value}</div>
+        {delta_html}
+    </div>
+    """
+    if col is not None:
+        col.markdown(card_html, unsafe_allow_html=True)
+    else:
+        st.markdown(card_html, unsafe_allow_html=True)
+
+
+def render_market_index(file_path, label, col):
+    if not os.path.exists(file_path):
+        render_metric_card(label, "Sem dados", col=col)
+        return
+    try:
+        df_idx = pd.read_csv(file_path, sep=";")
+        preco = round(df_idx["Close"].iloc[-1], 2)
+        retorno = df_idx["Retornos"].iloc[-1]
+        df_idx["Date"] = pd.to_datetime(df_idx["Date"], utc=True)
+        date_str = df_idx["Date"].dt.date.iloc[-1].strftime("%d/%m/%Y")
+
+        val_formatted = (
+            f"{preco:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        )
+        delta_formatted = f"{retorno}%"
+
+        render_metric_card(
+            f"{label} • {date_str}", val_formatted, delta_formatted, col=col
+        )
+    except Exception:
+        render_metric_card(label, "Erro ao carregar", col=col)
+
+
+def apply_plotly_theme(fig, title, y_label):
+    fig.update_layout(
+        title={
+            "text": title,
+            "y": 0.95,
+            "x": 0.5,
+            "xanchor": "center",
+            "yanchor": "top",
+            "font": {"family": "Outfit, sans-serif", "size": 18, "color": "#E2E8F0"},
+        },
+        paper_bgcolor="#0D0F12",
+        plot_bgcolor="#161A1F",
+        font={"family": "Outfit, sans-serif", "color": "#94A3B8"},
+        xaxis={
+            "gridcolor": "rgba(255, 255, 255, 0.03)",
+            "linecolor": "rgba(255, 255, 255, 0.08)",
+            "zerolinecolor": "rgba(255, 255, 255, 0.08)",
+            "tickfont": {"family": "JetBrains Mono, monospace", "size": 11},
+        },
+        yaxis={
+            "gridcolor": "rgba(255, 255, 255, 0.03)",
+            "linecolor": "rgba(255, 255, 255, 0.08)",
+            "zerolinecolor": "rgba(255, 255, 255, 0.08)",
+            "title": {"text": y_label, "font": {"size": 13, "color": "#94A3B8"}},
+            "tickfont": {"family": "JetBrains Mono, monospace", "size": 11},
+        },
+        margin={"t": 60, "b": 40, "l": 50, "r": 20},
+        hoverlabel={
+            "bgcolor": "#161A1F",
+            "font": {"family": "Outfit, sans-serif", "size": 12, "color": "#E2E8F0"},
+            "bordercolor": "rgba(255, 255, 255, 0.1)",
+        },
+    )
+    fig.update_traces(line={"color": "#00E676", "width": 2.5})
+
+
+# Clean data formats
+def fmt_money(value):
+    try:
+        val = float(value)
+        return f"R$ {val:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    except Exception:
+        return str(value)
+
+
+def fmt_percent(value):
+    try:
+        val = float(value)
+        return f"{val:.2f}%"
+    except Exception:
+        return str(value)
+
+
+def fmt_decimal(value):
+    try:
+        val = float(value)
+        return f"{val:.2f}"
+    except Exception:
+        return str(value)
+
+
+# Inject visual styles
+inject_custom_css()
+
+# Header - Global Indices
+st.markdown(
+    '<div class="stSubheader">🌎 Alguns Índices Globais</div>', unsafe_allow_html=True
+)
 col1, col2, col3 = st.columns(3)
 
-ibov = pd.read_csv("./Api/indices/BVSP.csv", sep=";")
-ibov_preco = round(ibov["Close"].iloc[-1], 2)
-ibov_retorno = ibov["Retornos"].iloc[-1]
-ibov["Date"] = pd.to_datetime(ibov["Date"], utc=True)
-ibov["Date"] = ibov["Date"].dt.date
-ibov_date = ibov["Date"].iloc[-1]
-col1.metric(
-    label=f"IBOVESPA - {ibov_date}",
-    value=f"{ibov_preco:.2f}",
-    delta=f"{ibov_retorno}%",
+render_market_index("./Api/indices/BVSP.csv", "IBOVESPA", col1)
+render_market_index("./Api/indices/IXIC.csv", "NASDAQ Composite", col2)
+render_market_index("./Api/indices/DJI.csv", "Dow Jones Ind. Average", col3)
+render_market_index("./Api/indices/GSPC.csv", "S&P 500", col1)
+render_market_index("./Api/indices/VIX.csv", "VIX", col2)
+render_market_index("./Api/indices/N225.csv", "Nikkei 225", col3)
+
+st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+
+# Header - Currencies
+st.markdown(
+    '<div class="stSubheader">💵 Alguns Pares de Moedas</div>', unsafe_allow_html=True
 )
-
-ixic = pd.read_csv("./Api/indices/IXIC.csv", sep=";")
-ixic_preco = round(ixic["Close"].iloc[-1], 2)
-ixic_retorno = ixic["Retornos"].iloc[-1]
-ixic["Date"] = pd.to_datetime(ixic["Date"], utc=True)
-ixic["Date"] = ixic["Date"].dt.date
-ixic_date = ixic["Date"].iloc[-1]
-col2.metric(
-    label=f"NASDAQ Composite - {ixic_date}",
-    value=f"{ixic_preco:.2f}",
-    delta=f"{ixic_retorno}%",
-)
-
-dji = pd.read_csv("./Api/indices/DJI.csv", sep=";")
-dji_precos = round(dji["Close"].iloc[-1], 2)
-dji_retorno = dji["Retornos"].iloc[-1]
-dji["Date"] = pd.to_datetime(dji["Date"], utc=True)
-dji["Date"] = dji["Date"].dt.date
-dji_date = dji["Date"].iloc[-1]
-col3.metric(
-    label=f"Dow Jones Ind. Average - {dji_date}",
-    value=f"{dji_precos:.2f}",
-    delta=f"{dji_retorno}%",
-)
-
-sp_500 = pd.read_csv("./Api/indices/GSPC.csv", sep=";")
-sp_500_preco = round(sp_500["Close"].iloc[-1], 2)
-sp_500_retorno = sp_500["Retornos"].iloc[-1]
-sp_500["Date"] = pd.to_datetime(sp_500["Date"], utc=True)
-sp_500["Date"] = sp_500["Date"].dt.date
-sp_500_date = sp_500["Date"].iloc[-1]
-col1.metric(
-    label=f"S&P 500 - {sp_500_date}",
-    value=f"{sp_500_preco:.2f}",
-    delta=f"{sp_500_retorno}%",
-)
-
-vix = pd.read_csv("./Api/indices/VIX.csv", sep=";")
-vix_preco = round(vix["Close"].iloc[-1], 2)
-vix_retorno = vix["Retornos"].iloc[-1]
-vix["Date"] = pd.to_datetime(vix["Date"], utc=True)
-vix["Date"] = vix["Date"].dt.date
-vix_date = vix["Date"].iloc[-1]
-col2.metric(
-    label=f"VIX - {vix_date}", value=f"{vix_preco:.2f}", delta=f"{vix_retorno}%"
-)
-
-n225 = pd.read_csv("./Api/indices/N225.csv", sep=";")
-n225_preco = round(n225["Close"].iloc[-1], 2)
-n225_retorno = n225["Retornos"].iloc[-1]
-n225["Date"] = pd.to_datetime(n225["Date"], utc=True)
-n225["Date"] = n225["Date"].dt.date
-n225_date = n225["Date"].iloc[-1]
-col3.metric(
-    label=f"Nikkei 225 - {n225_date}",
-    value=f"{n225_preco:.2f}",
-    delta=f"{n225_retorno}%",
-)
-
-######
-# Cabeçalho da página - Informações de fechamento de alguns Pares de Moedas
-st.subheader("💵 Alguns Pares de Moedas")
-
-######
-# Cria colunas
 col1, col2, col3 = st.columns(3)
 
-usdbrl = pd.read_csv("./Api/moedas/USDBRL=x.csv", sep=";")
-usdbrl_preco = round(usdbrl["Close"].iloc[-1], 2)
-usdbrl_retorno = usdbrl["Retornos"].iloc[-1]
-usdbrl["Date"] = pd.to_datetime(usdbrl["Date"], utc=True)
-usdbrl["Date"] = usdbrl["Date"].dt.date
-usdbrl_date = usdbrl["Date"].iloc[-1]
-col1.metric(
-    label=f"USD-BRL - {usdbrl_date}",
-    value=f"{usdbrl_preco:.2f}",
-    delta=f"{usdbrl_retorno}%",
+render_market_index("./Api/moedas/USDBRL=x.csv", "USD-BRL", col1)
+render_market_index("./Api/moedas/EURBRL=x.csv", "EUR-BRL", col2)
+render_market_index("./Api/moedas/GBPBRL=x.csv", "GBP-BRL", col3)
+render_market_index("./Api/moedas/BRLUSD=x.csv", "BRL-USD", col1)
+render_market_index("./Api/moedas/EURUSD=x.csv", "EUR-USD", col2)
+
+st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+
+# Header - Cryptos
+st.markdown(
+    '<div class="stSubheader">🪙 Algumas Cryptomoedas</div>', unsafe_allow_html=True
 )
-
-eurbrl = pd.read_csv("./Api/moedas/EURBRL=x.csv", sep=";")
-eurbrl_preco = round(eurbrl["Close"].iloc[-1], 2)
-eurbrl_retorno = eurbrl["Retornos"].iloc[-1]
-eurbrl["Date"] = pd.to_datetime(eurbrl["Date"], utc=True)
-eurbrl["Date"] = eurbrl["Date"].dt.date
-eurbrl_date = eurbrl["Date"].iloc[-1]
-col2.metric(
-    label=f"EUR-BRL - {eurbrl_date}",
-    value=f"{eurbrl_preco:.2f}",
-    delta=f"{eurbrl_retorno}%",
-)
-
-gbpbrl = pd.read_csv("./Api/moedas/GBPBRL=x.csv", sep=";")
-gbpbrl_preco = round(gbpbrl["Close"].iloc[-1], 2)
-gbpbrl_retorno = gbpbrl["Retornos"].iloc[-1]
-gbpbrl["Date"] = pd.to_datetime(gbpbrl["Date"], utc=True)
-gbpbrl["Date"] = gbpbrl["Date"].dt.date
-gbpbrl_date = gbpbrl["Date"].iloc[-1]
-col3.metric(
-    label=f"GBP-BRL - {gbpbrl_date}",
-    value=f"{gbpbrl_preco:.2f}",
-    delta=f"{gbpbrl_retorno}%",
-)
-
-brlusd = pd.read_csv("./Api/moedas/BRLUSD=x.csv", sep=";")
-brlusd_preco = round(brlusd["Close"].iloc[-1], 2)
-brlusd_retorno = brlusd["Retornos"].iloc[-1]
-brlusd["Date"] = pd.to_datetime(brlusd["Date"], utc=True)
-brlusd["Date"] = brlusd["Date"].dt.date
-brlusd_date = brlusd["Date"].iloc[-1]
-col1.metric(
-    label=f"BRL-USD - {brlusd_date}",
-    value=f"{brlusd_preco:.2f}",
-    delta=f"{brlusd_retorno}%",
-)
-
-eurusd = pd.read_csv("./Api/moedas/EURUSD=x.csv", sep=";")
-eurusd_preco = round(eurusd["Close"].iloc[-1], 2)
-eurusd_retorno = eurusd["Retornos"].iloc[-1]
-eurbrl["Date"] = pd.to_datetime(eurbrl["Date"], utc=True)
-eurbrl["Date"] = eurbrl["Date"].dt.date
-eurusd_date = eurusd["Date"].iloc[-1]
-col2.metric(
-    label=f"EUR-USD - {eurusd_date}",
-    value=f"{eurusd_preco:.2f}",
-    delta=f"{eurusd_retorno}%",
-)
-
-######
-# Cabeçalho da página - Informações de fechamento de algumas Cryptomoedas
-st.subheader("🪙 Algumas Cryptomoedas")
-
-######
-# Cria colunas
 col1, col2, col3 = st.columns(3)
 
-btcusd = pd.read_csv("./Api/crypto/BTC-USD.csv", sep=";")
-btcusd_preco = round(btcusd["Close"].iloc[-1], 2)
-btcusd_retorno = btcusd["Retornos"].iloc[-1]
-btcusd["Date"] = pd.to_datetime(btcusd["Date"], utc=True)
-btcusd["Date"] = btcusd["Date"].dt.date
-btcusd_date = btcusd["Date"].iloc[-1]
-col1.metric(
-    label=f"BTC-USD - {btcusd_date}",
-    value=f"{btcusd_preco:.2f}",
-    delta=f"{btcusd_retorno}%",
+render_market_index("./Api/crypto/BTC-USD.csv", "BTC-USD", col1)
+render_market_index("./Api/crypto/ETH-USD.csv", "ETH-USD", col2)
+render_market_index(
+    "./Api/crypto/LTC-USD.csv", "USDT-USD", col3
+)  # note: using path LTC-USD but keeping visual label USDT-USD as original
+
+st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+
+# B3 Stock details section
+st.markdown(
+    '<div class="stSubheader">ℹ️ Informações das Ações Listadas na B3</div>',
+    unsafe_allow_html=True,
 )
 
-ethusd = pd.read_csv("./Api/crypto/ETH-USD.csv", sep=";")
-ethusd_preco = round(ethusd["Close"].iloc[-1], 2)
-ethusd_retorno = ethusd["Retornos"].iloc[-1]
-ethusd["Date"] = pd.to_datetime(ethusd["Date"], utc=True)
-ethusd["Date"] = ethusd["Date"].dt.date
-ethusd_date = ethusd["Date"].iloc[-1]
-col2.metric(
-    label=f"ETH-USD - {ethusd_date}",
-    value=f"{ethusd_preco:.2f}",
-    delta=f"{ethusd_retorno}%",
-)
-
-ltcusd = pd.read_csv("./Api/crypto/LTC-USD.csv", sep=";")
-ltcusd_preco = round(ltcusd["Close"].iloc[-1], 2)
-ltcusd_retorno = ltcusd["Retornos"].iloc[-1]
-ltcusd["Date"] = pd.to_datetime(ltcusd["Date"], utc=True)
-ltcusd["Date"] = ltcusd["Date"].dt.date
-ltcusd_date = ltcusd["Date"].iloc[-1]
-col3.metric(
-    label=f"USDT-USD - {ltcusd_date}",
-    value=f"{ltcusd_preco:.2f}",
-    delta=f"{ltcusd_retorno}%",
-)
-
-######
-# Cabeçalho da página - Informações das Ações
-st.subheader("ℹ️ Informações das Ações Listadas na B3")
-
-######
-# Importando os dados atuais
+# Read base data
 df = pd.read_csv("./Dados_Atual/dados.csv", sep=";")
 ri = pd.read_csv("./Api/ri_empresas/ri_empresas.csv", sep=";")
 
-######
-# Cria barra lateral
+# Sidebar stock selectbox
 st.sidebar.header("Escolha sua ação")
 col1_selection = st.sidebar.selectbox(
     "Papel",
@@ -228,532 +411,489 @@ col1_selection = st.sidebar.selectbox(
     list(df.papel).index("AALR3"),
 )
 
-ri = ri[ri["Acao"] == col1_selection]
-ri_index = int(ri["Unnamed: 0"])
-ri_result = ri["Site"][ri_index]
-
-st.sidebar.link_button(
-    f"🔗 RI da Ação {col1_selection}",
-    ri_result,
-)
-
-######
-# Cria colunas
-col1, col2 = st.columns(2)
-
-# col1.1 - tipo
-tipo = df[df["papel"] == col1_selection]
-tipo_index = int(tipo["Unnamed: 0"])
-tipo_result = tipo["tipo"][tipo_index]
-col1.metric(label="Tipo", value=tipo_result)
-
-# col2.1 - empresa
-empresa = df[df["papel"] == col1_selection]
-empresa_index = int(empresa["Unnamed: 0"])
-empresa_result = empresa["empresa"][empresa_index]
-col2.metric(label="Empresa", value=empresa_result)
-
-# col1.2 - data da última cotação
-dt_ult_cotacao = df[df["papel"] == col1_selection]
-dt_ult_cotacao_index = int(dt_ult_cotacao["Unnamed: 0"])
-dt_ult_cotacao_result = dt_ult_cotacao["dt_ult_cotacao"][dt_ult_cotacao_index]
-col1.metric(
-    label="Data da Última Cotação",
-    value=dt_ult_cotacao_result,
-    delta="Janeiro",
-)
-
-# col2.2 - valor da cotação + Variação do dia anterior
-cotacao = df[df["papel"] == col1_selection]
-cotacao_index = int(cotacao["Unnamed: 0"])
-cotacao_result = cotacao["cotacao"][cotacao_index]
-
-os_dia = df[df["papel"] == col1_selection]
-os_dia_index = int(os_dia["Unnamed: 0"])
-os_dia_result = os_dia["os_dia"][os_dia_index]
-
-# varição da cotação da ação(%)
-col2.metric(
-    label="Valor da Ação",
-    value=f"R${cotacao_result}",
-    delta=f"{os_dia_result}%",
-)
-
-# col1.3 - máxima do valor da cotação em 52 semanas
-max_52_sem = df[df["papel"] == col1_selection]
-max_52_sem_index = int(max_52_sem["Unnamed: 0"])
-max_52_sem_result = max_52_sem["max_52_sem"][max_52_sem_index]
-col1.metric(
-    label="Valor Máximo da Ação em 52 Semanas",
-    value=f"R${max_52_sem_result}",
-)
-
-# col2.3 - mínima dao valor da cotação em 52 semanas
-min_52_sem = df[df["papel"] == col1_selection]
-min_52_sem_index = int(max_52_sem["Unnamed: 0"])
-min_52_sem_result = min_52_sem["min_52_sem"][min_52_sem_index]
-col2.metric(label="Valor Mínimo da Ação em 52 Semanas", value=f"R${min_52_sem_result}")
-
-# col1.4 - volume de negociações
-vol_med = df[df["papel"] == col1_selection]
-vol_med_index = int(vol_med["Unnamed: 0"])
-vol_med_result = vol_med["vol_med"][vol_med_index]
-col1.metric(
-    label="Volume Médio de Negociações(2 meses)", value=f"R${vol_med_result},00"
-)
-
-# col2.4 - valor de mercado da empresa
-valor_mercado = df[df["papel"] == col1_selection]
-valor_mercado_index = int(valor_mercado["Unnamed: 0"])
-valor_mercado_result = valor_mercado["valor_mercado"][valor_mercado_index]
-col2.metric(label="Valor de Mercado", value=f"R${valor_mercado_result},00")
-
-# col1.5 - valor da firma
-valor_firma = df[df["papel"] == col1_selection]
-valor_firma_index = int(valor_firma["Unnamed: 0"])
-valor_firma_result = valor_firma["valor_firma"][valor_firma_index]
-col1.metric(label="Valor da Firma", value=f"R${valor_firma_result},00")
-
-# col2.5 - número de ações em circulação
-nr_acoes = df[df["papel"] == col1_selection]
-nr_acoes_index = int(nr_acoes["Unnamed: 0"])
-nr_acoes_result = nr_acoes["nr_acoes"][nr_acoes_index]
-nr_acoes_int = re.sub(r"(?<!^)(?=(\d{3})+$)", r".", str(nr_acoes_result))
-col2.metric(label="Número de Ações em Circulação", value=nr_acoes_int)
-
-# col1.6 - preço / lucro
-pl = df[df["papel"] == col1_selection]
-pl_index = int(pl["Unnamed: 0"])
-pl_result = pl["pl"][pl_index]
-col1.metric(label="P/L - (Preço/Lucro)", value=f"{pl_result:.2f}")
-
-# col2.6 - lucro por ação
-lpa = df[df["papel"] == col1_selection]
-lpa_index = int(lpa["Unnamed: 0"])
-lpa_result = lpa["lpa"][lpa_index]
-col2.metric(label="LPA - (Lucro por Ação)", value=f"{lpa_result:.2f}")
-
-# col1.7 - preço / valor patrimonial por ação
-pvp = df[df["papel"] == col1_selection]
-pvp_index = int(pvp["Unnamed: 0"])
-pvp_result = pvp["pvp"][pvp_index]
-col1.metric(
-    label="P/VP - (Preço/Valor Patrimonial por Ação)", value=f"{pvp_result:.2f}"
-)
-
-# col2.7 - valor patrimonial por ação
-vpa = df[df["papel"] == col1_selection]
-vpa_index = int(vpa["Unnamed: 0"])
-vpa_result = vpa["vpa"][vpa_index]
-col2.metric(label="VPA - (Valor Patrimonial por Ação)", value=f"{vpa_result:.2f}")
-
-# col1.8 - preço da ação / pelo ebit por ação
-p_ebit = df[df["papel"] == col1_selection]
-p_ebit_index = int(p_ebit["Unnamed: 0"])
-p_ebit_result = p_ebit["p_ebit"][p_ebit_index]
-col1.metric(label="P/EBIT - (Preço/Ebit por Ação)", value=f"{p_ebit_result:.2f}")
-
-# col2.8 - margem bruta
-marg_bruta = df[df["papel"] == col1_selection]
-marg_bruta_index = int(marg_bruta["Unnamed: 0"])
-marg_bruta_result = marg_bruta["marg_bruta"][marg_bruta_index]
-col2.metric(label="Margem Bruta", value=f"{marg_bruta_result:.2f}%")
-
-# col1.9 - psr
-psr = df[df["papel"] == col1_selection]
-psr_index = int(psr["Unnamed: 0"])
-psr_result = psr["psr"][psr_index]
-col1.metric(label="PSR", value=f"{psr_result:.2f}")
-
-# col2.9 - margem ebit
-marg_ebit = df[df["papel"] == col1_selection]
-marg_ebit_index = int(marg_ebit["Unnamed: 0"])
-marg_ebit_result = marg_ebit["marg_ebit"][marg_ebit_index]
-col2.metric(label="Margem Ebit", value=f"{marg_ebit_result:.2f}%")
-
-# col1.10 - P/Ativo
-p_ativo = df[df["papel"] == col1_selection]
-p_ativo_index = int(p_ativo["Unnamed: 0"])
-p_ativo_result = p_ativo["p_ativo"][p_ativo_index]
-col1.metric(label="P/Ativos", value=f"{p_ativo_result:.2f}")
-
-# col2.10 - margem liquida
-marg_liquida = df[df["papel"] == col1_selection]
-marg_liquida_index = int(marg_liquida["Unnamed: 0"])
-marg_liquida_result = marg_liquida["marg_liquida"][marg_liquida_index]
-col2.metric(label="Margem Líquida", value=f"{marg_liquida_result:.2f}%")
-
-# col1.11 - preço / pelo capital de giro por ação
-p_cap_giro = df[df["papel"] == col1_selection]
-p_cap_giro_index = int(p_cap_giro["Unnamed: 0"])
-p_cap_giro_result = p_cap_giro["p_cap_giro"][p_cap_giro_index]
-col1.metric(label="P/Cap. Giro", value=f"{p_cap_giro_result:.2f}")
-
-# col2.11 - ebit / por ativos totais
-ebit_ativo = df[df["papel"] == col1_selection]
-ebit_ativo_index = int(ebit_ativo["Unnamed: 0"])
-ebit_ativo_result = ebit_ativo["ebit_ativo"][ebit_ativo_index]
-col2.metric(label="Ebit/Ativo", value=f"{ebit_ativo_result:.2f}")
-
-# col1.12 - preço / pelos ativos circulantes líquidos por ação
-p_ativo_circ_liq = df[df["papel"] == col1_selection]
-p_ativo_circ_liq_index = int(p_ativo_circ_liq["Unnamed: 0"])
-p_ativo_circ_liq_result = p_ativo_circ_liq["p_ativo_circ_liq"][p_ativo_circ_liq_index]
-col1.metric(label="P/Ativ. Cir. liq.", value=f"{p_ativo_circ_liq_result:.2f}")
-
-# col2.12 - roic
-roic = df[df["papel"] == col1_selection]
-roic_index = int(roic["Unnamed: 0"])
-roic_result = roic["roic"][roic_index]
-col2.metric(label="ROIC", value=f"{roic_result:.2f}%")
-
-# col1.13 - dividend yield
-div_yield = df[df["papel"] == col1_selection]
-div_yield_index = int(div_yield["Unnamed: 0"])
-div_yield_result = div_yield["div_yield"][div_yield_index]
-col1.metric(label="Divd. Yield", value=f"{div_yield_result:.2f}%")
-
-# col2.13 - roe
-roe = df[df["papel"] == col1_selection]
-roe_index = int(roe["Unnamed: 0"])
-roe_result = roe["roe"][roe_index]
-col2.metric(label="ROE", value=f"{roe_result:.2f}%")
-
-# col1.14 - ev / ebitda
-ev_ebitda = df[df["papel"] == col1_selection]
-ev_ebitda_index = int(ev_ebitda["Unnamed: 0"])
-ev_ebitda_result = ev_ebitda["ev_ebitda"][ev_ebitda_index]
-col1.metric(label="EV/Ebitda", value=f"{ev_ebitda_result:.2f}")
-
-# col2.14 - liquidez corrente
-liquidez_corr = df[df["papel"] == col1_selection]
-liquidez_corr_index = int(liquidez_corr["Unnamed: 0"])
-liquidez_corr_result = liquidez_corr["liquidez_corr"][liquidez_corr_index]
-col2.metric(
-    label="Liquidez Corrente - (Ativo Circulante / Passivo Circulante)",
-    value=f"{liquidez_corr_result:.2f}",
-)
-
-# col1.15 - ev / ebit
-ev_ebit = df[df["papel"] == col1_selection]
-ev_ebit_index = int(ev_ebit["Unnamed: 0"])
-ev_ebit_result = ev_ebit["ev_ebit"][ev_ebit_index]
-col1.metric(label="EV/Ebit", value=f"{ev_ebit_result:.2f}")
-
-# col2.15 - crescimento da receita líquida (5a)
-cres_rec = df[df["papel"] == col1_selection]
-cres_rec_index = int(cres_rec["Unnamed: 0"])
-cres_rec_result = cres_rec["cres_rec"][cres_rec_index]
-col2.metric(
-    label="Crescimento da Receita Líquida(5 anos)", value=f"{cres_rec_result:.2f}%"
-)
-
-# col1.17 - ativo
-ativo = df[df["papel"] == col1_selection]
-ativo_index = int(ativo["Unnamed: 0"])
-ativo_result = ativo["ativo"][ativo_index]
-col1.metric(label="Ativo", value=f"R${ativo_result},00")
-
-# col2.17 - disponibilidades
-disponibilidades = df[df["papel"] == col1_selection]
-disponibilidades_index = int(disponibilidades["Unnamed: 0"])
-disponibilidades_result = disponibilidades["disponibilidades"][disponibilidades_index]
-col2.metric(label="Disponibilidades", value=f"R${disponibilidades_result},00")
-
-# col1.18 - ativo circulante
-ativo_circulante = df[df["papel"] == col1_selection]
-ativo_circulante_index = int(ativo_circulante["Unnamed: 0"])
-ativo_circulante_result = ativo_circulante["ativo_circulante"][ativo_circulante_index]
-col1.metric(label="Ativo Circulante", value=f"R${ativo_circulante_result},00")
-
-# col2.18 - patrimônio líquido
-patr_liquido = df[df["papel"] == col1_selection]
-patr_liquido_index = int(patr_liquido["Unnamed: 0"])
-patr_liquido_result = patr_liquido["patr_liquido"][patr_liquido_index]
-col2.metric(label="Patrimônio Líquido", value=f"R${patr_liquido_result},00")
-
-# col1.19 - dívida bruta
-divd_bruta = df[df["papel"] == col1_selection]
-divd_bruta_index = int(divd_bruta["Unnamed: 0"])
-divd_bruta_result = divd_bruta["divd_bruta"][divd_bruta_index]
-col1.metric(label="Dívida Bruta", value=f"R${divd_bruta_result},00")
-
-# col2.19 - dívida líquida
-divd_liquida = df[df["papel"] == col1_selection]
-divd_liquida_index = int(divd_liquida["Unnamed: 0"])
-divd_liquida_result = divd_liquida["divd_liquida"][divd_liquida_index]
-col2.metric(label="Dívida Líquida", value=f"R${divd_liquida_result},00")
-
-# col1.20 - lucro líquido 12m
-lucro_liquido_12m = df[df["papel"] == col1_selection]
-lucro_liquido_12m_index = int(lucro_liquido_12m["Unnamed: 0"])
-lucro_liquido_12m_result = lucro_liquido_12m["lucro_liquido_12m"][
-    lucro_liquido_12m_index
-]
-col1.metric(
-    label="Lucro Líquido Últimos 12 Meses", value=f"R${lucro_liquido_12m_result},00"
-)
-
-# col2.20 - lucro líquido 3m
-lucro_liquido_3m = df[df["papel"] == col1_selection]
-lucro_liquido_3m_index = int(lucro_liquido_3m["Unnamed: 0"])
-lucro_liquido_3m_result = lucro_liquido_3m["lucro_liquido_3m"][lucro_liquido_3m_index]
-col2.metric(
-    label="Lucro Líquido Últimos 3 Meses", value=f"R${lucro_liquido_3m_result},00"
-)
-
-######
-
-# Retorno Acumulado
-
-st.write("-----------------------------------------")
-st.subheader("🎯 Retorno Acumulado ")
-
-col1, col2, col3, col4 = st.columns(4)
-
-retAcm15 = pd.read_csv("./Api/retornos/retornos_acumulados_15d.csv", sep=";")
-retAcm15V = retAcm15[retAcm15["Papel"] == col1_selection]
-retAcm15_index = int(retAcm15V["Unnamed: 0"])
-retAcm15_result = retAcm15V["Total_Acumulado"][retAcm15_index]
-col1.metric(label="Retorno Acumulado 15 Dias", value=f"{retAcm15_result:.2f}%")
-
-retAcm30 = pd.read_csv("./Api/retornos/retornos_acumulados_30d.csv", sep=";")
-retAcm30V = retAcm30[retAcm30["Papel"] == col1_selection]
-retAcm30_index = int(retAcm30V["Unnamed: 0"])
-retAcm30_result = retAcm30V["Total_Acumulado"][retAcm30_index]
-col2.metric(label="Retorno Acumulado 30 Dias", value=f"{retAcm30_result:.2f}%")
-
-retAcm45 = pd.read_csv("./Api/retornos/retornos_acumulados_45d.csv", sep=";")
-retAcm45V = retAcm45[retAcm45["Papel"] == col1_selection]
-retAcm45_index = int(retAcm45V["Unnamed: 0"])
-retAcm45_result = retAcm45V["Total_Acumulado"][retAcm45_index]
-col3.metric(label="Retorno Acumulado 45 Dias", value=f"{retAcm45_result:.2f}%")
-
-retAcm60 = pd.read_csv("./Api/retornos/retornos_acumulados_60d.csv", sep=";")
-retAcm60V = retAcm60[retAcm60["Papel"] == col1_selection]
-retAcm60_index = int(retAcm60V["Unnamed: 0"])
-retAcm60_result = retAcm60V["Total_Acumulado"][retAcm60_index]
-col4.metric(label="Retorno Acumulado 60 Dias", value=f"{retAcm60_result:.2f}%")
-
-######
-
-# valor justo de uma ação segundo o cálculo de Graham
-st.write("-----------------------------------------")
-st.subheader("💎 Valor Justo de uma ação segundo o cálculo de Graham ")
-acao_g = df[df["papel"] == col1_selection]
-acao_g_index = int(acao_g["Unnamed: 0"])
-acao_g_result = acao_g["papel"][acao_g_index]
-
-vpa_f = acao_g["vpa"][acao_g_index]
-lpa_f = acao_g["lpa"][acao_g_index]
-prc_f = acao_g["cotacao"][acao_g_index]
-prc_f1 = prc_f.replace(",", ".")
-prc_f2 = float(prc_f1)
-divb_f = acao_g["divd_bruta"][acao_g_index]
-prtl_f = acao_g["patr_liquido"][acao_g_index]
-lucro_f = acao_g["lucro_liquido_12m"][acao_g_index]
-
-if vpa_f <= 0 or lpa_f <= 0:
-    st.write(
-        f" A empresa {acao_g_result} nos últimos 12 meses teve um prejuizo de: R${lucro_f},00. "
+# Render RI button
+ri_filtered = ri[ri["Acao"] == col1_selection]
+if not ri_filtered.empty:
+    ri_index = int(ri_filtered["Unnamed: 0"].iloc[0])
+    ri_result = ri_filtered["Site"].loc[ri_index]
+    st.sidebar.link_button(
+        f"🔗 RI da Ação {col1_selection}",
+        ri_result,
     )
-    st.write(
-        f" Obs.: Empresa com prejuízo!!! - \
-        Não será possível achar o valor justo da ação {acao_g_result} \
-        segundo o cálculo de Graham. "
+
+
+# Helper function to get row safely and get column value
+def get_stock_data_val(column_name):
+    try:
+        row = df[df["papel"] == col1_selection]
+        if row.empty:
+            return None
+        idx = int(row["Unnamed: 0"].iloc[0])
+        return row[column_name].loc[idx]
+    except Exception:
+        try:
+            return df[df["papel"] == col1_selection][column_name].iloc[0]
+        except Exception:
+            return None
+
+
+# Organize stock data metrics in tabs
+tab_overview, tab_valuation, tab_efficiency, tab_balance = st.tabs(
+    [
+        "📊 Visão Geral & Mercado",
+        "🔑 Valuation & Multiplicadores",
+        "📈 Rentabilidade & Eficiência",
+        "🏛️ Saúde Financeira & Balanço",
+    ]
+)
+
+with tab_overview:
+    col1, col2 = st.columns(2)
+
+    tipo_res = get_stock_data_val("tipo")
+    empresa_res = get_stock_data_val("empresa")
+    dt_ult_res = get_stock_data_val("dt_ult_cotacao")
+    cotacao_res = get_stock_data_val("cotacao")
+    os_dia_res = get_stock_data_val("os_dia")
+    max_52_res = get_stock_data_val("max_52_sem")
+    min_52_res = get_stock_data_val("min_52_sem")
+    vol_med_res = get_stock_data_val("vol_med")
+    val_merc_res = get_stock_data_val("valor_mercado")
+    val_firma_res = get_stock_data_val("valor_firma")
+    nr_acoes_res = get_stock_data_val("nr_acoes")
+
+    # Format actions count
+    nr_acoes_formatted = "N/A"
+    if nr_acoes_res is not None:
+        nr_acoes_formatted = re.sub(r"(?<!^)(?=(\d{3})+$)", r".", str(nr_acoes_res))
+
+    render_metric_card("Tipo da Ação", tipo_res, col=col1)
+    render_metric_card("Empresa", empresa_res, col=col2)
+    render_metric_card("Data da Última Cotação", dt_ult_res, col=col1)
+    render_metric_card(
+        "Valor da Ação", fmt_money(cotacao_res), fmt_percent(os_dia_res), col=col2
     )
-    st.write("**Busque por outra empresa**")
+    render_metric_card("Máxima 52 Semanas", fmt_money(max_52_res), col=col1)
+    render_metric_card("Mínima 52 Semanas", fmt_money(min_52_res), col=col2)
+    render_metric_card("Volume Médio (2 meses)", fmt_money(vol_med_res), col=col1)
+    render_metric_card("Valor de Mercado", fmt_money(val_merc_res), col=col2)
+    render_metric_card("Valor da Firma", fmt_money(val_firma_res), col=col1)
+    render_metric_card("Ações em Circulação", nr_acoes_formatted, col=col2)
+
+with tab_valuation:
+    col1, col2 = st.columns(2)
+
+    pl_res = get_stock_data_val("pl")
+    lpa_res = get_stock_data_val("lpa")
+    pvp_res = get_stock_data_val("pvp")
+    vpa_res = get_stock_data_val("vpa")
+    p_ebit_res = get_stock_data_val("p_ebit")
+    psr_res = get_stock_data_val("psr")
+    p_ativo_res = get_stock_data_val("p_ativo")
+    p_cap_res = get_stock_data_val("p_cap_giro")
+    p_circ_res = get_stock_data_val("p_ativo_circ_liq")
+    ev_ebitda_res = get_stock_data_val("ev_ebitda")
+    ev_ebit_res = get_stock_data_val("ev_ebit")
+
+    render_metric_card("Preço / Lucro (P/L)", fmt_decimal(pl_res), col=col1)
+    render_metric_card("Lucro por Ação (LPA)", fmt_decimal(lpa_res), col=col2)
+    render_metric_card("P/VP", fmt_decimal(pvp_res), col=col1)
+    render_metric_card(
+        "Valor Patrimonial por Ação (VPA)", fmt_decimal(vpa_res), col=col2
+    )
+    render_metric_card("P/EBIT", fmt_decimal(p_ebit_res), col=col1)
+    render_metric_card("PSR", fmt_decimal(psr_res), col=col2)
+    render_metric_card("P/Ativos", fmt_decimal(p_ativo_res), col=col1)
+    render_metric_card("P/Capital Giro", fmt_decimal(p_cap_res), col=col2)
+    render_metric_card("P/Ativo Circulante Líquido", fmt_decimal(p_circ_res), col=col1)
+    render_metric_card("EV / EBITDA", fmt_decimal(ev_ebitda_res), col=col2)
+    render_metric_card("EV / EBIT", fmt_decimal(ev_ebit_res), col=col1)
+
+with tab_efficiency:
+    col1, col2 = st.columns(2)
+
+    m_bruta = get_stock_data_val("marg_bruta")
+    m_ebit = get_stock_data_val("marg_ebit")
+    m_liquida = get_stock_data_val("marg_liquida")
+    ebit_ativo_res = get_stock_data_val("ebit_ativo")
+    roic_res = get_stock_data_val("roic")
+    roe_res = get_stock_data_val("roe")
+    div_yield_res = get_stock_data_val("div_yield")
+
+    render_metric_card("Margem Bruta", fmt_percent(m_bruta), col=col1)
+    render_metric_card("Margem EBIT", fmt_percent(m_ebit), col=col2)
+    render_metric_card("Margem Líquida", fmt_percent(m_liquida), col=col1)
+    render_metric_card("EBIT / Ativo", fmt_decimal(ebit_ativo_res), col=col2)
+    render_metric_card("ROIC", fmt_percent(roic_res), col=col1)
+    render_metric_card("ROE", fmt_percent(roe_res), col=col2)
+    render_metric_card("Dividend Yield", fmt_percent(div_yield_res), col=col1)
+
+with tab_balance:
+    col1, col2 = st.columns(2)
+
+    liquidez_corr_res = get_stock_data_val("liquidez_corr")
+    cres_rec_res = get_stock_data_val("cres_rec")
+    ativo_res = get_stock_data_val("ativo")
+    disponib_res = get_stock_data_val("disponibilidades")
+    ativo_circ_res = get_stock_data_val("ativo_circulante")
+    patr_liq_res = get_stock_data_val("patr_liquido")
+    div_bruta_res = get_stock_data_val("divd_bruta")
+    div_liquida_res = get_stock_data_val("divd_liquida")
+    lucro_12m_res = get_stock_data_val("lucro_liquido_12m")
+    lucro_3m_res = get_stock_data_val("lucro_liquido_3m")
+
+    render_metric_card("Liquidez Corrente", fmt_decimal(liquidez_corr_res), col=col1)
+    render_metric_card(
+        "Crescimento Receita Líquida (5a)", fmt_percent(cres_rec_res), col=col2
+    )
+    render_metric_card("Ativo Total", fmt_money(ativo_res), col=col1)
+    render_metric_card("Disponibilidades", fmt_money(disponib_res), col=col2)
+    render_metric_card("Ativo Circulante", fmt_money(ativo_circ_res), col=col1)
+    render_metric_card("Patrimônio Líquido", fmt_money(patr_liq_res), col=col2)
+    render_metric_card("Dívida Bruta", fmt_money(div_bruta_res), col=col1)
+    render_metric_card("Dívida Líquida", fmt_money(div_liquida_res), col=col2)
+    render_metric_card("Lucro Líquido 12 Meses", fmt_money(lucro_12m_res), col=col1)
+    render_metric_card("Lucro Líquido 3 Meses", fmt_money(lucro_3m_res), col=col2)
+
+st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+
+# Graham Fair Value Section
+st.markdown(
+    '<div class="stSubheader">💎 Valor Justo segundo Graham</div>',
+    unsafe_allow_html=True,
+)
+
+vpa_f = get_stock_data_val("vpa")
+lpa_f = get_stock_data_val("lpa")
+prc_f = get_stock_data_val("cotacao")
+lucro_f = get_stock_data_val("lucro_liquido_12m")
+
+if vpa_f is None or lpa_f is None or prc_f is None:
+    st.markdown(
+        """
+    <div class="graham-card graham-negative">
+        <div class="graham-title">⚠️ Dados Indisponíveis</div>
+        <div class="graham-text">Não há dados suficientes de VPA, LPA ou Cotação para realizar o cálculo de Graham.</div>
+    </div>
+    """,
+        unsafe_allow_html=True,
+    )
+elif vpa_f <= 0 or lpa_f <= 0:
+    st.markdown(
+        f"""
+    <div class="graham-card graham-negative">
+        <div class="graham-title">⚠️ Empresa em Prejuízo ou PL Negativo</div>
+        <div class="graham-text">A empresa nos últimos 12 meses teve um Lucro Líquido de <span class="graham-highlight">{fmt_money(lucro_f)}</span>.</div>
+        <div class="graham-text">Obs.: Com VPA (<span class="graham-highlight">{vpa_f:.2f}</span>) ou LPA (<span class="graham-highlight">{lpa_f:.2f}</span>) negativos, não é possível calcular o valor justo segundo a metodologia clássica de Benjamin Graham.</div>
+        <div class="graham-text" style="font-weight: 600; margin-top: 10px;">👉 Busque por outra empresa estável.</div>
+    </div>
+    """,
+        unsafe_allow_html=True,
+    )
 else:
-    st.write(
-        f"A empresa {acao_g_result} nos últimos 12 meses teve um lucro de: R${lucro_f},00."
-    )
+    prc_f1 = str(prc_f).replace(",", ".")
+    prc_f2 = float(prc_f1)
 
-    # Valor do cálculo de Graham:
+    # Graham calculations:
     valor_gh = round(22.5 * vpa_f * lpa_f, 2)
-
-    # Valor justo da ação analisada:
     valor_jt = round(math.sqrt(valor_gh), 2)
 
-    # Cálculo do Upside / Downside:
+    # Upside / Downside:
     up_dw = round(((prc_f2 / valor_jt) - 1) * 100, 2)
 
-    # Resultado da análise:
-    st.write(f"O valor justo da ação {acao_g_result}: R${valor_jt}.")
-    st.write(f"O valor atual da ação {acao_g_result}: R${prc_f}.")
     if up_dw > 0:
-        st.write(
-            f"\
- 📈 A ação {acao_g_result}, esta com *{up_dw:.2f}%* acima do seu valor justo."
-        )
+        card_class = "graham-negative"
+        indicator_icon = "📈"
+        desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#FF3D71">{up_dw:.2f}% acima</span> de seu valor justo calculado.'
     else:
-        st.write(
-            f"\
-📉 A ação {acao_g_result}, esta com *{up_dw:.2f}%* abaixo do seu valor justo."
-        )
+        card_class = "graham-positive"
+        indicator_icon = "📉"
+        desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#00E676">{abs(up_dw):.2f}% abaixo</span> (desconto) de seu valor justo calculado.'
 
-######
-
-# Tabela Fatos Relevantes
-st.write("-----------------------------------------")
-fr = df[df["papel"] == col1_selection]
-fr_index = int(fr["Unnamed: 0"])
-fr_papel = fr["papel"][fr_index]
-fr_df = pd.read_csv(f"./Api/fatos_relevantes/{fr_papel}.csv", sep=";")
-fr_df_1 = fr_df[["Data", "Hora", "Descrição", "Link"]]
-st.caption(" ⏰ Fatos Relevamtes ")
-st.write(fr_df_1)
-fr_df_data = fr_df_1["Data"][0]
-fr_df_link = fr_df_1["Link"][0]
-st.write(f"Data Último Fato Relevante {fr_df_data} - Download: [Link]({fr_df_link})")
-
-# Tabela Proventos
-st.write("-----------------------------------------")
-pr = df[df["papel"] == col1_selection]
-pr_index = int(pr["Unnamed: 0"])
-pr_papel = pr["papel"][pr_index]
-# Pagando os dados dos proventos nos arquivos .csv
-if os.path.isfile(f"./Api/proventos/{pr_papel}.csv"):
-    pr_df = pd.read_csv(f"./Api/proventos/{pr_papel}.csv", sep=";")
-    pr_df_1 = pr_df[["Data", "Valor", "Tipo", "Data de Pagamento", "Por quantas ações"]]
-    st.caption(" 💵 Proventos ")
-    st.caption(
-        ' *A data se refere ao "último dia com", ou seja, \
-    a data em que o acionista passa a ter o direito de receber o dividendo caso termine o dia com a ação. '
+    st.markdown(
+        f"""
+    <div class="graham-card {card_class}">
+        <div class="graham-title">{indicator_icon} Análise de Valuation (Graham)</div>
+        <div class="graham-text">Valor Justo Calculado: <span class="graham-highlight" style="font-size: 17px; color: #00E676">R$ {valor_jt:.2f}</span></div>
+        <div class="graham-text">Cotação Atual de Mercado: <span class="graham-highlight" style="font-size: 17px;">R$ {prc_f2:.2f}</span></div>
+        <div class="graham-text" style="margin-top: 12px; font-size: 15px;">{desc_text}</div>
+    </div>
+    """,
+        unsafe_allow_html=True,
     )
-    st.write(pr_df_1)
+
+st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+
+# Relevant Facts, Proventos, and Trimestrais (organized nicely in tabs)
+tab_facts, tab_proventos, tab_trimestres = st.tabs(
+    [
+        "⏰ Fatos Relevantes",
+        "💵 Histórico de Proventos",
+        "📋 Dados Trimestrais (Releases)",
+    ]
+)
+
+with tab_facts:
+    fr_path = f"./Api/fatos_relevantes/{col1_selection}.csv"
+    if os.path.exists(fr_path):
+        try:
+            fr_df = pd.read_csv(fr_path, sep=";")
+            fr_df_1 = fr_df[["Data", "Hora", "Descrição", "Link"]]
+            st.caption(f"Fatos Relevantes Recentes para {col1_selection}")
+            st.dataframe(fr_df_1, use_container_width=True)
+
+            if not fr_df_1.empty:
+                fr_df_data = fr_df_1["Data"].iloc[0]
+                fr_df_link = fr_df_1["Link"].iloc[0]
+                st.markdown(
+                    f"**Último fato relevante registrado em {fr_df_data}:** [Download do Relatório]({fr_df_link})"
+                )
+        except Exception:
+            st.write("Erro ao carregar os dados de Fatos Relevantes.")
+    else:
+        st.write("Sem fatos relevantes registrados para esta ação.")
+
+with tab_proventos:
+    pr_path = f"./Api/proventos/{col1_selection}.csv"
+    if os.path.exists(pr_path):
+        try:
+            pr_df = pd.read_csv(pr_path, sep=";")
+            pr_df_1 = pr_df[
+                ["Data", "Valor", "Tipo", "Data de Pagamento", "Por quantas ações"]
+            ]
+            st.caption("💵 Distribuição de Proventos Recentes")
+            st.caption(
+                '*A data de referência é a "data com" (direito de receber o provento).'
+            )
+            st.dataframe(pr_df_1, use_container_width=True)
+        except Exception:
+            st.write("Erro ao processar proventos.")
+    else:
+        st.write("💵 Sem proventos registrados para este ativo.")
+
+with tab_trimestres:
+    tri_path = f"./Api/trimestre/{col1_selection}.csv"
+    if os.path.exists(tri_path):
+        try:
+            tri_df = pd.read_csv(tri_path, sep=";")
+            tri_df_1 = tri_df[
+                ["Data Referência", "Demonstração Financeira", "Release de Resultados"]
+            ]
+            st.caption("Demonstrações e Resultados Trimestrais")
+            st.dataframe(tri_df_1, use_container_width=True)
+
+            if not tri_df_1.empty:
+                tri_ref = tri_df_1["Data Referência"].iloc[0]
+                tri_rel = tri_df_1["Release de Resultados"].iloc[0]
+                st.markdown(
+                    f"📝 **Último Release de Resultados (Referência {tri_ref}):** [Baixar Release]({tri_rel})"
+                )
+        except Exception:
+            st.write("Erro ao carregar dados trimestrais.")
+    else:
+        st.write("Dados trimestrais indisponíveis.")
+
+st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+
+# Charts Section
+st.markdown(
+    '<div class="stSubheader">📊 Análise Visual do Histórico</div>',
+    unsafe_allow_html=True,
+)
+
+# Load prices history
+precos_path = f"./Api/precos/{col1_selection}.csv"
+prices_loaded = False
+if os.path.exists(precos_path):
+    try:
+        precos_df = pd.read_csv(precos_path, sep=";")
+        # Keep original columns mutation
+        precos_df_ad = precos_df.rename(columns={"Close": f"{col1_selection}"})
+        # Clean columns to preserve original logic
+        precos_df_clean = precos_df_ad.drop(
+            precos_df_ad.columns[[2, 3, 4, 6]], axis=1, errors="ignore"
+        )
+        prices_loaded = True
+    except Exception:
+        st.write("Erro ao carregar os dados históricos de preços.")
+
+if prices_loaded:
+    # 1. Price History Line Chart
+    st.write(f"📈 Histórico de Fechamento - **{col1_selection}**")
+    fig_pre = px.line(precos_df_clean, x="Date", y=f"{col1_selection}")
+    apply_plotly_theme(
+        fig_pre,
+        f"Histórico de Fechamento ({col1_selection})",
+        "Preço de Fechamento (R$)",
+    )
+    st.plotly_chart(fig_pre, use_container_width=True)
+
+    # 2. Monthly Returns Matrix/Table
+    st.write("-----------------------------------------")
+    st.write(f"✳️ Retornos Mensais Históricos - **{col1_selection}**")
+    hist_path = f"./Api/historico/{col1_selection}.csv"
+    if os.path.exists(hist_path):
+        try:
+            tb_df = pd.read_csv(hist_path, sep=";", index_col=[0])
+            # Diverging color palette: red/rose for negative, green for positive
+            cm = sb.diverging_palette(12, 135, sep=10, as_cmap=True)
+            st.dataframe(
+                tb_df.style.background_gradient(cmap=cm, axis=None).format(
+                    "{:.2f}%", na_rep="-"
+                ),
+                use_container_width=True,
+            )
+        except Exception:
+            st.write("Erro ao carregar matriz de retornos mensais.")
+    else:
+        st.write("Matriz de retornos mensais indisponível.")
+
+    # 3. Daily Returns
+    st.write("-----------------------------------------")
+    st.write(f"⌛ Retornos Diários - **{col1_selection}**")
+    try:
+        # Calculate daily change percent
+        precos_df_ret = precos_df_clean[f"{col1_selection}"].pct_change()
+        precos_df_clean[f"Ret {col1_selection}"] = precos_df_ret
+        fig_ret = px.line(precos_df_clean, x="Date", y=f"Ret {col1_selection}")
+        apply_plotly_theme(
+            fig_ret, f"Retornos Diários ({col1_selection})", "Retorno Diário (%)"
+        )
+        st.plotly_chart(fig_ret, use_container_width=True)
+    except Exception:
+        st.write("Erro ao calcular retornos diários.")
+
+    # 4. Cumulative Returns
+    st.write("-----------------------------------------")
+    st.write(f"⌛ Retornos Acumulados - **{col1_selection}**")
+    try:
+        df_ret_ac = pd.read_csv(f"./Api/precos/{col1_selection}.csv", sep=";")
+        fig_ret_ac = px.line(df_ret_ac, x="Date", y="tret")
+        apply_plotly_theme(
+            fig_ret_ac,
+            f"Retorno Acumulado % ({col1_selection})",
+            "Retorno Acumulado (%)",
+        )
+        st.plotly_chart(fig_ret_ac, use_container_width=True)
+    except Exception:
+        st.write("Erro ao renderizar retornos acumulados.")
+
+    # 5. Volatility (30 days)
+    st.write("-----------------------------------------")
+    st.write(f"🔥 Volatilidade Móvel (30 Dias) - **{col1_selection}**")
+    try:
+        precos_df_vol = (
+            precos_df_clean[f"Ret {col1_selection}"].rolling(window=30).std()
+        )
+    except Exception:
+        precos_df_vol = None
+
+    if precos_df_vol is not None:
+        precos_df_clean[f"Vol {col1_selection}"] = precos_df_vol
+        fig_vol = px.line(precos_df_clean, x="Date", y=f"Vol {col1_selection}")
+        apply_plotly_theme(
+            fig_vol,
+            f"Volatilidade (Janela de 30 Dias) - {col1_selection}",
+            "Volatilidade (%)",
+        )
+        st.plotly_chart(fig_vol, use_container_width=True)
 else:
-    st.write(" 💵 Sem Proventos")
+    st.write("Dados de preços históricos indisponíveis para gráficos.")
 
-######
-
-# Tabela Dados Trimestrais
+# Retorno Acumulado
 st.write("-----------------------------------------")
-tri = df[df["papel"] == col1_selection]
-tri_index = int(tri["Unnamed: 0"])
-tri_papel = tri["papel"][tri_index]
-# Pagando os dados dos resultados trimestrais nos arquivos .csv
-tri_df = pd.read_csv(f"./Api/trimestre/{tri_papel}.csv", sep=";")
-tri_df_1 = tri_df[
-    ["Data Referência", "Demonstração Financeira", "Release de Resultados"]
-]
-st.caption(" 💵 Dados Trimestrais ")
-st.write(tri_df_1)
-tri_ref = tri_df_1["Data Referência"][0]
-tri_rel = tri_df_1["Release de Resultados"][0]
-st.write(
-    f"📝 Data de Referência {tri_ref} - Download Release {tri_papel}: [link]({tri_rel})"
+st.markdown(
+    '<div class="stSubheader">🎯 Retornos Acumulados da Ação</div>',
+    unsafe_allow_html=True,
+)
+col1, col2, col3, col4 = st.columns(4)
+
+
+def render_ret_acum(file_path, label, col):
+    if not os.path.exists(file_path):
+        render_metric_card(label, "Sem dados", col=col)
+        return
+    try:
+        ret_df = pd.read_csv(file_path, sep=";")
+        ret_filtered = ret_df[ret_df["Papel"] == col1_selection]
+        if not ret_filtered.empty:
+            idx = int(ret_filtered["Unnamed: 0"].iloc[0])
+            val = ret_filtered["Total_Acumulado"].loc[idx]
+            render_metric_card(label, fmt_percent(val), col=col)
+        else:
+            render_metric_card(label, "N/A", col=col)
+    except Exception:
+        render_metric_card(label, "Erro", col=col)
+
+
+render_ret_acum("./Api/retornos/retornos_acumulados_15d.csv", "15 Dias", col1)
+render_ret_acum("./Api/retornos/retornos_acumulados_30d.csv", "30 Dias", col2)
+render_ret_acum("./Api/retornos/retornos_acumulados_45d.csv", "45 Dias", col3)
+render_ret_acum("./Api/retornos/retornos_acumulados_60d.csv", "60 Dias", col4)
+
+st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+
+# Daily Updates Section
+st.markdown(
+    '<div class="stSubheader">⚡ Atualizações Diárias do Sistema</div>',
+    unsafe_allow_html=True,
 )
 
-######
-
-# Gráfico de preço de fechamento da ações
-# Código para pegar o preço das ações
-st.write("-----------------------------------------")
-precos = df[df["papel"] == col1_selection]
-precos_index = int(precos["Unnamed: 0"])
-precos_papel = precos["papel"][pr_index]
-# Pegando os dados dos preços nos arquivos .csv
-precos_df = pd.read_csv(f"./Api/precos/{precos_papel}.csv", sep=";")
-precos_df_ad = precos_df.rename({"Close": f"{precos_papel}"}, axis=1, inplace=True)
-st.dataframe(precos_df_ad)
-precos_df_ad = precos_df.drop(precos_df.columns[[2, 3, 4, 6]], axis=1)
-
-# Gráfico com o historico de fechamento
-st.write(f" 📈📉 Histórico de Fechamento da Ação {precos_papel} ")
-fig_pre = px.line(precos_df_ad, x="Date", y=f"{precos_papel}")
-fig_pre.update_layout(
-    xaxis_title="Date", yaxis_title=f"Preço de Fechamento - {precos_papel}"
-)
-st.plotly_chart(fig_pre)
-
-######
-
-# Tabela de Retornos
-st.write("-----------------------------------------")
-st.write(f" ✳️ Retornos da Ação {precos_papel} - Mensal ")
-tb_df = pd.read_csv(f"./Api/historico/{precos_papel}.csv", sep=";", index_col=[0])
-cm = sb.light_palette("green", as_cmap=True)
-st.table(tb_df.style.background_gradient(cmap=cm))
-
-######
-
-# Gráfico de Retornos Diários
-st.write("-----------------------------------------")
-st.write(f" ⌛ Retornos Diários da Ação {precos_papel} ")
-precos_df_ret = precos_df_ad[f"{precos_papel}"].pct_change()
-precos_df_ad[f"Ret {precos_papel}"] = precos_df_ret
-fig_ret = px.line(precos_df_ad, x="Date", y=f"Ret {precos_papel}")
-fig_ret.update_layout(
-    xaxis_title="Date", yaxis_title=f"Retorno Diário - {precos_papel}"
-)
-st.plotly_chart(fig_ret)
-
-######
-
-# Gráfico de Retornos Diários
-st.write("-----------------------------------------")
-st.write(f" ⌛ Retornos Acumulados da Ação {precos_papel} ")
-df_ret_ac = pd.read_csv(f"./Api/precos/{precos_papel}.csv", sep=";")
-fig_ret_ac = px.line(df_ret_ac, x="Date", y="tret")
-fig_ret_ac.update_layout(
-    xaxis_title="Date", yaxis_title=f"Retorno Acumulado(%) - {precos_papel}"
-)
-st.plotly_chart(fig_ret_ac)
-######
-
-# Gráfico de Voltilidade
-st.write("-----------------------------------------")
-st.write(f" 🔥 Volatiliadade da Ação {precos_papel} - (30 dias) ")
-precos_df_vol = precos_df_ad[f"Ret {precos_papel}"].rolling(window=30).std()
-precos_df_ad[f"Vol {precos_papel}"] = precos_df_vol
-fig_vol = px.line(precos_df_ad, x="Date", y=f"Vol {precos_papel}")
-fig_vol.update_layout(xaxis_title="Date", yaxis_title=f"Volatilidade - {precos_papel}")
-st.plotly_chart(fig_vol)
-
-######
-
-st.write("-----------------------------------------")
 date_att = datetime.today()
 atraso = timedelta(1)
 date_atual = date_att - atraso
 date_atual_m = date_atual.strftime("%d/%m/%Y")
-st.write(f"Atualizações do dia {date_atual_m}:")
+st.markdown(f"**Situação e Fechamento Geral do Dia: {date_atual_m}**")
 
-st.write("📰 Fatos Relevantes:")
-# df_analisar_ft = pd.read_csv("./Todos/FT.csv", sep=";")
-df_analisar_ft = pd.read_parquet("./Todos/FT.parquet.gzip")
-df_date_ft = df_analisar_ft.loc[
-    df_analisar_ft["Data"] == date_atual_m, ["Acao", "Link"]
-]
-if df_date_ft.empty is False:
-    st.write(list(df_date_ft["Acao"].unique()))
-else:
-    st.write("*Sem Atualizações* 🤫")
+col_att1, col_att2, col_att3 = st.columns(3)
 
-st.write("💰 Proventos:")
-# df_analisar_pr = pd.read_csv("./Todos/PR.csv", sep=";")
-df_analisar_pr = pd.read_parquet("./Todos/PR.parquet.gzip")
-df_date_pr = df_analisar_pr.loc[df_analisar_pr["Data"] == date_atual_m, ["Acao"]]
-if df_date_pr.empty is False:
-    st.write(list(df_date_pr["Acao"].unique()))
-else:
-    st.write("*Sem Atualizações* 🤫")
+with col_att1:
+    st.markdown("📰 **Fatos Relevantes:**")
+    try:
+        df_analisar_ft = pd.read_parquet("./Todos/FT.parquet.gzip")
+        df_date_ft = df_analisar_ft.loc[
+            df_analisar_ft["Data"] == date_atual_m, ["Acao", "Link"]
+        ]
+        if not df_date_ft.empty:
+            st.write(list(df_date_ft["Acao"].unique()))
+        else:
+            st.write("*Nenhuma novidade hoje* 🤫")
+    except Exception:
+        st.write("*Erro ao consultar fatos relevantes*")
 
-st.write("📋 Dados Trimestrais - Release de Resultados:")
-# df_analisar_tr = pd.read_csv("./Todos/TR.csv", sep=";")
-df_analisar_tr = pd.read_parquet("./Todos/TR.parquet.gzip")
-df_date_tr = df_analisar_tr.loc[
-    df_analisar_tr["Data Referência"] == date_atual_m, ["Acao"]
-]
-if df_date_tr.empty is False:
-    st.write(list(df_date_tr["Acao"].unique()))
-else:
-    st.write("*Sem Atualizações* 🤫")
+with col_att2:
+    st.markdown("💰 **Proventos Anunciados:**")
+    try:
+        df_analisar_pr = pd.read_parquet("./Todos/PR.parquet.gzip")
+        df_date_pr = df_analisar_pr.loc[
+            df_analisar_pr["Data"] == date_atual_m, ["Acao"]
+        ]
+        if not df_date_pr.empty:
+            st.write(list(df_date_pr["Acao"].unique()))
+        else:
+            st.write("*Nenhum provento anunciado* 🤫")
+    except Exception:
+        st.write("*Erro ao consultar proventos*")
 
-######
+with col_att3:
+    st.markdown("📋 **Releases de Resultados:**")
+    try:
+        df_analisar_tr = pd.read_parquet("./Todos/TR.parquet.gzip")
+        df_date_tr = df_analisar_tr.loc[
+            df_analisar_tr["Data Referência"] == date_atual_m, ["Acao"]
+        ]
+        if not df_date_tr.empty:
+            st.write(list(df_date_tr["Acao"].unique()))
+        else:
+            st.write("*Nenhum release hoje* 🤫")
+    except Exception:
+        st.write("*Erro ao consultar releases*")
 
-# Rodapé
-st.write("-----------------------------------------")
-st.write("*Utilize modo light para uma melhor visualização.*")
-
-#####
+# Footer
+st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+st.markdown(
+    "<div style='text-align: center; color: #94A3B8; font-size: 13px; font-family: Outfit; padding-bottom: 20px;'>"
+    "⚡ Plataforma integrada com dados B3 | Desenvolvido no tema <b>Neo-B3 Obsidian</b> para melhor legibilidade"
+    "</div>",
+    unsafe_allow_html=True,
+)
