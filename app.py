@@ -225,13 +225,16 @@ def inject_custom_css():
         margin-top: 10px;
     }
     .status-alert {
-        border-left: 4px solid #FF3D71;
+        border: 1px solid rgba(255, 61, 113, 0.15);
+        background-color: rgba(255, 61, 113, 0.02);
     }
     .status-success {
-        border-left: 4px solid #00E676;
+        border: 1px solid rgba(0, 230, 118, 0.15);
+        background-color: rgba(0, 230, 118, 0.02);
     }
     .status-neutral {
-        border-left: 4px solid #94A3B8;
+        border: 1px solid rgba(148, 163, 184, 0.15);
+        background-color: rgba(148, 163, 184, 0.02);
     }
     .status-title {
         font-size: 14px;
@@ -643,10 +646,10 @@ any_critical_missing = any(
     not exists and is_critical for name, (exists, is_critical) in integrity_data.items()
 )
 if any_critical_missing:
-    border_color = "#FF3D71"
+    status_class = "status-alert"
     header_title = "⚠️ Dados Incompletos"
 else:
-    border_color = "#00E676"
+    status_class = "status-success"
     header_title = "🛡️ Integridade de Dados"
 
 rows_html = ""
@@ -667,7 +670,7 @@ for name, (exists, is_critical) in integrity_data.items():
     )
 
 st.sidebar.markdown(
-    f'<div class="status-card" style="margin-top: 15px; padding: 12px 16px; border-left: 4px solid {border_color};">'
+    f'<div class="status-card {status_class}" style="margin-top: 15px; padding: 12px 16px;">'
     f'<p style="font-size: 13px; font-weight: 600; color: #F8FAFC; margin-top: 0; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">{header_title}</p>'
     f'<span style="display: flex; flex-direction: column; gap: 8px; width: 100%;">{rows_html}</span>'
     f"</div>",
