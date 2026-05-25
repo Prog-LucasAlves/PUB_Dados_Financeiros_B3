@@ -148,8 +148,23 @@ def inject_custom_css():
     .graham-card:hover {
         box-shadow: 0 10px 28px rgba(0, 230, 118, 0.05);
     }
+    @keyframes neon-pulse {
+        0% {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 230, 118, 0.05);
+            border-color: rgba(255, 255, 255, 0.05);
+        }
+        50% {
+            box-shadow: 0 8px 30px rgba(0, 230, 118, 0.05), 0 0 12px rgba(0, 230, 118, 0.15);
+            border-color: rgba(0, 230, 118, 0.25);
+        }
+        100% {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 230, 118, 0.05);
+            border-color: rgba(255, 255, 255, 0.05);
+        }
+    }
     .graham-positive {
         border-left: 6px solid #00E676;
+        animation: neon-pulse 3s infinite ease-in-out;
     }
     .graham-negative {
         border-left: 6px solid #FF3D71;
