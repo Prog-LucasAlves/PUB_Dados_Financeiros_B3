@@ -9,7 +9,8 @@ data
 metabase
 pyspark
 *.lock
-
+.agents/
+.impeccable/
 
 #####
 __script__.py

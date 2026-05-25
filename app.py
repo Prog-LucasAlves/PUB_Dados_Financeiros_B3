@@ -61,7 +61,7 @@ def inject_custom_css():
         font-weight: 600 !important;
     }
 
-    .stSubheader {
+    h3.stSubheader {
         font-size: 1.5rem !important;
         font-weight: 600 !important;
         color: #F8FAFC !important;
@@ -213,6 +213,81 @@ def inject_custom_css():
         border-radius: 12px !important;
     }
 
+    /* Status Card */
+    .status-card {
+        background-color: #161A1F;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 12px;
+        padding: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        font-family: 'Outfit', sans-serif;
+        color: #E2E8F0;
+        margin-top: 10px;
+    }
+    .status-alert {
+        border-left: 4px solid #FF3D71;
+    }
+    .status-success {
+        border-left: 4px solid #00E676;
+    }
+    .status-neutral {
+        border-left: 4px solid #94A3B8;
+    }
+    .status-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: #F8FAFC;
+        margin-bottom: 8px;
+    }
+    .status-body {
+        font-size: 13px;
+        color: #94A3B8;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* CSS Tooltip */
+    .tooltip-container {
+        position: relative;
+        display: inline-block;
+        cursor: help;
+        color: #94A3B8;
+        font-size: 12px;
+        margin-left: 4px;
+        transition: color 0.2s ease;
+    }
+    .tooltip-container:hover {
+        color: #00E676;
+    }
+    .tooltip-text {
+        visibility: hidden;
+        width: 220px;
+        background-color: #111418;
+        color: #E2E8F0;
+        text-align: left;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 8px;
+        padding: 8px 12px;
+        position: absolute;
+        z-index: 999;
+        bottom: 125%;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+        font-size: 11px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        line-height: 1.4;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+        white-space: normal;
+    }
+    .tooltip-container:hover .tooltip-text {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(-50%) translateY(-2px);
+    }
+
     /* Scrollbars */
     ::-webkit-scrollbar {
         width: 8px;
@@ -235,7 +310,96 @@ def inject_custom_css():
 
 
 # 2. UTILITY RENDER FUNCTIONS
-def render_metric_card(label, value, delta=None, col=None):
+def render_status_card(title, text, type="neutral"):
+    border_class = "status-neutral"
+    if type == "success":
+        border_class = "status-success"
+    elif type == "alert":
+        border_class = "status-alert"
+
+    card_html = f"""
+    <div class="status-card {border_class}">
+        <div class="status-title">{title}</div>
+        <div class="status-body">{text}</div>
+    </div>
+    """
+    st.markdown(card_html, unsafe_allow_html=True)
+
+
+@st.cache_data
+def load_b3_data():
+    df_data = pd.read_csv("./Dados_Atual/dados.csv", sep=";")
+    ri_data = pd.read_csv("./Api/ri_empresas/ri_empresas.csv", sep=";")
+    return df_data, ri_data
+
+
+@st.cache_data
+def load_market_index_data(file_path):
+    if os.path.exists(file_path):
+        return pd.read_csv(file_path, sep=";")
+    return None
+
+
+@st.cache_data
+def load_parquet_data(file_path):
+    if os.path.exists(file_path):
+        return pd.read_parquet(file_path)
+    return None
+
+
+@st.cache_data
+def load_stock_prices(file_path):
+    if os.path.exists(file_path):
+        return pd.read_csv(file_path, sep=";")
+    return None
+
+
+METRIC_HELPS = {
+    # Overview
+    "tipo": "ON: Ordinária com direito a voto. PN: Preferencial com preferência de dividendos e sem direito a voto clássico.",
+    "empresa": "Nome comercial da empresa emissora listada na Bolsa de Valores (B3).",
+    "dt_cotacao": "Data do fechamento do último pregão registrado para esta cotação de mercado.",
+    "max_52": "Maior preço de fechamento atingido pela ação nas últimas 52 semanas (1 ano).",
+    "min_52": "Menor preço de fechamento atingido pela ação nas últimas 52 semanas (1 ano).",
+    "volume": "Média diária de volume financeiro negociado pelo ativo nos últimos 2 meses.",
+    "valor_merc": "Preço da ação multiplicado pelo total de ações em circulação. Valor total da companhia na bolsa.",
+    "valor_firma": "Valor de Mercado + Dívida Líquida. Representa o custo total teórico para adquirir a empresa inteira.",
+    "nr_acoes": "Total de cotas/ações emitidas pela companhia e em circulação no mercado secundário.",
+    # Valuation
+    "pl": "Preço / Lucro. Indica quantos anos o investidor levaria para recuperar o capital investido considerando o lucro atual constante.",
+    "lpa": "Lucro por Ação. Parcela do lucro líquido atribuível a cada ação em circulação nos últimos 12 meses.",
+    "pvp": "Preço / Valor Patrimonial. Relação entre o valor de mercado e o patrimônio contábil líquido. PVP < 1 indica desconto patrimonial.",
+    "vpa": "Valor Patrimonial por Ação. Quanto vale cada ação com base no patrimônio líquido contábil da empresa.",
+    "p_ebit": "Preço / EBIT. Relação entre preço de mercado e o lucro operacional antes de juros e impostos.",
+    "psr": "Price to Sales Ratio. Relação entre o valor de mercado e sua receita operacional líquida.",
+    "p_ativo": "Preço / Ativos Totais. Indica a proporção entre o valor que o mercado cobra pela empresa e seus ativos globais.",
+    "p_cap": "Preço / Capital de Giro. Mede a avaliação de mercado da empresa em relação aos seus ativos circulantes líquidos.",
+    "p_circ": "Preço / Ativos Circulantes Líquidos. Parâmetro de margem de segurança radical de Benjamin Graham.",
+    "ev_ebitda": "Enterprise Value / EBITDA. Múltiplo operacional que indica quantos anos de geração de caixa operacional pagariam a firma.",
+    "ev_ebit": "Enterprise Value / EBIT. Múltiplo operacional que mensura o retorno bruto do investimento na operação essencial.",
+    # Rentabilidade
+    "marg_bruta": "Margem Bruta. Lucro bruto dividido pela receita líquida. Mede a eficiência de produção de bens ou serviços.",
+    "marg_ebit": "Margem EBIT. Lucro operacional dividido pela receita líquida. Indica a rentabilidade da operação essencial.",
+    "marg_liquida": "Margem Líquida. Percentual de lucro líquido final gerado para cada real que entra como receita operacional líquida.",
+    "div_yield": "Dividend Yield. Retorno pago em proventos nos últimos 12 meses dividido pela cotação atual do ativo.",
+    "roe": "Return on Equity. Retorno sobre o Patrimônio Líquido. Capacidade de gerar lucro usando capital próprio dos acionistas.",
+    "roic": "Return on Invested Capital. Retorno sobre Capital Investido. Rentabilidade gerada por todo o capital empregado (próprio + terceiros).",
+    "ebit_ativo": "EBIT / Ativos Totais. Mede o poder de ganho bruto gerado pelos ativos globais operados pela companhia.",
+    # Balanço
+    "liquidez": "Liquidez Corrente. Ativo Circulante dividido pelo Passivo Circulante. Capacidade de pagar dívidas de curto prazo (>1 ideal).",
+    "cres_rec": "Crescimento da Receita Líquida (últimos 5 anos). Mede a expansão comercial e ritmo de vendas de longo prazo.",
+    "ativo": "Ativo Total. Soma de todos os bens e direitos tangíveis e intangíveis administrados pela empresa.",
+    "disponib": "Disponibilidades. Caixa, equivalentes de caixa e investimentos líquidos de curtíssimo prazo.",
+    "ativo_circ": "Ativo Circulante. Bens e direitos realizáveis ou conversíveis em dinheiro no prazo de até 1 ano.",
+    "patr_liq": "Patrimônio Líquido. Ativos Totais menos Passivos Totais. O valor real contábil pertencente aos acionistas.",
+    "div_bruta": "Dívida Bruta. Soma de todos os empréstimos e financiamentos de curto e longo prazo da companhia.",
+    "div_liquida": "Dívida Líquida. Dívida Bruta menos Disponibilidades em Caixa. Se negativo, a empresa tem caixa líquido positivo.",
+    "lucro_12m": "Lucro Líquido acumulado nos últimos 12 meses. O resultado contábil final atribuível aos acionistas.",
+    "lucro_3m": "Lucro Líquido gerado no último trimestre isolado reportado pela empresa.",
+}
+
+
+def render_metric_card(label, value, delta=None, col=None, help=None):
     delta_html = ""
     if delta is not None:
         delta_str = str(delta).strip()
@@ -250,9 +414,13 @@ def render_metric_card(label, value, delta=None, col=None):
         arrow = "▲" if is_positive else "▼"
         delta_html = f'<div class="metric-delta {class_name}">{arrow} {delta_str}</div>'
 
+    help_html = ""
+    if help is not None:
+        help_html = f'<span class="tooltip-container"> ⓘ<span class="tooltip-text">{help}</span></span>'
+
     card_html = f"""
     <div class="metric-card">
-        <div class="metric-label">{label}</div>
+        <div class="metric-label">{label}{help_html}</div>
         <div class="metric-value">{value}</div>
         {delta_html}
     </div>
@@ -268,7 +436,7 @@ def render_market_index(file_path, label, col):
         render_metric_card(label, "Sem dados", col=col)
         return
     try:
-        df_idx = pd.read_csv(file_path, sep=";")
+        df_idx = load_market_index_data(file_path)
         preco = round(df_idx["Close"].iloc[-1], 2)
         retorno = df_idx["Retornos"].iloc[-1]
         df_idx["Date"] = pd.to_datetime(df_idx["Date"], utc=True)
@@ -350,65 +518,73 @@ def fmt_decimal(value):
 # Inject visual styles
 inject_custom_css()
 
-# Header - Global Indices
-st.markdown(
-    '<div class="stSubheader">🌎 Alguns Índices Globais</div>', unsafe_allow_html=True
-)
-col1, col2, col3 = st.columns(3)
+# Header - Global Indices, Currencies & Cryptos in a clean expander to avoid visual clutter
+with st.expander(
+    "🌍 Painel de Mercado: Índices Globais, Moedas e Cripto", expanded=False
+):
+    # Header - Global Indices
+    st.markdown(
+        '<h3 class="stSubheader" style="margin-top: 0 !important;">🌎 Alguns Índices Globais</h3>',
+        unsafe_allow_html=True,
+    )
+    col1, col2, col3 = st.columns(3)
 
-render_market_index("./Api/indices/BVSP.csv", "IBOVESPA", col1)
-render_market_index("./Api/indices/IXIC.csv", "NASDAQ Composite", col2)
-render_market_index("./Api/indices/DJI.csv", "Dow Jones Ind. Average", col3)
-render_market_index("./Api/indices/GSPC.csv", "S&P 500", col1)
-render_market_index("./Api/indices/VIX.csv", "VIX", col2)
-render_market_index("./Api/indices/N225.csv", "Nikkei 225", col3)
+    render_market_index("./Api/indices/BVSP.csv", "IBOVESPA", col1)
+    render_market_index("./Api/indices/IXIC.csv", "NASDAQ Composite", col2)
+    render_market_index("./Api/indices/DJI.csv", "Dow Jones Ind. Average", col3)
+    render_market_index("./Api/indices/GSPC.csv", "S&P 500", col1)
+    render_market_index("./Api/indices/VIX.csv", "VIX", col2)
+    render_market_index("./Api/indices/N225.csv", "Nikkei 225", col3)
 
-st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+    st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 
-# Header - Currencies
-st.markdown(
-    '<div class="stSubheader">💵 Alguns Pares de Moedas</div>', unsafe_allow_html=True
-)
-col1, col2, col3 = st.columns(3)
+    # Header - Currencies
+    st.markdown(
+        '<h3 class="stSubheader">💵 Alguns Pares de Moedas</h3>', unsafe_allow_html=True
+    )
+    col1, col2, col3 = st.columns(3)
 
-render_market_index("./Api/moedas/USDBRL=x.csv", "USD-BRL", col1)
-render_market_index("./Api/moedas/EURBRL=x.csv", "EUR-BRL", col2)
-render_market_index("./Api/moedas/GBPBRL=x.csv", "GBP-BRL", col3)
-render_market_index("./Api/moedas/BRLUSD=x.csv", "BRL-USD", col1)
-render_market_index("./Api/moedas/EURUSD=x.csv", "EUR-USD", col2)
+    render_market_index("./Api/moedas/USDBRL=x.csv", "USD-BRL", col1)
+    render_market_index("./Api/moedas/EURBRL=x.csv", "EUR-BRL", col2)
+    render_market_index("./Api/moedas/GBPBRL=x.csv", "GBP-BRL", col3)
+    render_market_index("./Api/moedas/BRLUSD=x.csv", "BRL-USD", col1)
+    render_market_index("./Api/moedas/EURUSD=x.csv", "EUR-USD", col2)
 
-st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+    st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 
-# Header - Cryptos
-st.markdown(
-    '<div class="stSubheader">🪙 Algumas Cryptomoedas</div>', unsafe_allow_html=True
-)
-col1, col2, col3 = st.columns(3)
+    # Header - Cryptos
+    st.markdown(
+        '<h3 class="stSubheader">🪙 Algumas Cryptomoedas</h3>', unsafe_allow_html=True
+    )
+    col1, col2, col3 = st.columns(3)
 
-render_market_index("./Api/crypto/BTC-USD.csv", "BTC-USD", col1)
-render_market_index("./Api/crypto/ETH-USD.csv", "ETH-USD", col2)
-render_market_index(
-    "./Api/crypto/LTC-USD.csv", "USDT-USD", col3
-)  # note: using path LTC-USD but keeping visual label USDT-USD as original
+    render_market_index("./Api/crypto/BTC-USD.csv", "BTC-USD", col1)
+    render_market_index("./Api/crypto/ETH-USD.csv", "ETH-USD", col2)
+    render_market_index(
+        "./Api/crypto/LTC-USD.csv", "USDT-USD", col3
+    )  # note: using path LTC-USD but keeping visual label USDT-USD as original
 
 st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 
 # B3 Stock details section
 st.markdown(
-    '<div class="stSubheader">ℹ️ Informações das Ações Listadas na B3</div>',
+    '<h3 class="stSubheader">ℹ️ Informações das Ações Listadas na B3</h3>',
     unsafe_allow_html=True,
 )
 
 # Read base data
-df = pd.read_csv("./Dados_Atual/dados.csv", sep=";")
-ri = pd.read_csv("./Api/ri_empresas/ri_empresas.csv", sep=";")
+df, ri = load_b3_data()
 
 # Sidebar stock selectbox
 st.sidebar.header("Escolha sua ação")
+default_index = 0
+if hasattr(df, "papel") and "AALR3" in list(df.papel):
+    default_index = list(df.papel).index("AALR3")
+
 col1_selection = st.sidebar.selectbox(
     "Papel",
     df.papel,
-    list(df.papel).index("AALR3"),
+    index=default_index,
 )
 
 # Render RI button
@@ -420,6 +596,82 @@ if not ri_filtered.empty:
         f"🔗 RI da Ação {col1_selection}",
         ri_result,
     )
+
+# 1. Simulação de Valuation: Graham Constant Slider
+st.sidebar.markdown('<div style="height: 15px;"></div>', unsafe_allow_html=True)
+st.sidebar.subheader("Simulação de Valuation")
+graham_constant = st.sidebar.slider(
+    "Constante de Graham",
+    min_value=10.0,
+    max_value=30.0,
+    value=22.5,
+    step=0.5,
+    help="Ajuste a constante clássica de Graham (padrão 22.5, que assume P/L de até 15 e P/VP de até 1.5) para simular diferentes margens de segurança.",
+)
+
+
+# Helper to check file integrity
+def check_stock_data_integrity(ticker):
+    paths = {
+        "Preços Históricos": ("./Api/precos/{ticker}.csv", True),  # (path, is_critical)
+        "Histórico Mensal": ("./Api/historico/{ticker}.csv", False),
+        "Proventos & Dividendos": ("./Api/proventos/{ticker}.csv", True),
+        "Releases Trimestrais": ("./Api/trimestre/{ticker}.csv", True),
+        "Fatos Relevantes": ("./Api/fatos_relevantes/{ticker}.csv", False),
+    }
+
+    integrity = {}
+    for name, (path_template, is_critical) in paths.items():
+        path = path_template.format(ticker=ticker)
+        exists = os.path.exists(path) and os.path.getsize(path) > 0
+        integrity[name] = (exists, is_critical)
+    return integrity
+
+
+# 2. Scraper Data Integrity Panel
+integrity_data = check_stock_data_integrity(col1_selection)
+
+any_critical_missing = any(
+    not exists and is_critical for name, (exists, is_critical) in integrity_data.items()
+)
+if any_critical_missing:
+    border_color = "#FF3D71"
+    header_title = "⚠️ Dados Incompletos"
+else:
+    border_color = "#00E676"
+    header_title = "🛡️ Integridade de Dados"
+
+rows_html = ""
+for name, (exists, is_critical) in integrity_data.items():
+    if exists:
+        color = "#00E676"
+        status_text = "Disponível"
+    else:
+        color = "#FF3D71" if is_critical else "#64748B"
+        status_text = "Ausente"
+
+    rows_html += f"""
+    <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-family: 'Outfit', sans-serif;">
+        <span style="color: #94A3B8;">{name}</span>
+        <span style="display: flex; align-items: center; gap: 4px; font-weight: 500; color: {color};">
+            <span style="color: {color}; font-size: 8px; vertical-align: middle;">●</span> {status_text}
+        </span>
+    </div>
+    """
+
+st.sidebar.markdown(
+    f"""
+    <div class="status-card" style="margin-top: 15px; padding: 12px 16px; border-left: 4px solid {border_color};">
+        <div style="font-size: 13px; font-weight: 600; color: #F8FAFC; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+            {header_title}
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+            {rows_html}
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 
 # Helper function to get row safely and get column value
@@ -467,18 +719,57 @@ with tab_overview:
     if nr_acoes_res is not None:
         nr_acoes_formatted = re.sub(r"(?<!^)(?=(\d{3})+$)", r".", str(nr_acoes_res))
 
-    render_metric_card("Tipo da Ação", tipo_res, col=col1)
-    render_metric_card("Empresa", empresa_res, col=col2)
-    render_metric_card("Data da Última Cotação", dt_ult_res, col=col1)
+    # Coluna 1 - Identidade & Valores Corporativos
+    render_metric_card("Empresa", empresa_res, col=col1, help=METRIC_HELPS["empresa"])
+    render_metric_card("Tipo da Ação", tipo_res, col=col1, help=METRIC_HELPS["tipo"])
     render_metric_card(
-        "Valor da Ação", fmt_money(cotacao_res), fmt_percent(os_dia_res), col=col2
+        "Ações em Circulação",
+        nr_acoes_formatted,
+        col=col1,
+        help=METRIC_HELPS["nr_acoes"],
     )
-    render_metric_card("Máxima 52 Semanas", fmt_money(max_52_res), col=col1)
-    render_metric_card("Mínima 52 Semanas", fmt_money(min_52_res), col=col2)
-    render_metric_card("Volume Médio (2 meses)", fmt_money(vol_med_res), col=col1)
-    render_metric_card("Valor de Mercado", fmt_money(val_merc_res), col=col2)
-    render_metric_card("Valor da Firma", fmt_money(val_firma_res), col=col1)
-    render_metric_card("Ações em Circulação", nr_acoes_formatted, col=col2)
+    render_metric_card(
+        "Valor de Mercado",
+        fmt_money(val_merc_res),
+        col=col1,
+        help=METRIC_HELPS["valor_merc"],
+    )
+    render_metric_card(
+        "Valor da Firma",
+        fmt_money(val_firma_res),
+        col=col1,
+        help=METRIC_HELPS["valor_firma"],
+    )
+
+    # Coluna 2 - Negociação & Histórico de Preços
+    render_metric_card(
+        "Valor da Ação",
+        fmt_money(cotacao_res),
+        fmt_percent(os_dia_res),
+        col=col2,
+        help="Último preço de fechamento registrado (com variação diária).",
+    )
+    render_metric_card(
+        "Data da Última Cotação", dt_ult_res, col=col2, help=METRIC_HELPS["dt_cotacao"]
+    )
+    render_metric_card(
+        "Máxima 52 Semanas",
+        fmt_money(max_52_res),
+        col=col2,
+        help=METRIC_HELPS["max_52"],
+    )
+    render_metric_card(
+        "Mínima 52 Semanas",
+        fmt_money(min_52_res),
+        col=col2,
+        help=METRIC_HELPS["min_52"],
+    )
+    render_metric_card(
+        "Volume Médio (2 meses)",
+        fmt_money(vol_med_res),
+        col=col2,
+        help=METRIC_HELPS["volume"],
+    )
 
 with tab_valuation:
     col1, col2 = st.columns(2)
@@ -495,19 +786,47 @@ with tab_valuation:
     ev_ebitda_res = get_stock_data_val("ev_ebitda")
     ev_ebit_res = get_stock_data_val("ev_ebit")
 
-    render_metric_card("Preço / Lucro (P/L)", fmt_decimal(pl_res), col=col1)
-    render_metric_card("Lucro por Ação (LPA)", fmt_decimal(lpa_res), col=col2)
-    render_metric_card("P/VP", fmt_decimal(pvp_res), col=col1)
+    # Coluna 1 - Multiplicadores de Preço & Patrimônio (Equity Valuation)
     render_metric_card(
-        "Valor Patrimonial por Ação (VPA)", fmt_decimal(vpa_res), col=col2
+        "Preço / Lucro (P/L)", fmt_decimal(pl_res), col=col1, help=METRIC_HELPS["pl"]
     )
-    render_metric_card("P/EBIT", fmt_decimal(p_ebit_res), col=col1)
-    render_metric_card("PSR", fmt_decimal(psr_res), col=col2)
-    render_metric_card("P/Ativos", fmt_decimal(p_ativo_res), col=col1)
-    render_metric_card("P/Capital Giro", fmt_decimal(p_cap_res), col=col2)
-    render_metric_card("P/Ativo Circulante Líquido", fmt_decimal(p_circ_res), col=col1)
-    render_metric_card("EV / EBITDA", fmt_decimal(ev_ebitda_res), col=col2)
-    render_metric_card("EV / EBIT", fmt_decimal(ev_ebit_res), col=col1)
+    render_metric_card(
+        "Lucro por Ação (LPA)", fmt_decimal(lpa_res), col=col1, help=METRIC_HELPS["lpa"]
+    )
+    render_metric_card("P/VP", fmt_decimal(pvp_res), col=col1, help=METRIC_HELPS["pvp"])
+    render_metric_card(
+        "Valor Patrimonial por Ação (VPA)",
+        fmt_decimal(vpa_res),
+        col=col1,
+        help=METRIC_HELPS["vpa"],
+    )
+    render_metric_card("PSR", fmt_decimal(psr_res), col=col1, help=METRIC_HELPS["psr"])
+    render_metric_card(
+        "P/Ativos", fmt_decimal(p_ativo_res), col=col1, help=METRIC_HELPS["p_ativo"]
+    )
+
+    # Coluna 2 - Enterprise Value, Operacional & Liquidez Ativa
+    render_metric_card(
+        "EV / EBITDA",
+        fmt_decimal(ev_ebitda_res),
+        col=col2,
+        help=METRIC_HELPS["ev_ebitda"],
+    )
+    render_metric_card(
+        "EV / EBIT", fmt_decimal(ev_ebit_res), col=col2, help=METRIC_HELPS["ev_ebit"]
+    )
+    render_metric_card(
+        "P/EBIT", fmt_decimal(p_ebit_res), col=col2, help=METRIC_HELPS["p_ebit"]
+    )
+    render_metric_card(
+        "P/Capital Giro", fmt_decimal(p_cap_res), col=col2, help=METRIC_HELPS["p_cap"]
+    )
+    render_metric_card(
+        "P/Ativo Circulante Líquido",
+        fmt_decimal(p_circ_res),
+        col=col2,
+        help=METRIC_HELPS["p_circ"],
+    )
 
 with tab_efficiency:
     col1, col2 = st.columns(2)
@@ -520,13 +839,37 @@ with tab_efficiency:
     roe_res = get_stock_data_val("roe")
     div_yield_res = get_stock_data_val("div_yield")
 
-    render_metric_card("Margem Bruta", fmt_percent(m_bruta), col=col1)
-    render_metric_card("Margem EBIT", fmt_percent(m_ebit), col=col2)
-    render_metric_card("Margem Líquida", fmt_percent(m_liquida), col=col1)
-    render_metric_card("EBIT / Ativo", fmt_decimal(ebit_ativo_res), col=col2)
-    render_metric_card("ROIC", fmt_percent(roic_res), col=col1)
-    render_metric_card("ROE", fmt_percent(roe_res), col=col2)
-    render_metric_card("Dividend Yield", fmt_percent(div_yield_res), col=col1)
+    # Coluna 1 - Margens de Lucro & Dividendos
+    render_metric_card(
+        "Margem Bruta", fmt_percent(m_bruta), col=col1, help=METRIC_HELPS["marg_bruta"]
+    )
+    render_metric_card(
+        "Margem EBIT", fmt_percent(m_ebit), col=col1, help=METRIC_HELPS["marg_ebit"]
+    )
+    render_metric_card(
+        "Margem Líquida",
+        fmt_percent(m_liquida),
+        col=col1,
+        help=METRIC_HELPS["marg_liquida"],
+    )
+    render_metric_card(
+        "Dividend Yield",
+        fmt_percent(div_yield_res),
+        col=col1,
+        help=METRIC_HELPS["div_yield"],
+    )
+
+    # Coluna 2 - Retornos & Eficiência de Capital
+    render_metric_card("ROE", fmt_percent(roe_res), col=col2, help=METRIC_HELPS["roe"])
+    render_metric_card(
+        "ROIC", fmt_percent(roic_res), col=col2, help=METRIC_HELPS["roic"]
+    )
+    render_metric_card(
+        "EBIT / Ativo",
+        fmt_decimal(ebit_ativo_res),
+        col=col2,
+        help=METRIC_HELPS["ebit_ativo"],
+    )
 
 with tab_balance:
     col1, col2 = st.columns(2)
@@ -542,24 +885,72 @@ with tab_balance:
     lucro_12m_res = get_stock_data_val("lucro_liquido_12m")
     lucro_3m_res = get_stock_data_val("lucro_liquido_3m")
 
-    render_metric_card("Liquidez Corrente", fmt_decimal(liquidez_corr_res), col=col1)
+    # Coluna 1 - Estrutura Patrimonial & Ativos
     render_metric_card(
-        "Crescimento Receita Líquida (5a)", fmt_percent(cres_rec_res), col=col2
+        "Ativo Total", fmt_money(ativo_res), col=col1, help=METRIC_HELPS["ativo"]
     )
-    render_metric_card("Ativo Total", fmt_money(ativo_res), col=col1)
-    render_metric_card("Disponibilidades", fmt_money(disponib_res), col=col2)
-    render_metric_card("Ativo Circulante", fmt_money(ativo_circ_res), col=col1)
-    render_metric_card("Patrimônio Líquido", fmt_money(patr_liq_res), col=col2)
-    render_metric_card("Dívida Bruta", fmt_money(div_bruta_res), col=col1)
-    render_metric_card("Dívida Líquida", fmt_money(div_liquida_res), col=col2)
-    render_metric_card("Lucro Líquido 12 Meses", fmt_money(lucro_12m_res), col=col1)
-    render_metric_card("Lucro Líquido 3 Meses", fmt_money(lucro_3m_res), col=col2)
+    render_metric_card(
+        "Ativo Circulante",
+        fmt_money(ativo_circ_res),
+        col=col1,
+        help=METRIC_HELPS["ativo_circ"],
+    )
+    render_metric_card(
+        "Disponibilidades",
+        fmt_money(disponib_res),
+        col=col1,
+        help=METRIC_HELPS["disponib"],
+    )
+    render_metric_card(
+        "Patrimônio Líquido",
+        fmt_money(patr_liq_res),
+        col=col1,
+        help=METRIC_HELPS["patr_liq"],
+    )
+    render_metric_card(
+        "Crescimento Receita Líquida (5a)",
+        fmt_percent(cres_rec_res),
+        col=col1,
+        help=METRIC_HELPS["cres_rec"],
+    )
+
+    # Coluna 2 - Perfil de Endividamento, Liquidez & Lucros
+    render_metric_card(
+        "Liquidez Corrente",
+        fmt_decimal(liquidez_corr_res),
+        col=col2,
+        help=METRIC_HELPS["liquidez"],
+    )
+    render_metric_card(
+        "Dívida Bruta",
+        fmt_money(div_bruta_res),
+        col=col2,
+        help=METRIC_HELPS["div_bruta"],
+    )
+    render_metric_card(
+        "Dívida Líquida",
+        fmt_money(div_liquida_res),
+        col=col2,
+        help=METRIC_HELPS["div_liquida"],
+    )
+    render_metric_card(
+        "Lucro Líquido 12 Meses",
+        fmt_money(lucro_12m_res),
+        col=col2,
+        help=METRIC_HELPS["lucro_12m"],
+    )
+    render_metric_card(
+        "Lucro Líquido 3 Meses",
+        fmt_money(lucro_3m_res),
+        col=col2,
+        help=METRIC_HELPS["lucro_3m"],
+    )
 
 st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 
 # Graham Fair Value Section
 st.markdown(
-    '<div class="stSubheader">💎 Valor Justo segundo Graham</div>',
+    '<h3 class="stSubheader">💎 Valor Justo segundo Graham</h3>',
     unsafe_allow_html=True,
 )
 
@@ -595,7 +986,7 @@ else:
     prc_f2 = float(prc_f1)
 
     # Graham calculations:
-    valor_gh = round(22.5 * vpa_f * lpa_f, 2)
+    valor_gh = round(graham_constant * vpa_f * lpa_f, 2)
     valor_jt = round(math.sqrt(valor_gh), 2)
 
     # Upside / Downside:
@@ -604,16 +995,16 @@ else:
     if up_dw > 0:
         card_class = "graham-negative"
         indicator_icon = "📈"
-        desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#FF3D71">{up_dw:.2f}% acima</span> de seu valor justo calculado.'
+        desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#FF3D71">{up_dw:.2f}% acima</span> de seu valor justo calculado (usando constante {graham_constant:.1f}).'
     else:
         card_class = "graham-positive"
         indicator_icon = "📉"
-        desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#00E676">{abs(up_dw):.2f}% abaixo</span> (desconto) de seu valor justo calculado.'
+        desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#00E676">{abs(up_dw):.2f}% abaixo</span> (desconto) de seu valor justo calculado (usando constante {graham_constant:.1f}).'
 
     st.markdown(
         f"""
     <div class="graham-card {card_class}">
-        <div class="graham-title">{indicator_icon} Análise de Valuation (Graham)</div>
+        <div class="graham-title">{indicator_icon} Valuation de Graham (Constante {graham_constant:.1f})</div>
         <div class="graham-text">Valor Justo Calculado: <span class="graham-highlight" style="font-size: 17px; color: #00E676">R$ {valor_jt:.2f}</span></div>
         <div class="graham-text">Cotação Atual de Mercado: <span class="graham-highlight" style="font-size: 17px;">R$ {prc_f2:.2f}</span></div>
         <div class="graham-text" style="margin-top: 12px; font-size: 15px;">{desc_text}</div>
@@ -697,7 +1088,7 @@ st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 
 # Charts Section
 st.markdown(
-    '<div class="stSubheader">📊 Análise Visual do Histórico</div>',
+    '<h3 class="stSubheader">📊 Análise Visual do Histórico</h3>',
     unsafe_allow_html=True,
 )
 
@@ -706,7 +1097,7 @@ precos_path = f"./Api/precos/{col1_selection}.csv"
 prices_loaded = False
 if os.path.exists(precos_path):
     try:
-        precos_df = pd.read_csv(precos_path, sep=";")
+        precos_df = load_stock_prices(precos_path)
         # Keep original columns mutation
         precos_df_ad = precos_df.rename(columns={"Close": f"{col1_selection}"})
         # Clean columns to preserve original logic
@@ -729,7 +1120,7 @@ if prices_loaded:
     st.plotly_chart(fig_pre, use_container_width=True)
 
     # 2. Monthly Returns Matrix/Table
-    st.write("-----------------------------------------")
+    st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
     st.write(f"✳️ Retornos Mensais Históricos - **{col1_selection}**")
     hist_path = f"./Api/historico/{col1_selection}.csv"
     if os.path.exists(hist_path):
@@ -749,7 +1140,7 @@ if prices_loaded:
         st.write("Matriz de retornos mensais indisponível.")
 
     # 3. Daily Returns
-    st.write("-----------------------------------------")
+    st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
     st.write(f"⌛ Retornos Diários - **{col1_selection}**")
     try:
         # Calculate daily change percent
@@ -764,7 +1155,7 @@ if prices_loaded:
         st.write("Erro ao calcular retornos diários.")
 
     # 4. Cumulative Returns
-    st.write("-----------------------------------------")
+    st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
     st.write(f"⌛ Retornos Acumulados - **{col1_selection}**")
     try:
         df_ret_ac = pd.read_csv(f"./Api/precos/{col1_selection}.csv", sep=";")
@@ -779,7 +1170,7 @@ if prices_loaded:
         st.write("Erro ao renderizar retornos acumulados.")
 
     # 5. Volatility (30 days)
-    st.write("-----------------------------------------")
+    st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
     st.write(f"🔥 Volatilidade Móvel (30 Dias) - **{col1_selection}**")
     try:
         precos_df_vol = (
@@ -801,9 +1192,9 @@ else:
     st.write("Dados de preços históricos indisponíveis para gráficos.")
 
 # Retorno Acumulado
-st.write("-----------------------------------------")
+st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="stSubheader">🎯 Retornos Acumulados da Ação</div>',
+    '<h3 class="stSubheader">🎯 Retornos Acumulados da Ação</h3>',
     unsafe_allow_html=True,
 )
 col1, col2, col3, col4 = st.columns(4)
@@ -835,7 +1226,7 @@ st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 
 # Daily Updates Section
 st.markdown(
-    '<div class="stSubheader">⚡ Atualizações Diárias do Sistema</div>',
+    '<h3 class="stSubheader">⚡ Atualizações Diárias do Sistema</h3>',
     unsafe_allow_html=True,
 )
 
@@ -850,44 +1241,47 @@ col_att1, col_att2, col_att3 = st.columns(3)
 with col_att1:
     st.markdown("📰 **Fatos Relevantes:**")
     try:
-        df_analisar_ft = pd.read_parquet("./Todos/FT.parquet.gzip")
+        df_analisar_ft = load_parquet_data("./Todos/FT.parquet.gzip")
         df_date_ft = df_analisar_ft.loc[
             df_analisar_ft["Data"] == date_atual_m, ["Acao", "Link"]
         ]
         if not df_date_ft.empty:
-            st.write(list(df_date_ft["Acao"].unique()))
+            acoes = ", ".join(list(df_date_ft["Acao"].unique()))
+            render_status_card("Novos Relatórios", acoes, type="success")
         else:
-            st.write("*Nenhuma novidade hoje* 🤫")
+            render_status_card("Status", "Nenhuma novidade hoje 🤫", type="neutral")
     except Exception:
-        st.write("*Erro ao consultar fatos relevantes*")
+        render_status_card("Status", "Erro ao carregar dados", type="alert")
 
 with col_att2:
     st.markdown("💰 **Proventos Anunciados:**")
     try:
-        df_analisar_pr = pd.read_parquet("./Todos/PR.parquet.gzip")
+        df_analisar_pr = load_parquet_data("./Todos/PR.parquet.gzip")
         df_date_pr = df_analisar_pr.loc[
             df_analisar_pr["Data"] == date_atual_m, ["Acao"]
         ]
         if not df_date_pr.empty:
-            st.write(list(df_date_pr["Acao"].unique()))
+            acoes = ", ".join(list(df_date_pr["Acao"].unique()))
+            render_status_card("Dividendos/JCP", acoes, type="success")
         else:
-            st.write("*Nenhum provento anunciado* 🤫")
+            render_status_card("Status", "Nenhum provento anunciado 🤫", type="neutral")
     except Exception:
-        st.write("*Erro ao consultar proventos*")
+        render_status_card("Status", "Erro ao carregar proventos", type="alert")
 
 with col_att3:
     st.markdown("📋 **Releases de Resultados:**")
     try:
-        df_analisar_tr = pd.read_parquet("./Todos/TR.parquet.gzip")
+        df_analisar_tr = load_parquet_data("./Todos/TR.parquet.gzip")
         df_date_tr = df_analisar_tr.loc[
             df_analisar_tr["Data Referência"] == date_atual_m, ["Acao"]
         ]
         if not df_date_tr.empty:
-            st.write(list(df_date_tr["Acao"].unique()))
+            acoes = ", ".join(list(df_date_tr["Acao"].unique()))
+            render_status_card("Releases Trimestrais", acoes, type="success")
         else:
-            st.write("*Nenhum release hoje* 🤫")
+            render_status_card("Status", "Nenhum release hoje 🤫", type="neutral")
     except Exception:
-        st.write("*Erro ao consultar releases*")
+        render_status_card("Status", "Erro ao carregar releases", type="alert")
 
 # Footer
 st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
