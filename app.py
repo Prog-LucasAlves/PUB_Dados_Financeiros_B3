@@ -659,17 +659,17 @@ for name, (exists, is_critical) in integrity_data.items():
         status_text = "Ausente"
 
     rows_html += (
-        f"<div style=\"display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-family: 'Outfit', sans-serif;\">"
+        f"<span style=\"display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-family: 'Outfit', sans-serif; width: 100%;\">"
         f'<span style="color: #94A3B8;">{name}</span>'
         f'<span style="display: flex; align-items: center; gap: 4px; font-weight: 500; color: {color};">'
         f'<span style="color: {color}; font-size: 8px; vertical-align: middle;">●</span> {status_text}'
-        f"</span></div>"
+        f"</span></span>"
     )
 
 st.sidebar.markdown(
     f'<div class="status-card" style="margin-top: 15px; padding: 12px 16px; border-left: 4px solid {border_color};">'
-    f'<div style="font-size: 13px; font-weight: 600; color: #F8FAFC; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">{header_title}</div>'
-    f'<div style="display: flex; flex-direction: column; gap: 8px;">{rows_html}</div>'
+    f'<p style="font-size: 13px; font-weight: 600; color: #F8FAFC; margin-top: 0; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">{header_title}</p>'
+    f'<span style="display: flex; flex-direction: column; gap: 8px; width: 100%;">{rows_html}</span>'
     f"</div>",
     unsafe_allow_html=True,
 )
