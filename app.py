@@ -33,126 +33,213 @@ def inject_custom_css():
     st.markdown(
         """
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
 
-    /* Global styles */
+    /* ═══════════════════════════════════════════ */
+    /*  KEYFRAME ANIMATIONS                       */
+    /* ═══════════════════════════════════════════ */
+    @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(12px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulseGlow {
+        0%, 100% { box-shadow: 0 0 4px rgba(16, 185, 129, 0.3); }
+        50% { box-shadow: 0 0 12px rgba(16, 185, 129, 0.6); }
+    }
+    @keyframes shimmer {
+        0% { background-position: -200% 0; }
+        100% { background-position: 200% 0; }
+    }
+    @keyframes borderGlow {
+        0%, 100% { border-color: rgba(16, 185, 129, 0.08); }
+        50% { border-color: rgba(16, 185, 129, 0.2); }
+    }
+
+    /* ═══════════════════════════════════════════ */
+    /*  GLOBAL FOUNDATION                         */
+    /* ═══════════════════════════════════════════ */
     html, body, [data-testid="stAppViewContainer"] {
-        background-color: #0B0F13 !important;
+        background-color: #0A0D11 !important;
         font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif !important;
-        color: #F1F5F9 !important;
+        color: #E2E8F0 !important;
     }
-
-    /* Main container background */
     [data-testid="stHeader"] {
-        background-color: #0B0F13 !important;
+        background: linear-gradient(180deg, #0A0D11 0%, transparent 100%) !important;
+        backdrop-filter: blur(8px) !important;
+    }
+    [data-testid="stMainBlockContainer"] {
+        padding-top: 0 !important;
     }
 
-    /* Sidebar styling */
+    /* ═══════════════════════════════════════════ */
+    /*  SIDEBAR — BRANDED                         */
+    /* ═══════════════════════════════════════════ */
     [data-testid="stSidebar"] {
-        background-color: #0F1319 !important;
-        border-right: 1px solid rgba(255, 255, 255, 0.03) !important;
+        background: linear-gradient(180deg, #0D1117 0%, #0A0D11 100%) !important;
+        border-right: 1px solid rgba(16, 185, 129, 0.06) !important;
     }
-
-    [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h3 {
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h1,
+    [data-testid="stSidebar"] h3 {
         color: #10B981 !important;
         font-family: 'Outfit', sans-serif !important;
+        font-weight: 700 !important;
+        letter-spacing: -0.03em;
+    }
+    /* Sidebar selectbox */
+    [data-testid="stSidebar"] [data-baseweb="select"] > div {
+        background-color: #111519 !important;
+        border: 1px solid rgba(16, 185, 129, 0.12) !important;
+        border-radius: 8px !important;
+        transition: border-color 0.2s ease !important;
+    }
+    [data-testid="stSidebar"] [data-baseweb="select"] > div:hover {
+        border-color: rgba(16, 185, 129, 0.3) !important;
+    }
+    [data-testid="stSidebar"] [data-baseweb="select"] > div:focus-within {
+        border-color: #10B981 !important;
+        box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.1) !important;
+    }
+    /* Sidebar slider */
+    [data-testid="stSidebar"] .stSlider [data-baseweb="slider"] div[role="slider"] {
+        background-color: #10B981 !important;
+    }
+    [data-testid="stSidebar"] .stSlider [data-testid="stThumbValue"] {
+        color: #10B981 !important;
+        font-family: 'JetBrains Mono', monospace !important;
         font-weight: 600 !important;
     }
 
-    /* Headers */
+    /* ═══════════════════════════════════════════ */
+    /*  TYPOGRAPHY                                */
+    /* ═══════════════════════════════════════════ */
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Outfit', sans-serif !important;
         color: #F1F5F9 !important;
-        font-weight: 600 !important;
-        letter-spacing: -0.025em;
+        font-weight: 700 !important;
+        letter-spacing: -0.03em;
     }
 
     h3.stSubheader {
-        font-size: 1.35rem !important;
-        font-weight: 600 !important;
+        font-size: 1.4rem !important;
+        font-weight: 700 !important;
         color: #F8FAFC !important;
-        border-left: 3px solid #10B981;
-        padding-left: 12px;
-        margin-top: 1.8rem !important;
-        margin-bottom: 0.8rem !important;
+        border-left: 4px solid #10B981;
+        padding: 10px 0 10px 16px;
+        margin-top: 2rem !important;
+        margin-bottom: 1rem !important;
+        background: linear-gradient(90deg, rgba(16, 185, 129, 0.06) 0%, transparent 60%);
+        border-radius: 0 6px 6px 0;
+        animation: fadeInUp 0.4s ease-out;
     }
 
-    /* Tab buttons */
+    /* ═══════════════════════════════════════════ */
+    /*  TAB BUTTONS — AFFORDANCE                  */
+    /* ═══════════════════════════════════════════ */
     button[data-baseweb="tab"] {
         font-family: 'Outfit', sans-serif !important;
-        font-size: 15px !important;
-        color: #64748B !important;
+        font-size: 14px !important;
+        color: #8B95A5 !important;
         background-color: transparent !important;
         border: none !important;
-        padding: 8px 16px !important;
-        transition: all 0.2s ease !important;
+        padding: 10px 18px !important;
+        border-radius: 8px 8px 0 0 !important;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        position: relative !important;
     }
     button[data-baseweb="tab"]:hover {
         color: #E2E8F0 !important;
+        background-color: rgba(255, 255, 255, 0.03) !important;
     }
     button[data-baseweb="tab"][aria-selected="true"] {
         color: #10B981 !important;
+        background-color: rgba(16, 185, 129, 0.06) !important;
         border-bottom: 2px solid #10B981 !important;
         font-weight: 600 !important;
     }
+    /* Tab list container */
+    [data-baseweb="tab-list"] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+        gap: 2px !important;
+    }
 
-    /* Custom metric card wrapper */
+    /* ═══════════════════════════════════════════ */
+    /*  METRIC CARDS — GLASSMORPHIC               */
+    /* ═══════════════════════════════════════════ */
     .metric-card {
-        background-color: #141820;
-        border: 1px solid rgba(255, 255, 255, 0.04);
-        border-radius: 8px;
-        padding: 16px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-        margin-bottom: 12px;
-        transition: all 0.2s ease;
+        background: rgba(17, 21, 25, 0.8);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(16, 185, 129, 0.06);
+        border-radius: 10px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+        margin-bottom: 10px;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        animation: fadeInUp 0.35s ease-out both;
     }
     .metric-card:hover {
-        transform: translateY(-1px);
-        border-color: rgba(16, 185, 129, 0.15);
-        box-shadow: 0 6px 24px rgba(16, 185, 129, 0.03);
+        transform: translateY(-2px);
+        border-color: rgba(16, 185, 129, 0.18);
+        box-shadow: 0 8px 32px rgba(16, 185, 129, 0.06), 0 4px 16px rgba(0, 0, 0, 0.3);
     }
     .metric-label {
         font-size: 11px;
-        color: #64748B;
+        color: #94A3B8;
         font-weight: 500;
         text-transform: uppercase;
-        letter-spacing: 0.05em;
-        margin-bottom: 4px;
+        letter-spacing: 0.06em;
+        margin-bottom: 6px;
         font-family: 'Outfit', sans-serif;
-    }
-    .metric-value {
-        font-size: 22px;
-        color: #F8FAFC;
-        font-weight: 600;
-        font-family: 'JetBrains Mono', monospace;
-    }
-    .metric-delta {
-        font-size: 12px;
-        font-weight: 500;
-        margin-top: 4px;
-        display: inline-flex;
+        display: flex;
         align-items: center;
         gap: 4px;
     }
+    .metric-value {
+        font-size: 24px;
+        color: #F8FAFC;
+        font-weight: 600;
+        font-family: 'JetBrains Mono', monospace;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+    }
+    .metric-delta {
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 6px;
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        padding: 3px 10px;
+        border-radius: 20px;
+        line-height: 1;
+    }
     .delta-positive {
         color: #10B981;
+        background: rgba(16, 185, 129, 0.1);
     }
     .delta-negative {
         color: #EF4444;
+        background: rgba(239, 68, 68, 0.1);
     }
 
-    /* Graham Fair Value Card */
+    /* ═══════════════════════════════════════════ */
+    /*  GRAHAM FAIR VALUE CARD                    */
+    /* ═══════════════════════════════════════════ */
     .graham-card {
-        background: #141820;
-        border-radius: 12px;
-        padding: 20px;
-        margin: 16px 0;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+        background: linear-gradient(135deg, rgba(17, 21, 25, 0.9) 0%, rgba(20, 24, 32, 0.9) 100%);
+        backdrop-filter: blur(12px);
+        border-radius: 14px;
+        padding: 24px;
+        margin: 20px 0;
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
         border: 1px solid rgba(255, 255, 255, 0.04);
-        transition: all 0.2s ease;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        animation: fadeInUp 0.4s ease-out;
     }
     .graham-card:hover {
-        border-color: rgba(16, 185, 129, 0.1);
+        border-color: rgba(16, 185, 129, 0.12);
+        transform: translateY(-1px);
     }
     .graham-positive {
         border-left: 4px solid #10B981;
@@ -160,74 +247,114 @@ def inject_custom_css():
     .graham-negative {
         border-left: 4px solid #EF4444;
     }
-
     .graham-title {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 17px;
+        font-weight: 700;
         color: #F1F5F9;
-        margin-bottom: 8px;
+        margin-bottom: 12px;
         font-family: 'Outfit', sans-serif;
+        letter-spacing: -0.02em;
     }
     .graham-text {
         font-size: 14px;
         color: #94A3B8;
-        line-height: 1.5;
-        margin-bottom: 6px;
+        line-height: 1.6;
+        margin-bottom: 8px;
     }
     .graham-highlight {
-        font-weight: 600;
+        font-weight: 700;
         color: #F8FAFC;
         font-family: 'JetBrains Mono', monospace;
     }
+    .graham-values-row {
+        display: flex;
+        gap: 16px;
+        margin: 16px 0;
+    }
+    .graham-value-box {
+        flex: 1;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.04);
+        border-radius: 10px;
+        padding: 14px 16px;
+        text-align: center;
+    }
+    .graham-value-box-label {
+        font-size: 11px;
+        color: #64748B;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 4px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .graham-value-box-number {
+        font-size: 22px;
+        font-weight: 700;
+        font-family: 'JetBrains Mono', monospace;
+    }
 
-    /* Custom divider line */
+    /* ═══════════════════════════════════════════ */
+    /*  CUSTOM DIVIDER                            */
+    /* ═══════════════════════════════════════════ */
     .custom-hr {
         height: 1px;
-        background: rgba(255, 255, 255, 0.04);
+        background: linear-gradient(90deg, transparent 0%, rgba(16, 185, 129, 0.1) 50%, transparent 100%);
         border: none;
-        margin: 2rem 0;
+        margin: 2.5rem 0;
     }
 
-    /* Tables styling */
+    /* ═══════════════════════════════════════════ */
+    /*  TABLES / DATAFRAMES                       */
+    /* ═══════════════════════════════════════════ */
     div[data-testid="stDataFrame"] {
-        border: 1px solid rgba(255, 255, 255, 0.04) !important;
-        border-radius: 8px !important;
-        background-color: #141820 !important;
+        border: 1px solid rgba(16, 185, 129, 0.06) !important;
+        border-radius: 10px !important;
+        background-color: #111519 !important;
         padding: 4px;
+        overflow: hidden;
     }
 
-    /* Streamlit overrides for better premium integration */
+    /* ═══════════════════════════════════════════ */
+    /*  LINK BUTTONS                              */
+    /* ═══════════════════════════════════════════ */
     [data-testid="stLinkButton"] a {
-        background-color: #141820 !important;
+        background-color: rgba(16, 185, 129, 0.08) !important;
         color: #10B981 !important;
         border: 1px solid rgba(16, 185, 129, 0.2) !important;
-        border-radius: 6px !important;
-        padding: 6px 12px !important;
+        border-radius: 8px !important;
+        padding: 8px 16px !important;
         font-family: 'Outfit', sans-serif !important;
-        font-weight: 500 !important;
-        transition: all 0.2s ease !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
     }
     [data-testid="stLinkButton"] a:hover {
-        background-color: rgba(16, 185, 129, 0.05) !important;
+        background-color: rgba(16, 185, 129, 0.15) !important;
         border-color: #10B981 !important;
+        transform: translateY(-1px) !important;
+        box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15) !important;
     }
 
     .stAlert {
-        background-color: #141820 !important;
+        background-color: #111519 !important;
         border: 1px solid rgba(255, 255, 255, 0.04) !important;
-        border-radius: 8px !important;
+        border-radius: 10px !important;
     }
 
-    /* Status Card */
+    /* ═══════════════════════════════════════════ */
+    /*  STATUS CARDS                              */
+    /* ═══════════════════════════════════════════ */
     .status-card {
-        background-color: #141820;
+        background: rgba(17, 21, 25, 0.8);
+        backdrop-filter: blur(12px);
         border: 1px solid rgba(255, 255, 255, 0.04);
-        border-radius: 8px;
-        padding: 14px;
+        border-radius: 10px;
+        padding: 16px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
         font-family: 'Outfit', sans-serif;
         color: #F1F5F9;
         margin-top: 10px;
+        animation: fadeInUp 0.35s ease-out;
     }
     .status-alert {
         border-left: 3px solid #EF4444;
@@ -236,8 +363,8 @@ def inject_custom_css():
         border-left: 3px solid #10B981;
     }
     .status-neutral {
-        border: 1px solid rgba(148, 163, 184, 0.15);
-        background-color: rgba(148, 163, 184, 0.02);
+        border: 1px solid rgba(148, 163, 184, 0.1);
+        background: rgba(148, 163, 184, 0.02);
     }
     .status-title {
         font-size: 14px;
@@ -251,28 +378,39 @@ def inject_custom_css():
         font-family: 'JetBrains Mono', monospace;
     }
 
-    /* CSS Tooltip */
+    /* ═══════════════════════════════════════════ */
+    /*  CSS TOOLTIPS                              */
+    /* ═══════════════════════════════════════════ */
     .tooltip-container {
         position: relative;
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         cursor: help;
-        color: #94A3B8;
-        font-size: 12px;
-        margin-left: 4px;
-        transition: color 0.2s ease;
+        color: #64748B;
+        width: 16px;
+        height: 16px;
+        font-size: 10px;
+        font-weight: 700;
+        border: 1px solid rgba(100, 116, 139, 0.3);
+        border-radius: 50%;
+        transition: all 0.2s ease;
+        flex-shrink: 0;
     }
     .tooltip-container:hover {
         color: #10B981;
+        border-color: rgba(16, 185, 129, 0.4);
+        background: rgba(16, 185, 129, 0.08);
     }
     .tooltip-text {
         visibility: hidden;
-        width: 220px;
+        width: 240px;
         background-color: #111418;
         color: #E2E8F0;
         text-align: left;
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        border-radius: 8px;
-        padding: 8px 12px;
+        border: 1px solid rgba(16, 185, 129, 0.1);
+        border-radius: 10px;
+        padding: 10px 14px;
         position: absolute;
         z-index: 999;
         bottom: 125%;
@@ -280,42 +418,262 @@ def inject_custom_css():
         transform: translateX(-50%);
         opacity: 0;
         transition: opacity 0.2s ease, transform 0.2s ease;
-        font-size: 11px;
+        font-size: 12px;
         font-family: 'Outfit', sans-serif;
         font-weight: 400;
-        line-height: 1.4;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        line-height: 1.5;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
         pointer-events: none;
         white-space: normal;
     }
     .tooltip-container:hover .tooltip-text {
         visibility: visible;
         opacity: 1;
-        transform: translateX(-50%) translateY(-2px);
+        transform: translateX(-50%) translateY(-4px);
     }
 
-    /* Style all Streamlit widget labels for better dark-theme readability */
-    [data-testid="stWidgetLabel"], [data-testid="stWidgetLabel"] p, .stSelectbox label, .stSlider label {
-        color: #E2E8F0 !important;
+    /* ═══════════════════════════════════════════ */
+    /*  WIDGET LABELS — READABLE                  */
+    /* ═══════════════════════════════════════════ */
+    [data-testid="stWidgetLabel"], [data-testid="stWidgetLabel"] p,
+    .stSelectbox label, .stSlider label {
+        color: #CBD5E1 !important;
         font-family: 'Outfit', sans-serif !important;
         font-weight: 500 !important;
         font-size: 14px !important;
     }
 
-    /* Scrollbars */
+    /* ═══════════════════════════════════════════ */
+    /*  EXPANDERS — STYLED                        */
+    /* ═══════════════════════════════════════════ */
+    [data-testid="stExpander"] {
+        background: rgba(17, 21, 25, 0.6) !important;
+        border: 1px solid rgba(16, 185, 129, 0.06) !important;
+        border-radius: 12px !important;
+        overflow: hidden;
+    }
+    [data-testid="stExpander"] summary {
+        font-family: 'Outfit', sans-serif !important;
+        font-weight: 600 !important;
+        color: #CBD5E1 !important;
+        padding: 14px 18px !important;
+        transition: all 0.2s ease !important;
+    }
+    [data-testid="stExpander"] summary:hover {
+        color: #F1F5F9 !important;
+        background: rgba(16, 185, 129, 0.03) !important;
+    }
+    [data-testid="stExpander"][open] {
+        border-color: rgba(16, 185, 129, 0.12) !important;
+    }
+    [data-testid="stExpander"] svg {
+        color: #10B981 !important;
+    }
+
+    /* ═══════════════════════════════════════════ */
+    /*  SCROLLBAR                                 */
+    /* ═══════════════════════════════════════════ */
     ::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
+        width: 6px;
+        height: 6px;
     }
     ::-webkit-scrollbar-track {
-        background: #0D0F12;
+        background: transparent;
     }
     ::-webkit-scrollbar-thumb {
-        background: #1C232B;
-        border-radius: 4px;
+        background: rgba(16, 185, 129, 0.15);
+        border-radius: 3px;
     }
     ::-webkit-scrollbar-thumb:hover {
-        background: #2D3748;
+        background: rgba(16, 185, 129, 0.3);
+    }
+
+    /* ═══════════════════════════════════════════ */
+    /*  HERO HEADER                               */
+    /* ═══════════════════════════════════════════ */
+    .hero-header {
+        position: relative;
+        padding: 48px 0 40px;
+        text-align: center;
+        overflow: hidden;
+        animation: fadeInUp 0.5s ease-out;
+    }
+    .hero-header::before {
+        content: '';
+        position: absolute;
+        top: -80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 600px;
+        height: 400px;
+        background: radial-gradient(ellipse, rgba(16, 185, 129, 0.08) 0%, transparent 70%);
+        pointer-events: none;
+        z-index: 0;
+    }
+    .hero-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 36px;
+        position: relative;
+        z-index: 1;
+    }
+    .hero-logo {
+        font-family: 'Outfit', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #F1F5F9;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        letter-spacing: -0.02em;
+    }
+    .hero-logo-accent {
+        color: #10B981;
+    }
+    .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #10B981;
+        background: rgba(16, 185, 129, 0.08);
+        border: 1px solid rgba(16, 185, 129, 0.2);
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-family: 'JetBrains Mono', monospace;
+        letter-spacing: 0.02em;
+    }
+    .hero-badge-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #10B981;
+        animation: pulseGlow 2s ease-in-out infinite;
+    }
+    .hero-title {
+        font-family: 'Outfit', sans-serif;
+        font-size: 42px;
+        font-weight: 800;
+        color: #F8FAFC;
+        line-height: 1.15;
+        letter-spacing: -0.04em;
+        margin-bottom: 16px;
+        position: relative;
+        z-index: 1;
+    }
+    .hero-subtitle {
+        font-family: 'Outfit', sans-serif;
+        font-size: 16px;
+        color: #94A3B8;
+        line-height: 1.7;
+        max-width: 600px;
+        margin: 0 auto 28px;
+        position: relative;
+        z-index: 1;
+    }
+    .hero-actions {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        position: relative;
+        z-index: 1;
+    }
+    .hero-btn {
+        font-family: 'Outfit', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .hero-btn-primary {
+        background: #10B981;
+        color: #0A0D11;
+        border: none;
+    }
+    .hero-btn-primary:hover {
+        background: #059669;
+        transform: translateY(-1px);
+        box-shadow: 0 8px 24px rgba(16, 185, 129, 0.25);
+    }
+    .hero-btn-secondary {
+        background: transparent;
+        color: #CBD5E1;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .hero-btn-secondary:hover {
+        border-color: rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.03);
+        color: #F1F5F9;
+    }
+
+    /* ═══════════════════════════════════════════ */
+    /*  FOOTER                                    */
+    /* ═══════════════════════════════════════════ */
+    .footer-container {
+        text-align: center;
+        padding: 32px 0 24px;
+        animation: fadeInUp 0.4s ease-out;
+    }
+    .footer-divider {
+        height: 1px;
+        background: linear-gradient(90deg, transparent 0%, rgba(16, 185, 129, 0.15) 50%, transparent 100%);
+        margin-bottom: 28px;
+    }
+    .footer-brand {
+        font-family: 'Outfit', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #64748B;
+        margin-bottom: 8px;
+    }
+    .footer-brand span {
+        color: #10B981;
+    }
+    .footer-copy {
+        font-size: 12px;
+        color: #475569;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* ═══════════════════════════════════════════ */
+    /*  NOTIFICATION CARDS (Daily Updates)        */
+    /* ═══════════════════════════════════════════ */
+    .notif-card {
+        background: rgba(17, 21, 25, 0.7);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.04);
+        border-radius: 12px;
+        padding: 20px;
+        text-align: center;
+        transition: all 0.25s ease;
+        animation: fadeInUp 0.4s ease-out;
+    }
+    .notif-card:hover {
+        border-color: rgba(16, 185, 129, 0.1);
+    }
+    .notif-icon {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .notif-title {
+        font-family: 'Outfit', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #F8FAFC;
+        margin-bottom: 8px;
+    }
+    .notif-body {
+        font-size: 13px;
+        color: #94A3B8;
+        font-family: 'Outfit', sans-serif;
+        line-height: 1.5;
     }
     </style>
     """,
@@ -326,15 +684,21 @@ def inject_custom_css():
 # 2. UTILITY RENDER FUNCTIONS
 def render_status_card(title, text, type="neutral"):
     border_class = "status-neutral"
+    dot_color = "#64748B"
     if type == "success":
         border_class = "status-success"
+        dot_color = "#10B981"
     elif type == "alert":
         border_class = "status-alert"
+        dot_color = "#EF4444"
 
     card_html = f"""
     <div class="status-card {border_class}">
-        <div class="status-title">{title}</div>
-        <div class="status-body">{text}</div>
+        <div class="status-title" style="display: flex; align-items: center; gap: 8px; font-weight: 600;">
+            <span class="hero-badge-dot" style="background: {dot_color}; width: 6px; height: 6px; border-radius: 50%; display: inline-block;"></span>
+            {title}
+        </div>
+        <div class="status-body" style="margin-top: 8px; font-size: 13px; line-height: 1.5;">{text}</div>
     </div>
     """
     st.markdown(card_html, unsafe_allow_html=True)
@@ -476,29 +840,29 @@ def apply_plotly_theme(fig, title, y_label):
             "x": 0.5,
             "xanchor": "center",
             "yanchor": "top",
-            "font": {"family": "Outfit, sans-serif", "size": 18, "color": "#E2E8F0"},
+            "font": {"family": "Outfit, sans-serif", "size": 18, "color": "#F1F5F9"},
         },
-        paper_bgcolor="#0D0F12",
-        plot_bgcolor="#161A1F",
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
         font={"family": "Outfit, sans-serif", "color": "#94A3B8"},
         xaxis={
             "gridcolor": "rgba(255, 255, 255, 0.03)",
-            "linecolor": "rgba(255, 255, 255, 0.08)",
-            "zerolinecolor": "rgba(255, 255, 255, 0.08)",
-            "tickfont": {"family": "JetBrains Mono, monospace", "size": 11},
+            "linecolor": "rgba(255, 255, 255, 0.06)",
+            "zerolinecolor": "rgba(255, 255, 255, 0.06)",
+            "tickfont": {"family": "JetBrains Mono, monospace", "size": 11, "color": "#64748B"},
         },
         yaxis={
             "gridcolor": "rgba(255, 255, 255, 0.03)",
-            "linecolor": "rgba(255, 255, 255, 0.08)",
-            "zerolinecolor": "rgba(255, 255, 255, 0.08)",
+            "linecolor": "rgba(255, 255, 255, 0.06)",
+            "zerolinecolor": "rgba(255, 255, 255, 0.06)",
             "title": {"text": y_label, "font": {"size": 13, "color": "#94A3B8"}},
-            "tickfont": {"family": "JetBrains Mono, monospace", "size": 11},
+            "tickfont": {"family": "JetBrains Mono, monospace", "size": 11, "color": "#64748B"},
         },
         margin={"t": 60, "b": 40, "l": 50, "r": 20},
         hoverlabel={
-            "bgcolor": "#161A1F",
+            "bgcolor": "#111519",
             "font": {"family": "Outfit, sans-serif", "size": 12, "color": "#E2E8F0"},
-            "bordercolor": "rgba(255, 255, 255, 0.1)",
+            "bordercolor": "rgba(16, 185, 129, 0.2)",
         },
     )
     fig.update_traces(line={"color": "#10B981", "width": 2.5})
@@ -531,6 +895,25 @@ def fmt_decimal(value):
 
 # Inject visual styles
 inject_custom_css()
+
+# Branded Hero Header
+st.markdown(
+    """
+    <div class="hero-header">
+        <div class="hero-nav">
+            <div class="hero-logo"><span class="hero-logo-accent">⚡</span> NEO-B3 <span style="font-weight: 300; opacity: 0.8;">OBSIDIAN</span></div>
+            <div class="hero-badge"><span class="hero-badge-dot"></span> LIVE DATA TRACKING</div>
+        </div>
+        <div class="hero-title">Inteligência Financeira Premium</div>
+        <div class="hero-subtitle">Sua central definitiva de análise, valuation e métricas de mercado para ativos da B3. Alta performance com design de ponta.</div>
+        <div class="hero-actions">
+            <a class="hero-btn hero-btn-primary" href="#informacoes-das-acoes-listadas-na-b3">Começar Análise</a>
+            <a class="hero-btn hero-btn-secondary" href="https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3" target="_blank">Repositório GitHub</a>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 # Header - Global Indices, Currencies & Cryptos in a clean expander to avoid visual clutter
 with st.expander(
@@ -1011,13 +1394,28 @@ else:
         indicator_icon = "📉"
         desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#10B981">{abs(up_dw):.2f}% abaixo</span> (desconto) de seu valor justo calculado (usando constante {graham_constant:.1f}).'
 
+    margem_color = "#EF4444" if up_dw > 0 else "#10B981"
+    margem_prefix = "+" if up_dw <= 0 else ""
     st.markdown(
         f"""
     <div class="graham-card {card_class}">
         <div class="graham-title">{indicator_icon} Valuation de Graham (Constante {graham_constant:.1f})</div>
-        <div class="graham-text">Valor Justo Calculado: <span class="graham-highlight" style="font-size: 17px; color: #10B981">R$ {valor_jt:.2f}</span></div>
-        <div class="graham-text">Cotação Atual de Mercado: <span class="graham-highlight" style="font-size: 17px;">R$ {prc_f2:.2f}</span></div>
-        <div class="graham-text" style="margin-top: 12px; font-size: 15px;">{desc_text}</div>
+        <div class="graham-text" style="margin-bottom: 16px; font-size: 13.5px;">Cálculo clássico de Benjamin Graham de margem de segurança e valor intrínseco.</div>
+        <div class="graham-values-row">
+            <div class="graham-value-box">
+                <div class="graham-value-box-label">Valor Justo (V.J.)</div>
+                <div class="graham-value-box-number" style="color: #10B981">R$ {valor_jt:.2f}</div>
+            </div>
+            <div class="graham-value-box">
+                <div class="graham-value-box-label">Preço Atual</div>
+                <div class="graham-value-box-number" style="color: #E2E8F0">R$ {prc_f2:.2f}</div>
+            </div>
+            <div class="graham-value-box">
+                <div class="graham-value-box-label">Margem Relativa</div>
+                <div class="graham-value-box-number" style="color: {margem_color}">{margem_prefix}{up_dw:.2f}%</div>
+            </div>
+        </div>
+        <div class="graham-text" style="margin-top: 14px; font-size: 14px; color: #94A3B8;">{desc_text}</div>
     </div>
     """,
         unsafe_allow_html=True,
@@ -1399,7 +1797,23 @@ def render_ret_acum(file_path, label, days, col):
             pass
 
     if val is not None and not pd.isna(val):
-        render_metric_card(label, fmt_percent(val), col=col)
+        is_pos = val >= 0
+        color = "#10B981" if is_pos else "#EF4444"
+        arrow = "▲" if is_pos else "▼"
+        delta_class = "delta-positive" if is_pos else "delta-negative"
+        sign = "+" if is_pos else ""
+
+        card_html = f"""
+        <div class="metric-card" style="border-left: 3px solid {color};">
+            <div class="metric-label">{label} <span style="font-size: 10px; color: #64748B; font-family: 'Outfit', sans-serif;">(Histórico)</span></div>
+            <div class="metric-value" style="color: {color}; font-size: 24px; margin-top: 4px;">{sign}{val:.2f}%</div>
+            <div class="metric-delta {delta_class}" style="margin-top: 8px;">{arrow} {abs(val):.2f}%</div>
+        </div>
+        """
+        if col is not None:
+            col.markdown(card_html, unsafe_allow_html=True)
+        else:
+            st.markdown(card_html, unsafe_allow_html=True)
     else:
         render_metric_card(label, "N/A", col=col)
 
@@ -1471,10 +1885,13 @@ with col_att3:
         render_status_card("Status", "Erro ao carregar releases", type="alert")
 
 # Footer
-st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 st.markdown(
-    "<div style='text-align: center; color: #94A3B8; font-size: 13px; font-family: Outfit; padding-bottom: 20px;'>"
-    "⚡ Plataforma integrada com dados B3 | Desenvolvido no tema <b>Neo-B3 Obsidian</b> para melhor legibilidade"
-    "</div>",
+    """
+    <div class="footer-container">
+        <div class="footer-divider"></div>
+        <div class="footer-brand">⚡ NEO-B3 <span>OBSIDIAN</span> | Plataforma Analítica Premium</div>
+        <div class="footer-copy">© 2026 Lucas Alves. Dados integrados e estruturados com APIs B3 e Scrapers de alta integridade.</div>
+    </div>
+    """,
     unsafe_allow_html=True,
 )
