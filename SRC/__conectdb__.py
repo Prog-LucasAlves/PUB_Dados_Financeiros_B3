@@ -1,75 +1,52 @@
-import os
+from b3_database.connection import DatabaseConnectionManager
 
-import dotenv
-import psycopg2
-
-dotenv.load_dotenv(dotenv.find_dotenv())
-
-# Conexão com o banco de dados (SELECT / INSERT / DELETE)
+# Conexão com o banco de dados otimizada via Connection Pool (SELECT / INSERT / DELETE)
 
 
 def conexao():
     """
-    Função que tem o objetivo de de fazer a conexão com o banco de dados
+    Função legada que obtém uma conexão do pool.
+    Recomenda-se utilizar o context manager DatabaseConnectionManager.get_connection().
     """
-    con = psycopg2.connect(
-        user=os.getenv("POSTGRES_USER"),
-        password=os.getenv("POSTGRES_PASSWORD"),
-        database=os.getenv("POSTGRES_DB"),
-        host="localhost",
-    )
-
-    return con
+    return DatabaseConnectionManager.get_pool().getconn()
 
 
 def in_dados(query):
     """
-    Função que tem o objetivo de realizar - INSERT / DELETE no banco de dados
+    Função que realiza - INSERT / DELETE no banco de dados usando conexão segura do pool
     """
-    vcon = conexao()
-    c = vcon.cursor()
-    c.execute(query)
-    vcon.commit()
-    vcon.close()
+    with DatabaseConnectionManager.get_connection() as conn:
+        with conn.cursor() as cursor:
+            cursor.execute(query)
 
 
 def se_dados(query):
     """
-    Função que tem o objetivo de realizar - SELECT no banco de dados
+    Função que realiza - SELECT no banco de dados usando conexão segura do pool
     """
-    vcon = conexao()
-    c = vcon.cursor()
-    c.execute(query)
-    rows = c.fetchall()
-    vcon.commit()
-    vcon.close()
-    return rows
+    with DatabaseConnectionManager.get_connection() as conn:
+        with conn.cursor() as cursor:
+            cursor.execute(query)
+            return cursor.fetchall()
 
 
 def bk(query, file):
     """
-    Função que tem o objetivo de realizar um backup do banco de dados
+    Função que realiza um backup do banco de dados usando conexão segura do pool
     """
-    vcon = conexao()
-    c = vcon.cursor()
-    c.copy_expert(query, file)
+    with DatabaseConnectionManager.get_connection() as conn:
+        with conn.cursor() as cursor:
+            cursor.copy_expert(query, file)
 
 
 def verifica_conexao():
     """
-    Função que tem o objetivo de verificar se
-    conexão com o banco de dados foi realizada com sucesso
+    Função que verifica se a conexão com o banco de dados está operacional
     """
     try:
-        con = psycopg2.connect(
-            user=os.getenv("POSTGRES_USER"),
-            password=os.getenv("POSTGRES_PASSWORD"),
-            database=os.getenv("POSTGRES_DB"),
-            host="localhost",
-        )
-        return con, True
-
-    except psycopg2.Error:
+        with DatabaseConnectionManager.get_connection() as conn:
+            return conn, True
+    except Exception:
         return False
 
 

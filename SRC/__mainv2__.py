@@ -1,5 +1,3 @@
-# This Python file uses the following encoding: utf-8
-
 """
 Author: Lucas Alves
 Linkedin: https://www.linkedin.com/in/lucasalves-ast/
@@ -7,13 +5,14 @@ Linkedin: https://www.linkedin.com/in/lucasalves-ast/
 
 # TODO #4 Atualizar python 3.9.5 -> 3.10.2 - Realizado
 
+import asyncio
 import time
 from datetime import date, timedelta
 
 # Importar bibliotecas
 import backoff
+import httpx
 import pandas as pd
-import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
@@ -24,6 +23,7 @@ import __check_semana__
 import __conectdb__
 import __list__
 import __query__
+from b3_models.stock import B3StockData
 
 # Cores utilizada no script
 RED = "\033[1;31m"
@@ -34,7 +34,38 @@ YELLOW = "\033[1;33m"
 BLUE = "\033[1;34m"
 GRAY = "\033[1;35m"
 
-#####
+
+async def fetch_all_html(tickers: list[str]) -> dict[str, str]:
+    sem = asyncio.Semaphore(
+        15
+    )  # Limita a 15 requisições paralelas para evitar bloqueios
+    results = {}
+
+    async def worker(ticker: str, client: httpx.AsyncClient):
+        async with sem:
+            url = f"https://fundamentus.com.br/detalhes.php?papel={ticker}"
+            headers = {"user-agent": "Mozilla/5.0"}
+            for attempt in range(3):
+                try:
+                    response = await client.get(url, headers=headers, timeout=10.0)
+                    if response.status_code == 200:
+                        results[ticker] = response.text
+                        return
+                except Exception:
+                    await asyncio.sleep(1.0 * (attempt + 1))
+            results[ticker] = ""
+
+    async with httpx.AsyncClient() as client:
+        tasks = [worker(t, client) for t in tickers]
+        # tqdm interativo com asyncio
+        for f in tqdm(
+            asyncio.as_completed(tasks),
+            total=len(tasks),
+            desc="Baixando dados Fundamentus",
+        ):
+            await f
+
+    return results
 
 
 @backoff.on_exception(backoff.expo, (), max_tries=10)
@@ -134,34 +165,44 @@ def dados():
             # Variável contador
             n = 0
 
-            # Percorre a lista com os códigos das ações
-            for i in tqdm(acao):
+            # Filtra quais ações precisam de download
+            acao_para_baixar = []
+            for i in acao:
+                query_consult_bd = f" SELECT data_dado_inserido, papel\
+                                            FROM dados \
+                                                WHERE data_ult_cotacao = '{dt}' \
+                                                    AND papel = '{i}' "
+                result = __conectdb__.se_dados(query_consult_bd)
+                if result != []:
+                    print(f"+{YELLOW} Dados da ação: {i}, já cadastrados {RESET}+")
+                else:
+                    acao_para_baixar.append(i)
+
+            html_results = {}
+            if acao_para_baixar:
+                print(
+                    f"Iniciando download concorrente para {len(acao_para_baixar)} ações..."
+                )
+                html_results = asyncio.run(fetch_all_html(acao_para_baixar))
+
+            # Percorre a lista com os códigos das ações baixadas
+            for i in acao_para_baixar:
                 try:
-                    # Consulta no banco de dados para verificar se os dados
-                    # já se encontram no mesmo (Ref.: data_ult_cotacao / papel)
-                    query_consult_bd = f" SELECT data_dado_inserido, papel\
-                                                FROM dados \
-                                                    WHERE data_ult_cotacao = '{dt}' \
-                                                        AND papel = '{i}' "
-                    result = __conectdb__.se_dados(query_consult_bd)
-                    # --- #
+                    html_content = html_results.get(i, "")
+                    if not html_content:
+                        print(f"+{RED} Dados da ação: {i}, falha no download {RESET}+")
+                        continue
 
-                    if result != []:
-                        print(f"+{YELLOW} Dados da ação: {i}, já cadastrados {RESET}+")
+                    # Aqui começa o script para coleta dos dados
+                    soup = BeautifulSoup(html_content, "html.parser")
+                    soup1 = BeautifulSoup(html_content, "html.parser")
 
-                    else:
-                        # Aqui começa o script para coleta dos dados
-                        hearder = {"user-agent": "Mozilla/5.0"}
-                        url = f"https://fundamentus.com.br/detalhes.php?papel={i}"
-                        page = requests.get(url, headers=hearder)
-                        soup = BeautifulSoup(page.content, "html.parser")
-                        soup1 = BeautifulSoup(page.text, "html.parser")
+                    # Verificando o h1 do site
+                    # Para verificar se o Ticker(Ação) tem os dados no site
+                    hearder_site = str(soup1.h1)
 
-                        # Verificando o h1 do site
-                        # Para verificar se o Ticker(Ação) tem os dados no site
-                        hearder_site = str(soup1.h1)
-
-                        if hearder_site == "None":
+                    if hearder_site == "None":
+                        if True:
                             dados = soup.find_all("div", {"class": "conteudo clearfix"})
 
                             # cria a lista das variaveis aonde seram armazenados os dados coletados
@@ -659,74 +700,180 @@ def dados():
                                         else:
                                             lucro_liquido_3m.append(0)
 
-                                    # Query para inserir os dados coletados no banco de dados Postgres
-                                    query_insert_bd = f" INSERT INTO dados VALUES ( '{dt}','{papel[1]}\
-                                ','{tipo[1]}','{empresa[1]}','{setor[1]}','{cotacao[1]}','\
-                                {dt_ult_cotacao[1]}','{min_52_sem[1]}','{max_52_sem[1]}','\
-                                {vol_med[1]}','{valor_mercado[1]}','{valor_firma[1]}','\
-                                {ult_balanco_pro[1]}','{nr_acoes[1]}','{os_dia[1]}','\
-                                {pl[1]}','{lpa[1]}','{pvp[1]}','{vpa[1]}','{p_ebit[1]}','\
-                                {marg_bruta[1]}','{psr[1]}','{marg_ebit[1]}','{p_ativo[1]}','\
-                                {marg_liquida[1]}','{p_cap_giro[1]}','{ebit_ativo[1]}','\
-                                {p_ativo_circ_liq[1]}','{roic[1]}','{div_yield[1]}','\
-                                {roe[1]}','{ev_ebitda[1]}','{liquidez_corr[1]}','{ev_ebit[1]}','\
-                                {cres_rec[1]}','{ativo[1]}','{disponibilidades[1]}','\
-                                {ativo_circulante[1]}','{divd_bruta[1]}','{divd_liquida[1]}','\
-                                {patr_liquido[1]}','{lucro_liquido_12m[1]}','{lucro_liquido_3m[1]}' ) "
+                                    # Validando e higienizando os dados usando o modelo Pydantic
+                                    raw_data = {
+                                        "papel": papel[1] if len(papel) > 1 else "",
+                                        "tipo": tipo[1] if len(tipo) > 1 else "",
+                                        "empresa": empresa[1]
+                                        if len(empresa) > 1
+                                        else "",
+                                        "setor": setor[1] if len(setor) > 1 else "",
+                                        "cotacao": cotacao[1]
+                                        if len(cotacao) > 1
+                                        else 0.0,
+                                        "dt_ult_cotacao": dt_ult_cotacao[1]
+                                        if len(dt_ult_cotacao) > 1
+                                        else "",
+                                        "min_52_sem": min_52_sem[1]
+                                        if len(min_52_sem) > 1
+                                        else 0.0,
+                                        "max_52_sem": max_52_sem[1]
+                                        if len(max_52_sem) > 1
+                                        else 0.0,
+                                        "vol_med": vol_med[1]
+                                        if len(vol_med) > 1
+                                        else 0.0,
+                                        "valor_mercado": valor_mercado[1]
+                                        if len(valor_mercado) > 1
+                                        else 0.0,
+                                        "valor_firma": valor_firma[1]
+                                        if len(valor_firma) > 1
+                                        else 0.0,
+                                        "ult_balanco_pro": ult_balanco_pro[1]
+                                        if len(ult_balanco_pro) > 1
+                                        else "",
+                                        "nr_acoes": nr_acoes[1]
+                                        if len(nr_acoes) > 1
+                                        else 0,
+                                        "os_dia": os_dia[1] if len(os_dia) > 1 else 0.0,
+                                        "pl": pl[1] if len(pl) > 1 else 0.0,
+                                        "lpa": lpa[1] if len(lpa) > 1 else 0.0,
+                                        "pvp": pvp[1] if len(pvp) > 1 else 0.0,
+                                        "vpa": vpa[1] if len(vpa) > 1 else 0.0,
+                                        "p_ebit": p_ebit[1] if len(p_ebit) > 1 else 0.0,
+                                        "marg_bruta": marg_bruta[1]
+                                        if len(marg_bruta) > 1
+                                        else 0.0,
+                                        "psr": psr[1] if len(psr) > 1 else 0.0,
+                                        "marg_ebit": marg_ebit[1]
+                                        if len(marg_ebit) > 1
+                                        else 0.0,
+                                        "p_ativo": p_ativo[1]
+                                        if len(p_ativo) > 1
+                                        else 0.0,
+                                        "marg_liquida": marg_liquida[1]
+                                        if len(marg_liquida) > 1
+                                        else 0.0,
+                                        "p_cap_giro": p_cap_giro[1]
+                                        if len(p_cap_giro) > 1
+                                        else 0.0,
+                                        "ebit_ativo": ebit_ativo[1]
+                                        if len(ebit_ativo) > 1
+                                        else 0.0,
+                                        "p_ativo_circ_liq": p_ativo_circ_liq[1]
+                                        if len(p_ativo_circ_liq) > 1
+                                        else 0.0,
+                                        "roic": roic[1] if len(roic) > 1 else 0.0,
+                                        "div_yield": div_yield[1]
+                                        if len(div_yield) > 1
+                                        else 0.0,
+                                        "roe": roe[1] if len(roe) > 1 else 0.0,
+                                        "ev_ebitda": ev_ebitda[1]
+                                        if len(ev_ebitda) > 1
+                                        else 0.0,
+                                        "liquidez_corr": liquidez_corr[1]
+                                        if len(liquidez_corr) > 1
+                                        else 0.0,
+                                        "ev_ebit": ev_ebit[1]
+                                        if len(ev_ebit) > 1
+                                        else 0.0,
+                                        "cres_rec": cres_rec[1]
+                                        if len(cres_rec) > 1
+                                        else 0.0,
+                                        "ativo": ativo[1] if len(ativo) > 1 else 0.0,
+                                        "disponibilidades": disponibilidades[1]
+                                        if len(disponibilidades) > 1
+                                        else 0.0,
+                                        "ativo_circulante": ativo_circulante[1]
+                                        if len(ativo_circulante) > 1
+                                        else 0.0,
+                                        "divd_bruta": divd_bruta[1]
+                                        if len(divd_bruta) > 1
+                                        else 0.0,
+                                        "divd_liquida": divd_liquida[1]
+                                        if len(divd_liquida) > 1
+                                        else 0.0,
+                                        "patr_liquido": patr_liquido[1]
+                                        if len(patr_liquido) > 1
+                                        else 0.0,
+                                        "lucro_liquido_12m": lucro_liquido_12m[1]
+                                        if len(lucro_liquido_12m) > 1
+                                        else 0.0,
+                                        "lucro_liquido_3m": lucro_liquido_3m[1]
+                                        if len(lucro_liquido_3m) > 1
+                                        else 0.0,
+                                    }
 
-                                    # Inserindo os dados coletados no banco de dados Postgres
+                                    validated_stock = B3StockData(**raw_data)
+
+                                    # Query para inserir os dados higienizados no banco de dados Postgres
+                                    query_insert_bd = f" INSERT INTO dados VALUES ( '{dt}','{validated_stock.papel}\
+                                ','{validated_stock.tipo}','{validated_stock.empresa}','{validated_stock.setor}','{validated_stock.cotacao}','\
+                                {validated_stock.dt_ult_cotacao}','{validated_stock.min_52_sem}','{validated_stock.max_52_sem}','\
+                                {validated_stock.vol_med}','{validated_stock.valor_mercado}','{validated_stock.valor_firma}','\
+                                {validated_stock.ult_balanco_pro}','{validated_stock.nr_acoes}','{validated_stock.os_dia}','\
+                                {validated_stock.pl}','{validated_stock.lpa}','{validated_stock.pvp}','{validated_stock.vpa}','{validated_stock.p_ebit}','\
+                                {validated_stock.marg_bruta}','{validated_stock.psr}','{validated_stock.marg_ebit}','{validated_stock.p_ativo}','\
+                                {validated_stock.marg_liquida}','{validated_stock.p_cap_giro}','{validated_stock.ebit_ativo}','\
+                                {validated_stock.p_ativo_circ_liq}','{validated_stock.roic}','{validated_stock.div_yield}','\
+                                {validated_stock.roe}','{validated_stock.ev_ebitda}','{validated_stock.liquidez_corr}','{validated_stock.ev_ebit}','\
+                                {validated_stock.cres_rec}','{validated_stock.ativo}','{validated_stock.disponibilidades}','\
+                                {validated_stock.ativo_circulante}','{validated_stock.divd_bruta}','{validated_stock.divd_liquida}','\
+                                {validated_stock.patr_liquido}','{validated_stock.lucro_liquido_12m}','{validated_stock.lucro_liquido_3m}' ) "
+
+                                    # Inserindo os dados higienizados no banco de dados Postgres
                                     __conectdb__.in_dados(query_insert_bd)
 
                                     print(
-                                        f"+{GREEN} Dados da ação: {i}, gravados com sucesso {RESET}+"
+                                        f"+{GREEN} Dados da ação: {i}, gravados e validados com sucesso {RESET}+"
                                     )
                                     # --- #
                                     n += 1
 
                             # Dados atual - Salvando os dados atuais no Dataframe
                             dados_atual.loc[dados_atual.shape[0]] = [
-                                papel[1],
-                                tipo[1],
-                                empresa[1],
-                                setor[1],
-                                cotacao[1],
-                                dt_ult_cotacao[1],
-                                min_52_sem[1],
-                                max_52_sem[1],
-                                vol_med[1],
-                                valor_mercado[1],
-                                valor_firma[1],
-                                ult_balanco_pro[1],
-                                nr_acoes[1],
-                                os_dia[1],
-                                pl[1],
-                                lpa[1],
-                                pvp[1],
-                                vpa[1],
-                                p_ebit[1],
-                                marg_bruta[1],
-                                psr[1],
-                                marg_ebit[1],
-                                p_ativo[1],
-                                marg_liquida[1],
-                                p_cap_giro[1],
-                                ebit_ativo[1],
-                                p_ativo_circ_liq[1],
-                                roic[1],
-                                div_yield[1],
-                                roe[1],
-                                ev_ebitda[1],
-                                liquidez_corr[1],
-                                ev_ebit[1],
-                                cres_rec[1],
-                                ativo[1],
-                                disponibilidades[1],
-                                ativo_circulante[1],
-                                divd_bruta[1],
-                                divd_liquida[1],
-                                patr_liquido[1],
-                                lucro_liquido_12m[1],
-                                lucro_liquido_3m[1],
+                                validated_stock.papel,
+                                validated_stock.tipo,
+                                validated_stock.empresa,
+                                validated_stock.setor,
+                                validated_stock.cotacao,
+                                validated_stock.dt_ult_cotacao,
+                                validated_stock.min_52_sem,
+                                validated_stock.max_52_sem,
+                                validated_stock.vol_med,
+                                validated_stock.valor_mercado,
+                                validated_stock.valor_firma,
+                                validated_stock.ult_balanco_pro,
+                                validated_stock.nr_acoes,
+                                validated_stock.os_dia,
+                                validated_stock.pl,
+                                validated_stock.lpa,
+                                validated_stock.pvp,
+                                validated_stock.vpa,
+                                validated_stock.p_ebit,
+                                validated_stock.marg_bruta,
+                                validated_stock.psr,
+                                validated_stock.marg_ebit,
+                                validated_stock.p_ativo,
+                                validated_stock.marg_liquida,
+                                validated_stock.p_cap_giro,
+                                validated_stock.ebit_ativo,
+                                validated_stock.p_ativo_circ_liq,
+                                validated_stock.roic,
+                                validated_stock.div_yield,
+                                validated_stock.roe,
+                                validated_stock.ev_ebitda,
+                                validated_stock.liquidez_corr,
+                                validated_stock.ev_ebit,
+                                validated_stock.cres_rec,
+                                validated_stock.ativo,
+                                validated_stock.disponibilidades,
+                                validated_stock.ativo_circulante,
+                                validated_stock.divd_bruta,
+                                validated_stock.divd_liquida,
+                                validated_stock.patr_liquido,
+                                validated_stock.lucro_liquido_12m,
+                                validated_stock.lucro_liquido_3m,
                             ]
 
                             # Dados atual - Salvando os dados atuais em um arquivo .csv
@@ -762,11 +909,7 @@ def dados():
             # Fim
             print(f"{RED}-----------------{RESET}")
             print(f"{BLUE}Finalizou. {n} Empresa(s) Cadastrada(s)")
-            print(
-                "Tempo: {:0>2}:{:0>2}:{:05.2f}".format(
-                    int(hours), int(minutes), seconds
-                )
-            )
+            print(f"Tempo: {int(hours):0>2}:{int(minutes):0>2}:{seconds:05.2f}")
             print(f"{RESET}{RED}-----------------{RESET}")
 
 

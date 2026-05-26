@@ -8,11 +8,13 @@ dependencies = [
     "backoff>=2.2.1",
     "beautifulsoup4>=4.13.4",
     "fastparquet>=2024.11.0",
+    "httpx>=0.28.1",
     "jupyter>=1.1.1",
     "pandas>=2.3.2",
     "plotly>=6.7.0",
     "psycopg2>=2.9.10",
     "pyarrow>=21.0.0",
+    "pydantic>=2.13.4",
     "python-dotenv>=1.1.1",
     "quantstats>=0.0.76",
     "requests>=2.32.5",
@@ -24,4 +26,29 @@ dependencies = [
 [dependency-groups]
 dev = [
     "pre-commit>=4.3.0",
+    "ruff>=0.9.0",
+    "mypy>=1.14.0",
+    "pytest>=9.0.3",
 ]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = []
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+ignore_missing_imports = true
+strict = false
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+pythonpath = ["SRC"]

@@ -279,7 +279,7 @@ lst_acao = [
     "NORD3",
     "NUTR3",
     "OBTC3",
-    "ODPV3",
+    # "ODPV3",
     "OFSA3",
     "OIBR3",
     "OIBR4",

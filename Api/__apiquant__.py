@@ -8,9 +8,10 @@ Local: pasta(histórico)
 """
 
 # Bibliotecas utilizadas
+import warnings
+
 import quantstats as qs
 from tqdm import tqdm
-import warnings
 
 # Lista com o nome das ações
 import __list__

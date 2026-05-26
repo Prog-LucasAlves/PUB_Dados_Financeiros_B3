@@ -9,17 +9,15 @@ Local: pasta(precos)
 """
 
 import logging
-from datetime import date
-from datetime import timedelta
+import warnings
+from datetime import date, timedelta
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 # Bibliotecas utilizadas
 import yfinance as yf
 from tqdm import tqdm
-
-import warnings
 
 # Lista com o nome das ações
 import __list__
