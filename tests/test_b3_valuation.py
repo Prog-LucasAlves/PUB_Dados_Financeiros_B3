@@ -194,7 +194,7 @@ def test_run_automatic_weekly_report_mocked(tmp_path, monkeypatch):
 
     # Define mock database values
     mock_max_date = datetime.date(2026, 5, 26)
-    
+
     # 1st fetchall: sector list of stocks for latest date
     # papel, empresa, setor, cotacao, vpa, lpa, pl, pvp, div_yield, roe, roic
     mock_stocks = [
@@ -254,7 +254,7 @@ def test_run_automatic_weekly_report_mocked(tmp_path, monkeypatch):
     # VALE3 graham valuation: sqrt(22.5 * 15.30 * 8.20) = sqrt(2823.3) = 53.13 (vs 62.15 market price, safety is -17%)
     # VALE3 has the highest margin of safety (-17% vs -142%), so it's chosen!
     assert res["ticker"] == "VALE3"
-    
+
     local_report = tmp_path / "relatorio_vale3.html"
     assert local_report.exists()
     assert (tmp_path / "images" / "history_vale3.png").exists()

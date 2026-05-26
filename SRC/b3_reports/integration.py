@@ -1,6 +1,5 @@
 import math
 import pandas as pd
-import pathlib
 from b3_database.connection import DatabaseConnectionManager
 from b3_reports.dispatch import build_and_dispatch_report
 
@@ -13,18 +12,18 @@ def run_automatic_weekly_report(default_ticker: str = "WEGE3") -> dict:
     4. Aciona a geração de gráficos, template HTML e envio de e-mail / salvamento local.
     """
     print("\n[INICIANDO] Inicia processo de integração automática de relatórios...")
-    
+
     try:
         # 1. Conecta e busca a data mais recente disponível no banco
         with DatabaseConnectionManager.get_connection() as conn:
             with conn.cursor() as cursor:
                 cursor.execute("SELECT MAX(data_dado_inserido) FROM dados")
                 max_date = cursor.fetchone()[0]
-                
+
                 if not max_date:
                     print("[ERRO] Tabela 'dados' está vazia. Não é possível gerar relatórios.")
                     return {"status": "error", "message": "Database empty"}
-                
+
                 print(f"[INFO] Última importação detectada em: {max_date}")
 
                 # Busca todas as ações dessa última data para encontrar a com maior margem de segurança de Graham
@@ -35,15 +34,15 @@ def run_automatic_weekly_report(default_ticker: str = "WEGE3") -> dict:
                 """
                 cursor.execute(query_stocks, (max_date,))
                 rows = cursor.fetchall()
-                
+
                 if not rows:
                     print(f"[ERRO] Nenhuma ação encontrada para a data {max_date}.")
                     return {"status": "error", "message": "No stocks found for date"}
-                
+
                 # Monta dataframe para facilitar processamento de correlação e busca
                 cols = ["papel", "empresa", "setor", "cotacao", "vpa", "lpa", "pl", "pvp", "div_yield", "roe", "roic"]
                 df = pd.DataFrame(rows, columns=cols)
-                
+
                 # Limpa e filtra para correlação setorial
                 df_corr_input = df[["pl", "pvp", "div_yield", "roe", "roic"]].dropna()
                 if len(df_corr_input) > 1:
@@ -55,7 +54,7 @@ def run_automatic_weekly_report(default_ticker: str = "WEGE3") -> dict:
                         columns=["P/L", "P/VP", "DY"],
                         index=["P/L", "P/VP", "DY"]
                     )
-                
+
                 # Filtra apenas ações viáveis para cálculo de Graham (VPA > 0 e LPA > 0)
                 viable_stocks = []
                 for _, row in df.iterrows():
@@ -63,7 +62,7 @@ def run_automatic_weekly_report(default_ticker: str = "WEGE3") -> dict:
                     vpa_f = float(row["vpa"])
                     lpa_f = float(row["lpa"])
                     cot = float(row["cotacao"])
-                    
+
                     if vpa_f > 0 and lpa_f > 0 and cot > 0:
                         graham_val = math.sqrt(22.5 * vpa_f * lpa_f)
                         safety = ((graham_val - cot) / graham_val) * 100
@@ -80,7 +79,7 @@ def run_automatic_weekly_report(default_ticker: str = "WEGE3") -> dict:
                             "roe": float(row["roe"]),
                             "roic": float(row["roic"])
                         })
-                
+
                 # Escolhe o ticker alvo: o com maior margem de segurança positiva, ou default_ticker
                 target = None
                 if viable_stocks:
@@ -90,7 +89,7 @@ def run_automatic_weekly_report(default_ticker: str = "WEGE3") -> dict:
                     if viable_stocks[0]["safety"] > 0:
                         target = viable_stocks[0]
                         print(f"[VALUATION] Selecionado {target['papel']} devido à maior Margem de Segurança Graham ({target['safety']:.2f}%)")
-                
+
                 # Se não encontrou ativo viável com margem de segurança positiva, busca o default_ticker
                 if not target:
                     default_rows = df[df["papel"].str.strip() == default_ticker]
@@ -113,7 +112,7 @@ def run_automatic_weekly_report(default_ticker: str = "WEGE3") -> dict:
                             "roic": float(row["roic"])
                         }
                         print(f"[VALUATION] Utilizando ticker padrão: {default_ticker}")
-                
+
                 # Fallback extremo caso o banco de dados esteja com dados incoerentes
                 if not target:
                     if viable_stocks:
@@ -131,13 +130,13 @@ def run_automatic_weekly_report(default_ticker: str = "WEGE3") -> dict:
                 """
                 cursor.execute(query_history, (target["papel"],))
                 hist_rows = cursor.fetchall()
-                
+
                 dates = []
                 prices = []
                 for h_row in hist_rows:
                     dates.append(h_row[0].strftime("%d/%m/%Y") if hasattr(h_row[0], "strftime") else str(h_row[0]))
                     prices.append(float(h_row[1]))
-                
+
                 # Caso haja apenas um ponto no histórico, simula uma variação pequena para visualização de linha elegante
                 if len(prices) == 1:
                     p = prices[0]
@@ -152,7 +151,7 @@ def run_automatic_weekly_report(default_ticker: str = "WEGE3") -> dict:
                     "roe": target["roe"],
                     "roic": target["roic"]
                 }
-                
+
                 result = build_and_dispatch_report(
                     ticker=target["papel"],
                     stock_name=target["empresa"],
@@ -164,10 +163,10 @@ def run_automatic_weekly_report(default_ticker: str = "WEGE3") -> dict:
                     prices=prices,
                     correlations_df=correlations_df
                 )
-                
+
                 print(f"[CONCLUÍDO] Integração finalizada com sucesso para {target['papel']}!")
                 return {"status": "success", "ticker": target["papel"], "details": result}
-                
+
     except Exception as ex:
         print(f"[ERRO INTEGRACAO] Falha catastrófica ao processar relatório integrado: {str(ex)}")
         return {"status": "error", "message": str(ex)}

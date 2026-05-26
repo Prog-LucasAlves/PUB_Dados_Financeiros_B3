@@ -62,15 +62,15 @@ def generate_email_html(
     <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color: #0D0F12; padding: 20px 0;">
         <tr>
             <td align="center">
-                
+
                 <!-- Main Container (680px width for premium display) -->
                 <table width="680" border="0" cellpadding="0" cellspacing="0" style="background-color: #161A1F; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-                    
+
                     <!-- Header with Gradient Line -->
                     <tr>
                         <td height="4" style="background: linear-gradient(90deg, #00E676 0%, #00B0FF 100%);"></td>
                     </tr>
-                    
+
                     <!-- Header Content -->
                     <tr>
                         <td style="padding: 40px 40px 20px 40px;">
@@ -88,7 +88,7 @@ def generate_email_html(
                             </table>
                         </td>
                     </tr>
-                    
+
                     <!-- Separator -->
                     <tr>
                         <td style="padding: 0 40px;">
@@ -207,7 +207,7 @@ def generate_email_html(
                     </tr>
 
                 </table>
-                
+
             </td>
         </tr>
     </table>
