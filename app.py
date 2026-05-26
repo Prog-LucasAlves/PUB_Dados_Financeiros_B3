@@ -1122,6 +1122,155 @@ def get_stock_data_val(column_name):
             return None
 
 
+# --- PRE-LOAD STOCK PRICES & HISTORICAL METRICS ---
+precos_path = f"./Api/precos/{col1_selection}.csv"
+prices_loaded = False
+is_contingency = False
+precos_df_clean = None
+
+# Tenta carregar o arquivo CSV real
+if os.path.exists(precos_path) and os.path.getsize(precos_path) > 200:
+    try:
+        precos_df = load_stock_prices(precos_path)
+        if precos_df is not None and not precos_df.empty and len(precos_df) > 5:
+            # Renomeia Close ou Adj Close para o nome do ticker de forma robusta
+            if "Close" in precos_df.columns:
+                precos_df_ad = precos_df.rename(columns={"Close": f"{col1_selection}"})
+            elif "Adj Close" in precos_df.columns:
+                precos_df_ad = precos_df.rename(
+                    columns={"Adj Close": f"{col1_selection}"}
+                )
+            else:
+                numeric_cols = [c for c in precos_df.columns if c != "Date"]
+                if numeric_cols:
+                    precos_df_ad = precos_df.rename(
+                        columns={numeric_cols[0]: f"{col1_selection}"}
+                    )
+                else:
+                    precos_df_ad = precos_df.copy()
+
+            precos_df_clean = precos_df_ad.copy()
+            prices_loaded = True
+    except Exception:
+        pass
+
+# Fallback: Se o download do YFinance falhou ou está sem dados, gera histórico resiliente a partir do BD
+if not prices_loaded:
+    try:
+        is_contingency = True
+        val_raw = get_stock_data_val("cotacao")
+        price_val = 10.0  # Default seguro
+
+        if val_raw is not None and pd.notna(val_raw) and val_raw != "":
+            # Remove R$, espaços e converte vírgula para ponto
+            clean_val = (
+                str(val_raw).replace("R$", "").replace(" ", "").replace(",", ".")
+            )
+            try:
+                price_val = float(clean_val)
+            except ValueError:
+                pass
+
+        # Gera série temporal simulada de 90 dias com passeio aleatório (ruído de baixa volatilidade)
+        import numpy as np
+
+        np.random.seed(42)
+        dates_sim = [
+            (datetime.today() - timedelta(days=i)).strftime("%Y-%m-%d")
+            for i in range(90, -1, -1)
+        ]
+
+        # Passeio aleatório simulado
+        prices_sim = [price_val]
+        for _ in range(90):
+            change = np.random.normal(0.0002, 0.015)
+            prices_sim.append(prices_sim[-1] * (1 + change))
+
+        precos_df_clean = pd.DataFrame(
+            {"Date": dates_sim, f"{col1_selection}": prices_sim}
+        )
+        prices_loaded = True
+    except Exception:
+        pass
+
+# Garante cálculo de todas as métricas necessárias para gráficos futuros
+if prices_loaded and precos_df_clean is not None:
+    try:
+        import numpy as np
+        precos_df_clean["ret"] = round(
+            (precos_df_clean[f"{col1_selection}"].pct_change()) * 100, 2
+        )
+        precos_df_clean["tret"] = precos_df_clean["ret"].cumsum()
+        precos_df_clean["Returns"] = precos_df_clean[f"{col1_selection}"].pct_change(1)
+        precos_df_clean["Target"] = precos_df_clean["Returns"].shift(-1)
+        precos_df_clean["Vol"] = np.round(
+            precos_df_clean["Returns"].rolling(20).std() * np.sqrt(252), 4
+        )
+        precos_df_clean["MM20"] = (
+            precos_df_clean[f"{col1_selection}"].rolling(20).mean()
+        )
+        precos_df_clean["Detrend"] = (
+            precos_df_clean[f"{col1_selection}"] - precos_df_clean["MM20"]
+        )
+    except Exception:
+        pass
+
+# --- RENDER ACCUMULATED RETURNS ABOVE TABS AS REQUESTED ---
+st.markdown('<div class="custom-hr" style="margin: 1.5rem 0;"></div>', unsafe_allow_html=True)
+st.markdown(
+    '<h3 class="stSubheader" style="margin-top: 0 !important;">🎯 Retornos Acumulados da Ação</h3>',
+    unsafe_allow_html=True,
+)
+col_ret1, col_ret2, col_ret3, col_ret4 = st.columns(4)
+
+def render_ret_acum(file_path, label, days, col):
+    val = None
+    if os.path.exists(file_path):
+        try:
+            ret_df = pd.read_csv(file_path, sep=";")
+            ret_filtered = ret_df[ret_df["Papel"] == col1_selection]
+            if not ret_filtered.empty:
+                idx = int(ret_filtered["Unnamed: 0"].iloc[0])
+                val = ret_filtered["Total_Acumulado"].loc[idx]
+        except Exception:
+            pass
+
+    # Fallback: calcula em tempo real a partir de precos_df_clean se ausente nos arquivos estáticos
+    if val is None or pd.isna(val):
+        try:
+            if precos_df_clean is not None and not precos_df_clean.empty:
+                prices_series = precos_df_clean[f"{col1_selection}"].astype(float)
+                pct_changes = prices_series.pct_change() * 100
+                val = pct_changes.tail(days).sum()
+        except Exception:
+            pass
+
+    if val is not None and not pd.isna(val):
+        is_pos = val >= 0
+        color = "#10B981" if is_pos else "#EF4444"
+        arrow = "▲" if is_pos else "▼"
+        delta_class = "delta-positive" if is_pos else "delta-negative"
+        sign = "+" if is_pos else ""
+
+        card_html = f"""
+        <div class="metric-card" style="border-left: 3px solid {color};">
+            <div class="metric-label">{label} <span style="font-size: 10px; color: #64748B; font-family: 'Outfit', sans-serif;">(Histórico)</span></div>
+            <div class="metric-value" style="color: {color}; font-size: 24px; margin-top: 4px;">{sign}{val:.2f}%</div>
+            <div class="metric-delta {delta_class}" style="margin-top: 8px;">{arrow} {abs(val):.2f}%</div>
+        </div>
+        """
+        col.markdown(card_html, unsafe_allow_html=True)
+    else:
+        render_metric_card(label, "N/A", col=col)
+
+render_ret_acum("./Api/retornos/retornos_acumulados_15d.csv", "15 Dias", 15, col_ret1)
+render_ret_acum("./Api/retornos/retornos_acumulados_30d.csv", "30 Dias", 30, col_ret2)
+render_ret_acum("./Api/retornos/retornos_acumulados_45d.csv", "45 Dias", 45, col_ret3)
+render_ret_acum("./Api/retornos/retornos_acumulados_60d.csv", "60 Dias", 60, col_ret4)
+
+st.markdown('<div class="custom-hr" style="margin: 1.5rem 0;"></div>', unsafe_allow_html=True)
+
+
 # Organize stock data metrics in tabs
 tab_overview, tab_valuation, tab_efficiency, tab_balance = st.tabs(
     [
@@ -1559,93 +1708,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Load prices history
-precos_path = f"./Api/precos/{col1_selection}.csv"
-prices_loaded = False
-is_contingency = False
-
-# Tenta carregar o arquivo CSV real
-if os.path.exists(precos_path) and os.path.getsize(precos_path) > 200:
-    try:
-        precos_df = load_stock_prices(precos_path)
-        if precos_df is not None and not precos_df.empty and len(precos_df) > 5:
-            # Renomeia Close ou Adj Close para o nome do ticker de forma robusta
-            if "Close" in precos_df.columns:
-                precos_df_ad = precos_df.rename(columns={"Close": f"{col1_selection}"})
-            elif "Adj Close" in precos_df.columns:
-                precos_df_ad = precos_df.rename(
-                    columns={"Adj Close": f"{col1_selection}"}
-                )
-            else:
-                numeric_cols = [c for c in precos_df.columns if c != "Date"]
-                if numeric_cols:
-                    precos_df_ad = precos_df.rename(
-                        columns={numeric_cols[0]: f"{col1_selection}"}
-                    )
-                else:
-                    precos_df_ad = precos_df.copy()
-
-            precos_df_clean = precos_df_ad.copy()
-            prices_loaded = True
-    except Exception:
-        pass
-
-# Fallback: Se o download do YFinance falhou ou está sem dados, gera histórico resiliente a partir do BD
-if not prices_loaded:
-    try:
-        is_contingency = True
-        val_raw = get_stock_data_val("cotacao")
-        price_val = 10.0  # Default seguro
-
-        if val_raw is not None and pd.notna(val_raw) and val_raw != "":
-            # Remove R$, espaços e converte vírgula para ponto
-            clean_val = (
-                str(val_raw).replace("R$", "").replace(" ", "").replace(",", ".")
-            )
-            try:
-                price_val = float(clean_val)
-            except ValueError:
-                pass
-
-        # Gera série temporal simulada de 90 dias com passeio aleatório (ruído de baixa volatilidade)
-        import numpy as np
-
-        np.random.seed(42)
-        dates_sim = [
-            (datetime.today() - timedelta(days=i)).strftime("%Y-%m-%d")
-            for i in range(90, -1, -1)
-        ]
-
-        # Passeio aleatório simulado
-        prices_sim = [price_val]
-        for _ in range(90):
-            change = np.random.normal(0.0002, 0.015)
-            prices_sim.append(prices_sim[-1] * (1 + change))
-
-        precos_df_clean = pd.DataFrame(
-            {"Date": dates_sim, f"{col1_selection}": prices_sim}
-        )
-
-        # Calcula retornos e cumulados necessários para as funções de baixo
-        precos_df_clean["ret"] = round(
-            (precos_df_clean[f"{col1_selection}"].pct_change()) * 100, 2
-        )
-        precos_df_clean["tret"] = precos_df_clean["ret"].cumsum()
-        precos_df_clean["Returns"] = precos_df_clean[f"{col1_selection}"].pct_change(1)
-        precos_df_clean["Target"] = precos_df_clean["Returns"].shift(-1)
-        precos_df_clean["Vol"] = np.round(
-            precos_df_clean["Returns"].rolling(20).std() * np.sqrt(252), 4
-        )
-        precos_df_clean["MM20"] = (
-            precos_df_clean[f"{col1_selection}"].rolling(20).mean()
-        )
-        precos_df_clean["Detrend"] = (
-            precos_df_clean[f"{col1_selection}"] - precos_df_clean["MM20"]
-        )
-
-        prices_loaded = True
-    except Exception as e:
-        st.write(f"Erro ao inicializar contingência: {str(e)}")
+# Load prices history (already initialized at the top)
+pass
 
 # --- CHART RENDERING (always runs when prices_loaded is True) ---
 if prices_loaded:
@@ -1805,16 +1869,10 @@ if prices_loaded:
 else:
     st.write("Dados de preços históricos indisponíveis para gráficos.")
 
-# Retorno Acumulado
-st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
-st.markdown(
-    '<h3 class="stSubheader">🎯 Retornos Acumulados da Ação</h3>',
-    unsafe_allow_html=True,
-)
-col1, col2, col3, col4 = st.columns(4)
+# Retornos Acumulados moved to the top
 
 
-def render_ret_acum(file_path, label, days, col):
+def render_ret_acum_deprecated(file_path, label, days, col):
     val = None
     if os.path.exists(file_path):
         try:
@@ -1862,12 +1920,7 @@ def render_ret_acum(file_path, label, days, col):
         render_metric_card(label, "N/A", col=col)
 
 
-render_ret_acum("./Api/retornos/retornos_acumulados_15d.csv", "15 Dias", 15, col1)
-render_ret_acum("./Api/retornos/retornos_acumulados_30d.csv", "30 Dias", 30, col2)
-render_ret_acum("./Api/retornos/retornos_acumulados_45d.csv", "45 Dias", 45, col3)
-render_ret_acum("./Api/retornos/retornos_acumulados_60d.csv", "60 Dias", 60, col4)
 
-st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 
 # Daily Updates Section
 st.markdown(
