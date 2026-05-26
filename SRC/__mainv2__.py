@@ -901,6 +901,13 @@ def dados():
             with open(csv_file_name, "w") as f:
                 __conectdb__.bk(bk, f)
 
+            # Geração automática de Relatórios Fundamentalistas Premium (Matplotlib + HTML Email)
+            try:
+                from b3_reports.integration import run_automatic_weekly_report
+                run_automatic_weekly_report()
+            except Exception as e_report:
+                print(f"{RED}[AVISO] Erro não fatal ao gerar/enviar relatório automático: {str(e_report)}{RESET}")
+
             # Fim do contador de Tempo do script
             fim = time.time()
             hours, rem = divmod(fim - inicio, 3600)

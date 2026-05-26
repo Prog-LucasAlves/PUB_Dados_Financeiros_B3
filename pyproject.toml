@@ -10,6 +10,7 @@ dependencies = [
     "fastparquet>=2024.11.0",
     "httpx>=0.28.1",
     "jupyter>=1.1.1",
+    "matplotlib>=3.10.5",
     "pandas>=2.3.2",
     "plotly>=6.7.0",
     "psycopg2>=2.9.10",
