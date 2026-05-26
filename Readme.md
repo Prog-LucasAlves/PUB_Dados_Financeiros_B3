@@ -1,5 +1,7 @@
 # Dados Financeiros
 
+[![Continuous Integration](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/actions/workflows/ci.yml/badge.svg)](https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3/actions/workflows/ci.yml)
+
 ## Sobre o projeto
 
 - Coletar/Tratar os dados das Ações listadas na Bolsa de Valores do Brasil(B3).

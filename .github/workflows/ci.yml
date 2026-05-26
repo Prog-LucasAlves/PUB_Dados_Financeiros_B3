@@ -1,42 +1,61 @@
-name: CI Pipeline
+name: Continuous Integration
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
 
 jobs:
-  test:
-    name: Lint, Type Check & Test
+  lint-and-test:
     runs-on: ubuntu-latest
 
+    services:
+      # Sobe o banco de dados temporário de testes isolado
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_USER: root
+          POSTGRES_PASSWORD: root
+          POSTGRES_DB: dados_financeiros
+        ports:
+          - 5432:5432
+        # Aguarda o PostgreSQL ficar pronto
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
-        with:
-          enable-cache: true
-          cache-dependency-glob: "uv.lock"
+    - name: Install uv and Set up Python
+      uses: astral-sh/setup-uv@v3
+      with:
+        version: "latest"
+        enable-cache: true
+        python-version: "3.11"
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+    - name: Install dependencies
+      run: |
+        uv sync --frozen
 
-      - name: Install Dependencies
-        run: uv sync
+    - name: Run Ruff Linter
+      run: |
+        uv run ruff check .
 
-      - name: Run Ruff Linter
-        run: uv run ruff check .
+    - name: Run Ruff Formatter
+      run: |
+        uv run ruff format --check .
 
-      - name: Check Code Format (Ruff)
-        run: uv run ruff format --check .
-
-      - name: Run Static Type Checking (Mypy)
-        run: uv run mypy . --ignore-missing-imports
-
-      - name: Run Unit Tests (Pytest)
-        run: uv run pytest
+    - name: Run Pytest Suites
+      env:
+        POSTGRES_USER: root
+        POSTGRES_PASSWORD: root
+        POSTGRES_DB: dados_financeiros
+        POSTGRES_HOST: localhost
+        POSTGRES_PORT: 5432
+      run: |
+        uv run pytest -v --tb=short

@@ -1,0 +1,69 @@
+# ──────────────────────────────────────────────
+# .dockerignore — B3 Dados Financeiros
+# Minimiza o build context do Docker excluindo
+# artefatos pesados e desnecessários à runtime.
+# ──────────────────────────────────────────────
+
+# Virtual environments & package managers
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+
+# Lock files (dependências resolvidas pelo uv sync --frozen)
+poetry.lock
+uv.lock
+
+# Version control
+.git/
+.gitignore
+.github/
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & coverage artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Docker (evita recursão)
+Docker/
+docker-compose.yml
+
+# Dados locais & backups (não devem estar na imagem)
+Backup/
+Dados_Atual/
+Docker/data/
+data/
+
+# Documentação & assets estáticos
+Docs/
+Image/
+Analise/
+Todos/
+*.md
+LICENSE
+
+# Configuração de agentes & CI
+.agents/
+.impeccable/
+.pre-commit-config.yaml
+
+# Misc
+*.log
+*.html
+geckodriver.log
+geckodriver.exe
+stats.html

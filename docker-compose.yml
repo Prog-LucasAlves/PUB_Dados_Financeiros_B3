@@ -1,0 +1,70 @@
+services:
+  # ─────────────────────────────────────────────
+  # Streamlit Dashboard — B3 Dados Financeiros
+  # ─────────────────────────────────────────────
+  app:
+    build:
+      context: .
+      target: runner
+    container_name: B3_STREAMLIT_DASHBOARD
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - frontend
+      - backend
+    ports:
+      - "8501:8501"
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=dados_financeiros
+      - POSTGRES_HOST=db
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1G
+    restart: on-failure
+
+  # ─────────────────────────────────────────────
+  # PostgreSQL 13 — Locale pt_BR.UTF-8
+  # ─────────────────────────────────────────────
+  db:
+    build:
+      context: ./Docker
+    container_name: B3_POSTGRES_DB
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=dados_financeiros
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U root -d dados_financeiros"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+
+# ─────────────────────────────────────────────
+# Rede isolada: frontend (exposta) + backend (interna)
+# ─────────────────────────────────────────────
+networks:
+  frontend:
+    driver: bridge
+  backend:
+    driver: bridge
+    internal: true
+
+# ─────────────────────────────────────────────
+# Volume nomeado para persistência do banco
+# ─────────────────────────────────────────────
+volumes:
+  postgres_data:
