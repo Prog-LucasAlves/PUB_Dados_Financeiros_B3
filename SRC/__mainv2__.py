@@ -51,7 +51,15 @@ async def fetch_all_html(tickers: list[str]) -> dict[str, str]:
                     if response.status_code == 200:
                         results[ticker] = response.text
                         return
-                except Exception:
+                    elif response.status_code == 429:
+                        print(
+                            f"{YELLOW}[RATE LIMIT] Código 429 recebido para {ticker}. Aguardando 2s antes do retry...{RESET}"
+                        )
+                        await asyncio.sleep(2.0 * (attempt + 1))
+                except Exception as e_req:
+                    print(
+                        f"{RED}[FALHA REQUISIÇÃO] Erro ao baixar {ticker}: {str(e_req)}{RESET}"
+                    )
                     await asyncio.sleep(1.0 * (attempt + 1))
             results[ticker] = ""
 
@@ -824,8 +832,25 @@ def dados():
                                     # Inserindo os dados higienizados no banco de dados Postgres
                                     __conectdb__.in_dados(query_insert_bd)
 
+                                    # Calcula a completude de dados (Confidence Rating)
+                                    essential_fields = [
+                                        validated_stock.cotacao,
+                                        validated_stock.vpa,
+                                        validated_stock.lpa,
+                                        validated_stock.pl,
+                                        validated_stock.pvp,
+                                    ]
+                                    missing_essential = sum(
+                                        1 for val in essential_fields if val == 0.0
+                                    )
+                                    confidence_level = "HIGH"
+                                    if missing_essential > 2:
+                                        confidence_level = "LOW"
+                                    elif missing_essential > 0:
+                                        confidence_level = "MEDIUM"
+
                                     print(
-                                        f"+{GREEN} Dados da ação: {i}, gravados e validados com sucesso {RESET}+"
+                                        f"+{GREEN} Dados da ação: {i}, gravados e validados com sucesso [Confiança: {confidence_level}] {RESET}+"
                                     )
                                     # --- #
                                     n += 1
@@ -879,6 +904,25 @@ def dados():
                             # Dados atual - Salvando os dados atuais em um arquivo .csv
                             dados_atual.to_csv("../Dados_Atual/dados.csv", sep=";")
 
+                            # Contingência de Backup: salvar com data para auditoria
+                            try:
+                                import os
+                                from datetime import datetime
+
+                                dt_file = datetime.now().strftime("%Y%m%d_%H%M%S")
+                                os.makedirs("../Backup", exist_ok=True)
+                                backup_csv_path = f"../Backup/dados_{dt_file}.csv"
+                                dados_atual.to_csv(
+                                    backup_csv_path, sep=";", index=False
+                                )
+                                print(
+                                    f"[BACKUP] Cópia de contingência arquivada em: {backup_csv_path}"
+                                )
+                            except Exception as e_bk:
+                                print(
+                                    f"[AVISO] Falha não fatal ao gravar cópia de contingência: {str(e_bk)}"
+                                )
+
                 except NameError:
                     print(f"+{RED} Dados da ação: {i}, não gravados {RESET}+")
                     pass
@@ -904,9 +948,12 @@ def dados():
             # Geração automática de Relatórios Fundamentalistas Premium (Matplotlib + HTML Email)
             try:
                 from b3_reports.integration import run_automatic_weekly_report
+
                 run_automatic_weekly_report()
             except Exception as e_report:
-                print(f"{RED}[AVISO] Erro não fatal ao gerar/enviar relatório automático: {str(e_report)}{RESET}")
+                print(
+                    f"{RED}[AVISO] Erro não fatal ao gerar/enviar relatório automático: {str(e_report)}{RESET}"
+                )
 
             # Fim do contador de Tempo do script
             fim = time.time()
