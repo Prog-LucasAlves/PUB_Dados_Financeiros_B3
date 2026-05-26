@@ -54,7 +54,15 @@ for i in tqdm(acao):
             progress=False,
             threads=False,
         )
-        df = df.xs(f"{i}.SA", level="Ticker", axis=1, drop_level=True)
+        if isinstance(df.columns, pd.MultiIndex):
+            try:
+                df = df.xs(f"{i}.SA", level="Ticker", axis=1, drop_level=True)
+            except Exception:
+                try:
+                    df = df.xs(f"{i}.SA", axis=1, level=0, drop_level=True)
+                except Exception:
+                    pass
+
         df["ret"] = round((df["Close"].pct_change()) * 100, 2)
         df["tret"] = df["ret"].cumsum()
         # df["Adj Low"] = df["Low"] - (df["Close"] - df["Adj Close"])
@@ -106,7 +114,8 @@ for i in tqdm(moedas):
 def calcula_retono_indices():
     for i in indices:
         df = pd.read_csv(f"./indices/{i}.csv", sep=";")
-        df["Retornos"] = round(df["Close"].pct_change() * 100, 2)
+        close_num = pd.to_numeric(df["Close"], errors="coerce")
+        df["Retornos"] = round(close_num.pct_change() * 100, 2)
         df.to_csv(f"./indices/{i}.csv", sep=";")
 
 
@@ -114,7 +123,8 @@ def calcula_retono_indices():
 def calcula_retorno_crypto():
     for i in crypto:
         df = pd.read_csv(f"./crypto/{i}.csv", sep=";")
-        df["Retornos"] = round(df["Close"].pct_change() * 100, 2)
+        close_num = pd.to_numeric(df["Close"], errors="coerce")
+        df["Retornos"] = round(close_num.pct_change() * 100, 2)
         df.to_csv(f"./crypto/{i}.csv", sep=";")
 
 
@@ -122,7 +132,8 @@ def calcula_retorno_crypto():
 def calcula_retorno_moedas():
     for i in moedas:
         df = pd.read_csv(f"./moedas/{i}.csv", sep=";")
-        df["Retornos"] = round(df["Close"].pct_change() * 100, 2)
+        close_num = pd.to_numeric(df["Close"], errors="coerce")
+        df["Retornos"] = round(close_num.pct_change() * 100, 2)
         df.to_csv(f"./moedas/{i}.csv", sep=";")
 
 
