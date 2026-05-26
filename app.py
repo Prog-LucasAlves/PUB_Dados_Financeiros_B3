@@ -1153,8 +1153,17 @@ if not prices_loaded:
     try:
         is_contingency = True
         val_raw = get_stock_data_val("cotacao")
+        price_val = 10.0  # Default seguro
+
         if val_raw is not None and pd.notna(val_raw) and val_raw != "":
-            price_val = float(str(val_raw).replace(",", "."))
+            # Remove R$, espaços e converte vírgula para ponto
+            clean_val = (
+                str(val_raw).replace("R$", "").replace(" ", "").replace(",", ".")
+            )
+            try:
+                price_val = float(clean_val)
+            except ValueError:
+                pass
 
         # Gera série temporal simulada de 90 dias com passeio aleatório (ruído de baixa volatilidade)
         import numpy as np
@@ -1196,6 +1205,8 @@ if not prices_loaded:
     except Exception as e:
         st.write(f"Erro ao inicializar contingência: {str(e)}")
 
+# --- CHART RENDERING (always runs when prices_loaded is True) ---
+if prices_loaded:
     # 1. Price History Line Chart
     st.write(f"📈 Histórico de Fechamento - **{col1_selection}**")
 
