@@ -1116,12 +1116,21 @@ prices_loaded = False
 if os.path.exists(precos_path):
     try:
         precos_df = load_stock_prices(precos_path)
-        # Keep original columns mutation
-        precos_df_ad = precos_df.rename(columns={"Close": f"{col1_selection}"})
-        # Clean columns to preserve original logic
-        precos_df_clean = precos_df_ad.drop(
-            precos_df_ad.columns[[2, 3, 4, 6]], axis=1, errors="ignore"
-        )
+        # Renomeia Close ou Adj Close para o nome do ticker de forma robusta
+        if "Close" in precos_df.columns:
+            precos_df_ad = precos_df.rename(columns={"Close": f"{col1_selection}"})
+        elif "Adj Close" in precos_df.columns:
+            precos_df_ad = precos_df.rename(columns={"Adj Close": f"{col1_selection}"})
+        else:
+            # Fallback caso nenhuma exista: usa a primeira coluna numérica disponível após a data
+            numeric_cols = [c for c in precos_df.columns if c != "Date"]
+            if numeric_cols:
+                precos_df_ad = precos_df.rename(columns={numeric_cols[0]: f"{col1_selection}"})
+            else:
+                precos_df_ad = precos_df.copy()
+
+        # Garante que as colunas essenciais permaneçam intactas sem depender de índices rígidos
+        precos_df_clean = precos_df_ad.copy()
         prices_loaded = True
     except Exception:
         st.write("Erro ao carregar os dados históricos de preços.")
