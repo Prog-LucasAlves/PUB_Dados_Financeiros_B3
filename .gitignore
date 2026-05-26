@@ -9,6 +9,7 @@ data
 metabase
 pyspark
 *.lock
+!uv.lock
 .agents/
 .impeccable/
 
