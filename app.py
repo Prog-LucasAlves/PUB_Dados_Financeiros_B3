@@ -1145,12 +1145,9 @@ if os.path.exists(precos_path) and os.path.getsize(precos_path) > 200:
 if not prices_loaded:
     try:
         is_contingency = True
-        # Obtém o preço atual do banco
-        price_val = 10.0  # Default fallback
-        if not df_target.empty and "cotacao" in df_target.columns:
-            val_raw = df_target["cotacao"].iloc[0]
-            if pd.notna(val_raw) and val_raw != "":
-                price_val = float(str(val_raw).replace(",", "."))
+        val_raw = get_stock_data_val("cotacao")
+        if val_raw is not None and pd.notna(val_raw) and val_raw != "":
+            price_val = float(str(val_raw).replace(",", "."))
 
         # Gera série temporal simulada de 90 dias com passeio aleatório (ruído de baixa volatilidade)
         import numpy as np
@@ -1203,7 +1200,7 @@ if not prices_loaded:
                     ⚠️ Modo de Contingência Ativo
                 </div>
                 <div class="status-body" style="font-size: 12px; color: #94A3B8; font-family: Outfit, sans-serif;">
-                    Não foi possível conectar ao Yahoo Finance devido a restrições temporárias de rede local/DNS. 
+                    Não foi possível conectar ao Yahoo Finance devido a restrições temporárias de rede local/DNS.
                     Exibindo estimativa de cotação histórica baseada no último fechamento consolidado.
                 </div>
             </div>
