@@ -1033,6 +1033,21 @@ else:
         unsafe_allow_html=True,
     )
 
+    try:
+        import pathlib
+
+        from b3_reports.charts import plot_graham_bar
+
+        dash_images_dir = pathlib.Path("./Api/relatorios/images")
+        dash_images_dir.mkdir(parents=True, exist_ok=True)
+        graham_img_path = (
+            dash_images_dir / f"graham_{col1_selection.lower()}_dashboard.png"
+        )
+        plot_graham_bar(col1_selection, prc_f2, valor_jt, graham_img_path)
+        st.image(str(graham_img_path), use_column_width=True)
+    except Exception:
+        pass
+
 st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 
 # Relevant Facts, Proventos, and Trimestrais (organized nicely in tabs)
@@ -1131,13 +1146,42 @@ if os.path.exists(precos_path):
 if prices_loaded:
     # 1. Price History Line Chart
     st.write(f"📈 Histórico de Fechamento - **{col1_selection}**")
-    fig_pre = px.line(precos_df_clean, x="Date", y=f"{col1_selection}")
-    apply_plotly_theme(
-        fig_pre,
-        f"Histórico de Fechamento ({col1_selection})",
-        "Preço de Fechamento (R$)",
+
+    tab_plotly, tab_matplotlib = st.tabs(
+        ["📊 Gráfico Interativo (Plotly)", "🎨 Gráfico de Publicação (Matplotlib)"]
     )
-    st.plotly_chart(fig_pre, use_container_width=True)
+
+    with tab_plotly:
+        fig_pre = px.line(precos_df_clean, x="Date", y=f"{col1_selection}")
+        apply_plotly_theme(
+            fig_pre,
+            f"Histórico de Fechamento ({col1_selection})",
+            "Preço de Fechamento (R$)",
+        )
+        st.plotly_chart(fig_pre, use_container_width=True)
+
+    with tab_matplotlib:
+        try:
+            import pathlib
+
+            from b3_reports.charts import plot_stock_history
+
+            dash_images_dir = pathlib.Path("./Api/relatorios/images")
+            dash_images_dir.mkdir(parents=True, exist_ok=True)
+            hist_img_path = (
+                dash_images_dir / f"history_{col1_selection.lower()}_dashboard.png"
+            )
+
+            # Convierte las columnas Date y el precio a listas para pasar a plot_stock_history
+            dates_list = (
+                pd.to_datetime(precos_df_clean["Date"]).dt.strftime("%Y-%m-%d").tolist()
+            )
+            prices_list = precos_df_clean[f"{col1_selection}"].astype(float).tolist()
+
+            plot_stock_history(col1_selection, dates_list, prices_list, hist_img_path)
+            st.image(str(hist_img_path), use_column_width=True)
+        except Exception:
+            st.write("Erro ao processar o gráfico de publicação.")
 
     # 2. Monthly Returns Matrix/Table
     st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
@@ -1208,6 +1252,33 @@ if prices_loaded:
             "Volatilidade (%)",
         )
         st.plotly_chart(fig_vol, use_container_width=True)
+
+    # 6. Sector Correlation (Matplotlib Heatmap)
+    st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
+    st.write("🧬 Correlação Multidimensional de Indicadores no Setor")
+    try:
+        import pathlib
+
+        from b3_reports.charts import plot_correlation_heatmap
+
+        # Filtra empresas do mesmo setor
+        empresa_setor = get_stock_data_val("setor")
+        df_setor = df[df["setor"] == empresa_setor]
+
+        # Seleciona indicadores numéricos viáveis
+        df_corr_input = df_setor[["pl", "pvp", "div_yield", "roe", "roic"]].dropna()
+        if len(df_corr_input) > 1:
+            correlations_df = df_corr_input.corr()
+            dash_images_dir = pathlib.Path("./Api/relatorios/images")
+            dash_images_dir.mkdir(parents=True, exist_ok=True)
+            heatmap_img_path = dash_images_dir / "correlation_heatmap_dashboard.png"
+
+            plot_correlation_heatmap(correlations_df, heatmap_img_path)
+            st.image(str(heatmap_img_path), use_column_width=True)
+        else:
+            st.write("Dados insuficientes no setor para traçar a correlação térmica.")
+    except Exception:
+        st.write("Erro ao processar matriz de correlação térmica.")
 else:
     st.write("Dados de preços históricos indisponíveis para gráficos.")
 
