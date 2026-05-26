@@ -198,8 +198,32 @@ def test_run_automatic_weekly_report_mocked(tmp_path, monkeypatch):
     # 1st fetchall: sector list of stocks for latest date
     # papel, empresa, setor, cotacao, vpa, lpa, pl, pvp, div_yield, roe, roic
     mock_stocks = [
-        ("WEGE3", "WEG SA", "Bens Industriais", 42.92, 6.50, 2.15, 20.0, 6.6, 2.5, 33.0, 28.0),
-        ("VALE3", "VALE SA", "Materiais Básicos", 35.00, 15.30, 8.20, 7.5, 4.0, 8.5, 53.0, 21.0),
+        (
+            "WEGE3",
+            "WEG SA",
+            "Bens Industriais",
+            42.92,
+            6.50,
+            2.15,
+            20.0,
+            6.6,
+            2.5,
+            33.0,
+            28.0,
+        ),
+        (
+            "VALE3",
+            "VALE SA",
+            "Materiais Básicos",
+            35.00,
+            15.30,
+            8.20,
+            7.5,
+            4.0,
+            8.5,
+            53.0,
+            21.0,
+        ),
     ]
 
     # 2nd fetchall: price history for selected stock (VALE3 because of highest safety)
@@ -222,20 +246,29 @@ def test_run_automatic_weekly_report_mocked(tmp_path, monkeypatch):
         def fetchall(self):
             # First fetchall is for the active stocks
             # Second fetchall is for history of the chosen target
-            if "SELECT papel, empresa, setor" in self.last_executed_query_hint or self.execute_count == 2:
+            if (
+                "SELECT papel, empresa, setor" in self.last_executed_query_hint
+                or self.execute_count == 2
+            ):
                 return mock_stocks
             return mock_history
 
         @property
         def last_executed_query_hint(self):
-            return "SELECT papel, empresa, setor" if self.execute_count == 2 else "SELECT data_dado_inserido"
+            return (
+                "SELECT papel, empresa, setor"
+                if self.execute_count == 2
+                else "SELECT data_dado_inserido"
+            )
 
     class MockConnection:
         @contextlib.contextmanager
         def cursor(self):
             yield MockCursor()
+
         def commit(self):
             pass
+
         def rollback(self):
             pass
 
@@ -243,7 +276,10 @@ def test_run_automatic_weekly_report_mocked(tmp_path, monkeypatch):
     def mock_get_connection():
         yield MockConnection()
 
-    monkeypatch.setattr("b3_database.connection.DatabaseConnectionManager.get_connection", mock_get_connection)
+    monkeypatch.setattr(
+        "b3_database.connection.DatabaseConnectionManager.get_connection",
+        mock_get_connection,
+    )
 
     # Executa a integração automática
     res = run_automatic_weekly_report(default_ticker="WEGE3")

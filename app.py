@@ -1125,7 +1125,9 @@ if os.path.exists(precos_path):
             # Fallback caso nenhuma exista: usa a primeira coluna numérica disponível após a data
             numeric_cols = [c for c in precos_df.columns if c != "Date"]
             if numeric_cols:
-                precos_df_ad = precos_df.rename(columns={numeric_cols[0]: f"{col1_selection}"})
+                precos_df_ad = precos_df.rename(
+                    columns={numeric_cols[0]: f"{col1_selection}"}
+                )
             else:
                 precos_df_ad = precos_df.copy()
 
