@@ -6,6 +6,7 @@ import os
 import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "SRC"))
+import __list__
 import re
 from datetime import datetime, timedelta
 
@@ -588,15 +589,18 @@ st.markdown(
 # Read base data
 df, ri = load_b3_data()
 
+# Combine tickers from dados.csv and the master ticker list in SRC/__list__.py to ensure all appear
+all_tickers = sorted(list(set(df.papel.tolist() + __list__.lst_acao)))
+
 # Sidebar stock selectbox
 st.sidebar.header("Escolha sua ação")
 default_index = 0
-if hasattr(df, "papel") and "AALR3" in list(df.papel):
-    default_index = list(df.papel).index("AALR3")
+if "AALR3" in all_tickers:
+    default_index = all_tickers.index("AALR3")
 
 col1_selection = st.sidebar.selectbox(
     "Papel",
-    df.papel,
+    all_tickers,
     index=default_index,
 )
 
