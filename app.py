@@ -1415,8 +1415,12 @@ elif vpa_f <= 0 or lpa_f <= 0:
         unsafe_allow_html=True,
     )
 else:
-    prc_f1 = str(prc_f).replace(",", ".")
-    prc_f2 = float(prc_f1)
+    # Clean price value robustly to handle potential string formatting (e.g. "R$ 16.40")
+    prc_cleaned = str(prc_f).replace("R$", "").replace(" ", "").replace(",", ".").strip()
+    try:
+        prc_f2 = float(prc_cleaned)
+    except ValueError:
+        prc_f2 = 0.0
 
     # Graham calculations:
     valor_gh = round(graham_constant * vpa_f * lpa_f, 2)
