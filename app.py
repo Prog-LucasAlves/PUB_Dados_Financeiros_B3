@@ -3,6 +3,9 @@
 ##################################
 import math
 import os
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), "SRC"))
 import re
 from datetime import datetime, timedelta
 
@@ -1283,7 +1286,9 @@ if not prices_loaded:
     st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
     st.write(f"⌛ Retornos Acumulados - **{col1_selection}**")
     try:
-        df_ret_ac = pd.read_csv(f"./Api/precos/{col1_selection}.csv", sep=";")
+        df_ret_ac = precos_df_clean.copy()
+        if "tret" not in df_ret_ac.columns and "ret" in df_ret_ac.columns:
+            df_ret_ac["tret"] = df_ret_ac["ret"].cumsum()
         fig_ret_ac = px.line(df_ret_ac, x="Date", y="tret")
         apply_plotly_theme(
             fig_ret_ac,
@@ -1352,27 +1357,42 @@ st.markdown(
 col1, col2, col3, col4 = st.columns(4)
 
 
-def render_ret_acum(file_path, label, col):
-    if not os.path.exists(file_path):
-        render_metric_card(label, "Sem dados", col=col)
-        return
-    try:
-        ret_df = pd.read_csv(file_path, sep=";")
-        ret_filtered = ret_df[ret_df["Papel"] == col1_selection]
-        if not ret_filtered.empty:
-            idx = int(ret_filtered["Unnamed: 0"].iloc[0])
-            val = ret_filtered["Total_Acumulado"].loc[idx]
-            render_metric_card(label, fmt_percent(val), col=col)
-        else:
-            render_metric_card(label, "N/A", col=col)
-    except Exception:
-        render_metric_card(label, "Erro", col=col)
+def render_ret_acum(file_path, label, days, col):
+    val = None
+    if os.path.exists(file_path):
+        try:
+            ret_df = pd.read_csv(file_path, sep=";")
+            ret_filtered = ret_df[ret_df["Papel"] == col1_selection]
+            if not ret_filtered.empty:
+                idx = int(ret_filtered["Unnamed: 0"].iloc[0])
+                val = ret_filtered["Total_Acumulado"].loc[idx]
+        except Exception:
+            pass
+
+    # Fallback: calcula em tempo real a partir de precos_df_clean se ausente nos arquivos estáticos
+    if val is None or pd.isna(val):
+        try:
+            if (
+                "precos_df_clean" in globals()
+                and precos_df_clean is not None
+                and not precos_df_clean.empty
+            ):
+                prices_series = precos_df_clean[f"{col1_selection}"].astype(float)
+                pct_changes = prices_series.pct_change() * 100
+                val = pct_changes.tail(days).sum()
+        except Exception:
+            pass
+
+    if val is not None and not pd.isna(val):
+        render_metric_card(label, fmt_percent(val), col=col)
+    else:
+        render_metric_card(label, "N/A", col=col)
 
 
-render_ret_acum("./Api/retornos/retornos_acumulados_15d.csv", "15 Dias", col1)
-render_ret_acum("./Api/retornos/retornos_acumulados_30d.csv", "30 Dias", col2)
-render_ret_acum("./Api/retornos/retornos_acumulados_45d.csv", "45 Dias", col3)
-render_ret_acum("./Api/retornos/retornos_acumulados_60d.csv", "60 Dias", col4)
+render_ret_acum("./Api/retornos/retornos_acumulados_15d.csv", "15 Dias", 15, col1)
+render_ret_acum("./Api/retornos/retornos_acumulados_30d.csv", "30 Dias", 30, col2)
+render_ret_acum("./Api/retornos/retornos_acumulados_45d.csv", "45 Dias", 45, col3)
+render_ret_acum("./Api/retornos/retornos_acumulados_60d.csv", "60 Dias", 60, col4)
 
 st.markdown('<div class="custom-hr"></div>', unsafe_allow_html=True)
 
