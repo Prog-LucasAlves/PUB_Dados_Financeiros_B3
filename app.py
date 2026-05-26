@@ -33,24 +33,24 @@ def inject_custom_css():
 
     /* Global styles */
     html, body, [data-testid="stAppViewContainer"] {
-        background-color: #0D0F12 !important;
+        background-color: #0B0F13 !important;
         font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif !important;
-        color: #E2E8F0 !important;
+        color: #F1F5F9 !important;
     }
 
     /* Main container background */
     [data-testid="stHeader"] {
-        background-color: #0D0F12 !important;
+        background-color: #0B0F13 !important;
     }
 
     /* Sidebar styling */
     [data-testid="stSidebar"] {
-        background-color: #111418 !important;
-        border-right: 1px solid rgba(255, 255, 255, 0.05) !important;
+        background-color: #0F1319 !important;
+        border-right: 1px solid rgba(255, 255, 255, 0.03) !important;
     }
 
     [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h3 {
-        color: #00E676 !important;
+        color: #10B981 !important;
         font-family: 'Outfit', sans-serif !important;
         font-weight: 600 !important;
     }
@@ -58,134 +58,120 @@ def inject_custom_css():
     /* Headers */
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Outfit', sans-serif !important;
-        color: #E2E8F0 !important;
+        color: #F1F5F9 !important;
         font-weight: 600 !important;
+        letter-spacing: -0.025em;
     }
 
     h3.stSubheader {
-        font-size: 1.5rem !important;
+        font-size: 1.35rem !important;
         font-weight: 600 !important;
         color: #F8FAFC !important;
-        border-left: 4px solid #00E676;
+        border-left: 3px solid #10B981;
         padding-left: 12px;
-        margin-top: 2rem !important;
-        margin-bottom: 1rem !important;
+        margin-top: 1.8rem !important;
+        margin-bottom: 0.8rem !important;
     }
 
     /* Tab buttons */
     button[data-baseweb="tab"] {
         font-family: 'Outfit', sans-serif !important;
-        font-size: 16px !important;
-        color: #94A3B8 !important;
+        font-size: 15px !important;
+        color: #64748B !important;
         background-color: transparent !important;
         border: none !important;
-        padding: 10px 20px !important;
+        padding: 8px 16px !important;
         transition: all 0.2s ease !important;
     }
     button[data-baseweb="tab"]:hover {
         color: #E2E8F0 !important;
     }
     button[data-baseweb="tab"][aria-selected="true"] {
-        color: #00E676 !important;
-        border-bottom: 2px solid #00E676 !important;
+        color: #10B981 !important;
+        border-bottom: 2px solid #10B981 !important;
         font-weight: 600 !important;
     }
 
     /* Custom metric card wrapper */
     .metric-card {
-        background-color: #161A1F;
-        border: 1px solid rgba(255, 255, 255, 0.05);
-        border-radius: 12px;
-        padding: 18px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-        margin-bottom: 16px;
+        background-color: #141820;
+        border: 1px solid rgba(255, 255, 255, 0.04);
+        border-radius: 8px;
+        padding: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        margin-bottom: 12px;
         transition: all 0.2s ease;
     }
     .metric-card:hover {
-        transform: translateY(-2px);
-        border-color: rgba(0, 230, 118, 0.2);
-        box-shadow: 0 6px 16px rgba(0, 230, 118, 0.05);
+        transform: translateY(-1px);
+        border-color: rgba(16, 185, 129, 0.15);
+        box-shadow: 0 6px 24px rgba(16, 185, 129, 0.03);
     }
     .metric-label {
-        font-size: 12px;
-        color: #94A3B8;
+        font-size: 11px;
+        color: #64748B;
         font-weight: 500;
         text-transform: uppercase;
-        letter-spacing: 0.5px;
-        margin-bottom: 6px;
+        letter-spacing: 0.05em;
+        margin-bottom: 4px;
         font-family: 'Outfit', sans-serif;
     }
     .metric-value {
-        font-size: 24px;
+        font-size: 22px;
         color: #F8FAFC;
-        font-weight: 700;
+        font-weight: 600;
         font-family: 'JetBrains Mono', monospace;
     }
     .metric-delta {
-        font-size: 13px;
-        font-weight: 600;
-        margin-top: 6px;
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 4px;
         display: inline-flex;
         align-items: center;
         gap: 4px;
     }
     .delta-positive {
-        color: #00E676;
+        color: #10B981;
     }
     .delta-negative {
-        color: #FF3D71;
+        color: #EF4444;
     }
 
     /* Graham Fair Value Card */
     .graham-card {
-        background: linear-gradient(135deg, #161A1F 0%, #111418 100%);
-        border-radius: 16px;
-        padding: 24px;
-        margin: 20px 0;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-        border: 1px solid rgba(255, 255, 255, 0.05);
-        transition: all 0.3s ease;
+        background: #141820;
+        border-radius: 12px;
+        padding: 20px;
+        margin: 16px 0;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+        border: 1px solid rgba(255, 255, 255, 0.04);
+        transition: all 0.2s ease;
     }
     .graham-card:hover {
-        box-shadow: 0 10px 28px rgba(0, 230, 118, 0.05);
-    }
-    @keyframes neon-pulse {
-        0% {
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 230, 118, 0.05);
-            border-color: rgba(255, 255, 255, 0.05);
-        }
-        50% {
-            box-shadow: 0 8px 30px rgba(0, 230, 118, 0.05), 0 0 12px rgba(0, 230, 118, 0.15);
-            border-color: rgba(0, 230, 118, 0.25);
-        }
-        100% {
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 230, 118, 0.05);
-            border-color: rgba(255, 255, 255, 0.05);
-        }
+        border-color: rgba(16, 185, 129, 0.1);
     }
     .graham-positive {
-        border-left: 6px solid #00E676;
-        animation: neon-pulse 3s infinite ease-in-out;
+        border-left: 4px solid #10B981;
     }
     .graham-negative {
-        border-left: 6px solid #FF3D71;
+        border-left: 4px solid #EF4444;
     }
 
     .graham-title {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
-        color: #E2E8F0;
-        margin-bottom: 12px;
+        color: #F1F5F9;
+        margin-bottom: 8px;
         font-family: 'Outfit', sans-serif;
     }
     .graham-text {
-        font-size: 15px;
+        font-size: 14px;
         color: #94A3B8;
-        line-height: 1.6;
-        margin-bottom: 8px;
+        line-height: 1.5;
+        margin-bottom: 6px;
     }
     .graham-highlight {
-        font-weight: 700;
+        font-weight: 600;
         color: #F8FAFC;
         font-family: 'JetBrains Mono', monospace;
     }
@@ -193,60 +179,57 @@ def inject_custom_css():
     /* Custom divider line */
     .custom-hr {
         height: 1px;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0) 100%);
+        background: rgba(255, 255, 255, 0.04);
         border: none;
-        margin: 2.5rem 0;
+        margin: 2rem 0;
     }
 
     /* Tables styling */
     div[data-testid="stDataFrame"] {
-        border: 1px solid rgba(255, 255, 255, 0.05) !important;
-        border-radius: 12px !important;
-        background-color: #161A1F !important;
-        padding: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.04) !important;
+        border-radius: 8px !important;
+        background-color: #141820 !important;
+        padding: 4px;
     }
 
     /* Streamlit overrides for better premium integration */
     [data-testid="stLinkButton"] a {
-        background-color: #161A1F !important;
-        color: #00E676 !important;
-        border: 1px solid rgba(0, 230, 118, 0.3) !important;
-        border-radius: 8px !important;
-        padding: 8px 16px !important;
+        background-color: #141820 !important;
+        color: #10B981 !important;
+        border: 1px solid rgba(16, 185, 129, 0.2) !important;
+        border-radius: 6px !important;
+        padding: 6px 12px !important;
         font-family: 'Outfit', sans-serif !important;
         font-weight: 500 !important;
         transition: all 0.2s ease !important;
     }
     [data-testid="stLinkButton"] a:hover {
-        background-color: rgba(0, 230, 118, 0.1) !important;
-        border-color: #00E676 !important;
-        box-shadow: 0 0 10px rgba(0, 230, 118, 0.2) !important;
+        background-color: rgba(16, 185, 129, 0.05) !important;
+        border-color: #10B981 !important;
     }
 
     .stAlert {
-        background-color: #161A1F !important;
-        border: 1px solid rgba(255, 255, 255, 0.05) !important;
-        border-radius: 12px !important;
+        background-color: #141820 !important;
+        border: 1px solid rgba(255, 255, 255, 0.04) !important;
+        border-radius: 8px !important;
     }
 
     /* Status Card */
     .status-card {
-        background-color: #161A1F;
-        border: 1px solid rgba(255, 255, 255, 0.05);
-        border-radius: 12px;
-        padding: 16px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        background-color: #141820;
+        border: 1px solid rgba(255, 255, 255, 0.04);
+        border-radius: 8px;
+        padding: 14px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
         font-family: 'Outfit', sans-serif;
-        color: #E2E8F0;
+        color: #F1F5F9;
         margin-top: 10px;
     }
     .status-alert {
-        border: 1px solid rgba(255, 61, 113, 0.15);
-        background-color: rgba(255, 61, 113, 0.02);
+        border-left: 3px solid #EF4444;
     }
     .status-success {
-        border: 1px solid rgba(0, 230, 118, 0.15);
-        background-color: rgba(0, 230, 118, 0.02);
+        border-left: 3px solid #10B981;
     }
     .status-neutral {
         border: 1px solid rgba(148, 163, 184, 0.15);
@@ -275,7 +258,7 @@ def inject_custom_css():
         transition: color 0.2s ease;
     }
     .tooltip-container:hover {
-        color: #00E676;
+        color: #10B981;
     }
     .tooltip-text {
         visibility: hidden;
@@ -514,7 +497,7 @@ def apply_plotly_theme(fig, title, y_label):
             "bordercolor": "rgba(255, 255, 255, 0.1)",
         },
     )
-    fig.update_traces(line={"color": "#00E676", "width": 2.5})
+    fig.update_traces(line={"color": "#10B981", "width": 2.5})
 
 
 # Clean data formats
@@ -671,10 +654,10 @@ else:
 rows_html = ""
 for name, (exists, is_critical) in integrity_data.items():
     if exists:
-        color = "#00E676"
+        color = "#10B981"
         status_text = "Disponível"
     else:
-        color = "#FF3D71" if is_critical else "#64748B"
+        color = "#EF4444" if is_critical else "#64748B"
         status_text = "Ausente"
 
     rows_html += (
@@ -1015,17 +998,17 @@ else:
     if up_dw > 0:
         card_class = "graham-negative"
         indicator_icon = "📈"
-        desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#FF3D71">{up_dw:.2f}% acima</span> de seu valor justo calculado (usando constante {graham_constant:.1f}).'
+        desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#EF4444">{up_dw:.2f}% acima</span> de seu valor justo calculado (usando constante {graham_constant:.1f}).'
     else:
         card_class = "graham-positive"
         indicator_icon = "📉"
-        desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#00E676">{abs(up_dw):.2f}% abaixo</span> (desconto) de seu valor justo calculado (usando constante {graham_constant:.1f}).'
+        desc_text = f'A ação está com o preço atual de mercado <span class="graham-highlight" style="color:#10B981">{abs(up_dw):.2f}% abaixo</span> (desconto) de seu valor justo calculado (usando constante {graham_constant:.1f}).'
 
     st.markdown(
         f"""
     <div class="graham-card {card_class}">
         <div class="graham-title">{indicator_icon} Valuation de Graham (Constante {graham_constant:.1f})</div>
-        <div class="graham-text">Valor Justo Calculado: <span class="graham-highlight" style="font-size: 17px; color: #00E676">R$ {valor_jt:.2f}</span></div>
+        <div class="graham-text">Valor Justo Calculado: <span class="graham-highlight" style="font-size: 17px; color: #10B981">R$ {valor_jt:.2f}</span></div>
         <div class="graham-text">Cotação Atual de Mercado: <span class="graham-highlight" style="font-size: 17px;">R$ {prc_f2:.2f}</span></div>
         <div class="graham-text" style="margin-top: 12px; font-size: 15px;">{desc_text}</div>
     </div>
