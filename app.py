@@ -628,8 +628,8 @@ def check_stock_data_integrity(ticker):
     paths = {
         "Preços Históricos": ("./Api/precos/{ticker}.csv", True),  # (path, is_critical)
         "Histórico Mensal": ("./Api/historico/{ticker}.csv", False),
-        "Proventos & Dividendos": ("./Api/proventos/{ticker}.csv", True),
-        "Releases Trimestrais": ("./Api/trimestre/{ticker}.csv", True),
+        "Proventos & Dividendos": ("./Api/proventos/{ticker}.csv", False),
+        "Releases Trimestrais": ("./Api/trimestre/{ticker}.csv", False),
         "Fatos Relevantes": ("./Api/fatos_relevantes/{ticker}.csv", False),
     }
 
@@ -661,7 +661,7 @@ for name, (exists, is_critical) in integrity_data.items():
         status_text = "Disponível"
     else:
         color = "#EF4444" if is_critical else "#64748B"
-        status_text = "Ausente"
+        status_text = "Ausente" if is_critical else "Não se aplica"
 
     rows_html += (
         f"<span style=\"display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-family: 'Outfit', sans-serif; width: 100%;\">"
