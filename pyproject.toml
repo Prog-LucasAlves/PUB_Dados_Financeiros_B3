@@ -38,7 +38,12 @@ target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "B", "UP"]
-ignore = []
+ignore = [
+    "E501",  # Ignora linhas longas (comum em Streamlit HTML strings e consultas SQL legadas)
+    "I001",  # Ignora ordem estrita de importações em scripts legados da pasta Api/
+    "UP031", # Ignora formatação de string estilo antigo (percent format)
+    "B018",  # Ignora expressões sem atribuição (comum em Jupyter Notebooks como analise.ipynb)
+]
 
 [tool.mypy]
 python_version = "3.11"
