@@ -1215,13 +1215,7 @@ if prices_loaded and precos_df_clean is not None:
     except Exception:
         pass
 
-# --- RENDER ACCUMULATED RETURNS ABOVE TABS AS REQUESTED ---
-st.markdown('<div class="custom-hr" style="margin: 1.5rem 0;"></div>', unsafe_allow_html=True)
-st.markdown(
-    '<h3 class="stSubheader" style="margin-top: 0 !important;">🎯 Retornos Acumulados da Ação</h3>',
-    unsafe_allow_html=True,
-)
-col_ret1, col_ret2, col_ret3, col_ret4 = st.columns(4)
+
 
 def render_ret_acum(file_path, label, days, col):
     val = None
@@ -1263,12 +1257,7 @@ def render_ret_acum(file_path, label, days, col):
     else:
         render_metric_card(label, "N/A", col=col)
 
-render_ret_acum("./Api/retornos/retornos_acumulados_15d.csv", "15 Dias", 15, col_ret1)
-render_ret_acum("./Api/retornos/retornos_acumulados_30d.csv", "30 Dias", 30, col_ret2)
-render_ret_acum("./Api/retornos/retornos_acumulados_45d.csv", "45 Dias", 45, col_ret3)
-render_ret_acum("./Api/retornos/retornos_acumulados_60d.csv", "60 Dias", 60, col_ret4)
 
-st.markdown('<div class="custom-hr" style="margin: 1.5rem 0;"></div>', unsafe_allow_html=True)
 
 
 # Organize stock data metrics in tabs
@@ -1352,6 +1341,16 @@ with tab_overview:
         col=col2,
         help=METRIC_HELPS["volume"],
     )
+
+    # Retornos Acumulados da Ação (Neatly integrated inside Visão Geral tab)
+    st.markdown('<div class="custom-hr" style="margin: 1.5rem 0 1rem 0;"></div>', unsafe_allow_html=True)
+    st.markdown('<h4 style="font-family: \'Outfit\', sans-serif; font-weight: 600; color: #F1F5F9; margin-bottom: 12px; font-size: 1.15rem;">🎯 Retornos Acumulados da Ação</h4>', unsafe_allow_html=True)
+    col_ret1, col_ret2, col_ret3, col_ret4 = st.columns(4)
+
+    render_ret_acum("./Api/retornos/retornos_acumulados_15d.csv", "15 Dias", 15, col_ret1)
+    render_ret_acum("./Api/retornos/retornos_acumulados_30d.csv", "30 Dias", 30, col_ret2)
+    render_ret_acum("./Api/retornos/retornos_acumulados_45d.csv", "45 Dias", 45, col_ret3)
+    render_ret_acum("./Api/retornos/retornos_acumulados_60d.csv", "60 Dias", 60, col_ret4)
 
 with tab_valuation:
     col1, col2 = st.columns(2)
