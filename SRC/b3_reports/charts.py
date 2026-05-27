@@ -132,46 +132,73 @@ def plot_correlation_heatmap(df_correlations: pd.DataFrame, out_path: pathlib.Pa
     Gera uma matriz térmica de correlação entre os múltiplos financeiros das empresas.
     """
     setup_obsidian_dark_theme()
-    fig, ax = plt.subplots(figsize=(10, 8), constrained_layout=True)
 
-    # Renderiza o Heatmap usando um colormap divergente elegante
-    im = ax.imshow(df_correlations.values, cmap="coolwarm", vmin=-1, vmax=1)
+    # 1. Clean up correlation matrix to avoid empty/NaN columns showing "nan"
+    df_clean = df_correlations.dropna(how="all", axis=0).dropna(how="all", axis=1)
+    # Try to drop columns with any NaN to have a 100% clean visual matrix
+    df_clean_any = df_clean.dropna(how="any", axis=0).dropna(how="any", axis=1)
+    if not df_clean_any.empty and len(df_clean_any.columns) >= 2:
+        df_correlations = df_clean_any
+    else:
+        df_correlations = df_clean.fillna(0.0)
 
-    # Adiciona a colorbar
-    cbar = fig.colorbar(im, ax=ax, shrink=0.8)
-    cbar.ax.tick_params(labelsize=9)
-
-    # Customização de labels
     columns = list(df_correlations.columns)
-    ax.set_xticks(np.arange(len(columns)))
-    ax.set_yticks(np.arange(len(columns)))
-    ax.set_xticklabels(columns, rotation=45, ha="right", fontsize=9)
-    ax.set_yticklabels(columns, fontsize=9)
+    num_cols = len(columns)
 
-    # Escreve os coeficientes numéricos dentro da matriz
-    for i in range(len(columns)):
-        for j in range(len(columns)):
+    # 2. Adjust figsize dynamically to be perfectly square and proportional
+    fig, ax = plt.subplots(figsize=(7.5, 6.5))
+
+    # Renderiza o Heatmap com um colormap elegante divergente
+    im = ax.imshow(df_correlations.values, cmap="coolwarm", vmin=-1, vmax=1, aspect="equal")
+
+    # Adiciona a colorbar premium
+    cbar = fig.colorbar(im, ax=ax, shrink=0.75, pad=0.05)
+    cbar.ax.tick_params(labelsize=9, colors="#94A3B8")
+    cbar.outline.set_visible(False)
+
+    # Customização de labels com excelente espaçamento
+    ax.set_xticks(np.arange(num_cols))
+    ax.set_yticks(np.arange(num_cols))
+    ax.set_xticklabels(columns, rotation=30, ha="right", fontsize=9, fontweight="bold")
+    ax.set_yticklabels(columns, fontsize=9, fontweight="bold")
+
+    # Remove ticks lines for cleaner look
+    ax.tick_params(axis="both", which="both", length=0, pad=8)
+
+    # Escreve os coeficientes numéricos de forma elegante
+    for i in range(num_cols):
+        for j in range(num_cols):
             val = df_correlations.values[i, j]
-            color = "#0D0F12" if abs(val) > 0.5 else "#F8FAFC"
+            # Use contrasting text color based on cell correlation value
+            color = "#0D0F12" if abs(val) > 0.45 else "#F8FAFC"
             ax.text(
                 j,
                 i,
-                f"{val:.2f}",
+                f"{val:+.2f}" if val != 0 else "0.00",
                 ha="center",
                 va="center",
                 color=color,
-                fontsize=8,
+                fontsize=9,
                 fontweight="bold",
             )
 
     ax.set_title(
         "Matriz de Correlação - Indicadores de Valuation B3",
-        fontsize=13,
+        fontsize=12,
         fontweight="bold",
-        pad=15,
+        pad=18,
+        color="#F1F5F9"
     )
 
+    # Prevent top/bottom cell clipping explicitly in Matplotlib imshow
+    ax.set_ylim(num_cols - 0.5, -0.5)
+
+    # Remove all spines
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    # Save with tight layout to prevent any cut-offs
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(out_path, dpi=300, facecolor="#0D0F12", edgecolor="none")
+    fig.savefig(out_path, dpi=300, facecolor="#0D0F12", edgecolor="none", bbox_inches="tight")
     plt.close(fig)
     print(f"[OK] Matriz de correlação salva em {out_path.name}")
