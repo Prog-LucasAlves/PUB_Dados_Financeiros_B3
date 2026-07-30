@@ -18,6 +18,7 @@ from .ui import (
 )
 from .stock import (
     check_stock_data_integrity,
+    estimate_accumulated_return,
     format_thousands,
     get_stock_data_val,
     load_accumulated_return,
