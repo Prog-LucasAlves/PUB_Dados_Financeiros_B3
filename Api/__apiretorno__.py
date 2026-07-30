@@ -1,72 +1,69 @@
 # Manipulação de dados
-import pathlib
+import os
+import sys
+from datetime import date, timedelta
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import yfinance as yf
+from tqdm import tqdm
+
+try:
+    import __list__
+except ImportError:
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "SRC"))
+    import __list__
 
 # Warnings
 import warnings
 
-# Manipulação de datas
-from datetime import date, timedelta
-
-import numpy as np
-import pandas as pd
-
-# Coleta cotações
-import yfinance as yf
-
-# Barra de Progresso
-from tqdm import tqdm
-
-# Lista com o nome das ações
-import __list__
-
-# Elimina warnings
 warnings.filterwarnings("ignore")
 
-# Lista com o nome dos ativos
-acao = __list__.lst_acao
-
-# Pegando as datas para os últimos N dias úteis
-date1, date2 = date.today() - timedelta(days=2), date.today() - timedelta(days=1)
-
-# Caminho base do script para resolução de caminhos robusta
-BASE_DIR = pathlib.Path(__file__).parent.resolve()
+ACAO = __list__.lst_acao
+DATE2 = date.today() - timedelta(days=1)
+BASE_DIR = Path(__file__).parent.resolve()
 COTACOES_PATH = BASE_DIR / "retornos" / "cotacoes.csv"
 
 
-# Função para coletar os dados de fechamento
-def retornoAcumulado():
-    res = np.busday_count(date1.strftime("%Y-%m-%d"), date2.strftime("%Y-%m-%d"))
+def retorno_acumulado() -> bool:
+    res = np.busday_count(
+        (date.today() - timedelta(days=2)).strftime("%Y-%m-%d"),
+        DATE2.strftime("%Y-%m-%d"),
+    )
     i = 1
+    test_date1 = date.today() - timedelta(days=2)
     while res < 80:
         test_date1 = date.today() - timedelta(days=i)
         res = np.busday_count(
-            test_date1.strftime("%Y-%m-%d"), date2.strftime("%Y-%m-%d")
+            test_date1.strftime("%Y-%m-%d"), DATE2.strftime("%Y-%m-%d")
         )
-        i = i + 1
+        i += 1
 
-    # Coletando as cotações de fechamento
     df = pd.DataFrame()
     success_count = 0
 
-    print(f"Iniciando download de {len(acao)} ativos de {test_date1} até {date2}...")
-    for i in tqdm(acao):
+    print(f"Iniciando download de {len(ACAO)} ativos de {test_date1} até {DATE2}...")
+    for ticker in tqdm(ACAO):
         try:
             downloaded = yf.download(
-                f"{i}.SA", start=test_date1, end=date2, progress=False, threads=False
+                f"{ticker}.SA",
+                start=test_date1,
+                end=DATE2,
+                progress=False,
+                threads=False,
             )
             if not downloaded.empty and "Close" in downloaded.columns:
                 close_data = downloaded["Close"]
-                # Caso o yfinance retorne um DataFrame MultiIndex, extraímos a coluna/série correspondente
                 if isinstance(close_data, pd.DataFrame):
                     close_data = close_data.squeeze()
-
                 if not close_data.empty:
-                    df[i] = close_data
+                    df[ticker] = close_data
                     success_count += 1
         except Exception:
-            pass  # Ignora falhas individuais silenciosamente para manter a barra limpa
+            continue
 
-    print(f"Download concluído. Sucesso: {success_count}/{len(acao)} ativos.")
+    print(f"Download concluído. Sucesso: {success_count}/{len(ACAO)} ativos.")
 
     if df.empty:
         print(
@@ -74,17 +71,13 @@ def retornoAcumulado():
         )
         return False
 
-    # Garante que a pasta de destino exista
     COTACOES_PATH.parent.mkdir(parents=True, exist_ok=True)
-
-    # Salvando os dados coletados
     df.to_csv(COTACOES_PATH, sep=";", index_label=False)
     return True
 
 
-def retornoAcumuladodias(X):
+def retorno_acumulado_dias(days: int) -> None:
     try:
-        # Carregando o Dataset com os dados
         df = pd.read_csv(COTACOES_PATH, sep=";")
     except FileNotFoundError:
         print(f"[ERRO] arquivo '{COTACOES_PATH}' não encontrado.")
@@ -95,82 +88,54 @@ def retornoAcumuladodias(X):
 
     if df.empty or df.shape[0] < 2:
         print(
-            f"[AVISO] Dados insuficientes em {COTACOES_PATH.name} ({df.shape[0]} linhas) para calcular retorno de {X} dias."
+            f"[AVISO] Dados insuficientes em {COTACOES_PATH.name} ({df.shape[0]} linhas) para calcular retorno de {days} dias."
         )
         return
 
-    # Selecionado as últimas N linhas
-    df = df.tail(X)
-
-    # Calculando os retonos diários
+    df = df.tail(days)
     df = round(df.pct_change() * 100, 2)
-
-    # Reset do index
     df.reset_index(inplace=True)
     df.rename(columns={"index": "Date"}, inplace=True)
 
-    # Apagando a primeira linha de forma segura
     if 0 in df.index:
         df = df.drop(0)
     else:
         df = df.iloc[1:]
 
-    # Dias
-    dias = df.shape[0]
-    if dias == 0:
+    if df.empty:
         print("[AVISO] Sem dias úteis suficientes após cálculo de variação percentual.")
         return
 
-    # Coletando os valores da coluna que era index (Data)
     if "Date" not in df.columns:
         print("[ERRO] Coluna 'Date' ausente após reset_index.")
         return
 
-    lista_date = pd.DataFrame(df["Date"])
-    lista_date["Date"] = pd.to_datetime(lista_date["Date"])
-    lista_date["Date2"] = lista_date["Date"].dt.date
-    lista_date2 = list(lista_date["Date2"])
-
-    # Apagando a coluna 'Date' do DataFrame
+    lista_date = pd.to_datetime(df["Date"]).dt.date.tolist()
     df.drop(["Date"], axis=1, inplace=True)
-
-    # Fazendo a transposição linhas para colunas | colunas para linhas
     df = df.T
-
-    # Criando uma nova 'variável' coluna com os retornos acumulados
     df["Total_Acumulado"] = round(df.sum(axis=1), 2)
 
-    # Renomeando as colunas
-    j = 0
-    for i in df.columns[:dias]:
-        if j < len(lista_date2):
-            df.rename(columns={i: f"{lista_date2[j]}"}, inplace=True)
-            j = j + 1
+    for idx, data_label in enumerate(lista_date):
+        if idx < len(df.columns):
+            df.rename(columns={df.columns[idx]: str(data_label)}, inplace=True)
 
-    # Ordenando pelo maior retorno
     df = df.sort_values(by="Total_Acumulado", ascending=False)
-
-    # Criando um DataFrame só com o Total acumulado
-    df_filter = pd.DataFrame(df["Total_Acumulado"])
-
-    # Reset do Index
-    df_filter.reset_index(inplace=True)
-
-    # Renomeando coluna 'index' -> 'Papel'
+    df_filter = df[["Total_Acumulado"]].reset_index()
     df_filter.rename(columns={"index": "Papel"}, inplace=True)
 
-    # Salva em um documento csv
-    out_path = BASE_DIR / "retornos" / f"retornos_acumulados_{(X - 1)}d.csv"
+    out_path = BASE_DIR / "retornos" / f"retornos_acumulados_{(days - 1)}d.csv"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     df_filter.to_csv(out_path, sep=";")
     print(
-        f"[OK] Retornos acumulados de {X - 1} dias salvos com sucesso em {out_path.name}."
+        f"[OK] Retornos acumulados de {days - 1} dias salvos com sucesso em {out_path.name}."
     )
 
 
+def main() -> None:
+    if retorno_acumulado():
+        for days in (16, 31, 46, 61):
+            retorno_acumulado_dias(days)
+
+
 if __name__ == "__main__":
-    download_success = retornoAcumulado()
-    # Só processa se o download ou arquivo existente tiver dados válidos
-    retornoAcumuladodias(16)
-    retornoAcumuladodias(31)
-    retornoAcumuladodias(46)
-    retornoAcumuladodias(61)
+    main()

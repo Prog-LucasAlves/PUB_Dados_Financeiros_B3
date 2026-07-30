@@ -21,7 +21,8 @@ class DatabaseConnectionManager:
                 user=os.getenv("POSTGRES_USER"),
                 password=os.getenv("POSTGRES_PASSWORD"),
                 database=os.getenv("POSTGRES_DB"),
-                host="localhost",
+                host=os.getenv("POSTGRES_HOST", "localhost"),
+                port=int(os.getenv("POSTGRES_PORT", 5432)),
             )
         return cls._pool
 

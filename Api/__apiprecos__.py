@@ -2,27 +2,29 @@
 Descrição:
 Esse código pega os dados das cotações das empresas
 listadas na bolsa brasileira e armazena cada ação com os
-dados coletados em um arquivo .csv \
-Coleta também os dados da cotações do índice bovespa e
-armazena os dados coletados em um arquivo .csv \
+dados coletados em um arquivo .csv.
+Coleta também os dados das cotações de índices, criptoativos e moedas.
 Local: pasta(precos)
 """
 
 import logging
+import os
+import sys
 import warnings
 from datetime import date, timedelta
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
-
-# Bibliotecas utilizadas
 import yfinance as yf
 from tqdm import tqdm
 
-# Lista com o nome das ações
-import __list__
+try:
+    import __list__
+except ImportError:
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "SRC"))
+    import __list__
 
-# Ignorando os avisos de erro
 warnings.filterwarnings("ignore")
 
 logging.basicConfig(
@@ -31,113 +33,132 @@ logging.basicConfig(
     format="%(asctime)s :: %(levelname)s :: %(filename)s :: %(lineno)d",
 )
 
-# Criando DataFrame
-df = pd.DataFrame()
+BASE_DIR = Path(__file__).parent
+START_DATE = date.today() - timedelta(days=500)
+END_DATE = date.today()
+ACAO = __list__.lst_acao
+INDICES = __list__.lst_indices
+CRYPTO = __list__.lst_crypto
+MOEDAS = __list__.lst_moedas
 
-# Criando datas de inicio e fim
-inicio = date.today() - timedelta(days=500)
-fim = date.today()
 
-# Tickers
-acao = __list__.lst_acao
-indices = __list__.lst_indices
-crypto = __list__.lst_crypto
-moedas = __list__.lst_moedas
+def _ensure_directory(path: Path):
+    path.mkdir(parents=True, exist_ok=True)
 
-# Coletando as cotações das ações
-for i in tqdm(acao):
-    try:
-        df = yf.download(
-            f"{i}.SA",
-            start=inicio,
-            end=fim,
-            progress=False,
-            threads=False,
-        )
-        if isinstance(df.columns, pd.MultiIndex):
+
+def _normalize_dataframe(df: pd.DataFrame, ticker: str):
+    if isinstance(df.columns, pd.MultiIndex):
+        for label in [f"{ticker}.SA", ticker]:
             try:
-                df = df.xs(f"{i}.SA", level="Ticker", axis=1, drop_level=True)
+                df = df.xs(label, level="Ticker", axis=1, drop_level=True)
+                break
             except Exception:
                 try:
-                    df = df.xs(f"{i}.SA", axis=1, level=0, drop_level=True)
+                    df = df.xs(label, axis=1, level=0, drop_level=True)
+                    break
                 except Exception:
-                    pass
-
-        df["ret"] = round((df["Close"].pct_change()) * 100, 2)
-        df["tret"] = df["ret"].cumsum()
-        # df["Adj Low"] = df["Low"] - (df["Close"] - df["Adj Close"])
-        # df["Adj High"] = df["High"] - (df["Close"] - df["Adj Close"])
-        # df["Adj Open"] = df["Open"] - (df["Close"] - df["Adj Close"])
-        df["Returns"] = df["Close"].pct_change(1)
-        df["Target"] = df["Returns"].shift(-1)
-        vol_p1 = 20
-        df["Vol"] = np.round(df["Returns"].rolling(vol_p1).std() * np.sqrt(252), 4)
-        df["MM20"] = df["Close"].rolling(20).mean()
-        df["Detrend"] = df["Close"] - df["MM20"]
-        df.to_csv(f"./precos/{i}.csv", sep=";")
-        logging.info("Preços das ações salvos com SUCESSO")
-
-    except Exception as e:
-        logging.error(f"Erro ao salvar os preços das ações: {e}")
-
-# Coletando as cotações de alguns índices
-for i in tqdm(indices):
-    df_b = yf.download(
-        f"^{i}",
-        start=inicio,
-        end=fim,
-        progress=False,
-        threads=False,
-    )
-    df_b = df_b.xs(f"^{i}", level="Ticker", axis=1, drop_level=True)
-    df_b.to_csv(f"./indices/{i}.csv", sep=";")
+                    continue
+    return df
 
 
-# Coletando as cotações de algumas crypto
-for i in tqdm(crypto):
-    df_crypto = yf.download(
-        f"{i}", start=inicio, end=fim, progress=False, threads=False
-    )
-    df_crypto = df_crypto.xs(f"{i}", level="Ticker", axis=1, drop_level=True)
-    df_crypto.to_csv(f"./crypto/{i}.csv", sep=";")
+def collect_equity_prices():
+    """Coleta dados históricos de preços para cada ação da lista."""
+    preco_dir = BASE_DIR / "precos"
+    _ensure_directory(preco_dir)
 
-# Coletando as cotações de algumas moedas
-for i in tqdm(moedas):
-    df_moedas = yf.download(
-        f"{i}", start=inicio, end=fim, progress=False, threads=False
-    )
-    df_moedas = df_moedas.xs(f"{i}", level="Ticker", axis=1, drop_level=True)
-    df_moedas.to_csv(f"./moedas/{i}.csv", sep=";")
+    for ticker in tqdm(ACAO, desc="Coletando cotações de ações"):
+        try:
+            df = yf.download(
+                f"{ticker}.SA",
+                start=START_DATE,
+                end=END_DATE,
+                progress=False,
+                threads=False,
+            )
+            if df.empty:
+                logging.warning(f"Nenhum dado retornado para {ticker}")
+                continue
 
-
-# Função para calcular o retorno(Índices)
-def calcula_retono_indices():
-    for i in indices:
-        df = pd.read_csv(f"./indices/{i}.csv", sep=";")
-        close_num = pd.to_numeric(df["Close"], errors="coerce")
-        df["Retornos"] = round(close_num.pct_change() * 100, 2)
-        df.to_csv(f"./indices/{i}.csv", sep=";")
-
-
-# Função para calcular o retorno(Crypto)
-def calcula_retorno_crypto():
-    for i in crypto:
-        df = pd.read_csv(f"./crypto/{i}.csv", sep=";")
-        close_num = pd.to_numeric(df["Close"], errors="coerce")
-        df["Retornos"] = round(close_num.pct_change() * 100, 2)
-        df.to_csv(f"./crypto/{i}.csv", sep=";")
+            df = _normalize_dataframe(df, ticker)
+            df["ret"] = round((df["Close"].pct_change()) * 100, 2)
+            df["tret"] = df["ret"].cumsum()
+            df["Returns"] = df["Close"].pct_change(1)
+            df["Target"] = df["Returns"].shift(-1)
+            df["Vol"] = np.round(df["Returns"].rolling(20).std() * np.sqrt(252), 4)
+            df["MM20"] = df["Close"].rolling(20).mean()
+            df["Detrend"] = df["Close"] - df["MM20"]
+            df.to_csv(preco_dir / f"{ticker}.csv", sep=";")
+            logging.info(f"Preços das ações salvos com SUCESSO: {ticker}")
+        except Exception as exc:
+            logging.error(f"Erro ao salvar os preços das ações {ticker}: {exc}")
 
 
-# Função para calcular o retorno(Moedas)
-def calcula_retorno_moedas():
-    for i in moedas:
-        df = pd.read_csv(f"./moedas/{i}.csv", sep=";")
-        close_num = pd.to_numeric(df["Close"], errors="coerce")
-        df["Retornos"] = round(close_num.pct_change() * 100, 2)
-        df.to_csv(f"./moedas/{i}.csv", sep=";")
+def collect_index_prices():
+    index_dir = BASE_DIR / "indices"
+    _ensure_directory(index_dir)
+
+    for symbol in tqdm(INDICES, desc="Coletando cotações de índices"):
+        try:
+            df = yf.download(
+                f"^{symbol}",
+                start=START_DATE,
+                end=END_DATE,
+                progress=False,
+                threads=False,
+            )
+            if not df.empty:
+                df = _normalize_dataframe(df, f"^{symbol}")
+                df.to_csv(index_dir / f"{symbol}.csv", sep=";")
+        except Exception as exc:
+            logging.error(f"Erro ao salvar índice {symbol}: {exc}")
+
+
+def collect_crypto_prices():
+    crypto_dir = BASE_DIR / "crypto"
+    _ensure_directory(crypto_dir)
+
+    for symbol in tqdm(CRYPTO, desc="Coletando cotações de cripto"):
+        try:
+            df = yf.download(
+                f"{symbol}",
+                start=START_DATE,
+                end=END_DATE,
+                progress=False,
+                threads=False,
+            )
+            if not df.empty:
+                df = _normalize_dataframe(df, symbol)
+                df.to_csv(crypto_dir / f"{symbol}.csv", sep=";")
+        except Exception as exc:
+            logging.error(f"Erro ao salvar cripto {symbol}: {exc}")
+
+
+def collect_currency_prices():
+    moedas_dir = BASE_DIR / "moedas"
+    _ensure_directory(moedas_dir)
+
+    for symbol in tqdm(MOEDAS, desc="Coletando cotações de moedas"):
+        try:
+            df = yf.download(
+                f"{symbol}",
+                start=START_DATE,
+                end=END_DATE,
+                progress=False,
+                threads=False,
+            )
+            if not df.empty:
+                df = _normalize_dataframe(df, symbol)
+                df.to_csv(moedas_dir / f"{symbol}.csv", sep=";")
+        except Exception as exc:
+            logging.error(f"Erro ao salvar moeda {symbol}: {exc}")
+
+
+def main():
+    collect_equity_prices()
+    collect_index_prices()
+    collect_crypto_prices()
+    collect_currency_prices()
 
 
 if __name__ == "__main__":
-    calcula_retono_indices()
-    calcula_retorno_crypto()
-    calcula_retorno_moedas()
+    main()

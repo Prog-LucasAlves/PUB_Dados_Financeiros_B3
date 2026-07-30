@@ -5,87 +5,74 @@ Esse código pega os dados dos fatos relevantes das empresas listadas na bolsa b
 Local: pasta(fatos_relevantes)
 """
 
-import glob
+import os
+import sys
+from pathlib import Path
 
-# Bibliotecas utilizadas
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup as bs
 from tqdm import tqdm
 
-# Lista com o nome das ações
-import __list__
+try:
+    import __list__
+except ImportError:
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "SRC"))
+    import __list__
 
-acao = __list__.lst_acao
+BASE_DIR = Path(__file__).parent
+OUTPUT_DIR = BASE_DIR / "fatos_relevantes"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Coletando os dados das ações
-for i in tqdm(acao):
-    url = f"https://www.fundamentus.com.br/fatos_relevantes.php?papel={i}"
-    hearder = {"user-agent": "Mozilla/5.0"}
-    ret1 = requests.get(url, headers=hearder)
-    soup1 = bs(ret1.text, "html.parser")
 
-    # Coletando o título do site
-    header_site = soup1.h1
-    if header_site:
-        # Coletando os nomes das colunas
-        column_headers = soup1.find_all("tr")[0]
-        column_headers = [i.getText() for i in column_headers.find_all("th")]
+def collect_relevant_facts():
+    all_rows = []
 
-        # Coletando os dados das colunas
-        rows = soup1.find_all("tr")[1:]
-        df_dados = []
-        for h in range(len(rows)):
-            df_dados.append([col.getText() for col in rows[h].find_all("td")])
-            df_dados
+    for ticker in tqdm(__list__.lst_acao, desc="Coletando fatos relevantes"):
+        url = f"https://www.fundamentus.com.br/fatos_relevantes.php?papel={ticker}"
+        headers = {"user-agent": "Mozilla/5.0"}
 
-            # Coletando o link do documento
-            rows1 = soup1.find_all("tr")[1:]
-            lista_link = []
-            for t in range(len(rows1)):
-                for link in rows1[t].find_all("a"):
-                    lista_link.append(link.get("href"))
+        response = requests.get(url, headers=headers)
+        soup = bs(response.text, "html.parser")
+        header_site = soup.h1
 
-    # Adicionando os dados coletados em um DataFrame
-    data = pd.DataFrame(df_dados, columns=column_headers[:])
-    data["Link"] = lista_link
+        if not header_site:
+            continue
 
-    # Deletando colunas nulas
-    del data["Download"]
-    del data["Tipo"]
+        column_headers = [th.getText() for th in soup.find_all("tr")[0].find_all("th")]
+        rows = soup.find_all("tr")[1:]
+        data_rows = [[td.getText() for td in row.find_all("td")] for row in rows]
 
-    # Ajustando a coluna Data e criando um nova coluna Hora e Acao
-    # (com o código da ação)
-    df = data["Data"].apply(lambda x: str(x)[10:])
-    data["Data"] = data["Data"].apply(lambda x: str(x)[:12])
-    data["Hora"] = df
-    data["Acao"] = i
+        lista_link = [
+            link.get("href")
+            for row in rows
+            for link in row.find_all("a")
+            if link.get("href")
+        ]
 
-    # Organizando as colunas no DataFrame
-    data = data[["Acao", "Data", "Hora", "Descrição", "Link"]]
+        if not data_rows:
+            continue
 
-    # Removendo os espaços vazios das colunas Data e Hora
-    data["Data"] = data["Data"].str.strip()
-    data["Hora"] = data["Hora"].str.strip()
+        data = pd.DataFrame(data_rows, columns=column_headers)
+        data["Link"] = lista_link
+        if "Download" in data.columns:
+            data.drop(columns=["Download"], inplace=True)
+        if "Tipo" in data.columns:
+            data.drop(columns=["Tipo"], inplace=True)
 
-    # Salavando os dados em um arquivo .csv
-    data.to_csv(f"./fatos_relevantes/{i}.csv", sep=";")
+        if "Data" in data.columns:
+            data["Hora"] = data["Data"].apply(lambda x: str(x)[10:]).str.strip()
+            data["Data"] = data["Data"].apply(lambda x: str(x)[:12]).str.strip()
+        data["Acao"] = ticker
+        data = data[["Acao", "Data", "Hora", "Descrição", "Link"]]
 
-arquivos = glob.glob("./fatos_relevantes/*.csv")
-# "arquivos" agora é um array com o nome de todos os .csv
-# que começam com "arquivo"
-array_df = []
+        data.to_csv(OUTPUT_DIR / f"{ticker}.csv", sep=";", index=False)
+        all_rows.append(data)
 
-# Lendo cada arquivo e adicionando ao array_df
-for x in arquivos:
-    temp_df = pd.read_csv(x, sep=";")
-    array_df.append(temp_df)
+    if all_rows:
+        df = pd.concat(all_rows, axis=0)
+        df.to_parquet(Path("../Todos/FT.parquet.gzip"), compression="gzip")
 
-# Concatenando os DataFrames
-df = pd.concat(array_df, axis=0)
-# df.to_csv('../Todos/FT.csv', sep=';')
 
-# Salvando o DataFrame em um arquivo .parquet.gzip com compressão gzip
-df.to_parquet("../Todos/FT.parquet.gzip", compression="gzip")
-
-#####
+if __name__ == "__main__":
+    collect_relevant_facts()

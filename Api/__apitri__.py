@@ -7,97 +7,82 @@ dados coletados em um arquivo .csv
 Local: pasta(trimestre)
 """
 
-# Bibliotecas utilizadas
-import glob
+import os
+import sys
 import warnings
-from datetime import datetime, timedelta
+from pathlib import Path
 
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup as bs
 from tqdm import tqdm
 
-# Lista com o nome das ações
-import __list__
+try:
+    import __list__
+except ImportError:
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "SRC"))
+    import __list__
 
 warnings.filterwarnings("ignore")
 
-date_att = datetime.today()
-atraso = timedelta(0)
-date_atual = date_att - atraso
-date_atual_m = date_atual.strftime("%d/%m/%Y")
+BASE_DIR = Path(__file__).parent
+OUTPUT_DIR = BASE_DIR / "trimestre"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+OUTPUT_ARCHIVE = Path("../Todos")
+OUTPUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
 
-# Lista com o nome das ações
-acao = __list__.lst_acao
 
-# Coletando os dados das ações
-for i in tqdm(acao):
-    url = f"https://www.fundamentus.com.br/resultados_trimestrais.php?papel={i}&tipo=1"
-    hearder = {"user-agent": "Mozilla/5.0"}
-    ret1 = requests.get(url, headers=hearder)
-    soup1 = bs(ret1.text, "html.parser")
+def fetch_trimestral_data(ticker: str) -> pd.DataFrame | None:
+    url = f"https://www.fundamentus.com.br/resultados_trimestrais.php?papel={ticker}&tipo=1"
+    headers = {"user-agent": "Mozilla/5.0"}
+    response = requests.get(url, headers=headers)
+    soup = bs(response.text, "html.parser")
 
-    # Coletando o nome da empresa
-    header_site = soup1.h1
-    if header_site:
-        # Coletando os nomes das colunas
-        column_headers = soup1.find_all("tr")[0]
-        column_headers = [i.getText() for i in column_headers.find_all("th")]
+    if not soup.h1:
+        return None
 
-        # Coletando os dados das colunas
-        rows = soup1.findAll("tr")[1:]
-        df_dados = []
-        for h in range(len(rows)):
-            df_dados.append([col.getText() for col in rows[h].find_all("td")])
+    table = soup.find_all("tr")
+    if len(table) < 2:
+        return None
 
-            # Coletando o link do documento
-            rows1 = soup1.find_all("tr")[1:]
-            lista_link = []
-            for t in range(len(rows1)):
-                for link in rows1[t].find_all("a"):
-                    lista_link.append(link.get("href"))
+    column_headers = [th.getText() for th in table[0].find_all("th")]
+    rows = table[1:]
+    data_rows = [[td.getText() for td in row.find_all("td")] for row in rows]
 
-        # Coletando o link do documento
-        lista_df = []
-        for a in lista_link:
-            if "NumeroSequencialDocumento" in a:
-                lista_df.append(a)
+    if not data_rows:
+        return None
 
-        # Coletando o link do documento
-        lista_rr = []
-        for b in lista_link:
-            if "Tela=ext&numProtocolo" in b:
-                lista_rr.append(b)
+    links = [
+        link.get("href")
+        for row in rows
+        for link in row.find_all("a")
+        if link.get("href")
+    ]
+    lista_df = [link for link in links if "NumeroSequencialDocumento" in link]
+    lista_rr = [link for link in links if "Tela=ext&numProtocolo" in link]
 
-    # Adicionando os dados coletados em um DataFrame
-    data = pd.DataFrame(df_dados, columns=column_headers[:])
-    data["Demonstração Financeira"] = lista_df
+    data = pd.DataFrame(data_rows, columns=column_headers)
+    data["Demonstração Financeira"] = pd.Series(lista_df)
     data["Release de Resultados"] = pd.Series(lista_rr)
-    data["Acao"] = i
+    data["Acao"] = ticker
+    return data
 
-    data.to_csv(f"../Api/trimestre/{i}.csv", sep=";")
 
-    data_date = pd.read_csv(f"../Api/trimestre/{i}.csv", sep=";")
+def collect_trimestral_reports() -> None:
+    frames = []
 
-    if len(data) == len(data_date):
-        # Salavando os dados em um arquivo .csv
-        data.to_csv(f"../Api/trimestre/{i}.csv", sep=";")
-    else:
-        data["Data Divulgação"] = date_atual_m
-        data.to_csv(f"../Api/trimestre/{i}.csv", sep=";")
+    for ticker in tqdm(__list__.lst_acao, desc="Coletando resultados trimestrais"):
+        data = fetch_trimestral_data(ticker)
+        if data is None:
+            continue
+        output_file = OUTPUT_DIR / f"{ticker}.csv"
+        data.to_csv(output_file, sep=";", index=False)
+        frames.append(data)
 
-arquivos = glob.glob("./trimestre/*.csv")
-# "arquivos" agora é um array com o nome de todos os .csv que
-# começam com "arquivo"
-array_df = []
-for x in arquivos:
-    temp_df = pd.read_csv(x, sep=";")
-    array_df.append(temp_df)
+    if frames:
+        df = pd.concat(frames, axis=0)
+        df.to_parquet(OUTPUT_ARCHIVE / "TR.parquet.gzip", compression="gzip")
 
-df = pd.concat(array_df, axis=0)
-# df.to_csv("../Todos/TR.csv", sep=";")
 
-# Salavando os dados em um arquivo .parquet
-df.to_parquet("../Todos/TR.parquet.gzip", compression="gzip")
-
-#####
+if __name__ == "__main__":
+    collect_trimestral_reports()

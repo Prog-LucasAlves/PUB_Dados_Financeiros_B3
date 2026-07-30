@@ -1,4 +1,4 @@
-;Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
-0;14/05/2026;0,0303;DIVIDENDO;29/05/2026							  ;1;AUAU3
-1;;;;;;AUAU3
-2;2026;0,030;;;;AUAU3
+Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
+14/05/2026;0,0303;DIVIDENDO;29/05/2026							  ;1;AUAU3
+;;;;;AUAU3
+2026;0,030;;;;AUAU3

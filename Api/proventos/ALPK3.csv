@@ -1,4 +1,4 @@
-;Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
-0;24/04/2026;0,0077;DIVIDENDO;29/05/2026							  ;1;ALPK3
-1;;;;;;ALPK3
-2;2026;0,008;;;;ALPK3
+Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
+24/04/2026;0,0077;DIVIDENDO;29/05/2026							  ;1;ALPK3
+;;;;;ALPK3
+2026;0,008;;;;ALPK3

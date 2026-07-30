@@ -1,48 +1,69 @@
 """
 Descrição:
-Esse código pega os dados upside ou dowside mês a mês em porcentagem
+Esse código pega os dados upside ou downside mês a mês em porcentagem
 das empresas listadas na bolsa brasileira e armazena cada ação com os
 dados coletados em um arquivo .csv
 
 Local: pasta(histórico)
 """
 
-# Bibliotecas utilizadas
+import os
+import sys
+from pathlib import Path
 import warnings
 
 import quantstats as qs
 from tqdm import tqdm
 
-# Lista com o nome das ações
-import __list__
+ROOT_DIR = Path(__file__).resolve().parent
+SRC_DIR = ROOT_DIR.parent / "SRC"
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 
-acao = __list__.lst_acao
+try:
+    import __list__
+except ImportError:
+    if str(SRC_DIR) not in sys.path:
+        sys.path.insert(0, str(SRC_DIR))
+    import __list__
 
-# Ignorando os avisos de pandas
-warnings.filterwarnings("ignore")
 
-for i in tqdm(acao):
+def collect_monthly_returns(target_dir="./historico"):
+    warnings.filterwarnings("ignore")
     qs.extend_pandas()
-    data = qs.utils.download_returns(f"{i}.SA")
-    if data.empty:
-        pass
-    else:
-        datah = data.monthly_returns()
-        datah[["JAN"]] = datah[["JAN"]].applymap("{0:.2%}".format)
-        datah[["FEB"]] = datah[["FEB"]].applymap("{0:.2%}".format)
-        datah[["MAR"]] = datah[["MAR"]].applymap("{0:.2%}".format)
-        datah[["APR"]] = datah[["APR"]].applymap("{0:.2%}".format)
-        datah[["MAY"]] = datah[["MAY"]].applymap("{0:.2%}".format)
-        datah[["JUN"]] = datah[["JUN"]].applymap("{0:.2%}".format)
-        datah[["JUL"]] = datah[["JUL"]].applymap("{0:.2%}".format)
-        datah[["AUG"]] = datah[["AUG"]].applymap("{0:.2%}".format)
-        datah[["SEP"]] = datah[["SEP"]].applymap("{0:.2%}".format)
-        datah[["OCT"]] = datah[["OCT"]].applymap("{0:.2%}".format)
-        datah[["NOV"]] = datah[["NOV"]].applymap("{0:.2%}".format)
-        datah[["DEC"]] = datah[["DEC"]].applymap("{0:.2%}".format)
-        datah[["EOY"]] = datah[["EOY"]].applymap("{0:.2%}".format)
+    tickers = getattr(__list__, "lst_acao", [])
+    os.makedirs(target_dir, exist_ok=True)
 
-        # Salvando os dados coletados em um arquivo .csv
-        datah.to_csv(f"./historico/{i}.csv", sep=";")
+    for ticker in tqdm(tickers, desc="Baixando retornos mensais"):
+        try:
+            data = qs.utils.download_returns(f"{ticker}.SA")
+            if data.empty:
+                continue
 
-#####
+            datah = data.monthly_returns()
+            for month in [
+                "JAN",
+                "FEB",
+                "MAR",
+                "APR",
+                "MAY",
+                "JUN",
+                "JUL",
+                "AUG",
+                "SEP",
+                "OCT",
+                "NOV",
+                "DEC",
+                "EOY",
+            ]:
+                if month in datah.columns:
+                    datah[[month]] = datah[[month]].applymap("{0:.2%}".format)
+
+            output_path = Path(target_dir) / f"{ticker}.csv"
+            datah.to_csv(output_path, sep=";")
+        except Exception:
+            continue
+
+
+if __name__ == "__main__":
+    collect_monthly_returns()
