@@ -60,24 +60,114 @@ st.set_page_config(
 # Inject visual styles
 inject_custom_css()
 
-# Branded Hero Header
+theme_options = [
+    "Amostra 1 — Premium",
+    "Amostra 2 — Analítica",
+    "Amostra 3 — Comparativa",
+]
+theme_param = st.query_params.get("theme", "")
+if theme_param:
+    theme_param = theme_param.lower()
+    param_to_option = {
+        "premium": "Amostra 1 — Premium",
+        "analytical": "Amostra 2 — Analítica",
+        "comparative": "Amostra 3 — Comparativa",
+    }
+    default_option = param_to_option.get(theme_param, theme_options[1])
+else:
+    default_option = theme_options[1]
+
+ux_variant = st.sidebar.selectbox(
+    "Amostra de UX",
+    theme_options,
+    index=theme_options.index(default_option),
+)
+ux_key = {
+    "Amostra 1 — Premium": "premium",
+    "Amostra 2 — Analítica": "analytical",
+    "Amostra 3 — Comparativa": "comparative",
+}[ux_variant]
+
+hero_config = {
+    "premium": {
+        "badge": "LIVE DATA TRACKING",
+        "title": "Inteligência Financeira Premium",
+        "subtitle": "Uma experiência refinada para acompanhar valuation, saúde financeira e sinais de mercado com clareza e impacto visual.",
+        "primary": "Começar análise",
+        "secondary": "Abrir repositório",
+    },
+    "analytical": {
+        "badge": "DECISÃO RÁPIDA",
+        "title": "Painel analítico para decisões objetivas",
+        "subtitle": "Métricas priorizadas, leitura imediata e foco em sinais de oportunidade, risco e valor justo.",
+        "primary": "Explorar métricas",
+        "secondary": "Ver comparativos",
+    },
+    "comparative": {
+        "badge": "COMPARAÇÕES EM TEMPO REAL",
+        "title": "Comparação editorial entre fundamentos e valuation",
+        "subtitle": "Uma jornada visual que destaca contexto, desempenho e estrutura patrimonial para cada ativo da B3.",
+        "primary": "Ir para balanço",
+        "secondary": "Ver valuation",
+    },
+}[ux_key]
+
+hero_class = "hero-header"
+if ux_key == "analytical":
+    hero_class = "hero-header hero-header--analytical"
+elif ux_key == "comparative":
+    hero_class = "hero-header hero-header--comparative"
+
 st.markdown(
-    """
-    <div class="hero-header">
+    f"""
+    <div class="{hero_class}">
         <div class="hero-nav">
             <div class="hero-logo"><span class="hero-logo-accent">⚡</span> NEO-B3 <span style="font-weight: 300; opacity: 0.8;">OBSIDIAN</span></div>
-            <div class="hero-badge"><span class="hero-badge-dot"></span> LIVE DATA TRACKING</div>
+            <div class="hero-badge"><span class="hero-badge-dot"></span> {hero_config["badge"]}</div>
         </div>
-        <div class="hero-title">Inteligência Financeira Premium</div>
-        <div class="hero-subtitle">Sua central definitiva de análise, valuation e métricas de mercado para ativos da B3. Alta performance com design de ponta.</div>
+        <div class="hero-title">{hero_config["title"]}</div>
+        <div class="hero-subtitle">{hero_config["subtitle"]}</div>
         <div class="hero-actions">
-            <a class="hero-btn hero-btn-primary" href="#informacoes-das-acoes-listadas-na-b3">Começar Análise</a>
-            <a class="hero-btn hero-btn-secondary" href="https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3" target="_blank">Repositório GitHub</a>
+            <a class="hero-btn hero-btn-primary" href="#informacoes-das-acoes-listadas-na-b3">{hero_config["primary"]}</a>
+            <a class="hero-btn hero-btn-secondary" href="https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3" target="_blank">{hero_config["secondary"]}</a>
         </div>
     </div>
     """,
     unsafe_allow_html=True,
 )
+
+sample_cards = [
+    (
+        "Premium",
+        "Amostra 1",
+        "Visão cinematográfica com foco em storytelling e descoberta rápida.",
+    ),
+    (
+        "Analítica",
+        "Amostra 2",
+        "Layout enxuto, métricas priorizadas e leitura direta para decisões.",
+    ),
+    (
+        "Comparativa",
+        "Amostra 3",
+        "Estrutura editorial com ênfase em contexto, balanço e valuation.",
+    ),
+]
+
+sample_markup = ""
+for _, (title, label, copy) in enumerate(sample_cards):
+    active_class = (
+        " active" if (ux_variant.split("—")[1].strip().lower() == title.lower()) else ""
+    )
+    sample_markup += (
+        f'<div class="sample-card{active_class}">'
+        f'<div class="sample-kicker">{label}</div>'
+        f'<div class="sample-title">{title}</div>'
+        f'<div class="sample-copy">{copy}</div>'
+        f"</div>"
+    )
+
+st.markdown(f'<div class="sample-grid">{sample_markup}</div>', unsafe_allow_html=True)
 
 # Header - Global Indices, Currencies & Cryptos in a clean expander to avoid visual clutter
 with st.expander(
@@ -266,6 +356,27 @@ tab_overview, tab_valuation, tab_efficiency, tab_balance = st.tabs(
 )
 
 with tab_overview:
+    st.markdown(
+        """
+        <div class="dashboard-panel">
+            <div class="panel-title">Executive Summary</div>
+            <div class="panel-subtitle">Visão consolidada do ativo com foco em valor de mercado, desempenho recente e contexto de negociação.</div>
+            <div class="kpi-strip">
+                <div class="kpi-box"><div class="kpi-label">Cotação</div><div class="kpi-value">{}</div><div class="kpi-trend">Atual</div></div>
+                <div class="kpi-box"><div class="kpi-label">Valor de Mercado</div><div class="kpi-value">{}</div><div class="kpi-trend">Capitalização</div></div>
+                <div class="kpi-box"><div class="kpi-label">P/L</div><div class="kpi-value">{}</div><div class="kpi-trend">Múltiplo</div></div>
+                <div class="kpi-box"><div class="kpi-label">Dividend Yield</div><div class="kpi-value">{}</div><div class="kpi-trend">Rendimento</div></div>
+            </div>
+        </div>
+        """.format(
+            fmt_money(get_stock_data_val("cotacao")),
+            fmt_money(get_stock_data_val("valor_mercado")),
+            fmt_decimal(get_stock_data_val("pl")),
+            fmt_percent(get_stock_data_val("div_yield")),
+        ),
+        unsafe_allow_html=True,
+    )
+
     col1, col2 = st.columns(2)
 
     tipo_res = get_stock_data_val("tipo")
@@ -360,6 +471,15 @@ with tab_overview:
     )
 
 with tab_valuation:
+    st.markdown(
+        """
+        <div class="dashboard-panel">
+            <div class="panel-title">Valuation Framework</div>
+            <div class="panel-subtitle">Estrutura de múltiplos e indicadores de avaliação para interpretar o preço atual em relação ao valor intrínseco.</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
     col1, col2 = st.columns(2)
 
     pl_res = get_stock_data_val("pl")
@@ -417,6 +537,15 @@ with tab_valuation:
     )
 
 with tab_efficiency:
+    st.markdown(
+        """
+        <div class="dashboard-panel">
+            <div class="panel-title">Performance Operacional</div>
+            <div class="panel-subtitle">Indicadores de rentabilidade, eficiência e geração de caixa operacional.</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
     col1, col2 = st.columns(2)
 
     m_bruta = get_stock_data_val("marg_bruta")
@@ -460,6 +589,15 @@ with tab_efficiency:
     )
 
 with tab_balance:
+    st.markdown(
+        """
+        <div class="dashboard-panel">
+            <div class="panel-title">Saúde Financeira</div>
+            <div class="panel-subtitle">Visão da estrutura de capital, liquidez, endividamento e resultado recente do balanço.</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
     col1, col2 = st.columns(2)
 
     liquidez_corr_res = get_stock_data_val("liquidez_corr")
