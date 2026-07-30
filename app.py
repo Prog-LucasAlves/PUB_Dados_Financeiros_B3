@@ -49,7 +49,6 @@ render_status_card = b3_app.render_status_card
 # Inicio da Construção Streamlit #
 ##################################
 
-st.set_option("deprecation.showPyplotGlobalUse", False)
 st.set_page_config(
     page_title="Neo-B3 Obsidian | Painel Financeiro",
     page_icon="📊",
