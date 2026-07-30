@@ -4,6 +4,8 @@ from datetime import datetime, timedelta
 
 import numpy as np
 import pandas as pd
+import streamlit as st
+
 
 from .data import load_stock_prices
 
@@ -139,6 +141,7 @@ def estimate_accumulated_return(precos_df, ticker, days):
         return None
 
 
+@st.cache_data(ttl=300)
 def check_stock_data_integrity(ticker):
     paths = {
         "Preços Históricos": ("./Api/precos/{ticker}.csv", True),

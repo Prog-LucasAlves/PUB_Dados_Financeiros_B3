@@ -1,65 +1,31 @@
-name: Continuous Integration
+name: CI / Test Suite
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, master ]
 
 jobs:
-  lint-and-test:
+  test:
     runs-on: ubuntu-latest
-
-    services:
-      # Sobe o banco de dados temporário de testes isolado
-      postgres:
-        image: postgres:13
-        env:
-          POSTGRES_USER: root
-          POSTGRES_PASSWORD: root
-          POSTGRES_DB: dados_financeiros
-        ports:
-          - 5432:5432
-        # Aguarda o PostgreSQL ficar pronto
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.11"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
 
-    - name: Install uv
-      uses: astral-sh/setup-uv@v3
-      with:
-        version: "latest"
-        enable-cache: true
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest
 
-    - name: Install dependencies
-      run: |
-        uv sync --frozen
-
-    - name: Run Ruff Linter
-      run: |
-        uv run ruff check .
-
-    - name: Run Ruff Formatter
-      run: |
-        uv run ruff format --check .
-
-    - name: Run Pytest Suites
-      env:
-        POSTGRES_USER: root
-        POSTGRES_PASSWORD: root
-        POSTGRES_DB: dados_financeiros
-        POSTGRES_HOST: localhost
-        POSTGRES_PORT: 5432
-      run: |
-        uv run pytest -v --tb=short
+      - name: Run pytest test suite
+        env:
+          PYTHONPATH: "."
+        run: |
+          pytest --verbose

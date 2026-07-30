@@ -445,25 +445,159 @@ def inject_custom_css():
         font-weight: 800;
     }
 
-    .footer-container {
-        padding: 20px 0 4px;
-        margin-top: 20px;
-        border-top: 1px solid rgba(255,255,255,0.06);
+    /* ═══════════════════════════════════════════ */
+    /*  STREAMLIT COMPONENT CONTRAST OVERRIDES    */
+    /* ═══════════════════════════════════════════ */
+    /* Expanders */
+    [data-testid="stExpander"] {
+        background-color: #111519 !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
+        border-radius: 14px !important;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2) !important;
+        overflow: hidden !important;
     }
-    .footer-divider {
-        display: none;
+    [data-testid="stExpander"] details {
+        background-color: #111519 !important;
+        border: none !important;
+    }
+    [data-testid="stExpander"] summary {
+        color: #F8FAFC !important;
+        font-family: 'Outfit', sans-serif !important;
+        font-weight: 700 !important;
+        font-size: 1rem !important;
+        padding: 12px 16px !important;
+    }
+    [data-testid="stExpander"] summary:hover {
+        color: #00E676 !important;
+    }
+    [data-testid="stExpander"] summary svg {
+        fill: #00E676 !important;
+        color: #00E676 !important;
+    }
+    [data-testid="stExpander"] [data-testid="stVerticalBlock"] {
+        padding: 8px 16px 16px 16px !important;
+    }
+
+    /* Tabs */
+    [data-baseweb="tab-list"] {
+        background-color: transparent !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+        gap: 8px !important;
+        padding-bottom: 4px !important;
+    }
+    [data-baseweb="tab"] {
+        background-color: transparent !important;
+        color: #94A3B8 !important;
+        font-family: 'Outfit', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 0.95rem !important;
+        border-radius: 8px 8px 0 0 !important;
+        padding: 8px 16px !important;
+        border: none !important;
+        transition: all 0.2s ease !important;
+    }
+    [data-baseweb="tab"]:hover {
+        color: #F8FAFC !important;
+        background-color: rgba(255, 255, 255, 0.03) !important;
+    }
+    [data-baseweb="tab"][aria-selected="true"] {
+        color: #00E676 !important;
+        background-color: rgba(0, 230, 118, 0.08) !important;
+        border-bottom: 2px solid #00E676 !important;
+    }
+
+    /* Selectbox Dropdown Menu Popover */
+    [data-baseweb="popover"],
+    [data-baseweb="menu"],
+    div[role="listbox"] {
+        background-color: #161A1F !important;
+        border: 1px solid rgba(0, 230, 118, 0.25) !important;
+        border-radius: 10px !important;
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6) !important;
+    }
+    [role="option"],
+    [data-baseweb="menu"] li {
+        color: #F8FAFC !important;
+        font-family: 'Outfit', sans-serif !important;
+        font-size: 0.92rem !important;
+        padding: 10px 14px !important;
+        background-color: transparent !important;
+    }
+    [role="option"]:hover,
+    [role="option"][aria-selected="true"],
+    [data-baseweb="menu"] li:hover {
+        background-color: rgba(0, 230, 118, 0.15) !important;
+        color: #00E676 !important;
+        font-weight: 600 !important;
+    }
+
+    /* Selectbox Main Button Text */
+    [data-baseweb="select"] span {
+        color: #F8FAFC !important;
+        font-family: 'Outfit', sans-serif !important;
+        font-weight: 500 !important;
+    }
+
+    /* Dataframes & Tables */
+    [data-testid="stDataFrame"],
+    [data-testid="stTable"] {
+        background-color: #161A1F !important;
+        border: 1px solid rgba(255, 255, 255, 0.06) !important;
+        border-radius: 12px !important;
+        padding: 6px !important;
+        color: #F8FAFC !important;
+    }
+    [data-testid="stDataFrame"] table,
+    [data-testid="stTable"] table {
+        color: #F8FAFC !important;
+        font-family: 'JetBrains Mono', monospace !important;
+    }
+    [data-testid="stDataFrame"] th,
+    [data-testid="stTable"] th {
+        background-color: #111418 !important;
+        color: #94A3B8 !important;
+        font-family: 'Outfit', sans-serif !important;
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.05em !important;
+    }
+
+    /* Captions & Text */
+    [data-testid="stCaptionContainer"],
+    .stCaption {
+        color: #94A3B8 !important;
+        font-size: 0.88rem !important;
+        font-family: 'Outfit', sans-serif !important;
+    }
+    .stMarkdown p {
+        color: #CBD5E1;
+        font-family: 'Outfit', sans-serif;
+    }
+    .stMarkdown strong {
+        color: #F8FAFC;
+    }
+
+    .footer-container {
+        padding: 24px 0 12px;
+        margin-top: 24px;
+        border-top: 1px solid rgba(255,255,255,0.08);
+        text-align: center;
     }
     .footer-brand {
         color: #F8FAFC;
         font-weight: 700;
         font-size: 0.95rem;
-        margin-bottom: 4px;
+        margin-bottom: 6px;
+    }
+    .footer-brand span {
+        color: #00E676;
     }
     .footer-copy {
         color: #64748B;
         font-size: 0.82rem;
     }
     </style>
+
     """,
         unsafe_allow_html=True,
     )

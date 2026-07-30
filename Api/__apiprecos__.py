@@ -14,10 +14,12 @@ import warnings
 from datetime import date, timedelta
 from pathlib import Path
 
+import backoff
 import numpy as np
 import pandas as pd
 import yfinance as yf
 from tqdm import tqdm
+
 
 try:
     import __list__
@@ -61,6 +63,17 @@ def _normalize_dataframe(df: pd.DataFrame, ticker: str):
     return df
 
 
+@backoff.on_exception(backoff.expo, Exception, max_tries=3)
+def fetch_yf_data(symbol, start, end):
+    return yf.download(
+        symbol,
+        start=start,
+        end=end,
+        progress=False,
+        threads=False,
+    )
+
+
 def collect_equity_prices():
     """Coleta dados históricos de preços para cada ação da lista."""
     preco_dir = BASE_DIR / "precos"
@@ -68,13 +81,8 @@ def collect_equity_prices():
 
     for ticker in tqdm(ACAO, desc="Coletando cotações de ações"):
         try:
-            df = yf.download(
-                f"{ticker}.SA",
-                start=START_DATE,
-                end=END_DATE,
-                progress=False,
-                threads=False,
-            )
+            df = fetch_yf_data(f"{ticker}.SA", START_DATE, END_DATE)
+
             if df.empty:
                 logging.warning(f"Nenhum dado retornado para {ticker}")
                 continue

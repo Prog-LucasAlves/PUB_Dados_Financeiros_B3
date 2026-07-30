@@ -60,114 +60,24 @@ st.set_page_config(
 # Inject visual styles
 inject_custom_css()
 
-theme_options = [
-    "Amostra 1 — Premium",
-    "Amostra 2 — Analítica",
-    "Amostra 3 — Comparativa",
-]
-theme_param = st.query_params.get("theme", "")
-if theme_param:
-    theme_param = theme_param.lower()
-    param_to_option = {
-        "premium": "Amostra 1 — Premium",
-        "analytical": "Amostra 2 — Analítica",
-        "comparative": "Amostra 3 — Comparativa",
-    }
-    default_option = param_to_option.get(theme_param, theme_options[1])
-else:
-    default_option = theme_options[1]
-
-ux_variant = st.sidebar.selectbox(
-    "Amostra de UX",
-    theme_options,
-    index=theme_options.index(default_option),
-)
-ux_key = {
-    "Amostra 1 — Premium": "premium",
-    "Amostra 2 — Analítica": "analytical",
-    "Amostra 3 — Comparativa": "comparative",
-}[ux_variant]
-
-hero_config = {
-    "premium": {
-        "badge": "LIVE DATA TRACKING",
-        "title": "Inteligência Financeira Premium",
-        "subtitle": "Uma experiência refinada para acompanhar valuation, saúde financeira e sinais de mercado com clareza e impacto visual.",
-        "primary": "Começar análise",
-        "secondary": "Abrir repositório",
-    },
-    "analytical": {
-        "badge": "DECISÃO RÁPIDA",
-        "title": "Painel analítico para decisões objetivas",
-        "subtitle": "Métricas priorizadas, leitura imediata e foco em sinais de oportunidade, risco e valor justo.",
-        "primary": "Explorar métricas",
-        "secondary": "Ver comparativos",
-    },
-    "comparative": {
-        "badge": "COMPARAÇÕES EM TEMPO REAL",
-        "title": "Comparação editorial entre fundamentos e valuation",
-        "subtitle": "Uma jornada visual que destaca contexto, desempenho e estrutura patrimonial para cada ativo da B3.",
-        "primary": "Ir para balanço",
-        "secondary": "Ver valuation",
-    },
-}[ux_key]
-
-hero_class = "hero-header"
-if ux_key == "analytical":
-    hero_class = "hero-header hero-header--analytical"
-elif ux_key == "comparative":
-    hero_class = "hero-header hero-header--comparative"
-
 st.markdown(
-    f"""
-    <div class="{hero_class}">
+    """
+    <div class="hero-header">
         <div class="hero-nav">
-            <div class="hero-logo"><span class="hero-logo-accent">⚡</span> NEO-B3 <span style="font-weight: 300; opacity: 0.8;">OBSIDIAN</span></div>
-            <div class="hero-badge"><span class="hero-badge-dot"></span> {hero_config["badge"]}</div>
+            <div class="hero-logo"><span class="hero-logo-accent">⚡</span> NEO-B3 <span style="font-weight: 300; opacity: 0.85;">OBSIDIAN</span></div>
+            <div class="hero-badge"><span class="hero-badge-dot"></span> LIVE DATA TRACKING</div>
         </div>
-        <div class="hero-title">{hero_config["title"]}</div>
-        <div class="hero-subtitle">{hero_config["subtitle"]}</div>
+        <div class="hero-title">Painel de Inteligência Financeira B3</div>
+        <div class="hero-subtitle">Plataforma analítica premium para acompanhamento de valuation, saúde patrimonial e sinais de mercado das empresas listadas na B3.</div>
         <div class="hero-actions">
-            <a class="hero-btn hero-btn-primary" href="#informacoes-das-acoes-listadas-na-b3">{hero_config["primary"]}</a>
-            <a class="hero-btn hero-btn-secondary" href="https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3" target="_blank">{hero_config["secondary"]}</a>
+            <a class="hero-btn hero-btn-primary" href="#informacoes-das-acoes-listadas-na-b3">Explorar Ativo</a>
+            <a class="hero-btn hero-btn-secondary" href="https://github.com/Prog-LucasAlves/PUB_Dados_Financeiros_B3" target="_blank">Repositório GitHub</a>
         </div>
     </div>
     """,
     unsafe_allow_html=True,
 )
 
-sample_cards = [
-    (
-        "Premium",
-        "Amostra 1",
-        "Visão cinematográfica com foco em storytelling e descoberta rápida.",
-    ),
-    (
-        "Analítica",
-        "Amostra 2",
-        "Layout enxuto, métricas priorizadas e leitura direta para decisões.",
-    ),
-    (
-        "Comparativa",
-        "Amostra 3",
-        "Estrutura editorial com ênfase em contexto, balanço e valuation.",
-    ),
-]
-
-sample_markup = ""
-for _, (title, label, copy) in enumerate(sample_cards):
-    active_class = (
-        " active" if (ux_variant.split("—")[1].strip().lower() == title.lower()) else ""
-    )
-    sample_markup += (
-        f'<div class="sample-card{active_class}">'
-        f'<div class="sample-kicker">{label}</div>'
-        f'<div class="sample-title">{title}</div>'
-        f'<div class="sample-copy">{copy}</div>'
-        f"</div>"
-    )
-
-st.markdown(f'<div class="sample-grid">{sample_markup}</div>', unsafe_allow_html=True)
 
 # Header - Global Indices, Currencies & Cryptos in a clean expander to avoid visual clutter
 with st.expander(
@@ -924,11 +834,12 @@ if prices_loaded:
             # Diverging color palette: red/rose for negative, green for positive
             cm = sb.diverging_palette(12, 135, sep=10, as_cmap=True)
             st.dataframe(
-                tb_df.style.background_gradient(cmap=cm, axis=None).format(
-                    "{:.2f}%", na_rep="-"
-                ),
+                tb_df.style.background_gradient(cmap=cm, axis=None)
+                .format("{:.2f}%", na_rep="-")
+                .set_properties(**{"color": "#F8FAFC", "font-weight": "600"}),
                 use_container_width=True,
             )
+
         except Exception:
             st.write("Erro ao carregar matriz de retornos mensais.")
     else:

@@ -4,28 +4,28 @@ import pandas as pd
 import streamlit as st
 
 
-@st.cache_data
+@st.cache_data(ttl=600)
 def load_b3_data():
     df_data = pd.read_csv("./Dados_Atual/dados.csv", sep=";")
     ri_data = pd.read_csv("./Api/ri_empresas/ri_empresas.csv", sep=";")
     return df_data, ri_data
 
 
-@st.cache_data
+@st.cache_data(ttl=600)
 def load_market_index_data(file_path):
     if os.path.exists(file_path):
         return pd.read_csv(file_path, sep=";")
     return None
 
 
-@st.cache_data
+@st.cache_data(ttl=600)
 def load_parquet_data(file_path):
     if os.path.exists(file_path):
         return pd.read_parquet(file_path)
     return None
 
 
-@st.cache_data
+@st.cache_data(ttl=600)
 def load_stock_prices(file_path):
     if os.path.exists(file_path):
         return pd.read_csv(file_path, sep=";")
