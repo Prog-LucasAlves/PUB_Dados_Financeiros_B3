@@ -1,4 +1,5 @@
 Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
+24/08/2026;1,0000;DIVIDENDO;03/09/2026							  ;1;UGPA3
 05/12/2025;1,0000;DIVIDENDO;16/12/2025							  ;1;UGPA3
 21/08/2025;0,3000;DIVIDENDO;29/08/2025							  ;1;UGPA3
 06/03/2025;0,4500;DIVIDENDO;14/03/2025							  ;1;UGPA3
@@ -55,6 +56,7 @@ Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
 18/08/2000;0,3019;DIVIDENDO;-							  ;1000;UGPA3
 09/03/2000;0,2385;DIVIDENDO;-							  ;1000;UGPA3
 ;;;;;UGPA3
+2026;1,000;;;;UGPA3
 2025;1,750;;;;UGPA3
 2024;0,650;;;;UGPA3
 2023;0,350;;;;UGPA3

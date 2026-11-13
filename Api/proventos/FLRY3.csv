@@ -1,4 +1,5 @@
 Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
+11/08/2026;0,4007;JRS CAP PROPRIO;28/09/2026							  ;1;FLRY3
 02/12/2025;0,4037;DIVIDENDO;-							  ;1;FLRY3
 02/12/2025;0,2349;JRS CAP PROPRIO;19/12/2025							  ;1;FLRY3
 02/12/2025;0,1303;DIVIDENDO;-							  ;1;FLRY3
@@ -44,6 +45,7 @@ Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
 17/12/2010;0,1811;JRS CAP PRÓPRIO;-							  ;1;FLRY3
 11/08/2010;0,1236;JRS CAP PRÓPRIO;-							  ;1;FLRY3
 ;;;;;FLRY3
+2026;0,401;;;;FLRY3
 2025;1,545;;;;FLRY3
 2024;0,699;;;;FLRY3
 2023;0,435;;;;FLRY3

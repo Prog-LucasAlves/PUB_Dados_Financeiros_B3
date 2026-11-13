@@ -1,4 +1,5 @@
 Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
+13/08/2026;0,0700;DIVIDENDO;02/10/2026							  ;1;ALUP3
 14/05/2026;0,0700;DIVIDENDO;06/07/2026							  ;1;ALUP3
 16/04/2026;0,0100;DIVIDENDO;10/06/2026							  ;1;ALUP3
 26/12/2025;0,1100;DIVIDENDO;12/02/2026							  ;1;ALUP3
@@ -32,7 +33,7 @@ Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
 20/04/2016;0,1200;DIVIDENDO;-							  ;1;ALUP3
 15/04/2015;0,4000;Dividendo;-							  ;1;ALUP3
 ;;;;;ALUP3
-2026;0,080;;;;ALUP3
+2026;0,150;;;;ALUP3
 2025;0,430;;;;ALUP3
 2024;0,470;;;;ALUP3
 2023;0,600;;;;ALUP3

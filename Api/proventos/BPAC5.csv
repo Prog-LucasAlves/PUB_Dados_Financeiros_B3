@@ -1,4 +1,5 @@
 Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
+10/08/2026;0,2589;JRS CAP PROPRIO;14/08/2026							  ;1;BPAC5
 29/12/2025;0,0495;JRS CAP PROPRIO;13/02/2026							  ;1;BPAC5
 18/12/2025;0,1650;JRS CAP PROPRIO;13/02/2026							  ;1;BPAC5
 08/08/2025;0,2013;JRS CAP PROPRIO;15/08/2025							  ;1;BPAC5
@@ -40,6 +41,7 @@ Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
 14/08/2012;0,0831;Juros;-							  ;1;BPAC5
 14/08/2012;0,0686;Dividendo;-							  ;1;BPAC5
 ;;;;;BPAC5
+2026;0,259;;;;BPAC5
 2025;0,465;;;;BPAC5
 2024;0,286;;;;BPAC5
 2023;0,260;;;;BPAC5

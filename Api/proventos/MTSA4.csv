@@ -1,4 +1,5 @@
 Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
+21/09/2026;0,5500;JRS CAP PROPRIO;10/12/2026							  ;1;MTSA4
 18/12/2025;1,6500;DIVIDENDO;-							  ;1;MTSA4
 01/12/2025;1,2100;JRS CAP PROPRIO;31/03/2026							  ;1;MTSA4
 19/09/2025;0,6600;JRS CAP PROPRIO;27/11/2025							  ;1;MTSA4
@@ -58,6 +59,7 @@ Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
 29/04/1997;1,0000;DIVIDENDO;-							  ;1000;MTSA4
 25/04/1996;0,7600;DIVIDENDO;-							  ;1000;MTSA4
 ;;;;;MTSA4
+2026;0,550;;;;MTSA4
 2025;4,620;;;;MTSA4
 2024;2,090;;;;MTSA4
 2023;3,465;;;;MTSA4

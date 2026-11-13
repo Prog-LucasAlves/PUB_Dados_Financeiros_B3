@@ -1,4 +1,5 @@
 Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
+20/08/2026;0,5442;DIVIDENDO;-							  ;1;EGIE3
 04/05/2026;0,4883;DIVIDENDO;20/05/2026							  ;1;EGIE3
 18/12/2025;0,0875;JRS CAP PROPRIO;20/05/2026							  ;1;EGIE3
 21/08/2025;0,8814;DIVIDENDO;-							  ;1;EGIE3
@@ -79,7 +80,7 @@ Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
 04/04/2002;0,0809;DIVIDENDO;-							  ;1000;EGIE3
 04/04/2002;0,0411;DIVIDENDO;-							  ;1000;EGIE3
 ;;;;;EGIE3
-2026;0,488;;;;EGIE3
+2026;1,032;;;;EGIE3
 2025;1,845;;;;EGIE3
 2024;2,668;;;;EGIE3
 2023;2,901;;;;EGIE3

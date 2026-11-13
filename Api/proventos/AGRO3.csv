@@ -1,4 +1,5 @@
 Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
+21/10/2026;0,3012;DIVIDENDO;16/11/2026							  ;1;AGRO3
 22/10/2025;0,7529;DIVIDENDO;28/11/2025							  ;1;AGRO3
 22/10/2024;1,5560;DIVIDENDO;14/11/2024							  ;1;AGRO3
 24/10/2023;3,2124;DIVIDENDO;24/11/2023							  ;1;AGRO3
@@ -15,6 +16,7 @@ Data;Valor;Tipo;Data de Pagamento;Por quantas ações;Acao
 18/12/2013;0,1007;DIVIDENDO;-							  ;1;AGRO3
 29/10/2008;0,0193;DIVIDENDO;-							  ;1;AGRO3
 ;;;;;AGRO3
+2026;0,301;;;;AGRO3
 2025;0,753;;;;AGRO3
 2024;1,556;;;;AGRO3
 2023;3,212;;;;AGRO3
